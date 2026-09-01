@@ -1,0 +1,4420 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "source_file": "protocol5.pdf",
+    "sha256": "b06cea190254c8383797d06a45759e5c42aad5501585c2cb7c7d32487095e2de",
+    "page_count": 61,
+    "title_guess": "3 ABSTRACT............................................................................................................................ 9",
+    "sponsor_guess": "National Institute on Drug Abuse",
+    "protocol_id_guess": "NIDA-CPU-Atomoxetine-0001",
+    "has_text_layer": true,
+    "text_layer_warnings": []
+  },
+  "schedules": [
+    {
+      "id": "soa-1",
+      "heading": "Appendix I: Time and Events Schedule",
+      "heading_page": 50,
+      "kind": "main",
+      "pages": [
+        50
+      ],
+      "footnote_pages": [
+        50
+      ],
+      "page_orientation": {
+        "50": "landscape"
+      },
+      "column_groups": [
+        {
+          "id": "soa-1-cg0",
+          "label": "Pre-intake Screening",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c0"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg1",
+          "label": "Intake Screening",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c1"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg2",
+          "label": "Screening Infusions",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c2"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg3",
+          "label": "Baseline Infusions",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c3",
+            "soa-1-c4"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg4",
+          "label": "Treatment Infusions",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c5",
+            "soa-1-c6",
+            "soa-1-c7",
+            "soa-1-c8",
+            "soa-1-c9"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg5",
+          "label": "Discharge",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c10"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg6",
+          "label": "Follow-up",
+          "level": 0,
+          "parent_id": null,
+          "span": [],
+          "footnote_refs": [],
+          "bbox": null
+        }
+      ],
+      "columns": [
+        {
+          "id": "soa-1-c0",
+          "index": 0,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "Up to -35",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg0"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "Up to -35",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c1",
+          "index": 1,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "-15* to -9",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg1"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "-15* to -9",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c2",
+          "index": 2,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "-6",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg2"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "-6",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c3",
+          "index": 3,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "-2",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg3"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "-2",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c4",
+          "index": 4,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "-1",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg3"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "-1",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c5",
+          "index": 5,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "7",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg4"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "7",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c6",
+          "index": 6,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "8",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg4"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "8",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c7",
+          "index": 7,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "12",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg4"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "12",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c8",
+          "index": 8,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "13",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg4"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "13",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c9",
+          "index": 9,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "17",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg4"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "17",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c10",
+          "index": 10,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "31",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg5"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "31",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            50
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        }
+      ],
+      "row_groups": [],
+      "rows": [
+        {
+          "id": "soa-1-r0",
+          "index": 0,
+          "label": "Informed consent",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r1",
+          "index": 1,
+          "label": "Locator form/Demographics",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r2",
+          "index": 2,
+          "label": "Cocaine use by timeline follow-back",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r3",
+          "index": 3,
+          "label": "Breathalyzer test",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r4",
+          "index": 4,
+          "label": "12-lead ECG",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r5",
+          "index": 5,
+          "label": "SCID",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [
+            "D"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r6",
+          "index": 6,
+          "label": "Medical History",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r7",
+          "index": 7,
+          "label": "Physical Exam (complete)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r8",
+          "index": 8,
+          "label": "Physical Exam (brief)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r9",
+          "index": 9,
+          "label": "ASI-Lite",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [
+            "e"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r10",
+          "index": 10,
+          "label": "Vital Signs",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r11",
+          "index": 11,
+          "label": "Chemistries plus liver function tests**",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [
+            "**"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r12",
+          "index": 12,
+          "label": "Hematology",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r13",
+          "index": 13,
+          "label": "Pregnancy Test***",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [
+            "***"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r14",
+          "index": 14,
+          "label": "Infectious disease serology",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r15",
+          "index": 15,
+          "label": "Plasma alcohol",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r16",
+          "index": 16,
+          "label": "Urine toxicology screen",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r17",
+          "index": 17,
+          "label": "POMS, BSCS",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r18",
+          "index": 18,
+          "label": "Cognitive assessments****",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [
+            "****"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r19",
+          "index": 19,
+          "label": "Atomoxetine or placebo",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r20",
+          "index": 20,
+          "label": "Atomoxetine blood levels",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r21",
+          "index": 21,
+          "label": "Adverse Events",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r22",
+          "index": 22,
+          "label": "Cocaine Infusion Session #",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r23",
+          "index": 23,
+          "label": "Saline/20 mg cocaine/40 mg cocaine i.v.",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r24",
+          "index": 24,
+          "label": "20 mg cocaine i.v.",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r25",
+          "index": 25,
+          "label": "40 mg cocaine i.v.",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r26",
+          "index": 26,
+          "label": "VAS",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r27",
+          "index": 27,
+          "label": "ARCI",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r28",
+          "index": 28,
+          "label": "Continuous BP, HR, ECG monitoring",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r29",
+          "index": 29,
+          "label": "BPRS",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r30",
+          "index": 30,
+          "label": "Cocaine Blood PK",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "r-geo-50-30",
+          "index": 31,
+          "label": "NIDA-CPU-atomoxetine-0001 Atomoxetine",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": 50,
+          "bbox": null,
+          "engines": [
+            "geometric"
+          ]
+        }
+      ],
+      "cells": [
+        {
+          "row_id": "soa-1-r0",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 148.5614471435547,
+            "x1": 253.64569091796875,
+            "y1": 158.53079223632812
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r1",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 160.56324768066406,
+            "x1": 253.64569091796875,
+            "y1": 170.5325927734375
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r2",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 172.56504821777344,
+            "x1": 253.64569091796875,
+            "y1": 182.53439331054688
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r3",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.3916015625,
+            "y0": 184.5668487548828,
+            "x1": 312.0909118652344,
+            "y1": 194.53619384765625
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 196.5686492919922,
+            "x1": 253.64569091796875,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.3816223144531,
+            "y0": 196.5686492919922,
+            "x1": 312.0809326171875,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 363.1020202636719,
+            "y0": 196.5686492919922,
+            "x1": 372.80133056640625,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c3",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 408.10595703125,
+            "y0": 196.5686492919922,
+            "x1": 417.8052673339844,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 437.3834533691406,
+            "y0": 196.5686492919922,
+            "x1": 447.082763671875,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 470.0237731933594,
+            "y0": 196.5686492919922,
+            "x1": 479.72308349609375,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 511.5451354980469,
+            "y0": 196.5686492919922,
+            "x1": 521.2444458007812,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 548.5062255859375,
+            "y0": 196.5686492919922,
+            "x1": 558.20556640625,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 585.5870971679688,
+            "y0": 196.5686492919922,
+            "x1": 595.2864379882812,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c10",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 623.3864135742188,
+            "y0": 196.5686492919922,
+            "x1": 633.0857543945312,
+            "y1": 206.53799438476562
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r5",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 208.57044982910156,
+            "x1": 253.64569091796875,
+            "y1": 218.539794921875
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r6",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 220.57225036621094,
+            "x1": 253.64569091796875,
+            "y1": 230.54159545898438
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r7",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 232.5740509033203,
+            "x1": 253.64569091796875,
+            "y1": 242.54339599609375
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r7",
+          "column_id": "soa-1-c10",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r8",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.3916015625,
+            "y0": 244.5758514404297,
+            "x1": 312.0909118652344,
+            "y1": 254.54519653320312
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r8",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r9",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.3916015625,
+            "y0": 256.5776672363281,
+            "x1": 312.0909118652344,
+            "y1": 266.5469970703125
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 268.5794677734375,
+            "x1": 253.64569091796875,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.3816223144531,
+            "y0": 268.5794677734375,
+            "x1": 312.0809326171875,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 363.1020202636719,
+            "y0": 268.5794677734375,
+            "x1": 372.80133056640625,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c3",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 408.10595703125,
+            "y0": 268.5794677734375,
+            "x1": 417.8052673339844,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 437.3834533691406,
+            "y0": 268.5794677734375,
+            "x1": 447.082763671875,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 471.1014709472656,
+            "y0": 268.5794677734375,
+            "x1": 480.80078125,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 511.5451354980469,
+            "y0": 268.5794677734375,
+            "x1": 521.2444458007812,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 549.9431762695312,
+            "y0": 268.5794677734375,
+            "x1": 559.6425170898438,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 585.5870971679688,
+            "y0": 268.5794677734375,
+            "x1": 595.2864379882812,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c10",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 623.3864135742188,
+            "y0": 268.5794677734375,
+            "x1": 633.0857543945312,
+            "y1": 278.5487976074219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r11",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.94635009765625,
+            "y0": 280.5812683105469,
+            "x1": 253.64569091796875,
+            "y1": 290.55059814453125
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r11",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.3816223144531,
+            "y0": 280.5812683105469,
+            "x1": 312.0809326171875,
+            "y1": 290.55059814453125
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r11",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r11",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 585.5771484375,
+            "y0": 280.5812683105469,
+            "x1": 595.2764892578125,
+            "y1": 290.55059814453125
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r11",
+          "column_id": "soa-1-c10",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 623.37646484375,
+            "y0": 280.5812683105469,
+            "x1": 633.0758056640625,
+            "y1": 290.55059814453125
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.9364013671875,
+            "y0": 292.58306884765625,
+            "x1": 253.6357421875,
+            "y1": 302.5523986816406
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c10",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 623.37646484375,
+            "y0": 292.58306884765625,
+            "x1": 633.0758056640625,
+            "y1": 302.5523986816406
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.9364013671875,
+            "y0": 304.5848693847656,
+            "x1": 253.6357421875,
+            "y1": 314.55419921875
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.3716735839844,
+            "y0": 304.5848693847656,
+            "x1": 312.07098388671875,
+            "y1": 314.55419921875
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c10",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 623.366455078125,
+            "y0": 304.5848693847656,
+            "x1": 633.0657958984375,
+            "y1": 314.55419921875
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.9263916015625,
+            "y0": 316.586669921875,
+            "x1": 253.625732421875,
+            "y1": 326.5559997558594
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.9263916015625,
+            "y0": 328.458984375,
+            "x1": 253.625732421875,
+            "y1": 338.4283142089844
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r16",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.9263916015625,
+            "y0": 340.4607849121094,
+            "x1": 253.625732421875,
+            "y1": 350.43011474609375
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r16",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.6011657714844,
+            "y0": 340.4607849121094,
+            "x1": 312.30047607421875,
+            "y1": 350.43011474609375
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r16",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r16",
+          "column_id": "soa-1-c10",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 623.3565063476562,
+            "y0": 340.4607849121094,
+            "x1": 633.0558471679688,
+            "y1": 350.43011474609375
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r17",
+          "column_id": "soa-1-c1",
+          "raw": "Xa",
+          "value_text": null,
+          "footnote_refs": [
+            "a"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "Xa"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c5",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c6",
+          "raw": "Xf",
+          "value_text": null,
+          "footnote_refs": [
+            "f"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "Xf"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 243.95867919921875,
+            "y0": 402.82757568359375,
+            "x1": 253.65802001953125,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c1",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 302.3939514160156,
+            "y0": 402.82757568359375,
+            "x1": 312.09326171875,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 363.1143493652344,
+            "y0": 402.82757568359375,
+            "x1": 372.81365966796875,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c3",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 408.1182861328125,
+            "y0": 402.82757568359375,
+            "x1": 417.8175964355469,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 437.3957824707031,
+            "y0": 402.82757568359375,
+            "x1": 447.0950927734375,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 470.0361022949219,
+            "y0": 402.82757568359375,
+            "x1": 479.73541259765625,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 511.5574645996094,
+            "y0": 402.82757568359375,
+            "x1": 521.2567749023438,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 548.5185546875,
+            "y0": 402.82757568359375,
+            "x1": 558.2178955078125,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 585.5994262695312,
+            "y0": 402.82757568359375,
+            "x1": 595.2987670898438,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c10",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 623.3987426757812,
+            "y0": 402.82757568359375,
+            "x1": 633.0980834960938,
+            "y1": 412.7969055175781
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c2",
+          "raw": "1&2",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 357.6061096191406,
+            "y0": 416.01202392578125,
+            "x1": 378.40972900390625,
+            "y1": 425.9813537597656
+          },
+          "engines": {
+            "vision": "1&2",
+            "geometric": "1&2"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c3",
+          "raw": "3",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 409.2059631347656,
+            "y0": 416.01202392578125,
+            "x1": 416.69000244140625,
+            "y1": 425.9813537597656
+          },
+          "engines": {
+            "vision": "3",
+            "geometric": "3"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c4",
+          "raw": "4",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "4"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c5",
+          "raw": "5",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 438.48345947265625,
+            "y0": 416.01202392578125,
+            "x1": 445.9674987792969,
+            "y1": 425.9813537597656
+          },
+          "engines": {
+            "vision": "5",
+            "geometric": "4"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c6",
+          "raw": "6",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 470.04608154296875,
+            "y0": 416.01202392578125,
+            "x1": 477.5301208496094,
+            "y1": 425.9813537597656
+          },
+          "engines": {
+            "vision": "6",
+            "geometric": "5"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c7",
+          "raw": "7",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 512.6451416015625,
+            "y0": 416.01202392578125,
+            "x1": 520.1292114257812,
+            "y1": 425.9813537597656
+          },
+          "engines": {
+            "vision": "7",
+            "geometric": "6"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c8",
+          "raw": "8",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 548.528564453125,
+            "y0": 416.01202392578125,
+            "x1": 556.0126342773438,
+            "y1": 425.9813537597656
+          },
+          "engines": {
+            "vision": "8",
+            "geometric": "7"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 363.13433837890625,
+            "y0": 428.0263671875,
+            "x1": 372.8336486816406,
+            "y1": 437.9956970214844
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c3",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 408.1382751464844,
+            "y0": 439.4305725097656,
+            "x1": 417.83758544921875,
+            "y1": 449.39990234375
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c1",
+          "raw": "Xc",
+          "value_text": null,
+          "footnote_refs": [
+            "c"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 300.97705078125,
+            "y0": 461.5143737792969,
+            "x1": 312.6654968261719,
+            "y1": 473.40350341796875
+          },
+          "engines": {
+            "vision": "Xc",
+            "geometric": "Xc"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 363.1199035644531,
+            "y0": 463.42926025390625,
+            "x1": 372.8192138671875,
+            "y1": 473.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c3",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 408.12384033203125,
+            "y0": 463.42926025390625,
+            "x1": 417.8231506347656,
+            "y1": 473.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 437.4013366699219,
+            "y0": 463.42926025390625,
+            "x1": 447.10064697265625,
+            "y1": 473.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 470.0416564941406,
+            "y0": 463.42926025390625,
+            "x1": 479.740966796875,
+            "y1": 473.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 511.5630187988281,
+            "y0": 463.42926025390625,
+            "x1": 521.2623291015625,
+            "y1": 473.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 551.0357055664062,
+            "y0": 463.42926025390625,
+            "x1": 560.7350463867188,
+            "y1": 473.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c1",
+          "raw": "Xd",
+          "value_text": null,
+          "footnote_refs": [
+            "d"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 300.8393859863281,
+            "y0": 473.5143737792969,
+            "x1": 311.2859802246094,
+            "y1": 485.3985900878906
+          },
+          "engines": {
+            "vision": "Xd",
+            "geometric": "Xd"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 363.1264343261719,
+            "y0": 487.4310607910156,
+            "x1": 372.82574462890625,
+            "y1": 497.400390625
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c3",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 408.13037109375,
+            "y0": 487.4310607910156,
+            "x1": 417.8296813964844,
+            "y1": 497.400390625
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 437.4078674316406,
+            "y0": 487.4310607910156,
+            "x1": 447.107177734375,
+            "y1": 497.400390625
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 470.0481872558594,
+            "y0": 487.4310607910156,
+            "x1": 479.74749755859375,
+            "y1": 497.400390625
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 511.5695495605469,
+            "y0": 487.4310607910156,
+            "x1": 521.2688598632812,
+            "y1": 497.400390625
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 551.0452880859375,
+            "y0": 487.4310607910156,
+            "x1": 560.74462890625,
+            "y1": 497.400390625
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c1",
+          "raw": "Xe",
+          "value_text": null,
+          "footnote_refs": [
+            "e"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 300.9591064453125,
+            "y0": 497.5143737792969,
+            "x1": 312.6654968261719,
+            "y1": 509.4021911621094
+          },
+          "engines": {
+            "vision": "Xe",
+            "geometric": "Xe"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 363.1199035644531,
+            "y0": 499.42926025390625,
+            "x1": 372.8192138671875,
+            "y1": 509.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c3",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 408.12384033203125,
+            "y0": 499.42926025390625,
+            "x1": 417.8231506347656,
+            "y1": 509.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 437.4013366699219,
+            "y0": 499.42926025390625,
+            "x1": 447.10064697265625,
+            "y1": 509.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 470.0416564941406,
+            "y0": 499.42926025390625,
+            "x1": 479.740966796875,
+            "y1": 509.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 511.5630187988281,
+            "y0": 499.42926025390625,
+            "x1": 521.2623291015625,
+            "y1": 509.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 50,
+            "x0": 551.0387573242188,
+            "y0": 499.42926025390625,
+            "x1": 560.7380981445312,
+            "y1": 509.3985900878906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "*",
+          "marker_style": "asterisk_tier",
+          "text": "Days -15 through -9 are allotted for washout of cocaine after admission. Subjects’ urine will be tested daily to document when it becomes negative for cocaine.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker '*'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        },
+        {
+          "marker": "**",
+          "marker_style": "asterisk_tier",
+          "text": "Blood chemistries, including liver function tests, will be performed at outpatient and inpatient screening, on days 6 and 13, at discharge (day 17) and at follow-up (day 31).",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "row",
+              "row_id": "soa-1-r11",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "***",
+          "marker_style": "asterisk_tier",
+          "text": "Pregnancy test at intake screening should be done within 72 hours before the first screening cocaine infusion.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "row",
+              "row_id": "soa-1-r13",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "****",
+          "marker_style": "asterisk_tier",
+          "text": "Cognitive assessments will be performed on day -7 and on day 11.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "row",
+              "row_id": "soa-1-r18",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "a",
+          "marker_style": "superscript_letter",
+          "text": "POMS, BSCS will be performed at intake and then every other day.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "b",
+          "marker_style": "superscript_letter",
+          "text": "atomoxetine will be administered at 20 mg q.d. on days 0 and 1, 40 mg q.d. on days 2 and 3, 80 mg q.d. on days 4-8 and 100 mg q.d. on days 9-13.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "c",
+          "marker_style": "superscript_letter",
+          "text": "VAS will be performed on days -10, -9, and on all infusion days.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "d",
+          "marker_style": "superscript_letter",
+          "text": "ARCI will be performed on days -10, -9, and on all non-infusion days.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r5",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "e",
+          "marker_style": "superscript_letter",
+          "text": "BPRS will be administered on baseline, every day during treatment with atomoxetine and on the days of all cocaine infusions.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r9",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "column_group",
+              "row_id": null,
+              "column_id": null,
+              "group_id": "soa-1-cg5",
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "f",
+          "marker_style": "superscript_letter",
+          "text": "atomoxetine blood levels will be determined on days 6, 8, 11 and 13.",
+          "text_complete": true,
+          "pages": [
+            50
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r20",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        }
+      ],
+      "rotated_annotations": [],
+      "locator": {
+        "score": 15.65,
+        "signals": [
+          "assessment_vocab",
+          "cell_marker_density",
+          "column_structure",
+          "heading_on_page",
+          "landscape",
+          "ruling_grid",
+          "toc_hint",
+          "visit_header:study_period"
+        ],
+        "per_page_scores": {
+          "50": 15.65
+        },
+        "heading_source": "page_heading"
+      },
+      "reconciliation": {
+        "engines_run": [
+          "geometric",
+          "vision"
+        ],
+        "engines_failed": {},
+        "row_counts": {
+          "geometric": 31,
+          "vision": 31,
+          "final": 32
+        },
+        "column_counts": {
+          "geometric": 13,
+          "vision": 11
+        },
+        "cell_counts": {
+          "geometric": 110,
+          "vision": 107
+        },
+        "cell_agreement": 0.951,
+        "warnings": [
+          {
+            "type": "row_missing_in_engine",
+            "severity": "high",
+            "message": "The geometric engine read a row the vision engine did not return: 'NIDA-CPU-atomoxetine-0001 Atomoxetine' (page 50). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "vision"
+          },
+          {
+            "type": "column_missing_in_engine",
+            "severity": "high",
+            "message": "Column count differs: geometric read 13, vision read 11. A dropped column is a patient visit nobody built, so check the header row against the source page.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "vision"
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric '4' vs vision '5'. The vision reading is kept.",
+            "row_id": "soa-1-r22",
+            "column_id": "soa-1-c5",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric '5' vs vision '6'. The vision reading is kept.",
+            "row_id": "soa-1-r22",
+            "column_id": "soa-1-c6",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric '6' vs vision '7'. The vision reading is kept.",
+            "row_id": "soa-1-r22",
+            "column_id": "soa-1-c7",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric '7' vs vision '8'. The vision reading is kept.",
+            "row_id": "soa-1-r22",
+            "column_id": "soa-1-c8",
+            "engine": null
+          },
+          {
+            "type": "footnote_unlinked",
+            "severity": "medium",
+            "message": "Footnote '*' could not be linked to any grid element.",
+            "row_id": null,
+            "column_id": null,
+            "engine": null
+          }
+        ]
+      },
+      "assumptions": [],
+      "open_questions": []
+    },
+    {
+      "id": "soa-2",
+      "heading": "APPENDIX II: Schedule of Blood Collections",
+      "heading_page": 51,
+      "kind": "pk",
+      "pages": [
+        51
+      ],
+      "footnote_pages": [
+        51
+      ],
+      "page_orientation": {
+        "51": "landscape"
+      },
+      "column_groups": [],
+      "columns": [
+        {
+          "id": "soa-2-c0",
+          "index": 0,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "Screening",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "Screening",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c1",
+          "index": 1,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D-8",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D-8",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c2",
+          "index": 2,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D-1",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D-1",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c3",
+          "index": 3,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D1",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D1",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c4",
+          "index": 4,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D2",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D2",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c5",
+          "index": 5,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D3",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D3",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c6",
+          "index": 6,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D6",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D6",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c7",
+          "index": 7,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D8",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D8",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c8",
+          "index": 8,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D11",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D11",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c9",
+          "index": 9,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D13",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D13",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c10",
+          "index": 10,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D17",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D17",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c11",
+          "index": 11,
+          "header_cells": [
+            {
+              "role": "visit_name",
+              "text": "D31",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": "D31",
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        }
+      ],
+      "row_groups": [],
+      "rows": [
+        {
+          "id": "soa-2-r0",
+          "index": 0,
+          "label": "Chemistries plus liver function tests",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-r1",
+          "index": 1,
+          "label": "Hematology",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-r2",
+          "index": 2,
+          "label": "Infectious disease serology",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-r3",
+          "index": 3,
+          "label": "PK Samples for cocaine",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-r4",
+          "index": 4,
+          "label": "PK Samples for Atomoxetine",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-r5",
+          "index": 5,
+          "label": "Pregnancy Test",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-r6",
+          "index": 6,
+          "label": "Alcohol Test",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-r7",
+          "index": 7,
+          "label": "Total",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "r-geo-51-0",
+          "index": 8,
+          "label": "Analysis Volume Type",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": 51,
+          "bbox": null,
+          "engines": [
+            "geometric"
+          ]
+        },
+        {
+          "id": "r-geo-51-1",
+          "index": 9,
+          "label": "Sample Per",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": 51,
+          "bbox": null,
+          "engines": [
+            "geometric"
+          ]
+        },
+        {
+          "id": "r-geo-51-2",
+          "index": 10,
+          "label": "Study Day",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": 51,
+          "bbox": null,
+          "engines": [
+            "geometric"
+          ]
+        }
+      ],
+      "cells": [
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c0",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c1",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c6",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c9",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c10",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c11",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c0",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c10",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c11",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r2",
+          "column_id": "soa-2-c0",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r3",
+          "column_id": "soa-2-c2",
+          "raw": "15",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "15"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r3",
+          "column_id": "soa-2-c7",
+          "raw": "15",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "15"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r3",
+          "column_id": "soa-2-c9",
+          "raw": "15",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "15"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r4",
+          "column_id": "soa-2-c6",
+          "raw": "2",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "2"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r4",
+          "column_id": "soa-2-c7",
+          "raw": "2",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "2"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r4",
+          "column_id": "soa-2-c8",
+          "raw": "2",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "2"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r4",
+          "column_id": "soa-2-c9",
+          "raw": "2",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "2"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r5",
+          "column_id": "soa-2-c0",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r5",
+          "column_id": "soa-2-c1",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r5",
+          "column_id": "soa-2-c10",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r5",
+          "column_id": "soa-2-c11",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r6",
+          "column_id": "soa-2-c0",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "a",
+          "marker_style": "superscript_letter",
+          "text": "S = serum, P = plasma;",
+          "text_complete": true,
+          "pages": [
+            51
+          ],
+          "continued_from_page": null,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker 'a'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        },
+        {
+          "marker": "b",
+          "marker_style": "superscript_letter",
+          "text": "D = day",
+          "text_complete": true,
+          "pages": [
+            51
+          ],
+          "continued_from_page": null,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker 'b'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        }
+      ],
+      "rotated_annotations": [],
+      "locator": {
+        "score": 9.42,
+        "signals": [
+          "assessment_vocab",
+          "column_structure",
+          "landscape",
+          "ruling_grid",
+          "toc_hint",
+          "visit_header:study_day",
+          "visit_header:study_period"
+        ],
+        "per_page_scores": {
+          "51": 9.42
+        },
+        "heading_source": "page_heading"
+      },
+      "reconciliation": {
+        "engines_run": [
+          "geometric",
+          "vision"
+        ],
+        "engines_failed": {},
+        "row_counts": {
+          "geometric": 11,
+          "vision": 8,
+          "final": 11
+        },
+        "column_counts": {
+          "geometric": 11,
+          "vision": 12
+        },
+        "cell_counts": {
+          "geometric": 44,
+          "vision": 22
+        },
+        "cell_agreement": null,
+        "warnings": [
+          {
+            "type": "row_missing_in_engine",
+            "severity": "high",
+            "message": "The geometric engine read a row the vision engine did not return: 'Analysis Volume Type' (page 51). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "vision"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "high",
+            "message": "The geometric engine read a row the vision engine did not return: 'Sample Per' (page 51). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "vision"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "high",
+            "message": "The geometric engine read a row the vision engine did not return: 'Study Day' (page 51). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "vision"
+          },
+          {
+            "type": "column_missing_in_engine",
+            "severity": "medium",
+            "message": "Column count differs: geometric read 11, vision read 12. A dropped column is a patient visit nobody built, so check the header row against the source page.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "footnote_unlinked",
+            "severity": "medium",
+            "message": "Footnote 'a' could not be linked to any grid element.",
+            "row_id": null,
+            "column_id": null,
+            "engine": null
+          },
+          {
+            "type": "footnote_unlinked",
+            "severity": "medium",
+            "message": "Footnote 'b' could not be linked to any grid element.",
+            "row_id": null,
+            "column_id": null,
+            "engine": null
+          }
+        ]
+      },
+      "assumptions": [
+        "This schedule begins partway down page 51; the upper part of that page belongs to the preceding schedule."
+      ],
+      "open_questions": []
+    }
+  ],
+  "run": {
+    "tool_version": "0.1.0",
+    "vision_model": "gemini-3.1-flash-lite",
+    "started_at": "2026-09-01T01:49:39.166537+00:00",
+    "finished_at": "2026-09-01T01:50:05.366032+00:00",
+    "duration_seconds": 26.2,
+    "pages_sent_to_vision": 4,
+    "warnings": [
+      {
+        "type": "low_confidence",
+        "severity": "low",
+        "message": "Pages considered and rejected as schedules: [24, 54]. Listed so a recall failure can be audited rather than guessed at.",
+        "row_id": null,
+        "column_id": null,
+        "engine": null
+      }
+    ]
+  }
+}

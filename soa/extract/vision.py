@@ -22,8 +22,21 @@ from .prompt import SYSTEM_PROMPT, VSchedule, build_user_prompt
 DEFAULT_MODEL = "gemini-3.5-flash"
 DEFAULT_DPI = 200
 
-# Fallbacks tried in order if the configured model is unavailable to this key.
-_MODEL_FALLBACKS = ["gemini-3.5-flash", "gemini-3-flash-preview", "gemini-2.5-flash"]
+# Fallbacks tried in order when the configured model will not serve the request.
+#
+# Free-tier quota on this API is metered PER MODEL, so an exhausted model is not an
+# exhausted key: during development 3.5-flash and 2.5-flash returned 429 while 3.7-flash
+# and 3-flash-preview answered normally on the same key in the same second. A broad chain
+# is therefore genuinely useful rather than decorative, and it also covers the other
+# failure seen in practice -- 503 UNAVAILABLE, which is Google-side serving capacity and
+# is unrelated to quota.
+_MODEL_FALLBACKS = [
+    "gemini-3.5-flash",
+    "gemini-3.7-flash",
+    "gemini-3-flash-preview",
+    "gemini-3.1-flash-lite",
+    "gemini-2.5-flash",
+]
 
 
 class VisionUnavailable(RuntimeError):
@@ -67,10 +80,18 @@ def model_name() -> str:
 
 
 def _thinking_budget() -> int:
+    """Thinking tokens allowed per request. Zero by default, deliberately.
+
+    Transcribing a printed table is a careful-reading task, not a reasoning one. Measured
+    on the same page and the same prompt, a run with no thinking budget returned 34 rows,
+    126 cells and all 5 footnotes in 52 seconds, while enabling a 4096-token budget pushed
+    the same request past four minutes without improving the result. Raise it with
+    SOA_THINKING_BUDGET if a document turns out to need it.
+    """
     try:
-        return int(os.environ.get("SOA_THINKING_BUDGET", "4096"))
+        return max(0, int(os.environ.get("SOA_THINKING_BUDGET", "0")))
     except ValueError:
-        return 4096
+        return 0
 
 
 def max_pages() -> int:
@@ -149,14 +170,10 @@ def extract_span(
         response_schema=VSchedule,
         temperature=0.0,
         max_output_tokens=64000,
-        # Transcription is a careful-reading task, not a reasoning one, and an unbounded
-        # thinking budget roughly doubled wall-clock time without changing the output in
-        # side-by-side runs. A modest budget keeps the model deliberate about row counts
-        # while staying inside a tolerable response time.
-        thinking_config=types.ThinkingConfig(thinking_budget=_thinking_budget()),
-        # Table cells are small; the default downscale loses superscript markers.
-        media_resolution=types.MediaResolution.MEDIA_RESOLUTION_HIGH,
     )
+    budget = _thinking_budget()
+    if budget:
+        config.thinking_config = types.ThinkingConfig(thinking_budget=budget)
 
     candidates = [model_name()] + [m for m in _MODEL_FALLBACKS if m != model_name()]
     last_error: Exception | None = None
@@ -194,10 +211,15 @@ def extract_span(
             except Exception as exc:  # noqa: BLE001 - surfaced to the caller as a warning
                 last_error = exc
                 message = str(exc).lower()
-                # A missing model is permanent; an overloaded one is worth one retry
-                # before moving on rather than burning the whole backoff budget.
+                # A missing model is permanent, so move on immediately.
                 if "not found" in message or "not supported" in message:
                     break
+                # Exhausted free-tier quota is metered per model and does not recover in
+                # seconds. Retrying the same model just burns time; the next one in the
+                # chain may well have quota left.
+                if "429" in message or "resource_exhausted" in message:
+                    break
+                # An overloaded model is worth one retry before moving on.
                 if ("503" in message or "unavailable" in message) and attempt >= 1:
                     break
                 if attempt < max_retries - 1:

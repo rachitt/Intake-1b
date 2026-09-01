@@ -1,0 +1,4737 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "source_file": "protocol9.pdf",
+    "sha256": "31d840123120948c9d2967ef6fb36fc251d8d66a4b9c7d8f96fc916e1d67b5bb",
+    "page_count": 57,
+    "title_guess": "maximize the detection of a statistically significant effect of lofexidine in the alleviation of opiate",
+    "sponsor_guess": "National Institute on Drug Abuse",
+    "protocol_id_guess": null,
+    "has_text_layer": true,
+    "text_layer_warnings": [
+      "10 embedded font(s) have no ToUnicode CMap (BJATAL+Helvetica-BoldOblique, EOHHBP+Times-Bold, FAYQVG+Helvetica, ODNMDG+TTE1A3A008t00, QKJQWF+Helvetica-Bold). Characters extracted from these fonts may be silently wrong; the vision engine is authoritative on affected pages."
+    ]
+  },
+  "schedules": [
+    {
+      "id": "soa-1",
+      "heading": "Table 4. Schedule of Measures and Data Collection for Lofexidine Phase 3",
+      "heading_page": 26,
+      "kind": "main",
+      "pages": [
+        26,
+        27,
+        28
+      ],
+      "footnote_pages": [
+        28
+      ],
+      "page_orientation": {
+        "26": "landscape",
+        "27": "landscape",
+        "28": "landscape"
+      },
+      "column_groups": [
+        {
+          "id": "soa-1-cg0",
+          "label": "Opiate Agonist Phase (all Morphine)",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c0",
+            "soa-1-c1",
+            "soa-1-c2"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg1",
+          "label": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c3",
+            "soa-1-c4",
+            "soa-1-c5",
+            "soa-1-c6",
+            "soa-1-c7"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg2",
+          "label": "Post Med/ Detox Phase (Placebo, QID)",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c8",
+            "soa-1-c9"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-cg3",
+          "label": "Medical Discharge",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-1-c10"
+          ],
+          "footnote_refs": [],
+          "bbox": null
+        }
+      ],
+      "columns": [
+        {
+          "id": "soa-1-c0",
+          "index": 0,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "1",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg0"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "1",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c1",
+          "index": 1,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "2",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg0"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "2",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c2",
+          "index": 2,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "3",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg0"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "3",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c3",
+          "index": 3,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "4",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg1"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "4",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c4",
+          "index": 4,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "5",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg1"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "5",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c5",
+          "index": 5,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "6",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg1"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "6",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c6",
+          "index": 6,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "7",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg1"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "7",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c7",
+          "index": 7,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "8",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg1"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "8",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c8",
+          "index": 8,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "9",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg2"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "9",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c9",
+          "index": 9,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "10",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg2"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "10",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-c10",
+          "index": 10,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "11",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-1-cg3"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "11",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            26,
+            27,
+            28
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        }
+      ],
+      "row_groups": [
+        {
+          "id": "soa-1-rg0",
+          "label": "Primary Outcome Measure:",
+          "level": 0,
+          "parent_id": null,
+          "page": 26,
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-rg1",
+          "label": "Secondary Outcome Measures:",
+          "level": 0,
+          "parent_id": null,
+          "page": 26,
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-rg2",
+          "label": "Abuse Potential Assessment:",
+          "level": 0,
+          "parent_id": null,
+          "page": 26,
+          "footnote_refs": [],
+          "bbox": null
+        },
+        {
+          "id": "soa-1-rg3",
+          "label": "Safety Measures:",
+          "level": 0,
+          "parent_id": null,
+          "page": 26,
+          "footnote_refs": [],
+          "bbox": null
+        }
+      ],
+      "rows": [
+        {
+          "id": "soa-1-r0",
+          "index": 0,
+          "label": "Informed Consent, Screening (01), Opiate Screening (02)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r1",
+          "index": 1,
+          "label": "* Morphine (0600, 1100, 1630, 2200 h)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r2",
+          "index": 2,
+          "label": "**Lofexidine or Placebo (0800, 1300, 1800, 2300 h)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r3",
+          "index": 3,
+          "label": "Medical History (03)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r4",
+          "index": 4,
+          "label": "Physical Examination (04) (Study Day 1 and Exit Day)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r5",
+          "index": 5,
+          "label": "Prior Medications (05)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r6",
+          "index": 6,
+          "label": "Laboratory Assessments: Blood (06,07), Urine (08)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r7",
+          "index": 7,
+          "label": "Serum Pregnancy Test (Beta HCG) (09)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r8",
+          "index": 8,
+          "label": "Tuberculosis Skin Test (PPD), RPR, CD4 (10)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r9",
+          "index": 9,
+          "label": "HIV (optional, per separate consent)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r10",
+          "index": 10,
+          "label": "Psychiatric Assessment (SCID, Axis I, DSM IV) (11)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r11",
+          "index": 11,
+          "label": "Addiction Severity Index (ASI) (12)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r12",
+          "index": 12,
+          "label": "Weight (on admission & 0630-0800h ā breakfast) (13)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r14",
+          "index": 14,
+          "label": "*** Modified Himmelsbach (MHOWS), obtained at 1000h (13)",
+          "group_path": [
+            "soa-1-rg0"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r15",
+          "index": 15,
+          "label": "Emesis Tracking (14)",
+          "group_path": [
+            "soa-1-rg0"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r17",
+          "index": 17,
+          "label": "•Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r18",
+          "index": 18,
+          "label": "•Objective Opiate Withdrawal Scale (15) (OOWS Handlesman) (1000h)",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r19",
+          "index": 19,
+          "label": "•Short Opiate Withdrawal Scale (16) (SOWS Gossop) (1000h)",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r20",
+          "index": 20,
+          "label": "•Modified Clinical Global Impressions Scale - Patient (17) (NIMH MCGI) ( 1000h)",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r21",
+          "index": 21,
+          "label": "•Modified Clinical Global Impressions Scale - Rater (18) (NIMH MCGI) (1000h)",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r22",
+          "index": 22,
+          "label": "•Subjective Opiate Withdrawal Scale (19) (SOWS Handlesman) (1000h)",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r23",
+          "index": 23,
+          "label": "•Visual Analog Scale (VAS-E) (20)– Efficacy of Medication for Reducing Withdrawal Sickness (1000h)",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r24",
+          "index": 24,
+          "label": "Medication Administration/Concomitant Medications (21)",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r25",
+          "index": 25,
+          "label": "Drop Out Day (cf. End of Study Form (31) (Reason for Drop Out)",
+          "group_path": [
+            "soa-1-rg1"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r27",
+          "index": 27,
+          "label": "Addiction Research Center Inventory (22) - (ARCI-MBG) (1000h)",
+          "group_path": [
+            "soa-1-rg2"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r28",
+          "index": 28,
+          "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
+          "group_path": [
+            "soa-1-rg2"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r30",
+          "index": 30,
+          "label": "(Sitting) Vital Signs (24, 33) (0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r31",
+          "index": 31,
+          "label": "Orthostatic (Standing) Vital Signs (24,33) (800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r32",
+          "index": 32,
+          "label": "Electrocardiogram (25) (1300 to 1430h)",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r33",
+          "index": 33,
+          "label": "Adverse Events & Abnormal Clinical Signs: (26) (1000h)",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r34",
+          "index": 34,
+          "label": "Tobacco Withdrawal Scale (27) (1700)",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r35",
+          "index": 35,
+          "label": "Urine Toxicology (28)",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r36",
+          "index": 36,
+          "label": "Plasma Lofexidine Pk (LCMS) (29) Total of 12 samples (10 ml of plasma each ), Day 4: 1X, 0800h; Day 6: 1X, 0800h Day 7: 8X, 0800, 0900, 1000, 1100, 1200, 1300, 1600, 1800h; 2100, 2300; Day 8: 1X:0800; Day 10: 1000h after MHOWS",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "r-geo-26-8",
+          "index": 33,
+          "label": "WPbreakfast) rimary Outcome Measureeight (on admission & 0630-0800h (13) : ā",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": 26,
+          "bbox": null,
+          "engines": [
+            "geometric"
+          ]
+        },
+        {
+          "id": "r-geo-28-7",
+          "index": 34,
+          "label": "UPlasma Lofexidine Pk (LCMS) rine Toxicology (28) (29)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": 28,
+          "bbox": null,
+          "engines": [
+            "geometric"
+          ]
+        }
+      ],
+      "cells": [
+        {
+          "row_id": "soa-1-r0",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r1",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r1",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r1",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r2",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r2",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r2",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r2",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r2",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r2",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r2",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r3",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r6",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 26,
+            "x0": 327.71990966796875,
+            "y0": 333.4786376953125,
+            "x1": 345.37030029296875,
+            "y1": 345.4900817871094
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r6",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r6",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 26,
+            "x0": 683.1597290039062,
+            "y0": 333.4786376953125,
+            "x1": 700.8099975585938,
+            "y1": 345.4900817871094
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r7",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 26,
+            "x0": 327.71990966796875,
+            "y0": 347.7586364746094,
+            "x1": 345.37030029296875,
+            "y1": 359.77008056640625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r8",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 26,
+            "x0": 327.71990966796875,
+            "y0": 362.03863525390625,
+            "x1": 345.37030029296875,
+            "y1": 374.0500793457031
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r9",
+          "column_id": "soa-1-c0",
+          "raw": "Prior to Day 4",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 3,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 26,
+            "x0": 336.95989990234375,
+            "y0": 376.31854248046875,
+            "x1": 343.64459228515625,
+            "y1": 388.3299560546875
+          },
+          "engines": {
+            "vision": "Prior to Day 4",
+            "geometric": "P"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c0",
+          "raw": "Prior to Day 4",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 3,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "Prior to Day 4"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r11",
+          "column_id": "soa-1-c0",
+          "raw": "Prior to Day 4",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 3,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "Prior to Day 4"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 328.07989501953125,
+            "y0": 223.67861938476562,
+            "x1": 345.7267150878906,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 366.2398986816406,
+            "y0": 223.67861938476562,
+            "x1": 383.88671875,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 402.23980712890625,
+            "y0": 223.67861938476562,
+            "x1": 419.8865966796875,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 438.23980712890625,
+            "y0": 223.67861938476562,
+            "x1": 455.8865966796875,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 469.6798095703125,
+            "y0": 223.67861938476562,
+            "x1": 487.32659912109375,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 501.23980712890625,
+            "y0": 223.67861938476562,
+            "x1": 518.886474609375,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 534.9597778320312,
+            "y0": 223.67861938476562,
+            "x1": 552.6065063476562,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 568.6798095703125,
+            "y0": 223.67861938476562,
+            "x1": 586.3264770507812,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 594.9597778320312,
+            "y0": 223.67861938476562,
+            "x1": 612.6065063476562,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r18",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 626.3997192382812,
+            "y0": 223.67861938476562,
+            "x1": 644.04638671875,
+            "y1": 235.6900634765625
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 328.07989501953125,
+            "y0": 252.838623046875,
+            "x1": 345.7267150878906,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 366.2398986816406,
+            "y0": 252.838623046875,
+            "x1": 383.88671875,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 402.23980712890625,
+            "y0": 252.838623046875,
+            "x1": 419.8865966796875,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 438.23980712890625,
+            "y0": 252.838623046875,
+            "x1": 455.8865966796875,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 469.6798095703125,
+            "y0": 252.838623046875,
+            "x1": 487.32659912109375,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 501.23980712890625,
+            "y0": 252.838623046875,
+            "x1": 518.886474609375,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 534.9597778320312,
+            "y0": 252.838623046875,
+            "x1": 552.6065063476562,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 568.6798095703125,
+            "y0": 252.838623046875,
+            "x1": 586.3264770507812,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 600.2398071289062,
+            "y0": 252.838623046875,
+            "x1": 617.8865356445312,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 626.3997192382812,
+            "y0": 252.838623046875,
+            "x1": 644.04638671875,
+            "y1": 264.8500671386719
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 328.07989501953125,
+            "y0": 340.07861328125,
+            "x1": 345.7267150878906,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 366.2398986816406,
+            "y0": 340.07861328125,
+            "x1": 383.88671875,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 402.23980712890625,
+            "y0": 340.07861328125,
+            "x1": 419.8865966796875,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 438.23980712890625,
+            "y0": 340.07861328125,
+            "x1": 455.8865966796875,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 469.6798095703125,
+            "y0": 340.07861328125,
+            "x1": 487.32659912109375,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 501.23980712890625,
+            "y0": 340.07861328125,
+            "x1": 518.886474609375,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 534.9597778320312,
+            "y0": 340.07861328125,
+            "x1": 552.6065063476562,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 568.6798095703125,
+            "y0": 340.07861328125,
+            "x1": 586.3264770507812,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 600.2398071289062,
+            "y0": 340.07861328125,
+            "x1": 617.8865356445312,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 27,
+            "x0": 626.3997192382812,
+            "y0": 340.07861328125,
+            "x1": 644.04638671875,
+            "y1": 352.0900573730469
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 328.07989501953125,
+            "y0": 181.7986297607422,
+            "x1": 345.7267150878906,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 366.2398986816406,
+            "y0": 181.7986297607422,
+            "x1": 383.88671875,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 402.23980712890625,
+            "y0": 181.7986297607422,
+            "x1": 419.8865966796875,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 438.23980712890625,
+            "y0": 181.7986297607422,
+            "x1": 455.8865966796875,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 469.6798095703125,
+            "y0": 181.7986297607422,
+            "x1": 487.32659912109375,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 501.23980712890625,
+            "y0": 181.7986297607422,
+            "x1": 518.886474609375,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 534.9597778320312,
+            "y0": 181.7986297607422,
+            "x1": 552.6065063476562,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 568.6798095703125,
+            "y0": 181.7986297607422,
+            "x1": 586.3264770507812,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 600.2398071289062,
+            "y0": 181.7986297607422,
+            "x1": 617.8865356445312,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 633.959716796875,
+            "y0": 181.7986297607422,
+            "x1": 651.6063842773438,
+            "y1": 193.81007385253906
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c0",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c1",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c2",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c3",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c4",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c5",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c6",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c7",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c8",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c9",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c0",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c1",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c2",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c3",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c4",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c5",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c6",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c7",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c8",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c9",
+          "raw": "5X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 328.07989501953125,
+            "y0": 324.4786376953125,
+            "x1": 345.7267150878906,
+            "y1": 336.4900817871094
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 501.23980712890625,
+            "y0": 324.4786376953125,
+            "x1": 518.886474609375,
+            "y1": 336.4900817871094
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r33",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 328.07989501953125,
+            "y0": 366.9585266113281,
+            "x1": 345.7267150878906,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 366.2398986816406,
+            "y0": 366.9585266113281,
+            "x1": 383.88671875,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 402.23980712890625,
+            "y0": 366.9585266113281,
+            "x1": 419.8865966796875,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 438.23980712890625,
+            "y0": 366.9585266113281,
+            "x1": 455.8865966796875,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 469.6798095703125,
+            "y0": 366.9585266113281,
+            "x1": 487.32659912109375,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 501.23980712890625,
+            "y0": 366.9585266113281,
+            "x1": 518.886474609375,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 534.9597778320312,
+            "y0": 366.9585266113281,
+            "x1": 552.6065063476562,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 568.6798095703125,
+            "y0": 366.9585266113281,
+            "x1": 586.3264770507812,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 600.2398071289062,
+            "y0": 366.9585266113281,
+            "x1": 617.8865356445312,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r34",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 633.959716796875,
+            "y0": 366.9585266113281,
+            "x1": 651.6063842773438,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c0",
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 11,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "Admission, Monday, Wednesday, Friday, Discharge and As Needed"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c3",
+          "raw": "1 X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1 X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c6",
+          "raw": "8X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "8X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        }
+      ],
+      "footnotes": [
+        {
+          "marker": "*",
+          "marker_style": "symbol",
+          "text": "Morphine: study day 1 morphine administration times may vary depending upon time of admission.",
+          "text_complete": true,
+          "pages": [
+            28
+          ],
+          "continued_from_page": null,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker '*'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        },
+        {
+          "marker": "**",
+          "marker_style": "symbol",
+          "text": "Lofexidine: The physician may withhold a dose of study medication if the patient is experiencing symptoms of hypotension (dizziness making it difficult to stand for one minute, or syncope) or if the patient’s orthostatic blood pressure is ≤ 80 mmHg systolic immediately before the dose is due to be given. If more than two doses of study medication need to be withheld in a single day, the patient will be terminated from the study and treated for their withdrawal symptoms with standard treatment.",
+          "text_complete": true,
+          "pages": [
+            28
+          ],
+          "continued_from_page": null,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker '**'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        },
+        {
+          "marker": "***",
+          "marker_style": "symbol",
+          "text": "MHOWS = Modified Himmelsbach Opiate Withdrawal Scale (Primary Outcome Measure) time range for collection = 0 to ±30 min for all items",
+          "text_complete": true,
+          "pages": [
+            28
+          ],
+          "continued_from_page": null,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker '***'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        },
+        {
+          "marker": "•",
+          "marker_style": "symbol",
+          "text": "Measures, time range and order: These measures should start being collected at 1000, and must be completed by 1200, and shall be collected in the following order: MHOWS, OOWS, SOWS Gossop, MCGI (rater, patient), SOWS (Handelsman), VAS-E, Addiction Research Center Inventory (ARCI-MBG) and Visual Analog Scale (VAS-High) for “Drug High”.",
+          "text_complete": true,
+          "pages": [
+            28
+          ],
+          "continued_from_page": null,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker '•'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        }
+      ],
+      "rotated_annotations": [],
+      "locator": {
+        "score": 16.48,
+        "signals": [
+          "assessment_vocab",
+          "cell_marker_density",
+          "column_structure",
+          "heading_on_page",
+          "landscape",
+          "ruling_grid",
+          "toc_hint",
+          "visit_header:study_day",
+          "visit_header:study_period"
+        ],
+        "per_page_scores": {
+          "26": 16.48,
+          "27": 14.33,
+          "28": 16.1
+        },
+        "heading_source": "page_heading"
+      },
+      "reconciliation": {
+        "engines_run": [
+          "geometric",
+          "vision"
+        ],
+        "engines_failed": {},
+        "row_counts": {
+          "geometric": 26,
+          "vision": 33,
+          "final": 35
+        },
+        "column_counts": {
+          "geometric": 12,
+          "vision": 11
+        },
+        "cell_counts": {
+          "geometric": 164,
+          "vision": 197
+        },
+        "cell_agreement": 0.982,
+        "warnings": [
+          {
+            "type": "row_missing_in_engine",
+            "severity": "high",
+            "message": "The geometric engine read a row the vision engine did not return: 'WPbreakfast) rimary Outcome Measureeight (on admission & 0630-0800h (13) : ā' (page 26). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "vision"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "high",
+            "message": "The geometric engine read a row the vision engine did not return: 'UPlasma Lofexidine Pk (LCMS) rine Toxicology (28) (29)' (page 28). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "vision"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
+            "message": "Only the vision engine read this row: 'Medical History (03)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r3",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
+            "message": "Only the vision engine read this row: 'Prior Medications (05)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r5",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
+            "message": "Only the vision engine read this row: 'Weight (on admission & 0630-0800h ā breakfast) (13)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r12",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
+            "message": "Only the vision engine read this row: 'Emesis Tracking (14)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r15",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
+            "message": "Only the vision engine read this row: '•Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r17",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
+            "message": "Only the vision engine read this row: 'Urine Toxicology (28)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r35",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "column_missing_in_engine",
+            "severity": "high",
+            "message": "Column count differs: geometric read 12, vision read 11. A dropped column is a patient visit nobody built, so check the header row against the source page.",
+            "row_id": null,
+            "column_id": null,
+            "engine": "vision"
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'P' vs vision 'Prior to Day 4'. The vision reading is kept.",
+            "row_id": "soa-1-r9",
+            "column_id": "soa-1-c0",
+            "engine": null
+          },
+          {
+            "type": "footnote_unlinked",
+            "severity": "medium",
+            "message": "Footnote '*' could not be linked to any grid element.",
+            "row_id": null,
+            "column_id": null,
+            "engine": null
+          },
+          {
+            "type": "footnote_unlinked",
+            "severity": "medium",
+            "message": "Footnote '**' could not be linked to any grid element.",
+            "row_id": null,
+            "column_id": null,
+            "engine": null
+          },
+          {
+            "type": "footnote_unlinked",
+            "severity": "medium",
+            "message": "Footnote '***' could not be linked to any grid element.",
+            "row_id": null,
+            "column_id": null,
+            "engine": null
+          },
+          {
+            "type": "footnote_unlinked",
+            "severity": "medium",
+            "message": "Footnote '•' could not be linked to any grid element.",
+            "row_id": null,
+            "column_id": null,
+            "engine": null
+          }
+        ]
+      },
+      "assumptions": [
+        "The table spans 4 pages. Page 26 contains the header and the first set of rows. Page 27 continues the table with secondary outcome measures. Page 28 continues with abuse potential and safety measures. Page 29 contains the footnotes.",
+        "The row 'Urine Toxicology (28)' has a long text spanning all columns, which is treated as a single cell spanning all columns.",
+        "The row 'Plasma Lofexidine Pk (LCMS) (29)' has a long description in the row label, and data cells are placed in the corresponding columns based on the text description provided in the row label.",
+        "Footnote markers like (01), (02) etc. in row labels are treated as part of the label text.",
+        "The row 'Primary Outcome Measure:' is a category header.",
+        "The row 'Secondary Outcome Measures:' is a category header.",
+        "The row 'Abuse Potential Assessment:' is a category header.",
+        "The row 'Safety Measures:' is a category header."
+      ],
+      "open_questions": []
+    }
+  ],
+  "run": {
+    "tool_version": "0.1.0",
+    "vision_model": "gemini-3.1-flash-lite",
+    "started_at": "2026-09-01T01:50:05.378296+00:00",
+    "finished_at": "2026-09-01T01:50:29.142209+00:00",
+    "duration_seconds": 23.76,
+    "pages_sent_to_vision": 4,
+    "warnings": [
+      {
+        "type": "low_confidence",
+        "severity": "low",
+        "message": "Pages considered and rejected as schedules: [20]. Listed so a recall failure can be audited rather than guessed at.",
+        "row_id": null,
+        "column_id": null,
+        "engine": null
+      }
+    ]
+  }
+}
