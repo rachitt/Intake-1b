@@ -26,3 +26,6 @@ __MACOSX/
 
 # Rendered page caches
 .cache/
+
+# Extraction run logs (the JSON outputs themselves ARE committed)
+outputs/_run.log
