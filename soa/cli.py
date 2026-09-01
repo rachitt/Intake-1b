@@ -12,6 +12,7 @@ import json
 import sys
 from pathlib import Path
 
+from .env import load_env
 from .locate import locate
 from .pdfdoc import PdfDoc
 from .pipeline import extract_document
@@ -19,14 +20,7 @@ from .pipeline import extract_document
 
 def _load_env() -> None:
     """Load a local .env if one exists, so the key need not be exported by hand."""
-    try:
-        from dotenv import load_dotenv
-    except ImportError:
-        return
-    for candidate in (Path.cwd() / ".env", Path(__file__).resolve().parent.parent / ".env"):
-        if candidate.exists():
-            load_dotenv(candidate)
-            return
+    load_env()
 
 
 def _summarise(result, stream=sys.stdout) -> None:

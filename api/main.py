@@ -23,8 +23,14 @@ from fastapi import BackgroundTasks, FastAPI, File, HTTPException, Query, Upload
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, Response
 
+from soa.env import key_fingerprint, load_env
 from soa.pdfdoc import PdfDoc
 from soa.pipeline import extract_document
+
+# Must happen before anything reads the environment. Without this the server ran entirely
+# on whatever was exported in the shell and silently ignored the .env file the README tells
+# you to put your key in.
+_ENV_FILE = load_env()
 
 app = FastAPI(title="SoA Extraction", version="0.1.0")
 
@@ -205,6 +211,11 @@ def download_json(job_id: str):
 
 @app.get("/api/health")
 def health():
+    """Reports which credential is actually in use, not merely that one exists.
+
+    The key fingerprint is the last six characters only. It exists because "a key is
+    configured" is not the useful fact -- "*which* key" is, when two are in play.
+    """
     import os
 
     return {
@@ -212,5 +223,8 @@ def health():
         "vision_configured": bool(
             os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
         ),
+        "env_file": str(_ENV_FILE) if _ENV_FILE else None,
+        "api_key": key_fingerprint(),
+        "model": os.environ.get("SOA_GEMINI_MODEL", "gemini-3.5-flash"),
         "jobs": len(JOBS),
     }
