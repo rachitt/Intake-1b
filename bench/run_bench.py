@@ -48,13 +48,25 @@ def _norm(text: str) -> str:
 
 
 def _shredded(cells: list[str]) -> int:
-    """Isolated single letters anywhere in the table.
+    """Stray single letters that look like a torn-apart sideways label.
 
-    This is the fingerprint of a sideways label being torn into one cell per letter. It is
-    counted across every cell rather than only the first column, because different tools
-    strand the fragments in different places.
+    A sideways label shredded into one cell per letter leaves single characters scattered
+    through the grid. But a single letter is not automatically debris: ``X`` is the
+    commonest legitimate cell value in an SoA, ``P`` means "practice only" in one of these
+    protocols, and footnote-letter cells are single characters too. Counting every
+    one-character cell would score a perfect extraction as heavily shredded.
+
+    What separates them is repetition. A notation mark recurs across the table -- ``X``
+    appears a hundred times -- whereas the letters of a shredded word appear once or twice
+    each. So only rare single letters count, and ``X`` never does.
     """
-    return sum(1 for t in cells if len(_norm(t)) == 1 and _norm(t).isalpha())
+    singles = [_norm(t) for t in cells if len(_norm(t)) == 1 and _norm(t).isalpha()]
+    if not singles:
+        return 0
+    frequency: dict[str, int] = {}
+    for ch in singles:
+        frequency[ch] = frequency.get(ch, 0) + 1
+    return sum(1 for ch in singles if ch != "x" and frequency[ch] <= 3)
 
 
 def _score(
@@ -243,10 +255,13 @@ def render_markdown(report: list[dict]) -> str:
         "alone and not of page-finding.",
         "",
         "`rows` counts recovered row labels longer than one character. `shredded` counts",
-        "isolated single letters anywhere in the table -- the fingerprint of a sideways label",
-        "being torn into one cell per letter. `columns` is the widest table the approach",
-        "returned, excluding the row-label column; a wildly inflated number means the tool",
-        "failed to find real column boundaries, not that it found more visits.",
+        "*rare* stray single letters -- the debris of a sideways label torn into one cell per",
+        "letter. Repeated single characters are excluded, because `X` is the commonest",
+        "legitimate cell value in a schedule and a footnote-letter cell is one character too;",
+        "only letters appearing at most three times count, and `X` never does. `columns` is",
+        "the widest table the approach returned, excluding the row-label column; a wildly",
+        "inflated number means the tool failed to find real column boundaries, not that it",
+        "found more visits.",
         "",
     ]
     for entry in report:
