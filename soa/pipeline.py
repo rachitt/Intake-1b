@@ -478,6 +478,43 @@ def _footnotes_from_text_layer(doc: PdfDoc, span: TableSpan) -> list[Footnote]:
     return out
 
 
+def _drop_borrowed_footnotes(schedules: list[Schedule]) -> None:
+    """Remove footnotes a schedule inherited from a neighbour sharing its page.
+
+    When two schedules are printed on one page -- the second beginning below the first
+    one's footnote block -- the page image contains both blocks, and the second schedule
+    tends to come back carrying footnotes that belong to the first. The giveaway is that
+    they anchor to nothing in the borrower while anchoring to something in the owner.
+
+    Only unanchored duplicates are removed, and only when another schedule holds the same
+    text *and* has it linked. A footnote that is merely unlinked everywhere is kept, since
+    that may simply be a table-level note.
+    """
+    if len(schedules) < 2:
+        return
+
+    linked_texts: dict[str, str] = {}
+    for sched in schedules:
+        for fn in sched.footnotes:
+            if fn.attached_to:
+                linked_texts.setdefault(fn.text.strip()[:160], sched.id)
+
+    for sched in schedules:
+        keep = []
+        for fn in sched.footnotes:
+            owner = linked_texts.get(fn.text.strip()[:160])
+            if not fn.attached_to and owner is not None and owner != sched.id:
+                continue  # belongs to the neighbour, not here
+            keep.append(fn)
+        if len(keep) != len(sched.footnotes):
+            removed = len(sched.footnotes) - len(keep)
+            sched.footnotes = keep
+            sched.assumptions.append(
+                f"{removed} footnote(s) printed on a shared page were attributed to the "
+                f"adjacent schedule that they anchor into, and removed from this one."
+            )
+
+
 def extract_document(
     path: str | Path,
     use_vision: bool = True,
@@ -569,6 +606,8 @@ def extract_document(
         schedules.append(
             _assemble_schedule(span, i, vis, grids, doc, engines_run, engines_failed)
         )
+
+    _drop_borrowed_footnotes(schedules)
 
     finished = datetime.now(timezone.utc)
     result = SoADocument(

@@ -206,6 +206,7 @@ def build_user_prompt(
     page_numbers: list[str],
     text_layer: str | None,
     text_layer_trustworthy: bool,
+    starts_partway_down: bool = False,
 ) -> str:
     """Assemble the per-request instruction."""
     parts = [
@@ -213,6 +214,14 @@ def build_user_prompt(
         f"image(s), which are consecutive pages of one table.",
         f"Source pages: {', '.join(page_numbers)}.",
     ]
+    if starts_partway_down:
+        parts.append(
+            "IMPORTANT: this schedule does NOT start at the top of the first image. It "
+            "begins at the heading partway down that page. Everything above that heading "
+            "belongs to a DIFFERENT, earlier schedule -- including any footnote block. "
+            "Transcribe only this schedule, and return only the footnotes that belong to "
+            "it. Do not carry over footnotes printed above its heading."
+        )
     if heading_hint:
         parts.append(
             f'A text-layer scan suggests the heading is near: "{heading_hint}". '
