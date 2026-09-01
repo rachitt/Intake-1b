@@ -87,6 +87,22 @@ class Line:
         return math.hypot(self.x1 - self.x0, self.y1 - self.y0)
 
 
+def join_words(words: list["Word"]) -> str:
+    """Join spans into text, respecting the horizontal gaps actually on the page."""
+    if not words:
+        return ""
+    ordered = sorted(words, key=lambda w: w.x0)
+    out = [ordered[0].text]
+    for prev, cur in zip(ordered, ordered[1:]):
+        gap = cur.x0 - prev.x1
+        # A space is already present in the span text often enough that we must not add
+        # a second one; and a genuine inter-word gap is a meaningful fraction of the em.
+        threshold = max(0.8, min(prev.size, cur.size) * 0.22)
+        needs_space = gap > threshold and not out[-1].endswith(" ") and not cur.text.startswith(" ")
+        out.append(" " + cur.text if needs_space else cur.text)
+    return re.sub(r"\s+", " ", "".join(out)).strip()
+
+
 @dataclass
 class TextLine:
     """Words grouped into a visual line, left to right."""
@@ -97,7 +113,15 @@ class TextLine:
 
     @property
     def text(self) -> str:
-        return " ".join(w.text for w in self.words).strip()
+        """Reassemble the line, inserting a space only where the page has one.
+
+        Several of the reference protocols emit a word as multiple spans -- a font or
+        kerning change mid-word -- so naively joining spans with a space produces
+        "Appendi x I: Tim e and Event s Schedule". Heading detection, row labels and
+        footnote text all degrade from that, so the gap between spans decides: a gap
+        narrower than a fraction of the font size means the spans are one word.
+        """
+        return join_words(self.words)
 
     @property
     def x0(self) -> float:
