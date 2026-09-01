@@ -12,6 +12,13 @@ Design notes (these are the choices defended in the README):
   case). A dense matrix forces us to invent cells that the document does not contain;
   a sparse list represents exactly what was observed and nothing more.
 
+* **The printed grid is the grid.** ``Column.printed_blank``, ``Row.label_lines`` and
+  ``Row.merged_label`` exist so that a column the page rules but leaves empty, and a row
+  whose one label cell names three activities, are both representable exactly as printed.
+  Compacting either away reads better and is wrong: dropping a blank column moves every
+  visit to its right one place left, and splitting a merged label invents rows that carry
+  no data. See :mod:`soa.align`.
+
 * ``Cell.raw`` is required and is never normalised. Everything derived from it
   (``value_text``, ``footnote_refs``) is optional and explicitly secondary. There is no
   code path that can silently reduce a cell to a boolean.
@@ -133,6 +140,17 @@ class Column(BaseModel):
     study_week: str | None = None
     visit_window: VisitWindow | None = None
 
+    printed_blank: bool = Field(
+        False,
+        description=(
+            "True when the source rules this column but prints nothing in it -- no visit "
+            "header and no cells. Such a column is kept rather than compacted away, "
+            "because dropping it shifts every visit to its right one place left. Its "
+            "emptiness is a fact about the document, not a gap in the extraction; nothing "
+            "is inferred about what it might have been."
+        ),
+    )
+
     footnote_refs: list[str] = Field(default_factory=list)
     pages: list[int] = Field(
         default_factory=list, description="Pages on which this column appears"
@@ -169,7 +187,39 @@ class Row(BaseModel):
 
     id: str
     index: int = Field(description="Top-to-bottom position, 0-based")
-    label: str = Field(description="Verbatim row label, with line wraps joined by a space")
+    label: str = Field(
+        description=(
+            "Verbatim row label. A label that merely wraps across several printed lines "
+            "is joined with a space. A row whose single label cell holds several distinct "
+            "activities keeps the printed line breaks as newlines and sets `merged_label`; "
+            "`label_lines` holds the same text already split."
+        )
+    )
+    label_lines: list[str] = Field(
+        default_factory=list,
+        description=(
+            "The distinct label entries printed inside this row's one label cell, in "
+            "order. Normally a single entry. More than one means the source drew one row "
+            "against several named activities."
+        ),
+    )
+    merged_label: bool = Field(
+        False,
+        description=(
+            "True when the source draws ONE row whose label cell names several activities "
+            "-- e.g. 'Study drug record / Medications dispensed / Medications returned' "
+            "with one set of X marks. Splitting such a cell into one row per activity "
+            "reads better but is not what the page prints: it invents rows that carry no "
+            "data and detaches the marks from all but the first activity."
+        ),
+    )
+    row_span: int = Field(
+        1,
+        description=(
+            "Number of printed row bands this row occupies. 1 unless a label cell is "
+            "drawn spanning several ruled rows."
+        ),
+    )
     group_path: list[str] = Field(
         default_factory=list, description="RowGroup ids, outermost first"
     )
@@ -321,7 +371,10 @@ class ExtractionWarning(BaseModel):
         description=(
             "row_missing_in_engine | column_missing_in_engine | cell_value_disagreement | "
             "footnote_unlinked | footnote_incomplete | row_count_mismatch | "
-            "rotated_text_discarded | engine_failed | low_confidence"
+            "rotated_text_discarded | engine_failed | low_confidence | "
+            "merged_source_row_restored | column_not_in_source_grid | "
+            "row_not_in_source_grid | "
+            "source_grid_unavailable"
         )
     )
     severity: Literal["high", "medium", "low"] = "medium"
