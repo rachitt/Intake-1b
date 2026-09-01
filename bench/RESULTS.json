@@ -1,0 +1,86 @@
+[
+  {
+    "protocol": "protocol15.pdf",
+    "soa_pages": [
+      25
+    ],
+    "schedules_located": 1,
+    "results": [
+      {
+        "engine": "pdfplumber",
+        "rows": 32,
+        "columns": 32,
+        "shredded_rows": 0,
+        "seconds": 0.89,
+        "note": "",
+        "sample_labels": [
+          "Study Week",
+          "Informed consent",
+          "SCID",
+          "Psychiatric evaluation",
+          "ADD evaluation"
+        ]
+      },
+      {
+        "engine": "camelot-lattice",
+        "rows": 36,
+        "columns": 10,
+        "shredded_rows": 0,
+        "seconds": 3.6,
+        "note": "",
+        "sample_labels": [
+          "Assessment",
+          "Study Week",
+          "Screening",
+          "Informed consent",
+          "SCID"
+        ]
+      },
+      {
+        "engine": "camelot-stream",
+        "rows": 39,
+        "columns": 11,
+        "shredded_rows": 0,
+        "seconds": 0.19,
+        "note": "",
+        "sample_labels": [
+          "Table 1.  Overview of Study Assessments",
+          "Assessment",
+          "Study Week",
+          "Screening",
+          "Informed consent"
+        ]
+      },
+      {
+        "engine": "pymupdf",
+        "rows": 32,
+        "columns": 32,
+        "shredded_rows": 0,
+        "seconds": 0.32,
+        "note": "",
+        "sample_labels": [
+          "Study Week",
+          "Informed consent",
+          "SCID",
+          "Psychiatric evaluation",
+          "ADD evaluation"
+        ]
+      },
+      {
+        "engine": "geometric (this project)",
+        "rows": 32,
+        "columns": 10,
+        "shredded_rows": 0,
+        "seconds": 0.01,
+        "note": "",
+        "sample_labels": [
+          "Informed consent",
+          "SCID",
+          "Psychiatric evaluation",
+          "ADD evaluation",
+          "Medical history"
+        ]
+      }
+    ]
+  }
+]
