@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Secrets
+.env
+.env.local
+
+# Working files
+takehome-1b.zip
+takehome-1b/
+__MACOSX/
+.DS_Store
+*.tmp
+.jobs/
+
+# Rendered page caches
+.cache/
