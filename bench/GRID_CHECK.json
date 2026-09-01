@@ -1,0 +1,37 @@
+[
+  {
+    "protocol": "protocol9",
+    "schedule": "soa-1",
+    "lattice": true,
+    "printed": 164,
+    "extracted": 199,
+    "exact": 105,
+    "missing": 26,
+    "spurious": 61,
+    "differs": 33,
+    "aligned": true,
+    "examples": {
+      "missing": [
+        "row 9 x col 1 = 'rior to Day 4'",
+        "row 10 x col 1 = 'Prior to Day 4'",
+        "row 11 x col 1 = 'Prior to Day 4'",
+        "row 21 x col 2 = '1X'",
+        "row 21 x col 9 = '1X'"
+      ],
+      "spurious": [
+        "row 1 x col 0 = 'X'",
+        "row 1 x col 1 = 'X'",
+        "row 1 x col 2 = 'X'",
+        "row 2 x col 3 = 'X'",
+        "row 2 x col 4 = 'X'"
+      ],
+      "differs": [
+        "row 27 x col 4: printed '6X', extracted '5X'",
+        "row 26 x col 5: printed '1X', extracted '6X'",
+        "row 29 x col 4: printed '5X', extracted '1X'",
+        "row 27 x col 6: printed '6X', extracted '5X'",
+        "row 26 x col 7: printed '1X', extracted '6X'"
+      ]
+    }
+  }
+]
