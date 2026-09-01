@@ -153,6 +153,18 @@ def _build_columns(bounds: list[float], label_left: float, label_cut: float, pag
     return cols
 
 
+# Running headers and footers sit in these margins. Excluding them is not cosmetic: a
+# repeated title line such as "Clinical Study Protocol" otherwise becomes a row, and the
+# reconciliation then promotes it into the output as a row the vision engine "missed".
+_HEADER_MARGIN = 0.045
+_FOOTER_MARGIN = 0.91
+
+
+def _is_running_furniture(word: Word, page: Page) -> bool:
+    """True for a word in the running header or footer band."""
+    return word.y1 < page.height * _HEADER_MARGIN or word.y0 > page.height * _FOOTER_MARGIN
+
+
 def table_region(page: Page, words: list[Word]) -> tuple[float, float]:
     """The vertical extent of the ruled table body on a page.
 
@@ -319,7 +331,11 @@ def extract_page(page: Page, start_y: float | None = None) -> PageGrid:
     ``start_y`` restricts extraction to below a given y, for a page shared by two
     schedules.
     """
-    words = [w for w in page.words if start_y is None or w.y0 >= start_y - 2]
+    words = [
+        w
+        for w in page.words
+        if (start_y is None or w.y0 >= start_y - 2) and not _is_running_furniture(w, page)
+    ]
     if not words:
         return PageGrid(page.number, [], [], [], [], 0.0, 0.0, 0.0)
 
