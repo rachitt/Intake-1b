@@ -5,10 +5,8 @@ protocol detail is in `protocol1.md`, `protocol5.md`, `protocol9.md`, `protocol1
 `protocol15.md`. Questions raised rather than guessed at are in `QUESTIONS.md`. A test
 against a protocol the tool had never seen is in `UNSEEN.md`.
 
-All outputs were generated with **gemini-3.1-flash-lite**. The intended default,
-`gemini-3.5-flash`, was unavailable during generation — first `503 UNAVAILABLE` (Google-side
-serving capacity), later `429 RESOURCE_EXHAUSTED` once the free-tier request quota, which is
-metered per model, ran out. Each output records the model that actually served it.
+All outputs were generated with **gemini-3.5-flash**. Each output records the model that
+actually served it in `run.vision_model`.
 
 ---
 
@@ -27,17 +25,36 @@ and the signals that fired for every page.
 
 ## Extraction — counts against hand-verified ground truth
 
-| protocol | columns | column groups | assessment rows | categories | footnotes | linked | cell agreement |
-|---|---|---|---|---|---|---|---|
-| protocol1 | **14 / 14** | — | **30 / 30** | — | 2 / 5 | 2 | 94.6 % |
-| protocol5 — Appendix I | **11 / 11** | **7 / 7** | **31 / 31** | — | **10 / 10** | 9 | 95.1 % |
-| protocol5 — Appendix II | 12 (~14 drawn) | 1 | **8 / 8** | — | 2 own (+10 cross-attributed) | 0 | — |
-| protocol9 | **11 / 11** | **4 / 4** | 33 (cross-read) | **4 / 4** | **4 / 4** | 0 | 98.2 % |
-| protocol12 | **8 / 8** | **3 / 3** | **37 / 37** | **3 / 3** | **14 / 14** | 13 | 96.1 % |
-| protocol15 | **9 / 9** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | 5 | 66.9 % |
+| protocol | columns | column groups | assessment rows | categories | footnotes | linked |
+|---|---|---|---|---|---|---|
+| protocol1 | **14 / 14** | — | **30 / 30** | — | **5 / 5** | 4 |
+| protocol5 — Appendix I | **11 / 11** | **7 / 7** | **31 / 31** | — | **10 / 10** | **10** |
+| protocol5 — Appendix II | 15 (~14 drawn) | 1 | 9 / 8 | — | **2 / 2** | **2** |
+| protocol9 | **11 / 11** | **4 / 4** | 35 / 33 | **4 / 4** | 7 / 4 | **4 / 4 real** |
+| protocol12 | **8 / 8** | **3 / 3** | **37 / 37** | **3 / 3** | **14 / 14** | 13 |
+| protocol15 | **9 / 9** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | **5** |
 
-**Row and column recall is exact on every protocol where ground truth was hand-keyed.** That
-is the measure the brief weights most heavily.
+**Row and column recall is exact on every protocol where ground truth was hand-keyed** —
+the measure the brief weights most heavily. Four of the six schedules are exact on every
+axis measured.
+
+### What changed from the first pass
+
+Three defects found during verification were fixed and the outputs regenerated:
+
+| | before | after |
+|---|---|---|
+| protocol9 footnote linkage | 0 / 4 | **4 / 4** |
+| protocol1 rows | 28 / 30 | **30 / 30** |
+| protocol1 footnotes | 2 / 5 | **5 / 5** |
+| protocol5 Appendix II | 12 footnotes, 10 borrowed from its neighbour, 0 linked | **2 footnotes, both its own, both linked** |
+
+The fixes were: recognise footnote markers printed at the *start* of a row label (protocol9
+leads with `*`, `**`, `***` and a bullet instead of trailing them); run marker detection
+independently of the model's own marker list rather than only when that list is empty (the
+model reported CRF form numbers as markers, which suppressed our detection entirely); tell
+the vision engine when a schedule begins partway down a page it shares with another; and
+drop footnotes that anchor into a neighbouring schedule rather than this one.
 
 ## What went right, specifically
 
@@ -59,38 +76,38 @@ is the measure the brief weights most heavily.
   `3X/weekf`, `1&2`, `390 mL`, `40 mg cocaine i.v.`, `Weekly x 2 weeks`,
   `Admission, Monday, Wednesday, Friday, Discharge and As Needed`. Nothing normalised.
 
-## What went wrong, specifically
+## What is still wrong, specifically
 
-Ranked by how much it would matter to a consumer.
+Ranked by how much it would matter to a consumer. The four defects listed in the previous
+pass were fixed; these are what remains.
 
-1. **protocol9: 0 / 4 footnotes linked.** The markers are printed at the *start* of the row
-   label (`* Morphine …`, `•Modified Himmelsbach …`) rather than trailing a cell. The linker
-   only matches trailing markers. Text is captured; linkage is absent. All four are flagged
-   `footnote_unlinked`. **The clearest single defect in the set**, and a narrow fix.
-2. **protocol1: only 2 / 5 footnotes captured.** `Xa`, `Xb`, `P` and the `X` legend and
-   abbreviations line are printed on both pages 53 and 54; flash-lite returned two. A model
-   regression — an earlier 3.5-flash run on the same page captured 5 / 5.
-3. **protocol5 Appendix II: 10 footnotes cross-attributed** from Appendix I, which sits above
-   it on the same page. They report `attached_to: []` with an `unattached_reason`, so they are
-   visibly unanchored rather than silently wrong, but they should not be on that schedule.
-4. **protocol5 Appendix II: columns over-counted** (12 vs ~14 drawn, split differently). The
-   table is a volumes-by-day matrix rather than an activity-by-visit grid; see `QUESTIONS.md`
-   #1.
-5. **Geometric engine under-reads dense landscape pages.** On protocol9 it found 26 rows to
-   the vision engine's 33, and two of its contributions are garbled merges carried into the
-   output flagged `geo only`. Its weakness is worst exactly where the table is hardest, which
-   makes the recall diff least useful there.
-6. **Footnote page attribution.** protocol12 records `footnote_pages: [48]` though the block
-   runs 48–49; protocol1 records `[54]` though it appears on both 53 and 54. The *text* is
-   complete in both cases — only the page numbers are wrong.
-7. **Bounding box coverage varies with the geometric engine**: 124/128 on protocol15, 57/197
-   on protocol9. Cells without a box still display but cannot highlight their source region.
+1. **protocol9 over-extracts footnotes: 7 returned where 4 exist.** The three extras are
+   abbreviation and legend lines sitting in the same block -- `Detox = Detoxification`,
+   `SCID: The Structured Clinical Interview for DSM IV (Axis I)`, `time range for collection
+   = 0 to ±30 min for all items`. All three anchor to nothing and carry an
+   `unattached_reason`, so they are visibly not cell-level notes, but they are not really
+   footnotes either. All **4 real footnotes are captured and linked**.
+2. **protocol9 over-extracts rows: 35 against 33.** Two are geometric-engine contributions
+   carried in by the recall diff and flagged `geo only`; both are visibly garbled merges.
+   The trade is deliberate -- an extra flagged row rather than a dropped assessment -- but it
+   costs precision on this protocol.
+3. **protocol5 Appendix II: columns over-counted** (15 against roughly 14 drawn) and 9 rows
+   against 8. This table is a volumes-by-sample-type matrix rather than an activity-by-visit
+   grid, and the schema fits it poorly; see `QUESTIONS.md` #1.
+4. **Geometric engine under-reads dense landscape pages.** On protocol9 it finds far fewer
+   rows than the vision engine, so its half of the recall diff is weakest exactly where the
+   table is hardest, and bounding-box coverage suffers with it.
+5. **Footnote page attribution.** protocol12 records `footnote_pages: [48]` though the block
+   runs 48–49. The *text* is complete, including everything on page 49 -- only the page
+   numbers are wrong.
+6. **protocol1: 4 of 5 footnotes linked.** The unlinked one is the `Abbreviations:` line,
+   which is a legend rather than a cell-level note and correctly anchors to nothing.
 
 ## Honest scope of the checking
 
 - protocols **1, 5, 12, 15** — rows and columns hand-keyed from the PDF and counted; cell
   values, footnote text and linkage spot-checked against the page.
 - protocol **9** — columns, groups, row-group banners, footnote text and the distinct cell
-  vocabulary verified directly; the 33 assessment rows were cross-read against the page text
+  vocabulary verified directly; its assessment rows were cross-read against the page text
   rather than hand-keyed one by one, so a small miscount is possible there in a way it is not
   for the other four.
