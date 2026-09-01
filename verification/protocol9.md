@@ -57,7 +57,20 @@ applied across all of them.
 `Safety Measures:` — all four recovered as `row_groups`, matching the source exactly. These
 carry no data cells and are correctly excluded from `rows`.
 
-33 assessment rows were extracted across the three pages.
+33 assessment rows were extracted across the three pages, which is what the ruling lines
+say the source draws: reading each page's row boundaries out of its own vector graphics
+gives 16, 10 and 13 rows in the body of pages 26, 27 and 28.
+
+**Where the reading is still imprecise.** Many of this protocol's labels wrap across two or
+three printed lines inside one ruled cell -- `Physical Examination (04)` over `(Study Day 1
+and Exit Day)`, `(Sitting) Vital Signs (24, 33)` over its list of clock times. The row count
+is right either way, because the source rules one row and one row is emitted. What the
+vision engine sometimes gets wrong is the *claim* about those lines: it reports them as a
+merged label, as though each line named a separate activity, when they are one label that
+wrapped. A guard demotes the clear cases -- a line opening with a bracket, a time, a dose or
+a lowercase word cannot begin an activity -- but it is deliberately one-directional, so it
+will not catch a continuation line starting with a capital. Nothing is lost when it happens;
+the text is complete and the grid is right.
 
 ## Cell values — verbatim, and this protocol has the longest ones
 

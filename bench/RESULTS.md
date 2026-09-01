@@ -19,12 +19,12 @@ Located 1 schedule(s) on page(s) [53, 54].
 
 | approach | rows | columns | cells | shredded | seconds | note |
 |---|---:|---:|---:|---:|---:|---|
-| pdfplumber | 58 | 9 | 227 | 0 | 0.57 |  |
-| camelot-lattice | 58 | 9 | 227 | 0 | 1.45 |  |
-| camelot-stream | 78 | 8 | 192 | 0 | 0.17 |  |
+| pdfplumber | 58 | 9 | 227 | 0 | 0.59 |  |
+| camelot-lattice | 58 | 9 | 227 | 0 | 1.43 |  |
+| camelot-stream | 78 | 8 | 192 | 0 | 0.16 |  |
 | pymupdf | 58 | 9 | 227 | 0 | 0.29 |  |
-| geometric (this project) | 41 | 8 | 139 | 0 | 0.01 |  |
-| vision (gemini-3.7-flash) | 30 | 14 | 139 | 0 | 560.79 | from committed output |
+| geometric (this project) | 56 | 8 | 139 | 0 | 0.02 |  |
+| vision (gemini-2.5-flash) | 28 | 15 | 135 | 0 | 60.87 | from committed output |
 
 ## protocol12.pdf
 
@@ -32,12 +32,12 @@ Located 1 schedule(s) on page(s) [48].
 
 | approach | rows | columns | cells | shredded | seconds | note |
 |---|---:|---:|---:|---:|---:|---|
-| pdfplumber | 39 | 27 | 187 | 0 | 0.32 |  |
-| camelot-lattice | 42 | 9 | 186 | 0 | 0.28 |  |
+| pdfplumber | 39 | 27 | 187 | 0 | 0.3 |  |
+| camelot-lattice | 42 | 9 | 186 | 0 | 0.26 |  |
 | camelot-stream | 46 | 10 | 241 | 5 | 0.07 |  |
-| pymupdf | 39 | 27 | 187 | 0 | 0.19 |  |
-| geometric (this project) | 36 | 9 | 134 | 2 | 0.0 |  |
-| vision (gemini-3.5-flash) | 37 | 8 | 132 | 0 | 142.94 | from committed output |
+| pymupdf | 39 | 27 | 187 | 0 | 0.21 |  |
+| geometric (this project) | 40 | 9 | 132 | 0 | 0.02 |  |
+| vision (gemini-2.5-flash) | 37 | 9 | 129 | 0 | 73.95 | from committed output |
 
 ## protocol15.pdf
 
@@ -45,12 +45,12 @@ Located 1 schedule(s) on page(s) [25].
 
 | approach | rows | columns | cells | shredded | seconds | note |
 |---|---:|---:|---:|---:|---:|---|
-| pdfplumber | 32 | 32 | 177 | 0 | 0.45 |  |
+| pdfplumber | 32 | 32 | 177 | 0 | 0.42 |  |
 | camelot-lattice | 36 | 10 | 176 | 0 | 0.37 |  |
-| camelot-stream | 39 | 11 | 265 | 11 | 0.12 |  |
-| pymupdf | 32 | 32 | 177 | 0 | 0.28 |  |
-| geometric (this project) | 32 | 10 | 169 | 4 | 0.0 |  |
-| vision (gemini-3.5-flash) | 34 | 9 | 128 | 0 | 120.69 | from committed output |
+| camelot-stream | 39 | 11 | 265 | 11 | 0.11 |  |
+| pymupdf | 32 | 32 | 177 | 0 | 0.26 |  |
+| geometric (this project) | 34 | 10 | 128 | 0 | 0.02 |  |
+| vision (gemini-2.5-flash) | 31 | 10 | 143 | 0 | 68.17 | from committed output |
 
 ## protocol5.pdf
 
@@ -58,12 +58,12 @@ Located 2 schedule(s) on page(s) [50, 51].
 
 | approach | rows | columns | cells | shredded | seconds | note |
 |---|---:|---:|---:|---:|---:|---|
-| pdfplumber | 26 | 35 | 229 | 3 | 0.61 |  |
-| camelot-lattice | 42 | 15 | 227 | 3 | 0.65 |  |
-| camelot-stream | 60 | 11 | 262 | 3 | 0.18 |  |
+| pdfplumber | 26 | 35 | 229 | 3 | 0.57 |  |
+| camelot-lattice | 42 | 15 | 227 | 3 | 0.63 |  |
+| camelot-stream | 60 | 11 | 262 | 3 | 0.22 |  |
 | pymupdf | 26 | 35 | 229 | 3 | 0.51 |  |
-| geometric (this project) | 42 | 13 | 154 | 2 | 0.01 |  |
-| vision (gemini-3.5-flash) | 43 | 15 | 163 | 3 | 176.06 | from committed output |
+| geometric (this project) | 39 | 15 | 151 | 3 | 0.02 |  |
+| vision (gemini-2.5-flash) | 39 | 15 | 142 | 3 | 109.0 | from committed output |
 
 ## protocol9.pdf
 
@@ -71,9 +71,9 @@ Located 1 schedule(s) on page(s) [26, 27, 28].
 
 | approach | rows | columns | cells | shredded | seconds | note |
 |---|---:|---:|---:|---:|---:|---|
-| pdfplumber | 72 | 33 | 275 | 0 | 0.81 |  |
-| camelot-lattice | 45 | 11 | 245 | 0 | 0.85 |  |
-| camelot-stream | 83 | 11 | 289 | 0 | 0.19 |  |
-| pymupdf | 45 | 33 | 248 | 0 | 0.51 |  |
-| geometric (this project) | 26 | 12 | 164 | 1 | 0.01 |  |
-| vision (gemini-3.5-flash) | 37 | 11 | 163 | 0 | 96.16 | from committed output |
+| pdfplumber | 72 | 33 | 275 | 0 | 0.78 |  |
+| camelot-lattice | 45 | 11 | 245 | 0 | 0.84 |  |
+| camelot-stream | 83 | 11 | 289 | 0 | 0.23 |  |
+| pymupdf | 45 | 33 | 248 | 0 | 0.5 |  |
+| geometric (this project) | 39 | 11 | 164 | 1 | 0.01 |  |
+| vision (gemini-2.5-flash) | 33 | 11 | 199 | 0 | 79.18 | from committed output |

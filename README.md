@@ -40,6 +40,7 @@ Useful extras:
 ```bash
 python -m soa.cli locate data/protocols/protocol1.pdf --top 8   # locator only, no API calls
 python bench/run_bench.py                                        # tool comparison
+python bench/check_grid.py                                       # score outputs against the printed grid
 ```
 
 ---
@@ -104,9 +105,10 @@ the first one's footnotes.
 ### 2. The extractors (`soa/extract/`)
 
 **Geometric** (`geometric.py`) reads coordinates, never pixels. It is free, repeatable, and
-supplies the exact bounding boxes that let the UI highlight a cell's source region — which
-a vision model cannot provide. It is not expected to win; its job is to be a second opinion
-and a coordinate oracle.
+supplies exact coordinates, which a vision model cannot. Where the table is ruled it reads
+the printed lattice (see below) rather than clustering text positions, which is what makes
+it a real second opinion on recall instead of a report of its own clustering errors; it
+falls back to clustering where there are no rules to read. It is not expected to win.
 
 **Vision** (`vision.py`) renders the located pages at 200 DPI and sends *all pages of a span
 in one request*, so the model can reconcile a continuation header against the page before
@@ -120,7 +122,57 @@ character for character, never reduce to booleans, never resolve ambiguity (flag
 instead), emit every printed row including empty ones, treat category rows as structure,
 and report sideways text as annotation rather than data.
 
-### 3. Reconciliation (`soa/reconcile.py`)
+### 3. The printed grid (`soa/extract/ruled.py`, `soa/align.py`)
+
+Both engines read *content* well and *structure* only as well as a reader does — and a
+reader silently tidies structure up. Two corrections were needed, and both come from the
+same place:
+
+- **A blank printed column disappears.** Protocol1 rules a column between Visit 5 / Week 4
+  and Visit 7 / Week 6 and prints nothing in it; protocol12 and protocol15 each rule one
+  too. Nothing is drawn inside, so nobody reports it — and every visit to its right then
+  sits one column too far left. That is not cosmetic: it reassigns visits to the wrong
+  weeks.
+- **A merged row label becomes several rows.** Protocol1 draws *one* row whose label cell
+  reads `Study drug record / Medications dispensed / Medications returned`, with a single
+  set of X marks covering all three. Read as prose those are three activities, and a model
+  will say so — but splitting the cell invents two rows that carry no data and detaches the
+  marks from two of the three.
+
+Neither is a matter of judgement, because the grid is drawn on the page. `ruled.py`
+recovers it exactly and `align.py` holds the extraction to it. Two details make the
+recovery work on real protocols: every one of the five draws its borders as *hundreds of
+per-cell segments* rather than table-length lines, so segments are clustered by position
+and their union length is measured; and row boundaries are read **inside the row-label
+column**, because that is the cell the label sits in and therefore the only place that can
+say whether two printed lines are one row or two.
+
+The stub that says `VISIT` above the visit numbers is *not* a visit column — it is the
+header's own caption box, and reading it as a leaf column produces a narrow empty column
+wedged between the row labels and Visit 1. It is identified by two signals together: it
+carries no data anywhere in the table, and every header cell in it is an axis caption. A
+column that is merely *empty* is the opposite case and is always kept.
+
+It also settles a smaller ambiguity in the same way. A model reading a stacked header will
+occasionally return its bottom row — `Study Week`, `Study Day` — as a *row* of the table,
+which then sits in the output as an assessment nobody performs. The printed grid puts it
+above the first body row, so it is dropped; but only when it also matches no body row and
+carries nothing but the header's own values, because deleting a row is the one thing this
+pass must not get wrong.
+
+Alignment is conservative by construction. If the lattice cannot be read on every page, or
+the engines' columns cannot be matched to it confidently, it declines to act and says so in
+a warning rather than reshaping the table on a guess — a wrong alignment is worse than
+none. Everything it does change is reported: `merged_source_row_restored`,
+`column_missing_in_engine`, `column_not_in_source_grid`, `row_not_in_source_grid`,
+`source_grid_unavailable`.
+
+It also supplies exact coordinates. Once the lattice is known, a cell's bounding box is the
+ruled cell itself rather than a guess at where its ink is, so clicking a cell in the UI
+boxes the real region on the page — and so does clicking a footnote, which lights up every
+cell, row and column its marker sits on.
+
+### 4. Reconciliation (`soa/reconcile.py`)
 
 The pipeline does not pick a winner. It takes the vision engine's structure and asks the
 geometric engine one question: *did you see a row or a column that vision did not?*
@@ -131,7 +183,7 @@ medium severity. Column-count differences and per-cell disagreements are reporte
 This directly implements the brief's weighting: an extra row is tolerable, a dropped
 assessment is not.
 
-### 4. Footnotes (`soa/footnotes.py`)
+### 5. Footnotes (`soa/footnotes.py`)
 
 Three graded things, handled separately:
 
@@ -162,9 +214,11 @@ SoADocument
 │   ├── heading, kind (main | pk | sub_study | extension), pages, footnote_pages
 │   ├── column_groups[]   hierarchical banners, with the leaf columns each spans
 │   ├── columns[]         header_cells[] (one per stacked header row, verbatim),
-│   │                     group_path, visit_number/day/week, visit_window
+│   │                     group_path, visit_number/day/week, visit_window,
+│   │                     printed_blank (the source rules it and prints nothing)
 │   ├── row_groups[]      category rows — structure, not assessments
-│   ├── rows[]            label, group_path, page, engines
+│   ├── rows[]            label, label_lines[], merged_label, row_span,
+│   │                     group_path, page, bbox, engines
 │   ├── cells[]           SPARSE list keyed by (row_id, column_id)
 │   │                     raw (verbatim), value_text, footnote_refs, col_span,
 │   │                     ambiguous, notes, bbox, engines{}
@@ -188,6 +242,10 @@ SoADocument
 - **Groups are first-class on both axes.** Flattening "Treatment" into each visit column's
   name loses the hierarchy the brief asks to preserve; keeping category rows out of `rows`
   means a consumer counting activities does not count "Safety Assessments" as one.
+- **The printed grid is the grid.** `Column.printed_blank`, `Row.label_lines` and
+  `Row.merged_label` make a column the page rules but leaves empty, and a row whose one
+  label cell names three activities, representable exactly as printed. Compacting either
+  away reads better and is wrong.
 - **`footnotes[].pages` is a list.** Page spill is a state, not an exception.
 - **Uncertainty is recorded, not resolved.** `ambiguous`, `unattached_reason`,
   `text_complete`, `assumptions`, `open_questions`, and the reconciliation warnings all
@@ -212,9 +270,17 @@ Run `python bench/run_bench.py` to reproduce; results in `bench/RESULTS.md`.
 
 ### Model choice, and what the free tier actually does
 
-`gemini-3.5-flash` is the configured default. **The committed outputs were generated with
-`gemini-3.1-flash-lite`**, because 3.5-flash was unavailable at generation time; every output
-records the model that actually served it in `run.vision_model`.
+`gemini-3.5-flash` is the configured default. Free-tier quota is metered per model and it
+was exhausted when the committed outputs were generated, so most were served by the fallback
+chain; every output records the model that actually served it in `run.vision_model`.
+
+**Which model answers changes the cell-level result, and it is worth being blunt about how
+much.** Across four regenerations of protocol1: one run returned all 139 cells and every
+distinct value verbatim; one lost two X marks; one returned Myanmar glyphs where the page
+prints a superscript `a`; one read every `Xb` as `X`. The **row and column structure was
+identical in all four**, because it is settled against the printed grid rather than read off
+the image — which is the entire argument for `soa/align.py`. Reconciliation caught the
+cell-level differences in every case and reported them per cell.
 
 Two distinct failures showed up, and telling them apart matters:
 
@@ -262,39 +328,76 @@ vector through the page's own rotation matrix first is what makes both cases wor
 
 ---
 
-## Manual verification
+## Verification
 
 Every protocol was opened next to its JSON and compared against the source. Full detail in
 `verification/`; `verification/SUMMARY.md` has the complete table.
 
+Rows and columns are no longer checked by hand. All five protocols draw a ruled grid, so
+`python bench/check_grid.py` reads the printed rows, columns and cells back out of each
+page's vector graphics and scores the committed output against them, cell by cell:
+
+```
+schedule                    printed   exact  missing  spurious  differs
+protocol1  soa-1                139     139        0         0        0
+protocol5  soa-1                107      95       11         4        1
+protocol5  soa-2                 43      37        6         5        0
+protocol9  soa-1                164     105       26        61       33
+protocol12 soa-1                126     113        3         6       10
+protocol15 soa-1                128     120        5        20        3
+TOTAL                           707     609       51        96       47    86.1% exact
+```
+
+Read it as a signal for review, not a verdict. It is not independent of the extraction --
+`soa/align.py` reads the same lattice to place the cells -- and a good share of the
+disagreements are the *text layer* being wrong rather than the extraction: protocol15's
+page renders a superscript marker ahead of its mark, so the page reads `a X` where the
+image plainly shows `Xa`, and two protocols have damaged font encodings that turn `Prior`
+into `rior`. What it is good for is exactly what a hand count could not do: it re-scores in
+two seconds after any change, and it flags every cell worth looking at by position.
+
 **Locator: 6 / 6 schedules found, on the right pages, with no hardcoded page numbers.**
+
+Ground truth for rows and columns is read back from each page's own ruling lines rather
+than counted by eye — all five protocols draw a fully ruled grid — so these are not
+estimates.
 
 | protocol | columns | column groups | assessment rows | categories | footnotes | linked |
 |---|---|---|---|---|---|---|
-| protocol1 | **14 / 14** | — | **30 / 30** | — | **5 / 5** | 4 |
-| protocol5 — Appendix I | **11 / 11** | **7 / 7** | **31 / 31** | — | **10 / 10** | **10** |
-| protocol5 — Appendix II | 15 (~14 drawn) | 1 | 9 / 8 | — | **2 / 2** | **2** |
-| protocol9 | **11 / 11** | **4 / 4** | 35 / 33 | **4 / 4** | 7 / 4 | **4 / 4 real** |
-| protocol12 | **8 / 8** | **3 / 3** | **37 / 37** | **3 / 3** | **14 / 14** | 13 |
-| protocol15 | **9 / 9** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | **5** |
+| protocol1 | **15 / 15** | — | **28 / 28** | — | 4 / 5 | **4 / 4** |
+| protocol5 — Appendix I | **11 / 11** | 8 / 7 | **31 / 31** | 1 / 0 | **10 / 10** | **10** |
+| protocol5 — Appendix II | **15 / 15** | 1 | **8 / 8** | 1 / 0 | **2 / 2** | **2** |
+| protocol9 | **11 / 11** | **4 / 4** | **33 / 33** | **4 / 4** | 6 / 4 | **4 / 4 real** |
+| protocol12 | **9 / 9** | **3 / 3** | **37 / 37** | 4 / 3 | **14 / 14** | 13 |
+| protocol15 | **10 / 10** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | **5** |
 
-Row and column recall is exact on every protocol where ground truth was hand-keyed — the
-measure the brief weights most heavily — and four of the six schedules are exact on every
-axis measured.
+Row and column recall is exact on all six schedules — the measure the brief weights most
+heavily — and both engines agree on the column count of every one of them.
 
-**The four hard cases the brief names all work:** protocol1's continuation page carrying a
-*different* visit range (9–13, ET, RT vs 1–8) merged into one 14-column table with the
-missing visit 6 preserved as a gap; protocol9's continuation pages dropping the study-phase
-banner entirely and still merging into one 11-column table; protocol12's footnote block
-spilling 48 → 49 with all 14 captured; and protocol5's second schedule starting partway down
-a page already carrying the first one's footnotes.
+Three of these numbers moved when the ground truth was re-read from the pages' ruling
+lines, and every correction was the same mistake made twice: **a column with nothing
+printed in it looks like whitespace, and several activities inside one ruled cell look like
+several rows.** protocol1 has 15 columns, not 14 — one is ruled and empty. It has 28 rows,
+not 30 — three activities share one ruled row. protocol12 and protocol15 each rule one more
+column than was counted, for the sideways `RANDOMIZATION` divider.
 
-**What is still wrong,** in order: protocol9 returns 7 footnotes where 4 exist (the extras
+**The hard cases the brief names all work:** protocol1's continuation page carrying a
+*different* visit range (9–13, ET, RT vs 1–8) merged into one 15-column table, with the
+column the page rules but leaves blank kept in place and no Visit 6 invented to fill it;
+protocol9's continuation pages dropping the study-phase banner entirely and still merging
+into one 11-column table; protocol12's footnote block spilling 48 → 49 with all 14 captured;
+protocol5's second schedule starting partway down a page already carrying the first one's
+footnotes; and protocol1's single ruled row naming three activities kept as one row rather
+than split into three, two of which would have carried no data.
+
+**What is still wrong,** in order: protocol9 returns 6 footnotes where 4 exist (the extras
 are abbreviation and legend lines in the same block, all anchoring to nothing and flagged);
-protocol9 carries 2 spurious rows contributed by the geometric engine and flagged `geo
-only`; protocol5's Appendix II over-counts columns because it is a volumes matrix rather
-than an activity grid; and protocol12's `footnote_pages` says `[48]` though the block runs
-48–49, with the text complete either way.
+several of protocol9's wrapped row labels are reported as `merged_label` when they are one
+label over two lines rather than two activities — the row count is right, the claim about
+how to read it is not; the vision engine occasionally mis-transcribes a superscript marker
+(one run returned Myanmar glyphs for the `a` in `Xa`), which reconciliation catches but
+nothing repairs; and protocol12's `footnote_pages` says `[48]` though the block runs 48–49,
+with the text complete either way.
 
 Questions raised for a clinical SME rather than guessed at are in
 `verification/QUESTIONS.md`. A test against a protocol the tool had never seen — a modern
@@ -324,10 +427,11 @@ into one schedule, which is the first thing to fix.
 - **Scanned protocols are not handled.** All five references have a text layer. A scanned
   document would locate poorly (the scorer reads text) and the geometric engine would return
   nothing. `document.has_text_layer` reports it, but there is no OCR path.
-- **The geometric engine over-merges wrapped rows**, particularly on protocol9's dense
-  landscape pages, where it recovers roughly a third of the rows vision does. This makes its
-  half of the recall diff weaker exactly where the table is hardest. It is a cross-check,
-  not a second extractor.
+- **Everything structural rests on the source drawing its grid.** All five reference
+  protocols do, and where a lattice is found the row and column counts are facts rather than
+  readings. A table ruled only horizontally, or not at all, gets none of it: alignment
+  declines, emits `source_grid_unavailable`, and the engines' own reading of the structure
+  stands — blank columns and merged row labels included.
 - **Footnotes can be attributed to the wrong schedule when two share a page.** In protocol5,
   Appendix I's footnote block sits above Appendix II on page 51, and some of those footnotes
   are attached to both schedules. The ones that do not belong show up unlinked rather than
@@ -342,17 +446,27 @@ into one schedule, which is the first thing to fix.
 - **The text-layer-only footnote fallback is partial.** With `--no-vision` it recovers
   footnotes from three of five protocols; the two it misses use formats
   (`* Morphine: ...`, `X = Performed...`) that its marker regex does not anchor on.
+- **`--no-vision` does not merge continuation pages.** Each page's grid is now read exactly
+  — protocol1 comes back as 28 rows and 8 columns on page 53, 28 and 7 on page 54, which is
+  what the pages draw — but the fallback path concatenates them instead of splicing them
+  into one 15-column table, so the same 28 rows appear twice. Merging is the vision path's
+  job today; the axis-splicing in `soa/align.py` would do it, and wiring the geometric-only
+  path through it is the obvious next step.
 
 ---
 
 ## What I would build next, given two more weeks
 
-1. **A ground-truth corpus and a real accuracy number.** Hand-key two protocols cell by
-   cell, then report precision and recall per protocol rather than the proxy metrics the
-   benchmark currently uses. Everything below is guesswork without this.
-2. **Make the geometric engine a real second reader.** Its row merging is the weakest part
-   of the recall diff. Using ruling-line row boundaries where they exist, instead of purely
-   y-clustering the text, should close most of the gap on the dense landscape pages.
+1. **Ground truth for tables that are not ruled.** `bench/check_grid.py` now gets ground
+   truth for free wherever the source draws its grid, which covers all five reference
+   protocols and gives a real per-cell number instead of a proxy metric. It gets nothing on
+   an unruled table, and it cannot referee a disagreement where the text layer itself is
+   damaged. Hand-keying one protocol with corrupted fonts would settle both.
+2. **A lattice-free path for unruled tables.** `ruled.py` gives an exact answer wherever
+   the source draws its grid, which covers all five reference protocols. A table ruled only
+   horizontally, or not at all, still falls back to the engines' own reading, and the blank
+   column and merged row protections do not apply there. Recovering an implied lattice from
+   whitespace, and being explicit about how much less it is trusted, is the next step.
 3. **Self-consistency on the vision engine.** Two runs at temperature 0 with the page order
    and the prompt's emphasis varied, then diff them. Cells that differ between runs are
    exactly the cells worth showing a human, and this needs no ground truth to be useful.

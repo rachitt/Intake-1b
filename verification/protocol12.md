@@ -22,24 +22,37 @@ vocabulary and would otherwise have started a *second* schedule. It is recognise
 footnote-block heading and correctly attached to the schedule on page 48 rather than
 splitting it. Pages 10, 30, 45 and 57 were considered and rejected.
 
-## Columns — 8 / 8, with the hierarchy intact
+## Columns — 9 / 9, with the hierarchy intact
 
 Source: a period banner over `Study Week`.
 
 | group | leaf columns |
 |---|---|
 | Screening/Baseline | `14-21 days prior to randomization` |
+| *(none)* | the divider column — see below |
 | Study Medication Administration | `1-3`, `4`, `5-7`, `8`, `9-11`, `12/Term` |
 | Follow-up | `16` |
 
-**Produced: 8 leaf columns and 3 column groups, matching exactly**, with each group spanning
+**Produced: 9 leaf columns and 3 column groups, matching exactly**, with each group spanning
 the right leaves (1, 6, 1).
+
+The ninth is the narrow column the page rules between the screening column and Study Week
+1-3 to hold the sideways `RANDOMIZATION` divider. It carries no grid data — the divider
+itself is kept as a `rotated_annotation`, not as rows — but the page draws it, so it is kept
+with empty header text and `printed_blank: true`, and the treatment columns keep their
+printed positions. Nothing is inferred about it; it is simply reported as printed, with a
+warning saying why it is there.
 
 ## Rows — 37 / 37 assessments, 3 / 3 categories
 
-Ground truth counted by hand from the page: 37 assessment rows plus three category banners
-(`Screening`, `Safety`, `Efficacy`). All present. The categories are in `row_groups`, not
-`rows`, so a consumer counting scheduled activities gets 37 and not 40.
+Ground truth from the page's own ruling lines: 40 ruled rows in the body, of which three
+are the category banners (`Screening`, `Safety`, `Efficacy`), leaving 37 assessments. All
+present. The categories are in `row_groups`, not `rows`.
+
+One run of the vision engine also returned the header's `Study Week` row as an assessment.
+The printed grid puts it above the first body row and it carries nothing but the header's
+own values, so it is dropped with a `row_not_in_source_grid` warning rather than left in the
+output as a procedure nobody performs.
 
 Multi-line labels were correctly joined rather than split, e.g.
 `ACDS assessment (ADHD diagnosis)` and `Infectious disease panel/syphilis test/PPD`, both of

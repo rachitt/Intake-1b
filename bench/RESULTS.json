@@ -13,7 +13,7 @@
         "columns": 9,
         "cells": 227,
         "shredded_cells": 0,
-        "seconds": 0.57,
+        "seconds": 0.59,
         "note": "",
         "sample_labels": [
           "ACTIVITY",
@@ -29,7 +29,7 @@
         "columns": 9,
         "cells": 227,
         "shredded_cells": 0,
-        "seconds": 1.45,
+        "seconds": 1.43,
         "note": "",
         "sample_labels": [
           "ACTIVITY",
@@ -45,7 +45,7 @@
         "columns": 8,
         "cells": 192,
         "shredded_cells": 0,
-        "seconds": 0.17,
+        "seconds": 0.16,
         "note": "",
         "sample_labels": [
           "VISIT\n 1 \n2 \n3 \n4 \n5",
@@ -73,11 +73,11 @@
       },
       {
         "engine": "geometric (this project)",
-        "rows": 41,
+        "rows": 56,
         "columns": 8,
         "cells": 139,
         "shredded_cells": 0,
-        "seconds": 0.01,
+        "seconds": 0.02,
         "note": "",
         "sample_labels": [
           "Informed consent",
@@ -88,12 +88,12 @@
         ]
       },
       {
-        "engine": "vision (gemini-3.7-flash)",
-        "rows": 30,
-        "columns": 14,
-        "cells": 139,
+        "engine": "vision (gemini-2.5-flash)",
+        "rows": 28,
+        "columns": 15,
+        "cells": 135,
         "shredded_cells": 0,
-        "seconds": 560.79,
+        "seconds": 60.87,
         "note": "from committed output",
         "sample_labels": [
           "Informed consent",
@@ -118,7 +118,7 @@
         "columns": 27,
         "cells": 187,
         "shredded_cells": 0,
-        "seconds": 0.32,
+        "seconds": 0.3,
         "note": "",
         "sample_labels": [
           "Assessment",
@@ -134,7 +134,7 @@
         "columns": 9,
         "cells": 186,
         "shredded_cells": 0,
-        "seconds": 0.28,
+        "seconds": 0.26,
         "note": "",
         "sample_labels": [
           "Assessment",
@@ -166,7 +166,7 @@
         "columns": 27,
         "cells": 187,
         "shredded_cells": 0,
-        "seconds": 0.19,
+        "seconds": 0.21,
         "note": "",
         "sample_labels": [
           "Assessment",
@@ -178,27 +178,27 @@
       },
       {
         "engine": "geometric (this project)",
-        "rows": 36,
+        "rows": 40,
         "columns": 9,
-        "cells": 134,
-        "shredded_cells": 2,
-        "seconds": 0.0,
+        "cells": 132,
+        "shredded_cells": 0,
+        "seconds": 0.02,
         "note": "",
         "sample_labels": [
+          "Screening",
           "Informed consent",
           "SCID/Psychiatric evaluation",
-          "Medical history ACDS assessment (ADHD",
-          "diagnosis)",
-          "Meth Timeline Followback"
+          "Medical history",
+          "ACDS assessment (ADHD diagnosis)"
         ]
       },
       {
-        "engine": "vision (gemini-3.5-flash)",
+        "engine": "vision (gemini-2.5-flash)",
         "rows": 37,
-        "columns": 8,
-        "cells": 132,
+        "columns": 9,
+        "cells": 129,
         "shredded_cells": 0,
-        "seconds": 142.94,
+        "seconds": 73.95,
         "note": "from committed output",
         "sample_labels": [
           "Informed consent",
@@ -223,7 +223,7 @@
         "columns": 32,
         "cells": 177,
         "shredded_cells": 0,
-        "seconds": 0.45,
+        "seconds": 0.42,
         "note": "",
         "sample_labels": [
           "Study Week",
@@ -255,7 +255,7 @@
         "columns": 11,
         "cells": 265,
         "shredded_cells": 11,
-        "seconds": 0.12,
+        "seconds": 0.11,
         "note": "",
         "sample_labels": [
           "Table 1.  Overview of Study Assessments",
@@ -271,7 +271,7 @@
         "columns": 32,
         "cells": 177,
         "shredded_cells": 0,
-        "seconds": 0.28,
+        "seconds": 0.26,
         "note": "",
         "sample_labels": [
           "Study Week",
@@ -283,27 +283,27 @@
       },
       {
         "engine": "geometric (this project)",
-        "rows": 32,
+        "rows": 34,
         "columns": 10,
-        "cells": 169,
-        "shredded_cells": 4,
-        "seconds": 0.0,
+        "cells": 128,
+        "shredded_cells": 0,
+        "seconds": 0.02,
         "note": "",
         "sample_labels": [
+          "Screening",
           "Informed consent",
           "SCID",
           "Psychiatric evaluation",
-          "ADD evaluation",
-          "Medical history"
+          "ADD evaluation"
         ]
       },
       {
-        "engine": "vision (gemini-3.5-flash)",
-        "rows": 34,
-        "columns": 9,
-        "cells": 128,
+        "engine": "vision (gemini-2.5-flash)",
+        "rows": 31,
+        "columns": 10,
+        "cells": 143,
         "shredded_cells": 0,
-        "seconds": 120.69,
+        "seconds": 68.17,
         "note": "from committed output",
         "sample_labels": [
           "Informed consent",
@@ -329,7 +329,7 @@
         "columns": 35,
         "cells": 229,
         "shredded_cells": 3,
-        "seconds": 0.61,
+        "seconds": 0.57,
         "note": "",
         "sample_labels": [
           "Study Phase",
@@ -345,7 +345,7 @@
         "columns": 15,
         "cells": 227,
         "shredded_cells": 3,
-        "seconds": 0.65,
+        "seconds": 0.63,
         "note": "",
         "sample_labels": [
           "Study Phase",
@@ -361,7 +361,7 @@
         "columns": 11,
         "cells": 262,
         "shredded_cells": 3,
-        "seconds": 0.18,
+        "seconds": 0.22,
         "note": "",
         "sample_labels": [
           "A\nppendi\n x \n I: Tim  e and  Event",
@@ -389,11 +389,11 @@
       },
       {
         "engine": "geometric (this project)",
-        "rows": 42,
-        "columns": 13,
-        "cells": 154,
-        "shredded_cells": 2,
-        "seconds": 0.01,
+        "rows": 39,
+        "columns": 15,
+        "cells": 151,
+        "shredded_cells": 3,
+        "seconds": 0.02,
         "note": "",
         "sample_labels": [
           "Informed consent",
@@ -404,12 +404,12 @@
         ]
       },
       {
-        "engine": "vision (gemini-3.5-flash)",
-        "rows": 43,
+        "engine": "vision (gemini-2.5-flash)",
+        "rows": 39,
         "columns": 15,
-        "cells": 163,
+        "cells": 142,
         "shredded_cells": 3,
-        "seconds": 176.06,
+        "seconds": 109.0,
         "note": "from committed output",
         "sample_labels": [
           "Informed consent",
@@ -436,7 +436,7 @@
         "columns": 33,
         "cells": 275,
         "shredded_cells": 0,
-        "seconds": 0.81,
+        "seconds": 0.78,
         "note": "",
         "sample_labels": [
           "Table 4.\nSchedule of Measures and Data\nCollection for Lofexidine Phase 3",
@@ -452,7 +452,7 @@
         "columns": 11,
         "cells": 245,
         "shredded_cells": 0,
-        "seconds": 0.85,
+        "seconds": 0.84,
         "note": "",
         "sample_labels": [
           "Table 4.   \nSchedule of Measures and Data \nCollection for Lofexidine Phase 3",
@@ -468,7 +468,7 @@
         "columns": 11,
         "cells": 289,
         "shredded_cells": 0,
-        "seconds": 0.19,
+        "seconds": 0.23,
         "note": "",
         "sample_labels": [
           "Table 4.",
@@ -484,7 +484,7 @@
         "columns": 33,
         "cells": 248,
         "shredded_cells": 0,
-        "seconds": 0.51,
+        "seconds": 0.5,
         "note": "",
         "sample_labels": [
           "Table 4.\nSchedule of Measures and Data\nCollection for Lofexidine Phase 3",
@@ -496,34 +496,34 @@
       },
       {
         "engine": "geometric (this project)",
-        "rows": 26,
-        "columns": 12,
+        "rows": 39,
+        "columns": 11,
         "cells": 164,
         "shredded_cells": 1,
         "seconds": 0.01,
         "note": "",
         "sample_labels": [
-          "(0800, 1300, 1800, 2300 h)Screening I**nformed Consent, Morphine*Lofexidine or Placebo(02) (0600, 1100, 1630, 2200 h) Screening (01), Opiate",
-          "PP(Study Day 1 and Exit Day) Mrior Medications hysical Examination edical History (03)(05) (04)",
-          "Laboratory Assessments: Blood (06,07), Urine (08)",
-          "Serum Pregnancy Test (Beta HCG) (09)",
-          "Tuberculosis Skin Test (PPD), RPR, CD4 (10)"
+          "Informed Consent, Screening (01), Opiate Screening (02)",
+          "* Morphine (0600, 1100, 1630, 2200 h)",
+          "**Lofexidine or Placebo (0800, 1300, 1800, 2300 h)",
+          "Medical History (03)",
+          "Physical Examination (04) (Study Day 1 and Exit Day)"
         ]
       },
       {
-        "engine": "vision (gemini-3.5-flash)",
-        "rows": 37,
+        "engine": "vision (gemini-2.5-flash)",
+        "rows": 33,
         "columns": 11,
-        "cells": 163,
+        "cells": 199,
         "shredded_cells": 0,
-        "seconds": 96.16,
+        "seconds": 79.18,
         "note": "from committed output",
         "sample_labels": [
-          "Date",
-          "Day of Week",
-          "Informed Consent, Screening (01), Opiate Screening (02)",
+          "Informed Consent, Screening (01)\nOpiate Screening (02)",
           "* Morphine (0600, 1100, 1630, 2200 h)",
-          "**Lofexidine or Placebo (0800, 1300, 1800, 2300 h)"
+          "**Lofexidine or Placebo (0800, 1300, 1800, 2300 h)",
+          "Medical History (03)",
+          "Physical Examination (04) (Study Day 1 and Exit Day)"
         ]
       }
     ]
