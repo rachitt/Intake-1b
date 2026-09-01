@@ -13,6 +13,8 @@
   --warn-med-bg: #fdf3e4;
   --category-bg: #eceff4;
   --highlight: #ff7a00;
+  --fn-lit: #fff0c2;
+  --fn-lit-edge: #c98a00;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color-scheme: light;
 }
@@ -158,6 +160,29 @@ table.soa tr.category td {
   letter-spacing: 0.02em;
 }
 table.soa tr.flagged td.rowhead { border-left: 3px solid var(--warn-med); }
+
+/* A column the source rules but leaves empty. Shown, never compacted away: dropping it
+   would shift every visit to its right one place left. Hatched so that "blank on the page"
+   is visibly different from "we found nothing here". */
+table.soa th.blank-col, table.soa td.blank-col {
+  min-width: 34px;
+  background-image: repeating-linear-gradient(
+    45deg, transparent, transparent 4px, var(--border) 4px, var(--border) 5px
+  );
+  background-color: var(--panel);
+}
+table.soa thead th.blank-col { background-color: var(--panel); }
+
+/* Several activities printed inside one row-label cell. Kept as the one row the page
+   draws, with the printed line breaks preserved. */
+table.soa td.rowhead .label-line { display: block; }
+table.soa td.rowhead.merged-row { border-left: 3px solid var(--accent); }
+.pill.merged { background: var(--accent-soft); color: var(--accent); margin-left: 0; margin-top: 3px; }
+
+/* Everything the picked footnote's marker sits on. */
+table.soa .fn-lit { background: var(--fn-lit) !important; box-shadow: inset 0 0 0 1px var(--fn-lit-edge); }
+table.soa td.cell.fn-lit { color: var(--text); }
+.marker.active { background: var(--fn-lit-edge); color: #fff; border-radius: 3px; padding: 0 3px; }
 
 .role-tag { display: block; font-size: 10px; color: var(--muted); font-weight: 400; text-transform: lowercase; }
 .marker { color: var(--accent); font-weight: 700; cursor: pointer; font-size: 0.85em; vertical-align: super; }

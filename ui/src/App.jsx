@@ -107,6 +107,34 @@ function PageImages({ jobId, pages, highlight }) {
   )
 }
 
+/** The page region of the first thing a footnote's marker sits on, if any of them has one. */
+function firstMarkedBox(schedule, marker) {
+  if (!schedule || !marker) return null
+  const cellAt = new Map((schedule.cells || []).map((c) => [`${c.row_id}|${c.column_id}`, c]))
+
+  for (const cell of schedule.cells || []) {
+    if ((cell.footnote_refs || []).includes(marker) && cell.bbox) return cell.bbox
+  }
+  for (const fn of schedule.footnotes || []) {
+    if (fn.marker !== marker) continue
+    for (const a of fn.attached_to || []) {
+      if (a.kind === 'cell') {
+        const cell = cellAt.get(`${a.row_id}|${a.column_id}`)
+        if (cell?.bbox) return cell.bbox
+      }
+      if (a.kind === 'row') {
+        const row = (schedule.rows || []).find((r) => r.id === a.row_id)
+        if (row?.bbox) return row.bbox
+      }
+      if (a.kind === 'column') {
+        const col = (schedule.columns || []).find((c) => c.id === a.column_id)
+        if (col?.bbox) return col.bbox
+      }
+    }
+  }
+  return null
+}
+
 function Warnings({ reconciliation }) {
   const warnings = reconciliation?.warnings || []
   if (warnings.length === 0) {
@@ -128,7 +156,10 @@ function Warnings({ reconciliation }) {
 
 function Footnotes({ schedule, target, onPick }) {
   const rowById = useMemo(
-    () => new Map((schedule.rows || []).map((r) => [r.id, r.label])),
+    () =>
+      new Map(
+        (schedule.rows || []).map((r) => [r.id, (r.label_lines?.length ? r.label_lines : [r.label]).join(' / ')])
+      ),
     [schedule]
   )
   const colById = useMemo(
@@ -237,8 +268,23 @@ export default function App() {
 
   const handleSelectCell = (key, cell) => {
     setSelectedCell(key)
+    setFootnoteTarget(null)
     setHighlight(key && cell?.bbox ? cell.bbox : null)
   }
+
+  // Picking a footnote lights up everything its marker sits on -- in the grid, and on the
+  // page image, where the first cell it marks is boxed. Checking a footnote means checking
+  // what it is attached to, and reading the two side by side is the whole point of the
+  // split view.
+  const pickFootnote = useCallback(
+    (marker) => {
+      const next = marker === footnoteTarget ? null : marker
+      setFootnoteTarget(next)
+      setSelectedCell(null)
+      setHighlight(next ? firstMarkedBox(schedule, next) : null)
+    },
+    [footnoteTarget, schedule]
+  )
 
   if (!job) {
     return (
@@ -339,12 +385,17 @@ export default function App() {
                       .map((r) => r.text)
                       .join(', ')}`}
                 </p>
-                <p className="meta">Click any cell to highlight where it came from on the page.</p>
+                <p className="meta">
+                  Click any cell to highlight where it came from on the page. Click a
+                  footnote marker, or a footnote below, to light up every cell, row and
+                  column it is attached to.
+                </p>
                 <SoaGrid
                   schedule={schedule}
                   selectedCell={selectedCell}
                   onSelectCell={handleSelectCell}
-                  onPickFootnote={setFootnoteTarget}
+                  onPickFootnote={pickFootnote}
+                  footnoteTarget={footnoteTarget}
                 />
               </div>
 
@@ -362,7 +413,7 @@ export default function App() {
 
               <div className="section">
                 <h3>Footnotes</h3>
-                <Footnotes schedule={schedule} target={footnoteTarget} onPick={setFootnoteTarget} />
+                <Footnotes schedule={schedule} target={footnoteTarget} onPick={pickFootnote} />
               </div>
 
               {(schedule.assumptions?.length > 0 || schedule.open_questions?.length > 0) && (
