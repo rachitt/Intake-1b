@@ -29,3 +29,6 @@ __MACOSX/
 
 # Extraction run logs (the JSON outputs themselves ARE committed)
 outputs/_run.log
+
+# The assignment brief itself (Intake AI document, not ours to redistribute)
+Intake AI Take Home 1b.pdf
