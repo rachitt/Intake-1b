@@ -210,13 +210,37 @@ Run `python bench/run_bench.py` to reproduce; results in `bench/RESULTS.md`.
 | **Hosted document-AI services** (Azure Document Intelligence, LlamaParse, Reducto) | not evaluated | The protocols must not be uploaded anywhere they would be retained. Ruling them out on that basis was a deliberate choice, not an oversight. |
 | **OCR (Tesseract)** | not needed | All five protocols have a text layer. Kept in mind as the fallback for genuinely scanned documents, which this tool currently does not handle. |
 
-### Model choice
+### Model choice, and what the free tier actually does
 
-`gemini-3.5-flash` is the default. `gemini-3.7-flash` was tried first and returned HTTP 503
-"high demand" often enough to stall runs; it remains selectable via `SOA_GEMINI_MODEL`, and
-the client falls back through `gemini-3-flash-preview` and `gemini-2.5-flash`. A modest
-thinking budget (4096) is set deliberately — transcription is a careful-reading task, and an
-unbounded budget roughly doubled wall-clock time without changing the output.
+`gemini-3.5-flash` is the configured default. **The committed outputs were generated with
+`gemini-3.1-flash-lite`**, because 3.5-flash was unavailable at generation time; every output
+records the model that actually served it in `run.vision_model`.
+
+Two distinct failures showed up, and telling them apart matters:
+
+- **`503 UNAVAILABLE`** — Google-side serving capacity ("this model is currently experiencing
+  high demand"). It hit 3.7-flash first, then 3.5-flash. Not quota: it failed 0/6 over 60s on
+  a *two-token* prompt, and failed identically on two different API keys while other models
+  answered normally on the same key in the same second.
+- **`429 RESOURCE_EXHAUSTED`** — free-tier request quota, which is metered **per model**. An
+  exhausted model is not an exhausted key: 3.5-flash and 2.5-flash returned 429 while
+  3.7-flash and 3-flash-preview answered fine on the same key.
+
+So the fallback chain is load-bearing rather than decorative, and 429 is treated as
+non-retryable on the same model (per-model quota does not recover in seconds) while 503 gets
+one retry before moving on. Requests also carry an explicit timeout — without one a stalled
+request hung a five-protocol batch for over ten minutes with no error and no output.
+
+Thinking is **off** by default. Measured on the same page and prompt, no thinking budget
+returned 34 rows, 126 cells and all 5 footnotes in 52 seconds; a 4096-token budget pushed the
+same request past four minutes without improving the result.
+
+On quality between models, the honest answer is that the differences are small and my
+comparison is not clean — `gemini-3.5-flash` matched ground truth exactly on the two
+protocols where I have data for it, and `gemini-3.1-flash-lite` matched on rows and columns
+everywhere but lost three footnotes on protocol1. What *is* clearly demonstrable is speed:
+2.5-flash and 3.1-flash-lite complete these requests in 15–50s where the 3.x Flash models
+took several minutes or timed out.
 
 ### Two failures worth naming specifically
 
@@ -240,13 +264,47 @@ vector through the page's own rotation matrix first is what makes both cases wor
 
 ## Manual verification
 
-Per-protocol, cell-by-cell notes are in `verification/`. Summary:
+Every protocol was opened next to its JSON and compared against the source. Full detail in
+`verification/`; `verification/SUMMARY.md` has the complete table.
 
-See `verification/SUMMARY.md` for the table and `verification/protocolN.md` for the
-detail of what was right, what was wrong, and how it was wrong.
+**Locator: 6 / 6 schedules found, on the right pages, with no hardcoded page numbers.**
+
+| protocol | columns | column groups | assessment rows | categories | footnotes | linked |
+|---|---|---|---|---|---|---|
+| protocol1 | **14 / 14** | — | **30 / 30** | — | 2 / 5 | 2 |
+| protocol5 — Appendix I | **11 / 11** | **7 / 7** | **31 / 31** | — | **10 / 10** | 9 |
+| protocol5 — Appendix II | 12 (~14 drawn) | 1 | **8 / 8** | — | 2 (+10 cross-attributed) | 0 |
+| protocol9 | **11 / 11** | **4 / 4** | 33 (cross-read) | **4 / 4** | **4 / 4** | 0 |
+| protocol12 | **8 / 8** | **3 / 3** | **37 / 37** | **3 / 3** | **14 / 14** | 13 |
+| protocol15 | **9 / 9** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | 5 |
+
+Row and column recall is exact on every protocol where ground truth was hand-keyed — the
+measure the brief weights most heavily.
+
+**The four hard cases the brief names all work:** protocol1's continuation page carrying a
+*different* visit range (9–13, ET, RT vs 1–8) merged into one 14-column table with the
+missing visit 6 preserved as a gap; protocol9's continuation pages dropping the study-phase
+banner entirely and still merging into one 11-column table; protocol12's footnote block
+spilling 48 → 49 with all 14 captured; and protocol5's second schedule starting partway down
+a page already carrying the first one's footnotes.
+
+**The three worst defects, in order:**
+
+1. **protocol9: 0 / 4 footnotes linked.** Its markers lead the row label (`* Morphine …`)
+   rather than trailing a cell, and the linker only matches trailing markers. Text captured,
+   linkage absent, all four flagged `footnote_unlinked`.
+2. **protocol1: 2 / 5 footnotes captured** — a model regression; an earlier `gemini-3.5-flash`
+   run on the same page captured 5 / 5.
+3. **protocol5 Appendix II inherits 10 footnotes** from the schedule above it on the same
+   page. They report `attached_to: []`, so they are visibly unanchored rather than silently
+   wrong.
 
 Questions raised for a clinical SME rather than guessed at are in
-`verification/QUESTIONS.md`.
+`verification/QUESTIONS.md`. A test against a protocol the tool had never seen — a modern
+193-page ICH M11 protocol from ClinicalTrials.gov — is in `verification/UNSEEN.md`: the
+locator found its `2 SCHEDULE OF ACTIVITIES` section and fired the visit-window signal for
+the first time (no reference protocol prints one), but the span splitter merged twenty pages
+into one schedule, which is the first thing to fix.
 
 ---
 
