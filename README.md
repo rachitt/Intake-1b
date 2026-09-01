@@ -271,15 +271,16 @@ Every protocol was opened next to its JSON and compared against the source. Full
 
 | protocol | columns | column groups | assessment rows | categories | footnotes | linked |
 |---|---|---|---|---|---|---|
-| protocol1 | **14 / 14** | — | **30 / 30** | — | 2 / 5 | 2 |
-| protocol5 — Appendix I | **11 / 11** | **7 / 7** | **31 / 31** | — | **10 / 10** | 9 |
-| protocol5 — Appendix II | 12 (~14 drawn) | 1 | **8 / 8** | — | 2 (+10 cross-attributed) | 0 |
-| protocol9 | **11 / 11** | **4 / 4** | 33 (cross-read) | **4 / 4** | **4 / 4** | 0 |
+| protocol1 | **14 / 14** | — | **30 / 30** | — | **5 / 5** | 4 |
+| protocol5 — Appendix I | **11 / 11** | **7 / 7** | **31 / 31** | — | **10 / 10** | **10** |
+| protocol5 — Appendix II | 15 (~14 drawn) | 1 | 9 / 8 | — | **2 / 2** | **2** |
+| protocol9 | **11 / 11** | **4 / 4** | 35 / 33 | **4 / 4** | 7 / 4 | **4 / 4 real** |
 | protocol12 | **8 / 8** | **3 / 3** | **37 / 37** | **3 / 3** | **14 / 14** | 13 |
-| protocol15 | **9 / 9** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | 5 |
+| protocol15 | **9 / 9** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | **5** |
 
 Row and column recall is exact on every protocol where ground truth was hand-keyed — the
-measure the brief weights most heavily.
+measure the brief weights most heavily — and four of the six schedules are exact on every
+axis measured.
 
 **The four hard cases the brief names all work:** protocol1's continuation page carrying a
 *different* visit range (9–13, ET, RT vs 1–8) merged into one 14-column table with the
@@ -288,16 +289,12 @@ banner entirely and still merging into one 11-column table; protocol12's footnot
 spilling 48 → 49 with all 14 captured; and protocol5's second schedule starting partway down
 a page already carrying the first one's footnotes.
 
-**The three worst defects, in order:**
-
-1. **protocol9: 0 / 4 footnotes linked.** Its markers lead the row label (`* Morphine …`)
-   rather than trailing a cell, and the linker only matches trailing markers. Text captured,
-   linkage absent, all four flagged `footnote_unlinked`.
-2. **protocol1: 2 / 5 footnotes captured** — a model regression; an earlier `gemini-3.5-flash`
-   run on the same page captured 5 / 5.
-3. **protocol5 Appendix II inherits 10 footnotes** from the schedule above it on the same
-   page. They report `attached_to: []`, so they are visibly unanchored rather than silently
-   wrong.
+**What is still wrong,** in order: protocol9 returns 7 footnotes where 4 exist (the extras
+are abbreviation and legend lines in the same block, all anchoring to nothing and flagged);
+protocol9 carries 2 spurious rows contributed by the geometric engine and flagged `geo
+only`; protocol5's Appendix II over-counts columns because it is a volumes matrix rather
+than an activity grid; and protocol12's `footnote_pages` says `[48]` though the block runs
+48–49, with the text complete either way.
 
 Questions raised for a clinical SME rather than guessed at are in
 `verification/QUESTIONS.md`. A test against a protocol the tool had never seen — a modern
