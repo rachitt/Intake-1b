@@ -15,7 +15,7 @@
   "schedules": [
     {
       "id": "soa-1",
-      "heading": "Schedule of Events for Protocol H2Q-MC-LZZT(c)",
+      "heading": "Protocol Attachment LZZT.1\nSchedule of Events for Protocol H2Q-MC-LZZT(c)",
       "heading_page": 53,
       "kind": "main",
       "pages": [
@@ -23,7 +23,8 @@
         54
       ],
       "footnote_pages": [
-        54
+        54,
+        55
       ],
       "page_orientation": {
         "53": "portrait",
@@ -408,7 +409,7 @@
           "index": 12,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "visit_name",
               "text": "ET",
               "footnote_refs": []
             },
@@ -419,8 +420,8 @@
             }
           ],
           "group_path": [],
-          "visit_label": null,
-          "visit_number": "ET",
+          "visit_label": "ET",
+          "visit_number": null,
           "study_day": null,
           "study_week": null,
           "visit_window": null,
@@ -439,7 +440,7 @@
           "index": 13,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "visit_name",
               "text": "RT",
               "footnote_refs": []
             },
@@ -450,8 +451,8 @@
             }
           ],
           "group_path": [],
-          "visit_label": null,
-          "visit_number": "RT",
+          "visit_label": "RT",
+          "visit_number": null,
           "study_day": null,
           "study_week": null,
           "visit_window": null,
@@ -838,7 +839,9 @@
           "label": "NPI-X",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -865,7 +868,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -888,7 +893,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -911,7 +918,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -934,7 +943,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -957,7 +968,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -980,7 +993,9 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -996,7 +1011,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1012,7 +1029,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1035,7 +1054,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1058,7 +1079,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1081,7 +1104,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1104,7 +1129,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1127,7 +1154,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1150,7 +1179,9 @@
           "column_id": "soa-1-c1",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1173,7 +1204,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1196,7 +1229,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1219,7 +1254,9 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1242,7 +1279,9 @@
           "column_id": "soa-1-c5",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1265,7 +1304,9 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1288,7 +1329,9 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1304,7 +1347,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1320,7 +1365,9 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1336,7 +1383,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1352,7 +1401,9 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1368,7 +1419,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1384,7 +1437,9 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1400,7 +1455,9 @@
           "column_id": "soa-1-c1",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1423,7 +1480,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1446,7 +1505,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1469,7 +1530,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1492,7 +1555,9 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1512,10 +1577,37 @@
         },
         {
           "row_id": "soa-1-r13",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 476.42254638671875,
+            "y0": 352.7430114746094,
+            "x1": 485.1552429199219,
+            "y1": 364.7489929199219
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1538,7 +1630,9 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1554,7 +1648,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1570,7 +1666,9 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1586,7 +1684,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1602,7 +1702,27 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c12",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1618,7 +1738,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1641,7 +1763,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1664,7 +1788,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1687,7 +1813,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1710,7 +1838,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1733,7 +1863,9 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1756,7 +1888,9 @@
           "column_id": "soa-1-c5",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1779,7 +1913,9 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1802,7 +1938,9 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1818,7 +1956,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1834,7 +1974,9 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1850,7 +1992,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1866,7 +2010,9 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1882,7 +2028,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1898,7 +2046,9 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1914,7 +2064,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1937,7 +2089,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1960,7 +2114,9 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -1983,7 +2139,9 @@
           "column_id": "soa-1-c5",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2006,7 +2164,9 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2029,7 +2189,9 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2045,7 +2207,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2061,7 +2225,9 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2077,7 +2243,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2093,7 +2261,27 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r17",
+          "column_id": "soa-1-c12",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2109,7 +2297,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2132,7 +2322,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2155,7 +2347,9 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2171,7 +2365,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2187,7 +2383,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2203,7 +2401,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2226,7 +2426,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2249,7 +2451,9 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2269,17 +2473,26 @@
         },
         {
           "row_id": "soa-1-r19",
-          "column_id": "soa-1-c6",
+          "column_id": "soa-1-c5",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 476.45501708984375,
+            "y0": 461.4630126953125,
+            "x1": 485.1832275390625,
+            "y1": 473.468994140625
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2288,7 +2501,9 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2304,7 +2519,9 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2320,7 +2537,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2361,7 +2580,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2377,7 +2598,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2393,7 +2616,27 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2409,7 +2652,9 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2425,7 +2670,9 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2441,7 +2688,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2457,7 +2706,9 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2473,7 +2724,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2489,7 +2742,27 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c12",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2505,7 +2778,9 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2521,7 +2796,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2537,7 +2814,9 @@
           "column_id": "soa-1-c0",
           "raw": "P",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "P"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2560,7 +2839,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2583,7 +2864,9 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2606,7 +2889,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2622,7 +2907,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2638,7 +2925,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2654,7 +2943,9 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2670,7 +2961,9 @@
           "column_id": "soa-1-c0",
           "raw": "P",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "P"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2693,7 +2986,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2716,7 +3011,9 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2739,7 +3036,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2755,7 +3054,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2771,7 +3072,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2787,7 +3090,9 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2803,7 +3108,9 @@
           "column_id": "soa-1-c0",
           "raw": "P",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "P"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2826,7 +3133,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2849,7 +3158,9 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2872,7 +3183,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2888,7 +3201,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2904,7 +3219,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2920,7 +3237,9 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2936,7 +3255,9 @@
           "column_id": "soa-1-c0",
           "raw": "P",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "P"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2959,7 +3280,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -2982,7 +3305,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3005,7 +3330,9 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3015,6 +3342,31 @@
             "x0": 413.43060302734375,
             "y0": 596.9429931640625,
             "x1": 422.1606140136719,
+            "y1": 608.948974609375
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 476.43060302734375,
+            "y0": 596.9429931640625,
+            "x1": 485.1606140136719,
             "y1": 608.948974609375
           },
           "engines": {
@@ -3107,7 +3459,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3123,7 +3477,9 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3139,7 +3495,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3155,7 +3513,9 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3171,7 +3531,9 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3187,7 +3549,9 @@
           "column_id": "soa-1-c1",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3203,7 +3567,9 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3219,7 +3585,9 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3235,7 +3603,27 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c5",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3251,7 +3639,9 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3267,7 +3657,9 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3283,7 +3675,9 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3299,7 +3693,9 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3315,7 +3711,9 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3331,7 +3729,9 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3347,7 +3747,9 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3363,7 +3765,9 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
@@ -3376,6 +3780,951 @@
         }
       ],
       "footnotes": [
+        {
+          "marker": "Abbreviations:",
+          "marker_style": "unmarked",
+          "text": "CT = computed tomography; ECG = electrocardiogram; ET = Early Termination; RT = Retrieval",
+          "text_complete": true,
+          "pages": [
+            54,
+            55
+          ],
+          "continued_from_page": 54,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker 'Abbreviations:'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        },
+        {
+          "marker": "X",
+          "marker_style": "unmarked",
+          "text": "Performed at this visit.",
+          "text_complete": true,
+          "pages": [
+            54
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r0",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r1",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r2",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r3",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r4",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r4",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r4",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r5",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r6",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r7",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r8",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r9",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r11",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r12",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r14",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r15",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r29",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r28",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
         {
           "marker": "a",
           "marker_style": "superscript_letter",
@@ -3438,6 +4787,48 @@
           ],
           "unattached_reason": null,
           "bbox": null
+        },
+        {
+          "marker": "P",
+          "marker_style": "unmarked",
+          "text": "Practice only - It is recommended that a sampling of the CIBIC+, ADAS-Cog, DAD, and NPI-X be administered at Visit 1. Data from this sampling would not be considered as study data and would not be collected.",
+          "text_complete": true,
+          "pages": [
+            54
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r28",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
         }
       ],
       "rotated_annotations": [],
@@ -3476,9 +4867,9 @@
         },
         "cell_counts": {
           "geometric": 139,
-          "vision": 132
+          "vision": 139
         },
-        "cell_agreement": 0.946,
+        "cell_agreement": 0.949,
         "warnings": [
           {
             "type": "column_missing_in_engine",
@@ -3511,19 +4902,31 @@
             "row_id": "soa-1-r28",
             "column_id": "soa-1-c6",
             "engine": null
+          },
+          {
+            "type": "footnote_unlinked",
+            "severity": "medium",
+            "message": "Footnote 'Abbreviations:' could not be linked to any grid element.",
+            "row_id": null,
+            "column_id": null,
+            "engine": null
           }
         ]
       },
-      "assumptions": [],
+      "assumptions": [
+        "Visit 6 is skipped in the original protocol table visit numbering (jumps from Visit 5, Week 4 to Visit 7, Week 6).",
+        "Study drug record, Medications dispensed, and Medications returned appear grouped in a single cell block but represent three separate distinct activities and are represented as three separate rows.",
+        "Page 55 is the title page of Protocol Attachment LZZT.2 and does not contain schedule of activities table content."
+      ],
       "open_questions": []
     }
   ],
   "run": {
     "tool_version": "0.1.0",
-    "vision_model": "gemini-3.1-flash-lite",
-    "started_at": "2026-09-01T01:49:25.355395+00:00",
-    "finished_at": "2026-09-01T01:49:39.158909+00:00",
-    "duration_seconds": 13.8,
+    "vision_model": "gemini-3.7-flash",
+    "started_at": "2026-09-01T02:30:53.497682+00:00",
+    "finished_at": "2026-09-01T02:40:14.285223+00:00",
+    "duration_seconds": 560.79,
     "pages_sent_to_vision": 3,
     "warnings": [
       {

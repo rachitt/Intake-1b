@@ -447,7 +447,7 @@
         {
           "id": "soa-1-r0",
           "index": 0,
-          "label": "Informed Consent, Screening (01), Opiate Screening (02)",
+          "label": "Date",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -460,7 +460,7 @@
         {
           "id": "soa-1-r1",
           "index": 1,
-          "label": "* Morphine (0600, 1100, 1630, 2200 h)",
+          "label": "Day of Week",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -473,10 +473,13 @@
         {
           "id": "soa-1-r2",
           "index": 2,
-          "label": "**Lofexidine or Placebo (0800, 1300, 1800, 2300 h)",
+          "label": "Informed Consent, Screening (01), Opiate Screening (02)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "01",
+            "02"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -486,10 +489,12 @@
         {
           "id": "soa-1-r3",
           "index": 3,
-          "label": "Medical History (03)",
+          "label": "* Morphine (0600, 1100, 1630, 2200 h)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "*"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -499,10 +504,12 @@
         {
           "id": "soa-1-r4",
           "index": 4,
-          "label": "Physical Examination (04) (Study Day 1 and Exit Day)",
+          "label": "**Lofexidine or Placebo (0800, 1300, 1800, 2300 h)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "**"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -512,10 +519,12 @@
         {
           "id": "soa-1-r5",
           "index": 5,
-          "label": "Prior Medications (05)",
+          "label": "Medical History (03)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "03"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -525,10 +534,12 @@
         {
           "id": "soa-1-r6",
           "index": 6,
-          "label": "Laboratory Assessments: Blood (06,07), Urine (08)",
+          "label": "Physical Examination (04) (Study Day 1 and Exit Day)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "04"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -538,10 +549,12 @@
         {
           "id": "soa-1-r7",
           "index": 7,
-          "label": "Serum Pregnancy Test (Beta HCG) (09)",
+          "label": "Prior Medications (05)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "05"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -551,10 +564,14 @@
         {
           "id": "soa-1-r8",
           "index": 8,
-          "label": "Tuberculosis Skin Test (PPD), RPR, CD4 (10)",
+          "label": "Laboratory Assessments: Blood (06,07), Urine (08)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "06",
+            "07",
+            "08"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -564,10 +581,12 @@
         {
           "id": "soa-1-r9",
           "index": 9,
-          "label": "HIV (optional, per separate consent)",
+          "label": "Serum Pregnancy Test (Beta HCG) (09)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "09"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -577,10 +596,12 @@
         {
           "id": "soa-1-r10",
           "index": 10,
-          "label": "Psychiatric Assessment (SCID, Axis I, DSM IV) (11)",
+          "label": "Tuberculosis Skin Test (PPD), RPR, CD4 (10)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "10"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -590,7 +611,7 @@
         {
           "id": "soa-1-r11",
           "index": 11,
-          "label": "Addiction Severity Index (ASI) (12)",
+          "label": "HIV (optional, per separate consent)",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -603,10 +624,27 @@
         {
           "id": "soa-1-r12",
           "index": 12,
-          "label": "Weight (on admission & 0630-0800h ā breakfast) (13)",
+          "label": "Psychiatric Assessment (SCID, Axis I, DSM IV) (11)",
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "11"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r13",
+          "index": 13,
+          "label": "Addiction Severity Index (ASI) (12)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [
+            "12"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -616,12 +654,12 @@
         {
           "id": "soa-1-r14",
           "index": 14,
-          "label": "*** Modified Himmelsbach (MHOWS), obtained at 1000h (13)",
-          "group_path": [
-            "soa-1-rg0"
-          ],
+          "label": "Weight (on admission & 0630-0800h ā breakfast) (13)",
+          "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "13"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -629,14 +667,17 @@
           ]
         },
         {
-          "id": "soa-1-r15",
-          "index": 15,
-          "label": "Emesis Tracking (14)",
+          "id": "soa-1-r16",
+          "index": 16,
+          "label": "*** Modified Himmelsbach (MHOWS), obtained at 1000h (13)",
           "group_path": [
             "soa-1-rg0"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "***",
+            "13"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -646,27 +687,12 @@
         {
           "id": "soa-1-r17",
           "index": 17,
-          "label": "•Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase",
-          "group_path": [
-            "soa-1-rg1"
-          ],
+          "label": "Emesis Tracking (14)",
+          "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
-          "page": null,
-          "bbox": null,
-          "engines": [
-            "vision"
-          ]
-        },
-        {
-          "id": "soa-1-r18",
-          "index": 18,
-          "label": "•Objective Opiate Withdrawal Scale (15) (OOWS Handlesman) (1000h)",
-          "group_path": [
-            "soa-1-rg1"
+          "footnote_refs": [
+            "14"
           ],
-          "is_category_header": false,
-          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -676,12 +702,15 @@
         {
           "id": "soa-1-r19",
           "index": 19,
-          "label": "•Short Opiate Withdrawal Scale (16) (SOWS Gossop) (1000h)",
+          "label": "•Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase",
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "13",
+            "•"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -691,12 +720,15 @@
         {
           "id": "soa-1-r20",
           "index": 20,
-          "label": "•Modified Clinical Global Impressions Scale - Patient (17) (NIMH MCGI) ( 1000h)",
+          "label": "•Objective Opiate Withdrawal Scale (15) (OOWS Handlesman) (1000h)",
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "15",
+            "•"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -706,12 +738,15 @@
         {
           "id": "soa-1-r21",
           "index": 21,
-          "label": "•Modified Clinical Global Impressions Scale - Rater (18) (NIMH MCGI) (1000h)",
+          "label": "•Short Opiate Withdrawal Scale (16) (SOWS Gossop) (1000h)",
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "16",
+            "•"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -721,12 +756,15 @@
         {
           "id": "soa-1-r22",
           "index": 22,
-          "label": "•Subjective Opiate Withdrawal Scale (19) (SOWS Handlesman) (1000h)",
+          "label": "•Modified Clinical Global Impressions Scale - Patient (17) (NIMH MCGI) ( 1000h)",
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "17",
+            "•"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -736,12 +774,15 @@
         {
           "id": "soa-1-r23",
           "index": 23,
-          "label": "•Visual Analog Scale (VAS-E) (20)– Efficacy of Medication for Reducing Withdrawal Sickness (1000h)",
+          "label": "•Modified Clinical Global Impressions Scale - Rater (18) (NIMH MCGI) (1000h)",
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "18",
+            "•"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -751,12 +792,15 @@
         {
           "id": "soa-1-r24",
           "index": 24,
-          "label": "Medication Administration/Concomitant Medications (21)",
+          "label": "•Subjective Opiate Withdrawal Scale (19) (SOWS Handlesman) (1000h)",
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "19",
+            "•"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -766,12 +810,30 @@
         {
           "id": "soa-1-r25",
           "index": 25,
-          "label": "Drop Out Day (cf. End of Study Form (31) (Reason for Drop Out)",
+          "label": "•Visual Analog Scale (VAS-E) (20)– Efficacy of Medication for Reducing Withdrawal Sickness (1000h)",
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "20",
+            "•"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r26",
+          "index": 26,
+          "label": "Medication Administration/Concomitant Medications (21)",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [
+            "21"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -781,12 +843,12 @@
         {
           "id": "soa-1-r27",
           "index": 27,
-          "label": "Addiction Research Center Inventory (22) - (ARCI-MBG) (1000h)",
-          "group_path": [
-            "soa-1-rg2"
-          ],
+          "label": "Drop Out Day (cf. End of Study Form (31) (Reason for Drop Out)",
+          "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "31"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -794,14 +856,16 @@
           ]
         },
         {
-          "id": "soa-1-r28",
-          "index": 28,
-          "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
+          "id": "soa-1-r29",
+          "index": 29,
+          "label": "Addiction Research Center Inventory (22) - (ARCI-MBG) (1000h)",
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "22"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -811,27 +875,14 @@
         {
           "id": "soa-1-r30",
           "index": 30,
-          "label": "(Sitting) Vital Signs (24, 33) (0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
+          "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
           "group_path": [
-            "soa-1-rg3"
+            "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
-          "page": null,
-          "bbox": null,
-          "engines": [
-            "vision"
-          ]
-        },
-        {
-          "id": "soa-1-r31",
-          "index": 31,
-          "label": "Orthostatic (Standing) Vital Signs (24,33) (800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
-          "group_path": [
-            "soa-1-rg3"
+          "footnote_refs": [
+            "23"
           ],
-          "is_category_header": false,
-          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -841,12 +892,15 @@
         {
           "id": "soa-1-r32",
           "index": 32,
-          "label": "Electrocardiogram (25) (1300 to 1430h)",
+          "label": "(Sitting) Vital Signs (24, 33) (0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
           "group_path": [
             "soa-1-rg3"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "24",
+            "33"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -856,12 +910,15 @@
         {
           "id": "soa-1-r33",
           "index": 33,
-          "label": "Adverse Events & Abnormal Clinical Signs: (26) (1000h)",
+          "label": "Orthostatic (Standing) Vital Signs (24,33) (800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
           "group_path": [
             "soa-1-rg3"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "24",
+            "33"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -871,12 +928,14 @@
         {
           "id": "soa-1-r34",
           "index": 34,
-          "label": "Tobacco Withdrawal Scale (27) (1700)",
+          "label": "Electrocardiogram (25) (1300 to 1430h)",
           "group_path": [
             "soa-1-rg3"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "25"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -886,12 +945,14 @@
         {
           "id": "soa-1-r35",
           "index": 35,
-          "label": "Urine Toxicology (28)",
+          "label": "Adverse Events & Abnormal Clinical Signs: (26) (1000h)",
           "group_path": [
             "soa-1-rg3"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "26"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -901,12 +962,48 @@
         {
           "id": "soa-1-r36",
           "index": 36,
+          "label": "Tobacco Withdrawal Scale (27) (1700)",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [
+            "27"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r37",
+          "index": 37,
+          "label": "Urine Toxicology (28)",
+          "group_path": [
+            "soa-1-rg3"
+          ],
+          "is_category_header": false,
+          "footnote_refs": [
+            "28"
+          ],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-1-r38",
+          "index": 38,
           "label": "Plasma Lofexidine Pk (LCMS) (29) Total of 12 samples (10 ml of plasma each ), Day 4: 1X, 0800h; Day 6: 1X, 0800h Day 7: 8X, 0800, 0900, 1000, 1100, 1200, 1300, 1600, 1800h; 2100, 2300; Day 8: 1X:0800; Day 10: 1000h after MHOWS",
           "group_path": [
             "soa-1-rg3"
           ],
           "is_category_header": false,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "29"
+          ],
           "page": null,
           "bbox": null,
           "engines": [
@@ -915,7 +1012,7 @@
         },
         {
           "id": "r-geo-26-8",
-          "index": 33,
+          "index": 35,
           "label": "WPbreakfast) rimary Outcome Measureeight (on admission & 0630-0800h (13) : ā",
           "group_path": [],
           "is_category_header": false,
@@ -928,7 +1025,7 @@
         },
         {
           "id": "r-geo-28-7",
-          "index": 34,
+          "index": 36,
           "label": "UPlasma Lofexidine Pk (LCMS) rine Toxicology (28) (29)",
           "group_path": [],
           "is_category_header": false,
@@ -942,168 +1039,8 @@
       ],
       "cells": [
         {
-          "row_id": "soa-1-r0",
+          "row_id": "soa-1-r2",
           "column_id": "soa-1-c0",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r1",
-          "column_id": "soa-1-c0",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r1",
-          "column_id": "soa-1-c1",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r1",
-          "column_id": "soa-1-c2",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r2",
-          "column_id": "soa-1-c3",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r2",
-          "column_id": "soa-1-c4",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r2",
-          "column_id": "soa-1-c5",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r2",
-          "column_id": "soa-1-c6",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r2",
-          "column_id": "soa-1-c7",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r2",
-          "column_id": "soa-1-c8",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r2",
-          "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
           "footnote_refs": [],
@@ -1120,7 +1057,7 @@
         {
           "row_id": "soa-1-r3",
           "column_id": "soa-1-c0",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1129,12 +1066,156 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r3",
+          "column_id": "soa-1-c1",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r3",
+          "column_id": "soa-1-c2",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r4",
+          "column_id": "soa-1-c3",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c4",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c5",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c6",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c7",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c8",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r4",
+          "column_id": "soa-1-c9",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r5",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -1150,9 +1231,9 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r4",
-          "column_id": "soa-1-c10",
-          "raw": "1X",
+          "row_id": "soa-1-r6",
+          "column_id": "soa-1-c0",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1161,12 +1242,28 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r6",
+          "column_id": "soa-1-c10",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r8",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -1189,23 +1286,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r6",
-          "column_id": "soa-1-c1",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r6",
+          "row_id": "soa-1-r8",
           "column_id": "soa-1-c10",
           "raw": "1X",
           "value_text": null,
@@ -1228,7 +1309,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r7",
+          "row_id": "soa-1-r9",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -1251,7 +1332,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r8",
+          "row_id": "soa-1-r10",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -1274,7 +1355,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r9",
+          "row_id": "soa-1-r11",
           "column_id": "soa-1-c0",
           "raw": "Prior to Day 4",
           "value_text": null,
@@ -1297,39 +1378,39 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r10",
-          "column_id": "soa-1-c0",
-          "raw": "Prior to Day 4",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 3,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "Prior to Day 4"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r11",
-          "column_id": "soa-1-c0",
-          "raw": "Prior to Day 4",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 3,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "Prior to Day 4"
-          },
-          "confidence": null
-        },
-        {
           "row_id": "soa-1-r12",
+          "column_id": "soa-1-c0",
+          "raw": "Prior to Day 4",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 3,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "Prior to Day 4"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c0",
+          "raw": "Prior to Day 4",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 3,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "Prior to Day 4"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -1345,7 +1426,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c1",
           "raw": "1X",
           "value_text": null,
@@ -1361,7 +1442,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -1377,7 +1458,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -1393,7 +1474,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c4",
           "raw": "1X",
           "value_text": null,
@@ -1409,7 +1490,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -1425,7 +1506,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c6",
           "raw": "1X",
           "value_text": null,
@@ -1441,7 +1522,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -1457,7 +1538,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c8",
           "raw": "1X",
           "value_text": null,
@@ -1473,7 +1554,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -1489,7 +1570,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r12",
+          "row_id": "soa-1-r14",
           "column_id": "soa-1-c10",
           "raw": "1X",
           "value_text": null,
@@ -1505,7 +1586,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -1521,7 +1602,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c1",
           "raw": "1X",
           "value_text": null,
@@ -1537,7 +1618,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -1553,7 +1634,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -1569,7 +1650,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c4",
           "raw": "1X",
           "value_text": null,
@@ -1585,7 +1666,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -1601,7 +1682,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c6",
           "raw": "1X",
           "value_text": null,
@@ -1617,7 +1698,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -1633,7 +1714,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c8",
           "raw": "1X",
           "value_text": null,
@@ -1649,7 +1730,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r14",
+          "row_id": "soa-1-r16",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -1665,9 +1746,9 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c0",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1676,14 +1757,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c1",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1692,14 +1773,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c2",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1708,14 +1789,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c3",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1724,14 +1805,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c4",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1740,14 +1821,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c5",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1756,14 +1837,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c6",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1772,14 +1853,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c7",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1788,14 +1869,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c8",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1804,14 +1885,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r15",
+          "row_id": "soa-1-r17",
           "column_id": "soa-1-c9",
-          "raw": "1X",
+          "raw": "",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -1820,12 +1901,12 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": ""
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -1848,7 +1929,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c1",
           "raw": "1X",
           "value_text": null,
@@ -1871,7 +1952,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -1894,7 +1975,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -1917,7 +1998,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c4",
           "raw": "1X",
           "value_text": null,
@@ -1940,7 +2021,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -1963,7 +2044,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c6",
           "raw": "1X",
           "value_text": null,
@@ -1986,7 +2067,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -2009,7 +2090,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c8",
           "raw": "1X",
           "value_text": null,
@@ -2032,7 +2113,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r18",
+          "row_id": "soa-1-r20",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -2055,7 +2136,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -2078,7 +2159,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c1",
           "raw": "1X",
           "value_text": null,
@@ -2101,7 +2182,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -2124,7 +2205,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -2147,7 +2228,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c4",
           "raw": "1X",
           "value_text": null,
@@ -2170,7 +2251,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -2193,7 +2274,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c6",
           "raw": "1X",
           "value_text": null,
@@ -2216,7 +2297,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -2239,7 +2320,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c8",
           "raw": "1X",
           "value_text": null,
@@ -2262,7 +2343,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r19",
+          "row_id": "soa-1-r21",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -2285,216 +2366,8 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r20",
+          "row_id": "soa-1-r22",
           "column_id": "soa-1-c3",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r20",
-          "column_id": "soa-1-c4",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r20",
-          "column_id": "soa-1-c5",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r20",
-          "column_id": "soa-1-c6",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r20",
-          "column_id": "soa-1-c7",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r20",
-          "column_id": "soa-1-c8",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r20",
-          "column_id": "soa-1-c9",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r21",
-          "column_id": "soa-1-c3",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r21",
-          "column_id": "soa-1-c4",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r21",
-          "column_id": "soa-1-c5",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r21",
-          "column_id": "soa-1-c6",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r21",
-          "column_id": "soa-1-c7",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r21",
-          "column_id": "soa-1-c8",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r21",
-          "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
           "footnote_refs": [],
@@ -2510,6 +2383,214 @@
         },
         {
           "row_id": "soa-1-r22",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -2532,7 +2613,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c1",
           "raw": "1X",
           "value_text": null,
@@ -2555,7 +2636,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -2578,7 +2659,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -2601,7 +2682,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c4",
           "raw": "1X",
           "value_text": null,
@@ -2624,7 +2705,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -2647,7 +2728,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c6",
           "raw": "1X",
           "value_text": null,
@@ -2670,7 +2751,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -2693,7 +2774,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c8",
           "raw": "1X",
           "value_text": null,
@@ -2716,7 +2797,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r22",
+          "row_id": "soa-1-r24",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -2739,7 +2820,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r23",
+          "row_id": "soa-1-r25",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -2755,7 +2836,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r23",
+          "row_id": "soa-1-r25",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -2771,7 +2852,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r23",
+          "row_id": "soa-1-r25",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -2787,7 +2868,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r23",
+          "row_id": "soa-1-r25",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -2803,7 +2884,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r23",
+          "row_id": "soa-1-r25",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -2819,7 +2900,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r23",
+          "row_id": "soa-1-r25",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -2835,7 +2916,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -2851,7 +2932,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c1",
           "raw": "1X",
           "value_text": null,
@@ -2867,7 +2948,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -2883,7 +2964,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -2899,7 +2980,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c4",
           "raw": "1X",
           "value_text": null,
@@ -2915,7 +2996,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -2931,7 +3012,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c6",
           "raw": "1X",
           "value_text": null,
@@ -2947,7 +3028,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -2963,7 +3044,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c8",
           "raw": "1X",
           "value_text": null,
@@ -2979,7 +3060,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -2995,183 +3076,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r24",
-          "column_id": "soa-1-c10",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c0",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c1",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c2",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c3",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c4",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c5",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c6",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c7",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c8",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c9",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
+          "row_id": "soa-1-r26",
           "column_id": "soa-1-c10",
           "raw": "1X",
           "value_text": null,
@@ -3188,6 +3093,182 @@
         },
         {
           "row_id": "soa-1-r27",
+          "column_id": "soa-1-c0",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c1",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c2",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c3",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c4",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c5",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c6",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c7",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c8",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c9",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c10",
+          "raw": "",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": ""
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -3210,7 +3291,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c1",
           "raw": "1X",
           "value_text": null,
@@ -3233,7 +3314,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -3256,7 +3337,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -3279,7 +3360,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c4",
           "raw": "1X",
           "value_text": null,
@@ -3302,7 +3383,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -3325,7 +3406,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c6",
           "raw": "1X",
           "value_text": null,
@@ -3348,7 +3429,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -3371,7 +3452,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c8",
           "raw": "1X",
           "value_text": null,
@@ -3394,7 +3475,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r27",
+          "row_id": "soa-1-r29",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -3417,7 +3498,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c0",
           "raw": "1X",
           "value_text": null,
@@ -3433,7 +3514,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c1",
           "raw": "1X",
           "value_text": null,
@@ -3449,7 +3530,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c2",
           "raw": "1X",
           "value_text": null,
@@ -3465,7 +3546,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c3",
           "raw": "1X",
           "value_text": null,
@@ -3481,7 +3562,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c4",
           "raw": "1X",
           "value_text": null,
@@ -3497,7 +3578,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -3513,7 +3594,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c6",
           "raw": "1X",
           "value_text": null,
@@ -3529,7 +3610,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -3545,7 +3626,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
+          "row_id": "soa-1-r30",
           "column_id": "soa-1-c8",
           "raw": "1X",
           "value_text": null,
@@ -3561,360 +3642,8 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c9",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c0",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c1",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c2",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c3",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c4",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c5",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c6",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c7",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c8",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
           "row_id": "soa-1-r30",
           "column_id": "soa-1-c9",
-          "raw": "6X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "6X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c10",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c0",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c1",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c2",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c3",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c4",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c5",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c6",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c7",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c8",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c9",
-          "raw": "5X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "5X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c10",
           "raw": "1X",
           "value_text": null,
           "footnote_refs": [],
@@ -3931,46 +3660,160 @@
         {
           "row_id": "soa-1-r32",
           "column_id": "soa-1-c0",
-          "raw": "1X",
+          "raw": "6X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 328.07989501953125,
-            "y0": 324.4786376953125,
-            "x1": 345.7267150878906,
-            "y1": 336.4900817871094
-          },
+          "bbox": null,
           "engines": {
-            "vision": "1X",
-            "geometric": "1X"
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c1",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c2",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c3",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c4",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r32",
           "column_id": "soa-1-c5",
-          "raw": "1X",
+          "raw": "6X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 501.23980712890625,
-            "y0": 324.4786376953125,
-            "x1": 518.886474609375,
-            "y1": 336.4900817871094
-          },
+          "bbox": null,
           "engines": {
-            "vision": "1X",
-            "geometric": "1X"
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c6",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c7",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c8",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c9",
+          "raw": "6X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "6X"
           },
           "confidence": null
         },
@@ -3993,7 +3836,7 @@
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c0",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4002,14 +3845,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c1",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4018,14 +3861,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c2",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4034,14 +3877,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c3",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4050,14 +3893,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c4",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4066,14 +3909,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c5",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4082,14 +3925,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c6",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4098,14 +3941,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c7",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4114,14 +3957,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c8",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4130,14 +3973,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r33",
           "column_id": "soa-1-c9",
-          "raw": "1X",
+          "raw": "5X",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4146,7 +3989,7 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1X"
+            "vision": "5X"
           },
           "confidence": null
         },
@@ -4179,101 +4022,9 @@
           "bbox": {
             "page": 28,
             "x0": 328.07989501953125,
-            "y0": 366.9585266113281,
+            "y0": 324.4786376953125,
             "x1": 345.7267150878906,
-            "y1": 378.969970703125
-          },
-          "engines": {
-            "vision": "1X",
-            "geometric": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r34",
-          "column_id": "soa-1-c1",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 366.2398986816406,
-            "y0": 366.9585266113281,
-            "x1": 383.88671875,
-            "y1": 378.969970703125
-          },
-          "engines": {
-            "vision": "1X",
-            "geometric": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r34",
-          "column_id": "soa-1-c2",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 402.23980712890625,
-            "y0": 366.9585266113281,
-            "x1": 419.8865966796875,
-            "y1": 378.969970703125
-          },
-          "engines": {
-            "vision": "1X",
-            "geometric": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r34",
-          "column_id": "soa-1-c3",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 438.23980712890625,
-            "y0": 366.9585266113281,
-            "x1": 455.8865966796875,
-            "y1": 378.969970703125
-          },
-          "engines": {
-            "vision": "1X",
-            "geometric": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r34",
-          "column_id": "soa-1-c4",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 469.6798095703125,
-            "y0": 366.9585266113281,
-            "x1": 487.32659912109375,
-            "y1": 378.969970703125
+            "y1": 336.4900817871094
           },
           "engines": {
             "vision": "1X",
@@ -4294,78 +4045,9 @@
           "bbox": {
             "page": 28,
             "x0": 501.23980712890625,
-            "y0": 366.9585266113281,
+            "y0": 324.4786376953125,
             "x1": 518.886474609375,
-            "y1": 378.969970703125
-          },
-          "engines": {
-            "vision": "1X",
-            "geometric": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r34",
-          "column_id": "soa-1-c6",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 534.9597778320312,
-            "y0": 366.9585266113281,
-            "x1": 552.6065063476562,
-            "y1": 378.969970703125
-          },
-          "engines": {
-            "vision": "1X",
-            "geometric": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r34",
-          "column_id": "soa-1-c7",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 568.6798095703125,
-            "y0": 366.9585266113281,
-            "x1": 586.3264770507812,
-            "y1": 378.969970703125
-          },
-          "engines": {
-            "vision": "1X",
-            "geometric": "1X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r34",
-          "column_id": "soa-1-c8",
-          "raw": "1X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 28,
-            "x0": 600.2398071289062,
-            "y0": 366.9585266113281,
-            "x1": 617.8865356445312,
-            "y1": 378.969970703125
+            "y1": 336.4900817871094
           },
           "engines": {
             "vision": "1X",
@@ -4386,9 +4068,9 @@
           "bbox": {
             "page": 28,
             "x0": 633.959716796875,
-            "y0": 366.9585266113281,
+            "y0": 324.4786376953125,
             "x1": 651.6063842773438,
-            "y1": 378.969970703125
+            "y1": 336.4900817871094
           },
           "engines": {
             "vision": "1X",
@@ -4398,6 +4080,412 @@
         },
         {
           "row_id": "soa-1-r35",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r35",
+          "column_id": "soa-1-c10",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c0",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 328.07989501953125,
+            "y0": 366.9585266113281,
+            "x1": 345.7267150878906,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c1",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 366.2398986816406,
+            "y0": 366.9585266113281,
+            "x1": 383.88671875,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c2",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 402.23980712890625,
+            "y0": 366.9585266113281,
+            "x1": 419.8865966796875,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c3",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 438.23980712890625,
+            "y0": 366.9585266113281,
+            "x1": 455.8865966796875,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c4",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 469.6798095703125,
+            "y0": 366.9585266113281,
+            "x1": 487.32659912109375,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c5",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 501.23980712890625,
+            "y0": 366.9585266113281,
+            "x1": 518.886474609375,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c6",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 534.9597778320312,
+            "y0": 366.9585266113281,
+            "x1": 552.6065063476562,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c7",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 568.6798095703125,
+            "y0": 366.9585266113281,
+            "x1": 586.3264770507812,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c8",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 600.2398071289062,
+            "y0": 366.9585266113281,
+            "x1": 617.8865356445312,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r36",
+          "column_id": "soa-1-c9",
+          "raw": "1X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 28,
+            "x0": 633.959716796875,
+            "y0": 366.9585266113281,
+            "x1": 651.6063842773438,
+            "y1": 378.969970703125
+          },
+          "engines": {
+            "vision": "1X",
+            "geometric": "1X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r37",
           "column_id": "soa-1-c0",
           "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
           "value_text": null,
@@ -4413,7 +4501,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r36",
+          "row_id": "soa-1-r38",
           "column_id": "soa-1-c3",
           "raw": "1 X",
           "value_text": null,
@@ -4429,7 +4517,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r36",
+          "row_id": "soa-1-r38",
           "column_id": "soa-1-c5",
           "raw": "1X",
           "value_text": null,
@@ -4445,7 +4533,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r36",
+          "row_id": "soa-1-r38",
           "column_id": "soa-1-c6",
           "raw": "8X",
           "value_text": null,
@@ -4461,7 +4549,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r36",
+          "row_id": "soa-1-r38",
           "column_id": "soa-1-c7",
           "raw": "1X",
           "value_text": null,
@@ -4477,7 +4565,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-1-r36",
+          "row_id": "soa-1-r38",
           "column_id": "soa-1-c9",
           "raw": "1X",
           "value_text": null,
@@ -4495,55 +4583,168 @@
       ],
       "footnotes": [
         {
-          "marker": "*",
-          "marker_style": "symbol",
-          "text": "Morphine: study day 1 morphine administration times may vary depending upon time of admission.",
+          "marker": "Detox",
+          "marker_style": "unmarked",
+          "text": "Detox = Detoxification",
           "text_complete": true,
           "pages": [
             28
           ],
           "continued_from_page": null,
           "attached_to": [],
-          "unattached_reason": "No cell, row, column or header carries marker '*'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "unattached_reason": "No cell, row, column or header carries marker 'Detox'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        },
+        {
+          "marker": "SCID",
+          "marker_style": "unmarked",
+          "text": "SCID: The Structured Clinical Interview for DSM IV (Axis I)",
+          "text_complete": true,
+          "pages": [
+            28
+          ],
+          "continued_from_page": null,
+          "attached_to": [],
+          "unattached_reason": "No cell, row, column or header carries marker 'SCID'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "bbox": null
+        },
+        {
+          "marker": "*",
+          "marker_style": "asterisk_tier",
+          "text": "* Morphine: study day 1 morphine administration times may vary depending upon time of admission.",
+          "text_complete": true,
+          "pages": [
+            28
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "row",
+              "row_id": "soa-1-r3",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
           "bbox": null
         },
         {
           "marker": "**",
-          "marker_style": "symbol",
-          "text": "Lofexidine: The physician may withhold a dose of study medication if the patient is experiencing symptoms of hypotension (dizziness making it difficult to stand for one minute, or syncope) or if the patient’s orthostatic blood pressure is ≤ 80 mmHg systolic immediately before the dose is due to be given. If more than two doses of study medication need to be withheld in a single day, the patient will be terminated from the study and treated for their withdrawal symptoms with standard treatment.",
+          "marker_style": "asterisk_tier",
+          "text": "** Lofexidine: The physician may withhold a dose of study medication if the patient is experiencing symptoms of hypotension (dizziness making it difficult to stand for one minute, or syncope) or if the patient’s orthostatic blood pressure is ≤ 80 mmHg systolic immediately before the dose is due to be given. If more than two doses of study medication need to be withheld in a single day, the patient will be terminated from the study and treated for their withdrawal symptoms with standard treatment.",
           "text_complete": true,
           "pages": [
             28
           ],
           "continued_from_page": null,
-          "attached_to": [],
-          "unattached_reason": "No cell, row, column or header carries marker '**'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "attached_to": [
+            {
+              "kind": "row",
+              "row_id": "soa-1-r4",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
           "bbox": null
         },
         {
           "marker": "***",
-          "marker_style": "symbol",
-          "text": "MHOWS = Modified Himmelsbach Opiate Withdrawal Scale (Primary Outcome Measure) time range for collection = 0 to ±30 min for all items",
+          "marker_style": "asterisk_tier",
+          "text": "*** MHOWS = Modified Himmelsbach Opiate Withdrawal Scale (Primary Outcome Measure)",
+          "text_complete": true,
+          "pages": [
+            28
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "row",
+              "row_id": "soa-1-r16",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "time range",
+          "marker_style": "unmarked",
+          "text": "time range for collection = 0 to \u0010\u001130 min for all items",
           "text_complete": true,
           "pages": [
             28
           ],
           "continued_from_page": null,
           "attached_to": [],
-          "unattached_reason": "No cell, row, column or header carries marker '***'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "unattached_reason": "No cell, row, column or header carries marker 'time range'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
           "bbox": null
         },
         {
           "marker": "•",
           "marker_style": "symbol",
-          "text": "Measures, time range and order: These measures should start being collected at 1000, and must be completed by 1200, and shall be collected in the following order: MHOWS, OOWS, SOWS Gossop, MCGI (rater, patient), SOWS (Handelsman), VAS-E, Addiction Research Center Inventory (ARCI-MBG) and Visual Analog Scale (VAS-High) for “Drug High”.",
+          "text": "•Measures, time range and order: These measures should start being collected at 1000, and must be completed by 1200, and shall be collected in the following order: MHOWS, OOWS, SOWS Gossop, MCGI (rater, patient), SOWS (Handelsman), VAS-E, Addiction Research Center Inventory (ARCI-MBG) and Visual Analog Scale (VAS-High) for ‘Drug High’.",
           "text_complete": true,
           "pages": [
             28
           ],
           "continued_from_page": null,
-          "attached_to": [],
-          "unattached_reason": "No cell, row, column or header carries marker '•'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "attached_to": [
+            {
+              "kind": "row",
+              "row_id": "soa-1-r19",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r20",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r21",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r22",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r23",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r24",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r25",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
           "bbox": null
         }
       ],
@@ -4576,8 +4777,8 @@
         "engines_failed": {},
         "row_counts": {
           "geometric": 26,
-          "vision": 33,
-          "final": 35
+          "vision": 35,
+          "final": 37
         },
         "column_counts": {
           "geometric": 12,
@@ -4585,9 +4786,9 @@
         },
         "cell_counts": {
           "geometric": 164,
-          "vision": 197
+          "vision": 196
         },
-        "cell_agreement": 0.982,
+        "cell_agreement": 0.983,
         "warnings": [
           {
             "type": "row_missing_in_engine",
@@ -4608,15 +4809,23 @@
           {
             "type": "row_missing_in_engine",
             "severity": "medium",
-            "message": "Only the vision engine read this row: 'Medical History (03)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
-            "row_id": "soa-1-r3",
+            "message": "Only the vision engine read this row: 'Date'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r0",
             "column_id": null,
             "engine": "geometric"
           },
           {
             "type": "row_missing_in_engine",
             "severity": "medium",
-            "message": "Only the vision engine read this row: 'Prior Medications (05)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "message": "Only the vision engine read this row: 'Day of Week'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r1",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
+            "message": "Only the vision engine read this row: 'Medical History (03)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
             "row_id": "soa-1-r5",
             "column_id": null,
             "engine": "geometric"
@@ -4624,8 +4833,16 @@
           {
             "type": "row_missing_in_engine",
             "severity": "medium",
+            "message": "Only the vision engine read this row: 'Prior Medications (05)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r7",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
             "message": "Only the vision engine read this row: 'Weight (on admission & 0630-0800h ā breakfast) (13)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
-            "row_id": "soa-1-r12",
+            "row_id": "soa-1-r14",
             "column_id": null,
             "engine": "geometric"
           },
@@ -4633,14 +4850,6 @@
             "type": "row_missing_in_engine",
             "severity": "medium",
             "message": "Only the vision engine read this row: 'Emesis Tracking (14)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
-            "row_id": "soa-1-r15",
-            "column_id": null,
-            "engine": "geometric"
-          },
-          {
-            "type": "row_missing_in_engine",
-            "severity": "medium",
-            "message": "Only the vision engine read this row: '•Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
             "row_id": "soa-1-r17",
             "column_id": null,
             "engine": "geometric"
@@ -4648,8 +4857,16 @@
           {
             "type": "row_missing_in_engine",
             "severity": "medium",
+            "message": "Only the vision engine read this row: '•Modified Himmelsbach (MHOWS) (13) Peak Effect Detox/Med Phase'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
+            "row_id": "soa-1-r19",
+            "column_id": null,
+            "engine": "geometric"
+          },
+          {
+            "type": "row_missing_in_engine",
+            "severity": "medium",
             "message": "Only the vision engine read this row: 'Urine Toxicology (28)'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
-            "row_id": "soa-1-r35",
+            "row_id": "soa-1-r37",
             "column_id": null,
             "engine": "geometric"
           },
@@ -4665,14 +4882,14 @@
             "type": "cell_value_disagreement",
             "severity": "medium",
             "message": "Engines read this cell differently: geometric 'P' vs vision 'Prior to Day 4'. The vision reading is kept.",
-            "row_id": "soa-1-r9",
+            "row_id": "soa-1-r11",
             "column_id": "soa-1-c0",
             "engine": null
           },
           {
             "type": "footnote_unlinked",
             "severity": "medium",
-            "message": "Footnote '*' could not be linked to any grid element.",
+            "message": "Footnote 'Detox' could not be linked to any grid element.",
             "row_id": null,
             "column_id": null,
             "engine": null
@@ -4680,7 +4897,7 @@
           {
             "type": "footnote_unlinked",
             "severity": "medium",
-            "message": "Footnote '**' could not be linked to any grid element.",
+            "message": "Footnote 'SCID' could not be linked to any grid element.",
             "row_id": null,
             "column_id": null,
             "engine": null
@@ -4688,15 +4905,7 @@
           {
             "type": "footnote_unlinked",
             "severity": "medium",
-            "message": "Footnote '***' could not be linked to any grid element.",
-            "row_id": null,
-            "column_id": null,
-            "engine": null
-          },
-          {
-            "type": "footnote_unlinked",
-            "severity": "medium",
-            "message": "Footnote '•' could not be linked to any grid element.",
+            "message": "Footnote 'time range' could not be linked to any grid element.",
             "row_id": null,
             "column_id": null,
             "engine": null
@@ -4704,24 +4913,19 @@
         ]
       },
       "assumptions": [
-        "The table spans 4 pages. Page 26 contains the header and the first set of rows. Page 27 continues the table with secondary outcome measures. Page 28 continues with abuse potential and safety measures. Page 29 contains the footnotes.",
-        "The row 'Urine Toxicology (28)' has a long text spanning all columns, which is treated as a single cell spanning all columns.",
-        "The row 'Plasma Lofexidine Pk (LCMS) (29)' has a long description in the row label, and data cells are placed in the corresponding columns based on the text description provided in the row label.",
-        "Footnote markers like (01), (02) etc. in row labels are treated as part of the label text.",
-        "The row 'Primary Outcome Measure:' is a category header.",
-        "The row 'Secondary Outcome Measures:' is a category header.",
-        "The row 'Abuse Potential Assessment:' is a category header.",
-        "The row 'Safety Measures:' is a category header."
+        "Shaded cells with no text are represented as empty strings.",
+        "The rows 'Date' and 'Day of Week' are included as empty rows because they are printed in the table grid.",
+        "The footnotes numbered (01) to (33) are referenced in the table but their definitions are not present on the provided pages, so they are omitted from the footnotes list."
       ],
       "open_questions": []
     }
   ],
   "run": {
     "tool_version": "0.1.0",
-    "vision_model": "gemini-3.1-flash-lite",
-    "started_at": "2026-09-01T01:50:05.378296+00:00",
-    "finished_at": "2026-09-01T01:50:29.142209+00:00",
-    "duration_seconds": 23.76,
+    "vision_model": "gemini-3.5-flash",
+    "started_at": "2026-09-01T02:40:14.292844+00:00",
+    "finished_at": "2026-09-01T02:41:50.453180+00:00",
+    "duration_seconds": 96.16,
     "pages_sent_to_vision": 4,
     "warnings": [
       {

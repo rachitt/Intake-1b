@@ -80,19 +80,18 @@
             "soa-1-c5",
             "soa-1-c6",
             "soa-1-c7",
-            "soa-1-c8",
-            "soa-1-c9"
+            "soa-1-c8"
           ],
           "footnote_refs": [],
           "bbox": null
         },
         {
           "id": "soa-1-cg5",
-          "label": "Discharge",
+          "label": "Dis-charge",
           "level": 0,
           "parent_id": null,
           "span": [
-            "soa-1-c10"
+            "soa-1-c9"
           ],
           "footnote_refs": [],
           "bbox": null
@@ -102,7 +101,9 @@
           "label": "Follow-up",
           "level": 0,
           "parent_id": null,
-          "span": [],
+          "span": [
+            "soa-1-c10"
+          ],
           "footnote_refs": [],
           "bbox": null
         }
@@ -153,7 +154,9 @@
           "study_day": "-15* to -9",
           "study_week": null,
           "visit_window": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "*"
+          ],
           "pages": [
             50
           ],
@@ -362,7 +365,7 @@
             }
           ],
           "group_path": [
-            "soa-1-cg4"
+            "soa-1-cg5"
           ],
           "visit_label": null,
           "visit_number": null,
@@ -389,7 +392,7 @@
             }
           ],
           "group_path": [
-            "soa-1-cg5"
+            "soa-1-cg6"
           ],
           "visit_label": null,
           "visit_number": null,
@@ -3139,20 +3142,28 @@
         {
           "marker": "*",
           "marker_style": "asterisk_tier",
-          "text": "Days -15 through -9 are allotted for washout of cocaine after admission. Subjects’ urine will be tested daily to document when it becomes negative for cocaine.",
+          "text": "*Days -15 through -9 are allotted for washout of cocaine after admission. Subjects’ urine will be tested daily to document when it becomes negative for cocaine.",
           "text_complete": true,
           "pages": [
             50
           ],
           "continued_from_page": null,
-          "attached_to": [],
-          "unattached_reason": "No cell, row, column or header carries marker '*'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "attached_to": [
+            {
+              "kind": "column",
+              "row_id": null,
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
           "bbox": null
         },
         {
           "marker": "**",
           "marker_style": "asterisk_tier",
-          "text": "Blood chemistries, including liver function tests, will be performed at outpatient and inpatient screening, on days 6 and 13, at discharge (day 17) and at follow-up (day 31).",
+          "text": "** Blood chemistries, including liver function tests, will be performed at outpatient and inpatient screening, on days 6 and 13, at discharge (day 17) and at follow-up (day 31).",
           "text_complete": true,
           "pages": [
             50
@@ -3173,7 +3184,7 @@
         {
           "marker": "***",
           "marker_style": "asterisk_tier",
-          "text": "Pregnancy test at intake screening should be done within 72 hours before the first screening cocaine infusion.",
+          "text": "*** Pregnancy test at intake screening should be done within 72 hours before the first screening cocaine infusion.",
           "text_complete": true,
           "pages": [
             50
@@ -3194,7 +3205,7 @@
         {
           "marker": "****",
           "marker_style": "asterisk_tier",
-          "text": "Cognitive assessments will be performed on day -7 and on day 11.",
+          "text": "**** Cognitive assessments will be performed on day -7 and on day 11.",
           "text_complete": true,
           "pages": [
             50
@@ -3215,7 +3226,7 @@
         {
           "marker": "a",
           "marker_style": "superscript_letter",
-          "text": "POMS, BSCS will be performed at intake and then every other day.",
+          "text": "Xa - POMS, BSCS will be performed at intake and then every other day.",
           "text_complete": true,
           "pages": [
             50
@@ -3236,7 +3247,7 @@
         {
           "marker": "b",
           "marker_style": "superscript_letter",
-          "text": "atomoxetine will be administered at 20 mg q.d. on days 0 and 1, 40 mg q.d. on days 2 and 3, 80 mg q.d. on days 4-8 and 100 mg q.d. on days 9-13.",
+          "text": "Xb - atomoxetine will be administered at 20 mg q.d. on days 0 and 1, 40 mg q.d. on days 2 and 3, 80 mg q.d. on days 4-8 and 100 mg q.d. on days 9-13.",
           "text_complete": true,
           "pages": [
             50
@@ -3257,7 +3268,7 @@
         {
           "marker": "c",
           "marker_style": "superscript_letter",
-          "text": "VAS will be performed on days -10, -9, and on all infusion days.",
+          "text": "Xc - VAS will be performed on days -10, -9, and on all infusion days.",
           "text_complete": true,
           "pages": [
             50
@@ -3278,7 +3289,7 @@
         {
           "marker": "d",
           "marker_style": "superscript_letter",
-          "text": "ARCI will be performed on days -10, -9, and on all non-infusion days.",
+          "text": "Xd - ARCI will be performed on days -10, -9, and on all non-infusion days.",
           "text_complete": true,
           "pages": [
             50
@@ -3306,7 +3317,7 @@
         {
           "marker": "e",
           "marker_style": "superscript_letter",
-          "text": "BPRS will be administered on baseline, every day during treatment with atomoxetine and on the days of all cocaine infusions.",
+          "text": "Xe - BPRS will be administered on baseline, every day during treatment with atomoxetine and on the days of all cocaine infusions.",
           "text_complete": true,
           "pages": [
             50
@@ -3341,7 +3352,7 @@
         {
           "marker": "f",
           "marker_style": "superscript_letter",
-          "text": "atomoxetine blood levels will be determined on days 6, 8, 11 and 13.",
+          "text": "Xf - atomoxetine blood levels will be determined on days 6, 8, 11 and 13.",
           "text_complete": true,
           "pages": [
             50
@@ -3446,18 +3457,12 @@
             "row_id": "soa-1-r22",
             "column_id": "soa-1-c8",
             "engine": null
-          },
-          {
-            "type": "footnote_unlinked",
-            "severity": "medium",
-            "message": "Footnote '*' could not be linked to any grid element.",
-            "row_id": null,
-            "column_id": null,
-            "engine": null
           }
         ]
       },
-      "assumptions": [],
+      "assumptions": [
+        "Transcribed only Appendix I: Time and Events Schedule as it is the primary Schedule of Activities. Appendix II is a separate Schedule of Blood Collections."
+      ],
       "open_questions": []
     },
     {
@@ -3474,20 +3479,45 @@
       "page_orientation": {
         "51": "landscape"
       },
-      "column_groups": [],
+      "column_groups": [
+        {
+          "id": "soa-2-cg0",
+          "label": "Number of Samples per Day",
+          "level": 0,
+          "parent_id": null,
+          "span": [
+            "soa-2-c2",
+            "soa-2-c3",
+            "soa-2-c4",
+            "soa-2-c5",
+            "soa-2-c6",
+            "soa-2-c7",
+            "soa-2-c8",
+            "soa-2-c9",
+            "soa-2-c10",
+            "soa-2-c11",
+            "soa-2-c12",
+            "soa-2-c13"
+          ],
+          "footnote_refs": [
+            "b"
+          ],
+          "bbox": null
+        }
+      ],
       "columns": [
         {
           "id": "soa-2-c0",
           "index": 0,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Screening",
+              "role": "other",
+              "text": "Volume Per Sample",
               "footnote_refs": []
             }
           ],
           "group_path": [],
-          "visit_label": "Screening",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": null,
@@ -3506,18 +3536,20 @@
           "index": 1,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D-8",
+              "role": "other",
+              "text": "Type^a",
               "footnote_refs": []
             }
           ],
           "group_path": [],
-          "visit_label": "D-8",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": null,
           "visit_window": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "a"
+          ],
           "pages": [
             51
           ],
@@ -3532,12 +3564,14 @@
           "header_cells": [
             {
               "role": "visit_name",
-              "text": "D-1",
+              "text": "Screening",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D-1",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": "Screening",
           "visit_number": null,
           "study_day": null,
           "study_week": null,
@@ -3556,15 +3590,17 @@
           "index": 3,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D1",
+              "role": "study_day",
+              "text": "D-8",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D1",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
           "visit_number": null,
-          "study_day": null,
+          "study_day": "D-8",
           "study_week": null,
           "visit_window": null,
           "footnote_refs": [],
@@ -3581,15 +3617,17 @@
           "index": 4,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D2",
+              "role": "study_day",
+              "text": "D-1",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D2",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
           "visit_number": null,
-          "study_day": null,
+          "study_day": "D-1",
           "study_week": null,
           "visit_window": null,
           "footnote_refs": [],
@@ -3606,15 +3644,17 @@
           "index": 5,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D3",
+              "role": "study_day",
+              "text": "D1",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D3",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
           "visit_number": null,
-          "study_day": null,
+          "study_day": "D1",
           "study_week": null,
           "visit_window": null,
           "footnote_refs": [],
@@ -3631,15 +3671,17 @@
           "index": 6,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D6",
+              "role": "study_day",
+              "text": "D2",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D6",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
           "visit_number": null,
-          "study_day": null,
+          "study_day": "D2",
           "study_week": null,
           "visit_window": null,
           "footnote_refs": [],
@@ -3656,15 +3698,17 @@
           "index": 7,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D8",
+              "role": "study_day",
+              "text": "D3",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D8",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
           "visit_number": null,
-          "study_day": null,
+          "study_day": "D3",
           "study_week": null,
           "visit_window": null,
           "footnote_refs": [],
@@ -3681,15 +3725,17 @@
           "index": 8,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D11",
+              "role": "study_day",
+              "text": "D6",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D11",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
           "visit_number": null,
-          "study_day": null,
+          "study_day": "D6",
           "study_week": null,
           "visit_window": null,
           "footnote_refs": [],
@@ -3706,15 +3752,17 @@
           "index": 9,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D13",
+              "role": "study_day",
+              "text": "D8",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D13",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
           "visit_number": null,
-          "study_day": null,
+          "study_day": "D8",
           "study_week": null,
           "visit_window": null,
           "footnote_refs": [],
@@ -3731,15 +3779,17 @@
           "index": 10,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "D17",
+              "role": "study_day",
+              "text": "D11",
               "footnote_refs": []
             }
           ],
-          "group_path": [],
-          "visit_label": "D17",
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
           "visit_number": null,
-          "study_day": null,
+          "study_day": "D11",
           "study_week": null,
           "visit_window": null,
           "footnote_refs": [],
@@ -3756,13 +3806,94 @@
           "index": 11,
           "header_cells": [
             {
-              "role": "visit_name",
+              "role": "study_day",
+              "text": "D13",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "D13",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c12",
+          "index": 12,
+          "header_cells": [
+            {
+              "role": "study_day",
+              "text": "D17",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "D17",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c13",
+          "index": 13,
+          "header_cells": [
+            {
+              "role": "study_day",
               "text": "D31",
               "footnote_refs": []
             }
           ],
+          "group_path": [
+            "soa-2-cg0"
+          ],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": "D31",
+          "study_week": null,
+          "visit_window": null,
+          "footnote_refs": [],
+          "pages": [
+            51
+          ],
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-c14",
+          "index": 14,
+          "header_cells": [
+            {
+              "role": "other",
+              "text": "Total Volume",
+              "footnote_refs": []
+            }
+          ],
           "group_path": [],
-          "visit_label": "D31",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": null,
@@ -3782,7 +3913,7 @@
         {
           "id": "soa-2-r0",
           "index": 0,
-          "label": "Chemistries plus liver function tests",
+          "label": "Study Day",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -3795,7 +3926,7 @@
         {
           "id": "soa-2-r1",
           "index": 1,
-          "label": "Hematology",
+          "label": "Chemistries plus liver function tests",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -3808,7 +3939,7 @@
         {
           "id": "soa-2-r2",
           "index": 2,
-          "label": "Infectious disease serology",
+          "label": "Hematology",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -3821,7 +3952,7 @@
         {
           "id": "soa-2-r3",
           "index": 3,
-          "label": "PK Samples for cocaine",
+          "label": "Infectious disease serology",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -3834,7 +3965,7 @@
         {
           "id": "soa-2-r4",
           "index": 4,
-          "label": "PK Samples for Atomoxetine",
+          "label": "PK Samples for cocaine",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -3847,7 +3978,7 @@
         {
           "id": "soa-2-r5",
           "index": 5,
-          "label": "Pregnancy Test",
+          "label": "PK Samples for Atomoxetine",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -3860,7 +3991,7 @@
         {
           "id": "soa-2-r6",
           "index": 6,
-          "label": "Alcohol Test",
+          "label": "Pregnancy Test",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -3873,6 +4004,19 @@
         {
           "id": "soa-2-r7",
           "index": 7,
+          "label": "Alcohol Test",
+          "group_path": [],
+          "is_category_header": false,
+          "footnote_refs": [],
+          "page": null,
+          "bbox": null,
+          "engines": [
+            "vision"
+          ]
+        },
+        {
+          "id": "soa-2-r8",
+          "index": 8,
           "label": "Total",
           "group_path": [],
           "is_category_header": false,
@@ -3885,7 +4029,7 @@
         },
         {
           "id": "r-geo-51-0",
-          "index": 8,
+          "index": 9,
           "label": "Analysis Volume Type",
           "group_path": [],
           "is_category_header": false,
@@ -3898,21 +4042,8 @@
         },
         {
           "id": "r-geo-51-1",
-          "index": 9,
-          "label": "Sample Per",
-          "group_path": [],
-          "is_category_header": false,
-          "footnote_refs": [],
-          "page": 51,
-          "bbox": null,
-          "engines": [
-            "geometric"
-          ]
-        },
-        {
-          "id": "r-geo-51-2",
           "index": 10,
-          "label": "Study Day",
+          "label": "Sample Per",
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
@@ -3926,56 +4057,169 @@
       "cells": [
         {
           "row_id": "soa-2-r0",
-          "column_id": "soa-2-c0",
-          "raw": "1",
+          "column_id": "soa-2-c2",
+          "raw": "Screening",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 51,
+            "x0": 325.3197937011719,
+            "y0": 279.1117858886719,
+            "x1": 395.56488037109375,
+            "y1": 289.08111572265625
+          },
           "engines": {
-            "vision": "1"
+            "vision": "Screening",
+            "geometric": "D-1 D1 D2"
           },
           "confidence": null
         },
         {
           "row_id": "soa-2-r0",
-          "column_id": "soa-2-c1",
-          "raw": "1",
+          "column_id": "soa-2-c3",
+          "raw": "D-8",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 51,
+            "x0": 410.15869140625,
+            "y0": 279.1117858886719,
+            "x1": 456.2852478027344,
+            "y1": 289.08111572265625
+          },
           "engines": {
-            "vision": "1"
+            "vision": "D-8",
+            "geometric": "D3 D6"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c4",
+          "raw": "D-1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 51,
+            "x0": 475.4393310546875,
+            "y0": 279.1117858886719,
+            "x1": 490.1230163574219,
+            "y1": 289.08111572265625
+          },
+          "engines": {
+            "vision": "D-1",
+            "geometric": "D8"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c5",
+          "raw": "D1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 51,
+            "x0": 511.083251953125,
+            "y0": 279.1117858886719,
+            "x1": 530.8072509765625,
+            "y1": 289.08111572265625
+          },
+          "engines": {
+            "vision": "D1",
+            "geometric": "D11"
           },
           "confidence": null
         },
         {
           "row_id": "soa-2-r0",
           "column_id": "soa-2-c6",
-          "raw": "1",
+          "raw": "D2",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 51,
+            "x0": 551.5269165039062,
+            "y0": 279.1117858886719,
+            "x1": 571.2509155273438,
+            "y1": 289.08111572265625
+          },
           "engines": {
-            "vision": "1"
+            "vision": "D2",
+            "geometric": "D13"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c7",
+          "raw": "D3",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 51,
+            "x0": 592.09033203125,
+            "y0": 279.1117858886719,
+            "x1": 611.8143310546875,
+            "y1": 289.08111572265625
+          },
+          "engines": {
+            "vision": "D3",
+            "geometric": "D17"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c8",
+          "raw": "D6",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 51,
+            "x0": 632.5339965820312,
+            "y0": 279.1117858886719,
+            "x1": 652.2579956054688,
+            "y1": 289.08111572265625
+          },
+          "engines": {
+            "vision": "D6",
+            "geometric": "D31"
           },
           "confidence": null
         },
         {
           "row_id": "soa-2-r0",
           "column_id": "soa-2-c9",
-          "raw": "1",
+          "raw": "D8",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -3984,14 +4228,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1"
+            "vision": "D8"
           },
           "confidence": null
         },
         {
           "row_id": "soa-2-r0",
           "column_id": "soa-2-c10",
-          "raw": "1",
+          "raw": "D11",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4000,14 +4244,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1"
+            "vision": "D11"
           },
           "confidence": null
         },
         {
           "row_id": "soa-2-r0",
           "column_id": "soa-2-c11",
-          "raw": "1",
+          "raw": "D13",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4016,13 +4260,77 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1"
+            "vision": "D13"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c12",
+          "raw": "D17",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "D17"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r0",
+          "column_id": "soa-2-c13",
+          "raw": "D31",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "D31"
           },
           "confidence": null
         },
         {
           "row_id": "soa-2-r1",
           "column_id": "soa-2-c0",
+          "raw": "10 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "10 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c1",
+          "raw": "S",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "S"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c2",
           "raw": "1",
           "value_text": null,
           "footnote_refs": [],
@@ -4038,7 +4346,23 @@
         },
         {
           "row_id": "soa-2-r1",
-          "column_id": "soa-2-c10",
+          "column_id": "soa-2-c3",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c8",
           "raw": "1",
           "value_text": null,
           "footnote_refs": [],
@@ -4055,6 +4379,102 @@
         {
           "row_id": "soa-2-r1",
           "column_id": "soa-2-c11",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c12",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c13",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r1",
+          "column_id": "soa-2-c14",
+          "raw": "60 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "60 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r2",
+          "column_id": "soa-2-c0",
+          "raw": "10 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "10 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r2",
+          "column_id": "soa-2-c1",
+          "raw": "P",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "P"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r2",
+          "column_id": "soa-2-c2",
           "raw": "1",
           "value_text": null,
           "footnote_refs": [],
@@ -4070,7 +4490,87 @@
         },
         {
           "row_id": "soa-2-r2",
+          "column_id": "soa-2-c12",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r2",
+          "column_id": "soa-2-c13",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r2",
+          "column_id": "soa-2-c14",
+          "raw": "30 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "30 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r3",
           "column_id": "soa-2-c0",
+          "raw": "10 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "10 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r3",
+          "column_id": "soa-2-c1",
+          "raw": "S",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "S"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r3",
+          "column_id": "soa-2-c2",
           "raw": "1",
           "value_text": null,
           "footnote_refs": [],
@@ -4086,7 +4586,55 @@
         },
         {
           "row_id": "soa-2-r3",
-          "column_id": "soa-2-c2",
+          "column_id": "soa-2-c14",
+          "raw": "10 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "10 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r4",
+          "column_id": "soa-2-c0",
+          "raw": "5 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r4",
+          "column_id": "soa-2-c1",
+          "raw": "P",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "P"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r4",
+          "column_id": "soa-2-c4",
           "raw": "15",
           "value_text": null,
           "footnote_refs": [],
@@ -4101,23 +4649,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-2-r3",
-          "column_id": "soa-2-c7",
-          "raw": "15",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "15"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-2-r3",
+          "row_id": "soa-2-r4",
           "column_id": "soa-2-c9",
           "raw": "15",
           "value_text": null,
@@ -4134,8 +4666,8 @@
         },
         {
           "row_id": "soa-2-r4",
-          "column_id": "soa-2-c6",
-          "raw": "2",
+          "column_id": "soa-2-c11",
+          "raw": "15",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4144,14 +4676,14 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "2"
+            "vision": "15"
           },
           "confidence": null
         },
         {
           "row_id": "soa-2-r4",
-          "column_id": "soa-2-c7",
-          "raw": "2",
+          "column_id": "soa-2-c14",
+          "raw": "225 mL",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4160,12 +4692,44 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "2"
+            "vision": "225 mL"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-2-r4",
+          "row_id": "soa-2-r5",
+          "column_id": "soa-2-c0",
+          "raw": "5 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r5",
+          "column_id": "soa-2-c1",
+          "raw": "P",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "P"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r5",
           "column_id": "soa-2-c8",
           "raw": "2",
           "value_text": null,
@@ -4181,7 +4745,7 @@
           "confidence": null
         },
         {
-          "row_id": "soa-2-r4",
+          "row_id": "soa-2-r5",
           "column_id": "soa-2-c9",
           "raw": "2",
           "value_text": null,
@@ -4198,40 +4762,8 @@
         },
         {
           "row_id": "soa-2-r5",
-          "column_id": "soa-2-c0",
-          "raw": "1",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-2-r5",
-          "column_id": "soa-2-c1",
-          "raw": "1",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "1"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-2-r5",
           "column_id": "soa-2-c10",
-          "raw": "1",
+          "raw": "2",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
@@ -4240,13 +4772,77 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "1"
+            "vision": "2"
           },
           "confidence": null
         },
         {
           "row_id": "soa-2-r5",
           "column_id": "soa-2-c11",
+          "raw": "2",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "2"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r5",
+          "column_id": "soa-2-c14",
+          "raw": "40 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "40 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r6",
+          "column_id": "soa-2-c0",
+          "raw": "5 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r6",
+          "column_id": "soa-2-c1",
+          "raw": "S",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "S"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r6",
+          "column_id": "soa-2-c2",
           "raw": "1",
           "value_text": null,
           "footnote_refs": [],
@@ -4262,7 +4858,7 @@
         },
         {
           "row_id": "soa-2-r6",
-          "column_id": "soa-2-c0",
+          "column_id": "soa-2-c3",
           "raw": "1",
           "value_text": null,
           "footnote_refs": [],
@@ -4275,20 +4871,156 @@
             "vision": "1"
           },
           "confidence": null
+        },
+        {
+          "row_id": "soa-2-r6",
+          "column_id": "soa-2-c12",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r6",
+          "column_id": "soa-2-c13",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r6",
+          "column_id": "soa-2-c14",
+          "raw": "20 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "20 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r7",
+          "column_id": "soa-2-c0",
+          "raw": "5 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r7",
+          "column_id": "soa-2-c1",
+          "raw": "P",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "P"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r7",
+          "column_id": "soa-2-c2",
+          "raw": "1",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "1"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r7",
+          "column_id": "soa-2-c14",
+          "raw": "5 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "5 mL"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-2-r8",
+          "column_id": "soa-2-c14",
+          "raw": "390 mL",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": null,
+          "engines": {
+            "vision": "390 mL"
+          },
+          "confidence": null
         }
       ],
       "footnotes": [
         {
           "marker": "a",
           "marker_style": "superscript_letter",
-          "text": "S = serum, P = plasma;",
+          "text": "S = serum, P = plasma",
           "text_complete": true,
           "pages": [
             51
           ],
           "continued_from_page": null,
-          "attached_to": [],
-          "unattached_reason": "No cell, row, column or header carries marker 'a'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "attached_to": [
+            {
+              "kind": "column",
+              "row_id": null,
+              "column_id": "soa-2-c1",
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
           "bbox": null
         },
         {
@@ -4300,8 +5032,16 @@
             51
           ],
           "continued_from_page": null,
-          "attached_to": [],
-          "unattached_reason": "No cell, row, column or header carries marker 'b'. The footnote may apply to the table as a whole, or its marker may be rendered in a form the grid extraction did not preserve.",
+          "attached_to": [
+            {
+              "kind": "column_group",
+              "row_id": null,
+              "column_id": null,
+              "group_id": "soa-2-cg0",
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
           "bbox": null
         }
       ],
@@ -4330,18 +5070,18 @@
         "engines_failed": {},
         "row_counts": {
           "geometric": 11,
-          "vision": 8,
+          "vision": 9,
           "final": 11
         },
         "column_counts": {
           "geometric": 11,
-          "vision": 12
+          "vision": 15
         },
         "cell_counts": {
           "geometric": 44,
-          "vision": 22
+          "vision": 56
         },
-        "cell_agreement": null,
+        "cell_agreement": 0.0,
         "warnings": [
           {
             "type": "row_missing_in_engine",
@@ -4360,35 +5100,67 @@
             "engine": "vision"
           },
           {
-            "type": "row_missing_in_engine",
-            "severity": "high",
-            "message": "The geometric engine read a row the vision engine did not return: 'Study Day' (page 51). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
-            "row_id": null,
-            "column_id": null,
-            "engine": "vision"
-          },
-          {
             "type": "column_missing_in_engine",
             "severity": "medium",
-            "message": "Column count differs: geometric read 11, vision read 12. A dropped column is a patient visit nobody built, so check the header row against the source page.",
+            "message": "Column count differs: geometric read 11, vision read 15. A dropped column is a patient visit nobody built, so check the header row against the source page.",
             "row_id": null,
             "column_id": null,
             "engine": "geometric"
           },
           {
-            "type": "footnote_unlinked",
+            "type": "cell_value_disagreement",
             "severity": "medium",
-            "message": "Footnote 'a' could not be linked to any grid element.",
-            "row_id": null,
-            "column_id": null,
+            "message": "Engines read this cell differently: geometric 'D-1 D1 D2' vs vision 'Screening'. The vision reading is kept.",
+            "row_id": "soa-2-r0",
+            "column_id": "soa-2-c2",
             "engine": null
           },
           {
-            "type": "footnote_unlinked",
+            "type": "cell_value_disagreement",
             "severity": "medium",
-            "message": "Footnote 'b' could not be linked to any grid element.",
-            "row_id": null,
-            "column_id": null,
+            "message": "Engines read this cell differently: geometric 'D3 D6' vs vision 'D-8'. The vision reading is kept.",
+            "row_id": "soa-2-r0",
+            "column_id": "soa-2-c3",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'D8' vs vision 'D-1'. The vision reading is kept.",
+            "row_id": "soa-2-r0",
+            "column_id": "soa-2-c4",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'D11' vs vision 'D1'. The vision reading is kept.",
+            "row_id": "soa-2-r0",
+            "column_id": "soa-2-c5",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'D13' vs vision 'D2'. The vision reading is kept.",
+            "row_id": "soa-2-r0",
+            "column_id": "soa-2-c6",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'D17' vs vision 'D3'. The vision reading is kept.",
+            "row_id": "soa-2-r0",
+            "column_id": "soa-2-c7",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'D31' vs vision 'D6'. The vision reading is kept.",
+            "row_id": "soa-2-r0",
+            "column_id": "soa-2-c8",
             "engine": null
           }
         ]
@@ -4401,10 +5173,10 @@
   ],
   "run": {
     "tool_version": "0.1.0",
-    "vision_model": "gemini-3.1-flash-lite",
-    "started_at": "2026-09-01T01:49:39.166537+00:00",
-    "finished_at": "2026-09-01T01:50:05.366032+00:00",
-    "duration_seconds": 26.2,
+    "vision_model": "gemini-3.5-flash",
+    "started_at": "2026-09-01T02:46:14.119395+00:00",
+    "finished_at": "2026-09-01T02:49:10.178413+00:00",
+    "duration_seconds": 176.06,
     "pages_sent_to_vision": 4,
     "warnings": [
       {

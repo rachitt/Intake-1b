@@ -73,7 +73,12 @@
           "index": 0,
           "header_cells": [
             {
-              "role": "visit_name",
+              "role": "other",
+              "text": "Study Week",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
               "text": "14-21 days prior to randomization",
               "footnote_refs": []
             }
@@ -81,10 +86,10 @@
           "group_path": [
             "soa-1-cg0"
           ],
-          "visit_label": "14-21 days prior to randomization",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "14-21 days prior to randomization",
           "visit_window": {
             "raw": "-21 days",
             "value": 21.0,
@@ -105,7 +110,12 @@
           "index": 1,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "other",
+              "text": "Study Week",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
               "text": "1-3",
               "footnote_refs": []
             }
@@ -114,9 +124,9 @@
             "soa-1-cg1"
           ],
           "visit_label": null,
-          "visit_number": "1-3",
+          "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "1-3",
           "visit_window": null,
           "footnote_refs": [],
           "pages": [
@@ -132,7 +142,12 @@
           "index": 2,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "other",
+              "text": "Study Week",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
               "text": "4",
               "footnote_refs": []
             }
@@ -141,9 +156,9 @@
             "soa-1-cg1"
           ],
           "visit_label": null,
-          "visit_number": "4",
+          "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "4",
           "visit_window": null,
           "footnote_refs": [],
           "pages": [
@@ -159,7 +174,12 @@
           "index": 3,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "other",
+              "text": "Study Week",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
               "text": "5-7",
               "footnote_refs": []
             }
@@ -168,9 +188,9 @@
             "soa-1-cg1"
           ],
           "visit_label": null,
-          "visit_number": "5-7",
+          "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "5-7",
           "visit_window": null,
           "footnote_refs": [],
           "pages": [
@@ -186,7 +206,12 @@
           "index": 4,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "other",
+              "text": "Study Week",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
               "text": "8",
               "footnote_refs": []
             }
@@ -195,9 +220,9 @@
             "soa-1-cg1"
           ],
           "visit_label": null,
-          "visit_number": "8",
+          "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "8",
           "visit_window": null,
           "footnote_refs": [],
           "pages": [
@@ -213,7 +238,12 @@
           "index": 5,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "other",
+              "text": "Study Week",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
               "text": "9-11",
               "footnote_refs": []
             }
@@ -222,9 +252,9 @@
             "soa-1-cg1"
           ],
           "visit_label": null,
-          "visit_number": "9-11",
+          "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "9-11",
           "visit_window": null,
           "footnote_refs": [],
           "pages": [
@@ -240,8 +270,13 @@
           "index": 6,
           "header_cells": [
             {
-              "role": "visit_number",
-              "text": "12/ Term",
+              "role": "other",
+              "text": "Study Week",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
+              "text": "12/Term",
               "footnote_refs": []
             }
           ],
@@ -249,9 +284,9 @@
             "soa-1-cg1"
           ],
           "visit_label": null,
-          "visit_number": "12/ Term",
+          "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "12/Term",
           "visit_window": null,
           "footnote_refs": [],
           "pages": [
@@ -267,7 +302,12 @@
           "index": 7,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "other",
+              "text": "Study Week",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
               "text": "16",
               "footnote_refs": []
             }
@@ -276,9 +316,9 @@
             "soa-1-cg2"
           ],
           "visit_label": null,
-          "visit_number": "16",
+          "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "16",
           "visit_window": null,
           "footnote_refs": [],
           "pages": [
@@ -451,6 +491,7 @@
           ],
           "is_category_header": false,
           "footnote_refs": [
+            "Xf",
             "f"
           ],
           "page": null,
@@ -594,6 +635,7 @@
           ],
           "is_category_header": false,
           "footnote_refs": [
+            "Xd",
             "d"
           ],
           "page": null,
@@ -714,13 +756,14 @@
         {
           "id": "soa-1-r28",
           "index": 28,
-          "label": "CANTABelectJ",
+          "label": "CANTABelectj",
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
           "footnote_refs": [
-            "J"
+            "XJ",
+            "j"
           ],
           "page": null,
           "bbox": null,
@@ -828,7 +871,9 @@
           "id": "soa-1-r35",
           "index": 35,
           "label": "Medication Administration",
-          "group_path": [],
+          "group_path": [
+            "soa-1-rg2"
+          ],
           "is_category_header": false,
           "footnote_refs": [],
           "page": null,
@@ -841,7 +886,9 @@
           "id": "soa-1-r36",
           "index": 36,
           "label": "Modafinil compliance",
-          "group_path": [],
+          "group_path": [
+            "soa-1-rg2"
+          ],
           "is_category_header": false,
           "footnote_refs": [
             "e"
@@ -856,10 +903,13 @@
           "id": "soa-1-r37",
           "index": 37,
           "label": "CBT compliance ****h",
-          "group_path": [],
+          "group_path": [
+            "soa-1-rg2"
+          ],
           "is_category_header": false,
           "footnote_refs": [
             "****",
+            "Xh",
             "h"
           ],
           "page": null,
@@ -872,7 +922,9 @@
           "id": "soa-1-r38",
           "index": 38,
           "label": "End of trial form",
-          "group_path": [],
+          "group_path": [
+            "soa-1-rg2"
+          ],
           "is_category_header": false,
           "footnote_refs": [],
           "page": null,
@@ -885,7 +937,9 @@
           "id": "soa-1-r39",
           "index": 39,
           "label": "Follow-up interview",
-          "group_path": [],
+          "group_path": [
+            "soa-1-rg2"
+          ],
           "is_category_header": false,
           "footnote_refs": [],
           "page": null,
@@ -1055,18 +1109,16 @@
         {
           "row_id": "soa-1-r9",
           "column_id": "soa-1-c0",
-          "raw": "3X/weekf",
+          "raw": "3X/week",
           "value_text": null,
-          "footnote_refs": [
-            "f"
-          ],
+          "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "3X/weekf"
+            "vision": "3X/week"
           },
           "confidence": null
         },
@@ -1076,7 +1128,7 @@
           "raw": "Xa",
           "value_text": null,
           "footnote_refs": [
-            "a"
+            "Xa"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1094,7 +1146,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1112,7 +1164,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1130,7 +1182,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1148,7 +1200,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1166,7 +1218,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1207,7 +1259,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1255,7 +1307,7 @@
           "raw": "Xa",
           "value_text": null,
           "footnote_refs": [
-            "a"
+            "Xa"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1280,7 +1332,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1305,7 +1357,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1330,7 +1382,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1355,7 +1407,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1380,7 +1432,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1428,7 +1480,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1476,7 +1528,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1524,7 +1576,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1549,7 +1601,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1574,7 +1626,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1622,7 +1674,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1670,7 +1722,7 @@
           "raw": "Xg",
           "value_text": null,
           "footnote_refs": [
-            "g"
+            "Xg"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1695,7 +1747,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1720,7 +1772,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1745,7 +1797,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1816,7 +1868,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -1841,6 +1893,7 @@
           "raw": "3X/weekd",
           "value_text": null,
           "footnote_refs": [
+            "Xd",
             "d"
           ],
           "row_span": 1,
@@ -1859,6 +1912,7 @@
           "raw": "3Xd",
           "value_text": null,
           "footnote_refs": [
+            "Xd",
             "d"
           ],
           "row_span": 1,
@@ -1877,6 +1931,7 @@
           "raw": "3Xd",
           "value_text": null,
           "footnote_refs": [
+            "Xd",
             "d"
           ],
           "row_span": 1,
@@ -1895,6 +1950,7 @@
           "raw": "3Xd",
           "value_text": null,
           "footnote_refs": [
+            "Xd",
             "d"
           ],
           "row_span": 1,
@@ -1913,6 +1969,7 @@
           "raw": "3Xd",
           "value_text": null,
           "footnote_refs": [
+            "Xd",
             "d"
           ],
           "row_span": 1,
@@ -1931,6 +1988,7 @@
           "raw": "3Xd",
           "value_text": null,
           "footnote_refs": [
+            "Xd",
             "d"
           ],
           "row_span": 1,
@@ -1949,6 +2007,7 @@
           "raw": "3Xd",
           "value_text": null,
           "footnote_refs": [
+            "Xd",
             "d"
           ],
           "row_span": 1,
@@ -2114,11 +2173,11 @@
         },
         {
           "row_id": "soa-1-r23",
-          "column_id": "soa-1-c2",
-          "raw": "Xb wk 6",
+          "column_id": "soa-1-c3",
+          "raw": "Xb\nwk 6",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2126,7 +2185,7 @@
           "notes": null,
           "bbox": null,
           "engines": {
-            "vision": "Xb wk 6"
+            "vision": "Xb\nwk 6"
           },
           "confidence": null
         },
@@ -2136,7 +2195,8 @@
           "raw": "Xc Xe",
           "value_text": null,
           "footnote_refs": [
-            "c",
+            "Xc",
+            "Xe",
             "e"
           ],
           "row_span": 1,
@@ -2185,7 +2245,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2210,6 +2270,7 @@
           "raw": "Weeklyi",
           "value_text": null,
           "footnote_refs": [
+            "Xi",
             "i"
           ],
           "row_span": 1,
@@ -2235,7 +2296,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2260,7 +2321,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2285,7 +2346,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2310,7 +2371,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2335,7 +2396,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2360,7 +2421,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2385,6 +2446,7 @@
           "raw": "Weeklyi",
           "value_text": null,
           "footnote_refs": [
+            "Xi",
             "i"
           ],
           "row_span": 1,
@@ -2410,7 +2472,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2435,7 +2497,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2460,7 +2522,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2485,7 +2547,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2510,7 +2572,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2535,7 +2597,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2560,6 +2622,7 @@
           "raw": "Weeklyi",
           "value_text": null,
           "footnote_refs": [
+            "Xi",
             "i"
           ],
           "row_span": 1,
@@ -2585,7 +2648,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2610,7 +2673,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2635,7 +2698,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2660,7 +2723,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2685,7 +2748,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2710,7 +2773,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2756,17 +2819,24 @@
         },
         {
           "row_id": "soa-1-r28",
-          "column_id": "soa-1-c2",
-          "raw": "X wk 6",
+          "column_id": "soa-1-c3",
+          "raw": "X\nwk 6",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 48,
+            "x0": 399.9628601074219,
+            "y0": 519.328369140625,
+            "x1": 407.7170104980469,
+            "y1": 528.1655883789062
+          },
           "engines": {
-            "vision": "X wk 6"
+            "vision": "X\nwk 6",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2818,17 +2888,24 @@
         },
         {
           "row_id": "soa-1-r29",
-          "column_id": "soa-1-c2",
-          "raw": "X wk 6",
+          "column_id": "soa-1-c3",
+          "raw": "X\nwk 6",
           "value_text": null,
           "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 48,
+            "x0": 399.9565734863281,
+            "y0": 538.2283935546875,
+            "x1": 407.7099304199219,
+            "y1": 547.0656127929688
+          },
           "engines": {
-            "vision": "X wk 6"
+            "vision": "X\nwk 6",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2903,7 +2980,7 @@
         },
         {
           "row_id": "soa-1-r31",
-          "column_id": "soa-1-c1",
+          "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
           "footnote_refs": [],
@@ -2911,15 +2988,22 @@
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 48,
+            "x0": 372.9570617675781,
+            "y0": 570.268798828125,
+            "x1": 380.7104187011719,
+            "y1": 579.1060180664062
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r31",
-          "column_id": "soa-1-c3",
+          "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
           "footnote_refs": [],
@@ -2927,9 +3011,16 @@
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 48,
+            "x0": 426.9561462402344,
+            "y0": 570.268798828125,
+            "x1": 434.7095031738281,
+            "y1": 579.1060180664062
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -3234,7 +3325,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -3259,7 +3350,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -3284,7 +3375,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -3309,7 +3400,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -3334,7 +3425,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -3359,7 +3450,7 @@
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "Xb"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -3522,6 +3613,7 @@
           "raw": "2X/weekh",
           "value_text": null,
           "footnote_refs": [
+            "Xh",
             "h"
           ],
           "row_span": 1,
@@ -3636,7 +3728,7 @@
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
-            "c"
+            "Xc"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -3676,7 +3768,7 @@
         {
           "marker": "*",
           "marker_style": "asterisk_tier",
-          "text": "Screening and baseline assessments may be conducted concurrently, and both must be completed within 21-days prior to randomization.",
+          "text": "Screening and baseline assessments may be conducted concurrently, and both must be completed within 21- days prior to randomization.",
           "text_complete": true,
           "pages": [
             48
@@ -3764,8 +3856,8 @@
           "bbox": null
         },
         {
-          "marker": "a",
-          "marker_style": "superscript_letter",
+          "marker": "Xa",
+          "marker_style": "inline_suffix",
           "text": "Vital signs are taken at each visit for the first three study weeks, then weekly thereafter, preferably at the first visit of the week.",
           "text_complete": true,
           "pages": [
@@ -3792,8 +3884,8 @@
           "bbox": null
         },
         {
-          "marker": "b",
-          "marker_style": "superscript_letter",
+          "marker": "Xb",
+          "marker_style": "inline_suffix",
           "text": "Once per week preferably at the first visit of the week. If the study physician has medical concerns, blood may be drawn again to assess blood chemistry (for example, liver enzymes). In addition, at weeks 4 and 8, if female, a urine pregnancy test will be performed.",
           "text_complete": true,
           "pages": [
@@ -3888,7 +3980,7 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r23",
-              "column_id": "soa-1-c2",
+              "column_id": "soa-1-c3",
               "group_id": null,
               "detail": null
             },
@@ -4044,8 +4136,8 @@
           "bbox": null
         },
         {
-          "marker": "c",
-          "marker_style": "superscript_letter",
+          "marker": "Xc",
+          "marker_style": "inline_suffix",
           "text": "At the final scheduled study visit (preferably last visit of week 12) or if the subject discontinues prematurely. If the study physician has medical concerns, additional ECGs may be performed.",
           "text_complete": true,
           "pages": [
@@ -4163,8 +4255,8 @@
           "bbox": null
         },
         {
-          "marker": "d",
-          "marker_style": "superscript_letter",
+          "marker": "Xd",
+          "marker_style": "inline_suffix",
           "text": "AEs will be assessed and recorded by investigative staff nurse or physician or PIs designee at every visit. A study physician will meet with the subject once a week to review the AEs and to assess for any additional AEs.",
           "text_complete": true,
           "pages": [
@@ -4247,8 +4339,8 @@
           "bbox": null
         },
         {
-          "marker": "e",
-          "marker_style": "superscript_letter",
+          "marker": "Xe",
+          "marker_style": "inline_suffix",
           "text": "If there is a clear indication that a participant will terminate early and not return for the termination interview, the ASI-Lite Follow-up interview should be conducted as soon as possible during any scheduled or unscheduled visit.",
           "text_complete": true,
           "pages": [
@@ -4303,8 +4395,8 @@
           "bbox": null
         },
         {
-          "marker": "f",
-          "marker_style": "superscript_letter",
+          "marker": "Xf",
+          "marker_style": "inline_suffix",
           "text": "The alcohol breathalyzer test will only be performed if the subject is suspected to be intoxicated at clinic visits in accordance with institutional and state regulations.",
           "text_complete": true,
           "pages": [
@@ -4312,13 +4404,6 @@
           ],
           "continued_from_page": null,
           "attached_to": [
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r9",
-              "column_id": "soa-1-c0",
-              "group_id": null,
-              "detail": null
-            },
             {
               "kind": "row",
               "row_id": "soa-1-r9",
@@ -4331,8 +4416,8 @@
           "bbox": null
         },
         {
-          "marker": "g",
-          "marker_style": "superscript_letter",
+          "marker": "Xg",
+          "marker_style": "inline_suffix",
           "text": "On study day 1, prior to randomization.",
           "text_complete": true,
           "pages": [
@@ -4366,8 +4451,8 @@
           "bbox": null
         },
         {
-          "marker": "h",
-          "marker_style": "superscript_letter",
+          "marker": "Xh",
+          "marker_style": "inline_suffix",
           "text": "During screening/baseline, subjects will attend 2 60-minute early recovery skills sessions each week.",
           "text_complete": true,
           "pages": [
@@ -4394,8 +4479,8 @@
           "bbox": null
         },
         {
-          "marker": "i",
-          "marker_style": "superscript_letter",
+          "marker": "Xi",
+          "marker_style": "inline_suffix",
           "text": "Obtained weekly during screening/baseline.",
           "text_complete": true,
           "pages": [
@@ -4429,9 +4514,9 @@
           "bbox": null
         },
         {
-          "marker": "J",
-          "marker_style": "superscript_letter",
-          "text": "CANTABelect tests should be completed twice during the screening/baseline period. The IED test (Intra-Extra Dimensional Set Shifting) will only be done at week 12 or the termination visit, whichever comes first.",
+          "marker": "XJ",
+          "marker_style": "inline_suffix",
+          "text": "CANTABelect tests should be completed twice during the screening/baseline period. The IED test (Intra- Extra Dimensional Set Shifting) will only be done at week 12 or the termination visit, whichever comes first.",
           "text_complete": true,
           "pages": [
             48
@@ -4493,7 +4578,7 @@
           "geometric": 134,
           "vision": 132
         },
-        "cell_agreement": 0.961,
+        "cell_agreement": 0.938,
         "warnings": [
           {
             "type": "row_missing_in_engine",
@@ -4536,6 +4621,22 @@
             "engine": null
           },
           {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'X' vs vision 'X\\nwk 6'. The vision reading is kept.",
+            "row_id": "soa-1-r28",
+            "column_id": "soa-1-c3",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'X' vs vision 'X\\nwk 6'. The vision reading is kept.",
+            "row_id": "soa-1-r29",
+            "column_id": "soa-1-c3",
+            "engine": null
+          },
+          {
             "type": "footnote_unlinked",
             "severity": "medium",
             "message": "Footnote '*' could not be linked to any grid element.",
@@ -4546,21 +4647,17 @@
         ]
       },
       "assumptions": [
-        "The table spans two pages. The columns were merged based on the header structure.",
-        "The row 'CANTABelectJ' has a footnote marker 'J' which is likely a typo for 'j' in the source document.",
-        "The row 'CBT compliance ****h' has multiple footnote markers.",
-        "The row 'Urine for meth/tox screen/creatinine' spans two lines in the source, treated as one row.",
-        "The row 'ACDS assessment (ADHD diagnosis)' spans two lines in the source, treated as one row."
+        "The vertical text 'RANDOMIZATION' acts as a divider between the Screening/Baseline column and the Study Medication Administration columns."
       ],
       "open_questions": []
     }
   ],
   "run": {
     "tool_version": "0.1.0",
-    "vision_model": "gemini-3.1-flash-lite",
-    "started_at": "2026-09-01T01:49:02.798341+00:00",
-    "finished_at": "2026-09-01T01:49:25.341443+00:00",
-    "duration_seconds": 22.54,
+    "vision_model": "gemini-3.5-flash",
+    "started_at": "2026-09-01T02:43:51.170142+00:00",
+    "finished_at": "2026-09-01T02:46:14.114691+00:00",
+    "duration_seconds": 142.94,
     "pages_sent_to_vision": 2,
     "warnings": [
       {

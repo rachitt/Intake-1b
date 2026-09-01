@@ -84,11 +84,6 @@
           "index": 0,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Screening",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
               "text": "-4 to 0*",
               "footnote_refs": []
@@ -97,7 +92,7 @@
           "group_path": [
             "soa-1-cg0"
           ],
-          "visit_label": "Screening",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "-4 to 0*",
@@ -118,25 +113,22 @@
           "index": 1,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Baseline",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
-              "text": "",
+              "text": "-4 to 0*",
               "footnote_refs": []
             }
           ],
           "group_path": [
             "soa-1-cg1"
           ],
-          "visit_label": "Baseline",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
-          "study_week": null,
+          "study_week": "-4 to 0*",
           "visit_window": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "*"
+          ],
           "pages": [
             25
           ],
@@ -150,11 +142,6 @@
           "index": 2,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
               "text": "1-3",
               "footnote_refs": []
@@ -163,7 +150,7 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "1-3",
@@ -182,11 +169,6 @@
           "index": 3,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
               "text": "4",
               "footnote_refs": []
@@ -195,7 +177,7 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "4",
@@ -214,11 +196,6 @@
           "index": 4,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
               "text": "5-7",
               "footnote_refs": []
@@ -227,7 +204,7 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "5-7",
@@ -246,11 +223,6 @@
           "index": 5,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
               "text": "8",
               "footnote_refs": []
@@ -259,7 +231,7 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "8",
@@ -278,11 +250,6 @@
           "index": 6,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
               "text": "9-11",
               "footnote_refs": []
@@ -291,7 +258,7 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "9-11",
@@ -310,11 +277,6 @@
           "index": 7,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
               "text": "12",
               "footnote_refs": []
@@ -323,7 +285,7 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "12",
@@ -342,11 +304,6 @@
           "index": 8,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Follow-up",
-              "footnote_refs": []
-            },
-            {
               "role": "study_week",
               "text": "16",
               "footnote_refs": []
@@ -355,7 +312,7 @@
           "group_path": [
             "soa-1-cg3"
           ],
-          "visit_label": "Follow-up",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "16",
@@ -525,7 +482,7 @@
         {
           "id": "soa-1-r10",
           "index": 10,
-          "label": "Physical exam/FEV1d",
+          "label": "Physical exam/FEV1 d",
           "group_path": [
             "soa-1-rg1"
           ],
@@ -547,10 +504,7 @@
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -565,10 +519,7 @@
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -583,10 +534,7 @@
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -602,8 +550,7 @@
           ],
           "is_category_header": false,
           "footnote_refs": [
-            "b",
-            "c"
+            "D"
           ],
           "page": null,
           "bbox": null,
@@ -620,8 +567,7 @@
           ],
           "is_category_header": false,
           "footnote_refs": [
-            "b",
-            "c"
+            "A"
           ],
           "page": null,
           "bbox": null,
@@ -637,10 +583,7 @@
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -655,10 +598,7 @@
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -673,9 +613,7 @@
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -705,9 +643,7 @@
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -722,10 +658,7 @@
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -740,9 +673,7 @@
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -757,9 +688,7 @@
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -774,9 +703,7 @@
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -791,9 +718,7 @@
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -808,9 +733,7 @@
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -855,9 +778,7 @@
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -872,10 +793,7 @@
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "a",
-            "c"
-          ],
+          "footnote_refs": [],
           "page": null,
           "bbox": null,
           "engines": [
@@ -1126,16 +1044,9 @@
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 223.44140625,
-            "y0": 258.66082763671875,
-            "x1": 231.2077178955078,
-            "y1": 266.69317626953125
-          },
+          "bbox": null,
           "engines": {
-            "vision": "X",
-            "geometric": "X"
+            "vision": "X"
           },
           "confidence": null
         },
@@ -1151,16 +1062,9 @@
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 476.28729248046875,
-            "y0": 256.0198059082031,
-            "x1": 484.9111022949219,
-            "y1": 267.41314697265625
-          },
+          "bbox": null,
           "engines": {
-            "vision": "Xc",
-            "geometric": "Xc"
+            "vision": "Xc"
           },
           "confidence": null
         },
@@ -4010,7 +3914,7 @@
         {
           "marker": "*",
           "marker_style": "asterisk_tier",
-          "text": "Baseline assessments must occur within 2 weeks during the screening period. The screening period is within 4 weeks of subject enrollment. Baseline and screening period may occur simultaneously.",
+          "text": "*Baseline assessments must occur within 2 weeks during the screening period. The screening period is within 4 weeks of subject enrollment. Baseline and screening period may occur simultaneously.",
           "text_complete": true,
           "pages": [
             25
@@ -4023,14 +3927,21 @@
               "column_id": "soa-1-c0",
               "group_id": null,
               "detail": null
+            },
+            {
+              "kind": "column",
+              "row_id": null,
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
             }
           ],
           "unattached_reason": null,
           "bbox": null
         },
         {
-          "marker": "Xa",
-          "marker_style": "inline_suffix",
+          "marker": "a",
+          "marker_style": "superscript_letter",
           "text": "Xa – Blood is collected in fasted state at least once (preferably twice) before investigational agent administration, once during weeks 3-6, and once at week 12 or at final visit if subject discontinues prematurely. The two specimens prior to investigational agent may be drawn during baseline, or one may be drawn during baseline and one on study day 1 prior to administration of first dose of investigational agent.",
           "text_complete": true,
           "pages": [
@@ -4061,7 +3972,7 @@
             },
             {
               "kind": "row",
-              "row_id": "soa-1-r31",
+              "row_id": "soa-1-r15",
               "column_id": null,
               "group_id": null,
               "detail": null
@@ -4071,8 +3982,8 @@
           "bbox": null
         },
         {
-          "marker": "Xb",
-          "marker_style": "inline_suffix",
+          "marker": "b",
+          "marker_style": "superscript_letter",
           "text": "Xb - Once during the week preferably at the first visit of the week.",
           "text_complete": true,
           "pages": [
@@ -4450,112 +4361,14 @@
               "column_id": "soa-1-c7",
               "group_id": null,
               "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r11",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r12",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r13",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r14",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r15",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r16",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r17",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r20",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r22",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r24",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r25",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r26",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r27",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r30",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
             }
           ],
           "unattached_reason": null,
           "bbox": null
         },
         {
-          "marker": "Xc",
-          "marker_style": "inline_suffix",
+          "marker": "c",
+          "marker_style": "superscript_letter",
           "text": "Xc - At the final scheduled study visit (last visit of week 12) or if the subjects discontinues prematurely.",
           "text_complete": true,
           "pages": [
@@ -4646,91 +4459,14 @@
               "column_id": "soa-1-c7",
               "group_id": null,
               "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r11",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r12",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r13",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r14",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r15",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r16",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r17",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r18",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r22",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r23",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r31",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
             }
           ],
           "unattached_reason": null,
           "bbox": null
         },
         {
-          "marker": "Xd",
-          "marker_style": "inline_suffix",
+          "marker": "d",
+          "marker_style": "superscript_letter",
           "text": "Xd - FEV1 is only performed in those subjects suspected of having asthma.",
           "text_complete": true,
           "pages": [
@@ -4748,6 +4484,13 @@
             {
               "kind": "row",
               "row_id": "soa-1-r10",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r14",
               "column_id": null,
               "group_id": null,
               "detail": null
@@ -4801,7 +4544,7 @@
           "geometric": 169,
           "vision": 128
         },
-        "cell_agreement": 0.669,
+        "cell_agreement": 0.664,
         "warnings": [
           {
             "type": "row_missing_in_engine",
@@ -5181,16 +4924,19 @@
           }
         ]
       },
-      "assumptions": [],
+      "assumptions": [
+        "The header cell '-4 to 0*' spans both the Screening and Baseline columns as there is no vertical divider between them in the Study Week row.",
+        "The vertical column containing 'RANDOMIZATION' is treated as a rotated label divider rather than a column."
+      ],
       "open_questions": []
     }
   ],
   "run": {
     "tool_version": "0.1.0",
-    "vision_model": "gemini-3.1-flash-lite",
-    "started_at": "2026-09-01T01:48:39.953718+00:00",
-    "finished_at": "2026-09-01T01:49:02.784482+00:00",
-    "duration_seconds": 22.83,
+    "vision_model": "gemini-3.5-flash",
+    "started_at": "2026-09-01T02:41:50.464007+00:00",
+    "finished_at": "2026-09-01T02:43:51.157617+00:00",
+    "duration_seconds": 120.69,
     "pages_sent_to_vision": 2,
     "warnings": [
       {
