@@ -532,6 +532,34 @@ def extract_document(
                 model_used = vmeta.get("model")
                 pages_to_vision += vmeta.get("pages_sent", 0)
                 report("extracted", f"vision: {len(vis.rows)} rows, {len(vis.cells)} cells")
+
+                if vmeta.get("pages_dropped"):
+                    warnings.append(
+                        ExtractionWarning(
+                            type="row_missing_in_engine",
+                            severity="high",
+                            message=(
+                                f"Schedule {i + 1} spans more pages than one vision request "
+                                f"carries; pages {vmeta['pages_dropped']} were not sent. "
+                                f"Rows on those pages are missing. Raise "
+                                f"SOA_MAX_VISION_PAGES to include them."
+                            ),
+                            engine="vision",
+                        )
+                    )
+                if "MAX_TOKENS" in (vmeta.get("finish_reason") or "").upper():
+                    warnings.append(
+                        ExtractionWarning(
+                            type="row_missing_in_engine",
+                            severity="high",
+                            message=(
+                                f"Schedule {i + 1}: the model hit its output token limit, so "
+                                f"the table is very likely truncated part-way through. Treat "
+                                f"the trailing rows as incomplete."
+                            ),
+                            engine="vision",
+                        )
+                    )
             except Exception as exc:  # noqa: BLE001 - recorded, not raised
                 engines_failed["vision"] = str(exc)[:400]
                 report("warning", f"vision engine failed: {exc}")

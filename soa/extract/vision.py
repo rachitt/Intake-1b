@@ -42,7 +42,24 @@ def _client():
             "No GEMINI_API_KEY (or GOOGLE_API_KEY) in the environment. "
             "The geometric engine will run alone and the output will say so."
         )
-    return genai.Client(api_key=key)
+
+    # An explicit timeout matters more than it looks. Without one a stalled request hangs
+    # the whole run indefinitely, and a batch over several protocols simply stops with no
+    # error and no output. A bounded request fails, gets retried, and if it keeps failing
+    # the pipeline degrades to the geometric engine and says so.
+    from google.genai import types as _types
+
+    return genai.Client(
+        api_key=key,
+        http_options=_types.HttpOptions(timeout=_request_timeout_ms()),
+    )
+
+
+def _request_timeout_ms() -> int:
+    try:
+        return max(30_000, int(os.environ.get("SOA_REQUEST_TIMEOUT_MS", "300000")))
+    except ValueError:
+        return 300_000
 
 
 def model_name() -> str:
@@ -54,6 +71,21 @@ def _thinking_budget() -> int:
         return int(os.environ.get("SOA_THINKING_BUDGET", "4096"))
     except ValueError:
         return 4096
+
+
+def max_pages() -> int:
+    """Most pages sent in one request.
+
+    A modern ICH M11 protocol can put its whole Schedule of Activities section across
+    twenty pages, and one request that large is slow, expensive, and liable to run past the
+    output token limit mid-table -- which would drop rows silently, the worst failure mode
+    there is. The cap keeps a single request bounded; when it bites, the caller is told and
+    the shortfall is recorded as a high-severity warning rather than hidden.
+    """
+    try:
+        return max(1, int(os.environ.get("SOA_MAX_VISION_PAGES", "8")))
+    except ValueError:
+        return 8
 
 
 def render_dpi() -> int:
@@ -82,6 +114,16 @@ def extract_span(
 
     pages = sorted(set(span.pages) | set(span.footnote_pages))
     pages = [p for p in pages if 1 <= p <= len(doc)]
+
+    cap = max_pages()
+    dropped: list[int] = []
+    if len(pages) > cap:
+        # Keep the table body from the start of the span plus the trailing footnote page,
+        # so the footnote block is never the thing sacrificed.
+        tail = [p for p in pages if p in span.footnote_pages][-1:]
+        head = [p for p in pages if p not in tail][: cap - len(tail)]
+        dropped = [p for p in pages if p not in head and p not in tail]
+        pages = sorted(set(head) | set(tail))
 
     parts: list = []
     text_chunks: list[str] = []
@@ -136,10 +178,16 @@ def extract_span(
                 meta = {
                     "model": model,
                     "pages_sent": len(pages),
+                    "pages_dropped": dropped,
                     "dpi": dpi,
                     "seconds": round(time.time() - started, 2),
                     "input_tokens": getattr(usage, "prompt_token_count", None),
                     "output_tokens": getattr(usage, "candidates_token_count", None),
+                    "finish_reason": str(
+                        getattr(response.candidates[0], "finish_reason", "")
+                        if getattr(response, "candidates", None)
+                        else ""
+                    ),
                 }
                 return parsed, meta
 
