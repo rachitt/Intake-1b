@@ -215,10 +215,13 @@ def link_footnotes(
 
     # -- cells ---------------------------------------------------------------------------
     for cell in cells:
+        # Union, not fallback. The model's own marker list is a useful hint but not
+        # authoritative: on one protocol it reported CRF form numbers as footnote markers,
+        # which meant the list was non-empty and our own detection never ran, so the real
+        # marker on those rows was missed entirely. Detect independently and merge.
         refs = list(cell.footnote_refs)
-        if not refs:
-            _, found = split_trailing_markers(cell.raw, known)
-            refs = found
+        _, found = split_trailing_markers(cell.raw, known)
+        refs.extend(m for m in found if m not in refs)
         for fn, ref in anchors_for(refs):
             if ref not in cell.footnote_refs:
                 cell.footnote_refs.append(ref)
@@ -229,10 +232,9 @@ def link_footnotes(
     # -- rows ----------------------------------------------------------------------------
     for row in rows:
         refs = list(row.footnote_refs)
-        if not refs:
-            _, trailing = split_trailing_markers(row.label, known)
-            _, leading = split_leading_markers(row.label, known)
-            refs = trailing + [m for m in leading if m not in trailing]
+        _, trailing = split_trailing_markers(row.label, known)
+        _, leading = split_leading_markers(row.label, known)
+        refs.extend(m for m in trailing + leading if m not in refs)
         for fn, ref in anchors_for(refs):
             if ref not in row.footnote_refs:
                 row.footnote_refs.append(ref)

@@ -164,6 +164,12 @@ RECALL
 - Work down the table row by row. Do not skip, summarise, deduplicate or abbreviate. If the
   table has forty rows, return forty rows.
 - An empty cell is simply omitted from `cells`; that is different from omitting the row.
+- Each printed label line is its own row. Merge two lines ONLY when the second is a visual
+  wrap of the first -- it continues a sentence, or completes a phrase that is grammatically
+  incomplete on its own. Two lines that each read as a complete, distinct activity are TWO
+  rows, even when only the first one carries data cells. For example a label line reading
+  "Study drug record" followed by lines reading "Medications dispensed" and "Medications
+  returned" is three rows, not one, because each names a separate activity.
 
 STRUCTURE
 - Column headers are hierarchical. A study-period banner such as "Screening" or "Treatment"
