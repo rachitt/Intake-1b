@@ -48,11 +48,29 @@ python bench/check_grid.py                                       # score outputs
 ## Architecture
 
 ```
-PDF ──► locator ──► span(s) ──┬──► geometric engine ──┐
-     (free, all pages)        │   (text coordinates)  ├──► reconcile ──► schema ──► UI / JSON
-                              └──► vision engine ─────┘   (recall diff)
-                                  (located pages only)
+PDF ──► locator ──► span(s)             free, runs on every page
+     │
+     ├──► geometric engine              text coordinates
+     ├──► vision engine                 only the located pages
+     │
+     ▼
+     align to the printed grid          ruled.py: the lattice the page draws
+     │
+     ▼
+     footnote linkage                   anchors onto rows and columns by id
+     │
+     ▼
+     reconcile                          the recall diff
+     │
+     ▼
+     schema ──► UI / JSON
 ```
+
+The middle step is load-bearing and is easy to skip. Both engines read *content* well and
+*structure* only as well as a reader does — and a reader silently tidies structure up, so a
+column the page rules and leaves empty vanishes and a ruled cell naming three activities
+becomes three rows. Alignment happens **before** footnote linkage, because linkage anchors
+onto rows and columns by id and the printed grid is what decides which of those exist.
 
 The split is deliberate and is what keeps the tool affordable. The five protocols total
 ~370 pages, but only about a dozen carry a schedule. Locating is a coarse judgement — "is
@@ -372,7 +390,7 @@ estimates.
 | protocol15 | **10 / 10** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | **5** |
 
 Row and column recall is exact on all six schedules — the measure the brief weights most
-heavily — and both engines agree on the column count of every one of them.
+heavily.
 
 Three of these numbers moved when the ground truth was re-read from the pages' ruling
 lines, and every correction was the same mistake made twice: **a column with nothing
@@ -396,8 +414,8 @@ several of protocol9's wrapped row labels are reported as `merged_label` when th
 label over two lines rather than two activities — the row count is right, the claim about
 how to read it is not; the vision engine occasionally mis-transcribes a superscript marker
 (one run returned Myanmar glyphs for the `a` in `Xa`), which reconciliation catches but
-nothing repairs; and protocol12's `footnote_pages` says `[48]` though the block runs 48–49,
-with the text complete either way.
+nothing repairs. Per-schedule detail, including the smaller imprecisions, is in
+`verification/`.
 
 Questions raised for a clinical SME rather than guessed at are in
 `verification/QUESTIONS.md`. A test against a protocol the tool had never seen — a modern
@@ -485,35 +503,43 @@ into one schedule, which is the first thing to fix.
 
 ## AI tools used
 
-**Claude Code (Claude Opus)** wrote effectively all of this repository, including the
-locator heuristics, both engines, the schema, the UI and this README, working from the
-assignment PDF and the five protocols.
+**Claude Code (Claude Opus)** wrote effectively all of this repository — the locator
+heuristics, both engines, the schema, the UI and this README — working from the assignment
+PDF and the five protocols.
 
-**Where it helped.** Fastest gains came from using it to *investigate the documents before
-designing anything*: it read all five protocols in parallel and reported where each SoA
-was, how the headers stacked, and what the cell vocabulary looked like. Two of the load-bearing
-design decisions — the vertical-label detector and the page-rotation handling — came
-directly out of that reconnaissance rather than from a guess that later needed fixing.
-It was also good at the mechanical breadth: five engines in the benchmark harness, a full
-Pydantic schema with per-field descriptions, and a React UI were cheap to produce.
+**What it was good for.** The largest single gain was using it to *read the documents
+before designing anything*. It went through all five protocols and reported where each
+schedule was, how the headers stacked, what the cell vocabulary looked like and where the
+awkward cases were. Two load-bearing decisions came straight out of that — the
+vertical-label detector and the page-rotation handling — rather than out of a guess that
+later needed unpicking. It was also fast at mechanical breadth: a five-engine benchmark
+harness, a Pydantic schema with a description on every field, and a React UI were all cheap.
 
-**Where it got in the way.** Three specific things:
+**Where it needed watching.** The failures had one shape: code that reads correctly and is
+wrong about the document.
 
-- *Plausible heuristics that fail on real data.* The first vertical-label detector was
-  written to a sensible-sounding rule and silently ate every `X` column on the page. It
-  looked correct in the code. Only running it against the actual PDFs and printing what it
-  removed exposed it. The same happened with the label-column boundary, which was
-  quietly being dragged to the left margin by footnote markers below the table.
+- *A rule that sounds right and destroys data.* The first vertical-label detector was
+  written to a sensible-sounding rule and silently removed every `X` column on the page.
+  Nothing in the code looked wrong. Running it over the real PDFs and printing what it had
+  removed is what exposed it — as it did for the row-label boundary, which was quietly being
+  dragged to the left margin by footnote markers sitting below the table.
+- *An assumption standing in for a measurement.* The whole subject of this pass is one of
+  these: the extraction dropped a column the page rules and leaves empty, and split a ruled
+  cell holding three activities into three rows. Both readings are what a careful person
+  would produce from the image; both are wrong about the page. The fix was not a better
+  prompt but reading the grid out of the page's own vector graphics and holding the
+  extraction to it.
+- *A confident report of something not checked.* An early subagent described protocol5's
+  second schedule as a standalone table on page 51. It is on page 51 *below the first
+  schedule's footnote block* — taken at face value it would have produced a wrong span.
 - *Escaping bugs in generated patch scripts.* A `\b` in a non-raw Python string became a
-  literal backspace character inside a regex — invisible in a diff, and it silently broke
-  footnote-heading detection. Caught only by scanning the source files for control
-  characters.
-- *Confident over-generalisation.* An early subagent report described protocol5's second
-  schedule as being on page 51 as a standalone table; it is actually on page 51 *below the
-  first schedule's footnote block*. Taking that at face value would have produced a wrong
-  span. Reading the page directly settled it.
+  literal backspace inside a regex: invisible in a diff, and it silently broke
+  footnote-heading detection. Found by scanning the sources for control characters.
 
-The pattern throughout: it is fast and good at generating structure and breadth, and
-unreliable at anything that depends on what is actually inside the documents. Every
-heuristic in this repository was tuned against printed output from the real PDFs, and
-several were wrong on the first attempt in ways that were not visible from the code.
+The pattern throughout is that it is quick and reliable at structure and breadth, and
+unreliable about anything that depends on what is actually inside the documents. Every
+heuristic here was tuned against printed output from the real PDFs, and several were wrong
+on the first attempt in ways not visible from the code. That is also why
+`bench/check_grid.py` exists: the ground truth these tables need was sitting in the
+documents all along, and scoring against it is worth more than any amount of reasoning
+about whether the code looks right.
