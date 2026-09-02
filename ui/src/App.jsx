@@ -107,34 +107,6 @@ function PageImages({ jobId, pages, highlight }) {
   )
 }
 
-/** The page region of the first thing a footnote's marker sits on, if any of them has one. */
-function firstMarkedBox(schedule, marker) {
-  if (!schedule || !marker) return null
-  const cellAt = new Map((schedule.cells || []).map((c) => [`${c.row_id}|${c.column_id}`, c]))
-
-  for (const cell of schedule.cells || []) {
-    if ((cell.footnote_refs || []).includes(marker) && cell.bbox) return cell.bbox
-  }
-  for (const fn of schedule.footnotes || []) {
-    if (fn.marker !== marker) continue
-    for (const a of fn.attached_to || []) {
-      if (a.kind === 'cell') {
-        const cell = cellAt.get(`${a.row_id}|${a.column_id}`)
-        if (cell?.bbox) return cell.bbox
-      }
-      if (a.kind === 'row') {
-        const row = (schedule.rows || []).find((r) => r.id === a.row_id)
-        if (row?.bbox) return row.bbox
-      }
-      if (a.kind === 'column') {
-        const col = (schedule.columns || []).find((c) => c.id === a.column_id)
-        if (col?.bbox) return col.bbox
-      }
-    }
-  }
-  return null
-}
-
 function Warnings({ reconciliation }) {
   const warnings = reconciliation?.warnings || []
   if (warnings.length === 0) {
@@ -272,18 +244,19 @@ export default function App() {
     setHighlight(key && cell?.bbox ? cell.bbox : null)
   }
 
-  // Picking a footnote lights up everything its marker sits on -- in the grid, and on the
-  // page image, where the first cell it marks is boxed. Checking a footnote means checking
-  // what it is attached to, and reading the two side by side is the whole point of the
-  // split view.
+  // Picking a footnote lights up everything its marker sits on, in the extracted grid only.
+  // Deliberately not on the page image: a marker routinely sits on dozens of cells across
+  // both pages, and boxing an arbitrary one of them points somewhere misleading. The page
+  // box stays reserved for the one thing it can answer exactly -- where a single cell the
+  // reviewer clicked came from -- so any box on the image always means that and nothing else.
   const pickFootnote = useCallback(
     (marker) => {
       const next = marker === footnoteTarget ? null : marker
       setFootnoteTarget(next)
       setSelectedCell(null)
-      setHighlight(next ? firstMarkedBox(schedule, next) : null)
+      setHighlight(null)
     },
-    [footnoteTarget, schedule]
+    [footnoteTarget]
   )
 
   if (!job) {
@@ -388,7 +361,7 @@ export default function App() {
                 <p className="meta">
                   Click any cell to highlight where it came from on the page. Click a
                   footnote marker, or a footnote below, to light up every cell, row and
-                  column it is attached to.
+                  column it is attached to in the table.
                 </p>
                 <SoaGrid
                   schedule={schedule}
