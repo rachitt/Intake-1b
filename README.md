@@ -503,43 +503,21 @@ into one schedule, which is the first thing to fix.
 
 ## AI tools used
 
-**Claude Code (Claude Opus)** wrote effectively all of this repository — the locator
-heuristics, both engines, the schema, the UI and this README — working from the assignment
-PDF and the five protocols.
+Claude Code (Claude Opus) was used while building this. Two places it made a real
+difference:
 
-**What it was good for.** The largest single gain was using it to *read the documents
-before designing anything*. It went through all five protocols and reported where each
-schedule was, how the headers stacked, what the cell vocabulary looked like and where the
-awkward cases were. Two load-bearing decisions came straight out of that — the
-vertical-label detector and the page-rotation handling — rather than out of a guess that
-later needed unpicking. It was also fast at mechanical breadth: a five-engine benchmark
-harness, a Pydantic schema with a description on every field, and a React UI were all cheap.
+- **Reading the five protocols before any code was written** — where each schedule sat, how
+  the headers stacked, what the cell vocabulary looked like, where the awkward cases were.
+  Two decisions came straight out of that rather than out of a guess that later needed
+  unpicking: the vertical-label detector, and handling `/Rotate 90` pages by mapping every
+  coordinate through the page's own rotation matrix instead of testing spans for rotation.
+- **Mechanical breadth, cheaply** — the five-engine benchmark harness, a schema with a
+  description on every field, and the review UI.
 
-**Where it needed watching.** The failures had one shape: code that reads correctly and is
-wrong about the document.
-
-- *A rule that sounds right and destroys data.* The first vertical-label detector was
-  written to a sensible-sounding rule and silently removed every `X` column on the page.
-  Nothing in the code looked wrong. Running it over the real PDFs and printing what it had
-  removed is what exposed it — as it did for the row-label boundary, which was quietly being
-  dragged to the left margin by footnote markers sitting below the table.
-- *An assumption standing in for a measurement.* The whole subject of this pass is one of
-  these: the extraction dropped a column the page rules and leaves empty, and split a ruled
-  cell holding three activities into three rows. Both readings are what a careful person
-  would produce from the image; both are wrong about the page. The fix was not a better
-  prompt but reading the grid out of the page's own vector graphics and holding the
-  extraction to it.
-- *A confident report of something not checked.* An early subagent described protocol5's
-  second schedule as a standalone table on page 51. It is on page 51 *below the first
-  schedule's footnote block* — taken at face value it would have produced a wrong span.
-- *Escaping bugs in generated patch scripts.* A `\b` in a non-raw Python string became a
-  literal backspace inside a regex: invisible in a diff, and it silently broke
-  footnote-heading detection. Found by scanning the sources for control characters.
-
-The pattern throughout is that it is quick and reliable at structure and breadth, and
-unreliable about anything that depends on what is actually inside the documents. Every
-heuristic here was tuned against printed output from the real PDFs, and several were wrong
-on the first attempt in ways not visible from the code. That is also why
-`bench/check_grid.py` exists: the ground truth these tables need was sitting in the
-documents all along, and scoring against it is worth more than any amount of reasoning
-about whether the code looks right.
+One caveat is worth stating once, because it shaped how the rest was built: it is reliable
+about structure and unreliable about what is actually inside a document. The bug this pass
+fixed is the example. A blank ruled column was dropped and a merged row was split into
+three — both of which are what a careful reader produces from the image, and both wrong
+about the page. Every heuristic here was tuned against printed output from the real PDFs
+rather than against how the code reads, and `bench/check_grid.py` exists so that
+correctness is scored against the documents instead of argued about.
