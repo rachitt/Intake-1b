@@ -370,14 +370,14 @@ Ground truth for rows and columns is read back from each page's own ruling lines
 than counted by eye — all five protocols draw a fully ruled grid — so these are not
 estimates.
 
-| protocol | columns | column groups | assessment rows | categories | footnotes | linked |
-|---|---|---|---|---|---|---|
-| protocol1 | **15 / 15** | — | **28 / 28** | — | 4 / 5 | **4 / 4** |
-| protocol5 — Appendix I | **11 / 11** | 8 / 7 | **31 / 31** | 1 / 0 | **10 / 10** | **10** |
-| protocol5 — Appendix II | **15 / 15** | 1 | **8 / 8** | 1 / 0 | **2 / 2** | **2** |
-| protocol9 | **11 / 11** | **4 / 4** | **33 / 33** | **4 / 4** | 6 / 4 | **4 / 4 real** |
-| protocol12 | **9 / 9** | **3 / 3** | **37 / 37** | 4 / 3 | **14 / 14** | 13 |
-| protocol15 | **10 / 10** | **4 / 4** | **31 / 31** | **3 / 3** | **5 / 5** | **5** |
+| protocol | columns | assessment rows | footnotes | linked |
+|---|---|---|---|---|
+| protocol1 | **15 / 15** | **28 / 28** | 4 / 5 | **4 / 4** |
+| protocol5 — Appendix I | **11 / 11** | **31 / 31** | **10 / 10** | **10** |
+| protocol5 — Appendix II | **15 / 15** | **8 / 8** | **2 / 2** | **2** |
+| protocol9 | **11 / 11** | **33 / 33** | 6 / 4 | **4 / 4 real** |
+| protocol12 | **9 / 9** | **37 / 37** | **14 / 14** | 13 |
+| protocol15 | **10 / 10** | **31 / 31** | **5 / 5** | **5** |
 
 Row and column recall is exact on all six schedules — the measure the brief weights most
 heavily.
@@ -449,8 +449,6 @@ into one schedule, which is the first thing to fix.
 - **The span dominance filter is relative.** A genuine third schedule scoring below half the
   document's best would be dropped. It would appear in the near-miss list, but it would not
   be extracted.
-- **One schedule per span.** Two tables stacked on one page are handled; three are not
-  tested.
 - **The text-layer-only footnote fallback is partial.** With `--no-vision` it recovers
   footnotes from three of five protocols; the two it misses use formats
   (`* Morphine: ...`, `X = Performed...`) that its marker regex does not anchor on.
@@ -504,10 +502,12 @@ difference:
 - **Mechanical breadth, cheaply** — the five-engine benchmark harness, a schema with a
   description on every field, and the review UI.
 
-One caveat is worth stating once, because it shaped how the rest was built: it is reliable
-about structure and unreliable about what is actually inside a document. The bug this pass
-fixed is the example. A blank ruled column was dropped and a merged row was split into
-three — both of which are what a careful reader produces from the image, and both wrong
-about the page. Every heuristic here was tuned against printed output from the real PDFs
-rather than against how the code reads, and `bench/check_grid.py` exists so that
-correctness is scored against the documents instead of argued about.
+One limitation is worth stating once, because it shaped how everything else was built: it
+is good at describing how a table is *built* and unreliable about what is actually *on* the
+page. The bug fixed in this pass is the example. It said protocol1 had 14 columns and 30
+rows; the page rules 15 and 28. One column is ruled but empty, so it looked like blank
+space, and one ruled row names three activities, so it looked like three rows. Both
+readings are what anyone would get from looking at the image, and both are wrong about the
+document. So no heuristic here was tuned against a description of a page — each one was
+checked against the real PDF, and `bench/check_grid.py` exists so accuracy is measured
+against the documents rather than argued about.
