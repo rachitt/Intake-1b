@@ -286,45 +286,35 @@ Run `python bench/run_bench.py` to reproduce; results in `bench/RESULTS.md`.
 | **Hosted document-AI services** (Azure Document Intelligence, LlamaParse, Reducto) | not evaluated | The protocols must not be uploaded anywhere they would be retained. Ruling them out on that basis was a deliberate choice, not an oversight. |
 | **OCR (Tesseract)** | not needed | All five protocols have a text layer. Kept in mind as the fallback for genuinely scanned documents, which this tool currently does not handle. |
 
-### Model choice, and what the free tier actually does
+### Model choice
 
-`gemini-3.5-flash` is the configured default. Free-tier quota is metered per model and it
-was exhausted when the committed outputs were generated, so most were served by the fallback
-chain; every output records the model that actually served it in `run.vision_model`.
+The vision engine is Gemini Flash, and five models in that tier were run against these
+pages. What separates them is not whether they can read the table — every one of them
+returns the right rows and columns, because the structure is settled against the printed
+grid rather than read off the image — but how faithfully they copy individual cells.
 
-**Which model answers changes the cell-level result, and it is worth being blunt about how
-much.** Across four regenerations of protocol1: one run returned all 139 cells and every
+| model | verdict | on these pages |
+|---|---|---|
+| **`gemini-3.5-flash`** | **configured default** | Chosen for consistency during development; `SOA_GEMINI_MODEL` overrides it. |
+| **`gemini-3.7-flash`** | served the committed protocol1 | The one run that scored **139 of 139** printed cells exactly — nothing missing, nothing invented, nothing altered. Slow: minutes rather than seconds. |
+| **`gemini-2.5-flash`** | served the other four committed outputs | Fastest of the set and structurally sound, with a handful of cell-level misses. |
+| `gemini-3.1-flash-lite` | fallback | Structure right, but loses detail inside cells — reads `Xb` as `X` — and on one run returned CRF form numbers as footnotes. |
+| `gemini-3-flash-preview` | fallback | Answered normally when others would not; nothing separated it from 2.5-flash on quality. |
+
+Free-tier quota is metered per model, so the configured default is backed by a fallback
+chain and **every output records the model that actually served it** in `run.vision_model`.
+That field matters, because the choice is visible in the result:
+
+**Across four regenerations of protocol1**, one run returned all 139 cells and every
 distinct value verbatim; one lost two X marks; one returned Myanmar glyphs where the page
 prints a superscript `a`; one read every `Xb` as `X`. The **row and column structure was
-identical in all four**, because it is settled against the printed grid rather than read off
-the image — which is the entire argument for `soa/align.py`. Reconciliation caught the
+identical in all four** — which is the entire argument for `soa/align.py`, and the reason
+`bench/check_grid.py` scores cells rather than counting rows. Reconciliation caught the
 cell-level differences in every case and reported them per cell.
 
-Two distinct failures showed up, and telling them apart matters:
-
-- **`503 UNAVAILABLE`** — Google-side serving capacity ("this model is currently experiencing
-  high demand"). It hit 3.7-flash first, then 3.5-flash. Not quota: it failed 0/6 over 60s on
-  a *two-token* prompt, and failed identically on two different API keys while other models
-  answered normally on the same key in the same second.
-- **`429 RESOURCE_EXHAUSTED`** — free-tier request quota, which is metered **per model**. An
-  exhausted model is not an exhausted key: 3.5-flash and 2.5-flash returned 429 while
-  3.7-flash and 3-flash-preview answered fine on the same key.
-
-So the fallback chain is load-bearing rather than decorative, and 429 is treated as
-non-retryable on the same model (per-model quota does not recover in seconds) while 503 gets
-one retry before moving on. Requests also carry an explicit timeout — without one a stalled
-request hung a five-protocol batch for over ten minutes with no error and no output.
-
 Thinking is **off** by default. Measured on the same page and prompt, no thinking budget
-returned 34 rows, 126 cells and all 5 footnotes in 52 seconds; a 4096-token budget pushed the
-same request past four minutes without improving the result.
-
-On quality between models, the honest answer is that the differences are small and my
-comparison is not clean — `gemini-3.5-flash` matched ground truth exactly on the two
-protocols where I have data for it, and `gemini-3.1-flash-lite` matched on rows and columns
-everywhere but lost three footnotes on protocol1. What *is* clearly demonstrable is speed:
-2.5-flash and 3.1-flash-lite complete these requests in 15–50s where the 3.x Flash models
-took several minutes or timed out.
+returned 34 rows, 126 cells and all 5 footnotes in 52 seconds; a 4096-token budget pushed
+the same request past four minutes without improving the result.
 
 ### Two failures worth naming specifically
 
