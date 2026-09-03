@@ -12,7 +12,9 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .align import align_to_source_grid, lines_stand_alone
 from .extract import geometric, vision
+from .extract.ruled import is_axis_caption
 from .extract.prompt import VSchedule
 from .footnotes import FOOTNOTE_LINE_RE, link_footnotes, parse_footnote_block
 from .locate import locate
@@ -175,6 +177,12 @@ def _assemble_schedule(
         group_by_label: dict[str, RowGroup] = {}
         for vr in sorted(vis.rows, key=lambda r: r.index):
             if vr.is_category_header:
+                # "ACTIVITY", "Assessment" -- the caption on the row-label column itself,
+                # occasionally returned as a category banner. It names the axis; it is not
+                # a group of assessments, and emitting it as one puts a heading in the
+                # output that the table does not have.
+                if is_axis_caption(vr.label):
+                    continue
                 rg = RowGroup(
                     id=f"{sid}-rg{len(row_groups)}",
                     label=vr.label,
@@ -190,11 +198,17 @@ def _assemble_schedule(
                 for p in vr.category_path
                 if p.strip().lower() in group_by_label
             ]
+            lines = [ln for ln in (vr.label_lines or []) if ln.strip()]
+            merged = bool(vr.merged_label and len(lines) > 1) and lines_stand_alone(lines)
+            if not merged and len(lines) > 1:
+                lines = [" ".join(lines)]
             rows.append(
                 Row(
                     id=f"{sid}-r{vr.index}",
                     index=vr.index,
-                    label=vr.label,
+                    label="\n".join(lines) if merged else vr.label,
+                    label_lines=lines or [vr.label],
+                    merged_label=merged,
                     group_path=path,
                     is_category_header=False,
                     footnote_refs=list(vr.footnote_markers),
@@ -242,16 +256,21 @@ def _assemble_schedule(
 
         for vr_lab in vis.rotated_labels:
             page_hit = span.pages[0]
+            box = None
             for grid in grids:
                 for text, x, y0, y1 in grid.vertical_labels:
                     if text.lower().replace(" ", "") == vr_lab.text.lower().replace(" ", ""):
                         page_hit = grid.page
+                        # The x is what matters: a sideways divider is drawn inside a
+                        # column of its own, and this is how that column is recognised.
+                        box = BBox(page=grid.page, x0=x, y0=y0, x1=x, y1=y1)
             rotated.append(
                 RotatedAnnotation(
                     text=vr_lab.text,
                     page=page_hit,
                     rotation_deg=90.0,
                     interpretation=vr_lab.interpretation,
+                    bbox=box,
                 )
             )
 
@@ -283,6 +302,8 @@ def _assemble_schedule(
                     id=f"{sid}-r{grid.page}-{grow.index}",
                     index=len(rows),
                     label=grow.label,
+                    label_lines=list(grow.label_lines) or ([grow.label] if grow.label else []),
+                    merged_label=len(grow.label_lines) > 1,
                     is_category_header=grow.is_category,
                     page=grid.page,
                     bbox=BBox(
@@ -317,6 +338,26 @@ def _assemble_schedule(
     if not footnotes:
         footnotes = _footnotes_from_text_layer(doc, span)
 
+    # -- hold the structure to the grid the source actually draws --------------------------
+    # Before linkage, because linkage anchors onto rows and columns by id and the printed
+    # grid is what decides which rows and columns exist.
+    draft = Schedule(
+        id=sid,
+        heading=(vis.heading if vis and vis.heading else span.heading),
+        pages=list(span.pages),
+        column_groups=column_groups,
+        columns=columns,
+        row_groups=row_groups,
+        rows=rows,
+        cells=cells,
+        footnotes=footnotes,
+        rotated_annotations=rotated,
+    )
+    alignment_warnings = align_to_source_grid(draft, doc, span)
+    columns, rows, cells = draft.columns, draft.rows, draft.cells
+    column_groups, row_groups = draft.column_groups, draft.row_groups
+    alignment_assumptions = list(draft.assumptions)
+
     # -- linkage --------------------------------------------------------------------------
     link_footnotes(footnotes, rows, columns, cells, row_groups, column_groups)
 
@@ -324,6 +365,7 @@ def _assemble_schedule(
     rows, report = reconcile(
         rows, columns, cells, grids, engines_run, engines_failed
     )
+    report.warnings = alignment_warnings + report.warnings
 
     for fn in footnotes:
         if fn.unattached_reason:
@@ -351,6 +393,7 @@ def _assemble_schedule(
     }
 
     assumptions = list(vis.assumptions) if vis else []
+    assumptions += alignment_assumptions
     if not vis:
         assumptions.append(
             "The vision engine did not run for this schedule; structure comes from the "
@@ -478,6 +521,43 @@ def _footnotes_from_text_layer(doc: PdfDoc, span: TableSpan) -> list[Footnote]:
     return out
 
 
+def _drop_borrowed_footnotes(schedules: list[Schedule]) -> None:
+    """Remove footnotes a schedule inherited from a neighbour sharing its page.
+
+    When two schedules are printed on one page -- the second beginning below the first
+    one's footnote block -- the page image contains both blocks, and the second schedule
+    tends to come back carrying footnotes that belong to the first. The giveaway is that
+    they anchor to nothing in the borrower while anchoring to something in the owner.
+
+    Only unanchored duplicates are removed, and only when another schedule holds the same
+    text *and* has it linked. A footnote that is merely unlinked everywhere is kept, since
+    that may simply be a table-level note.
+    """
+    if len(schedules) < 2:
+        return
+
+    linked_texts: dict[str, str] = {}
+    for sched in schedules:
+        for fn in sched.footnotes:
+            if fn.attached_to:
+                linked_texts.setdefault(fn.text.strip()[:160], sched.id)
+
+    for sched in schedules:
+        keep = []
+        for fn in sched.footnotes:
+            owner = linked_texts.get(fn.text.strip()[:160])
+            if not fn.attached_to and owner is not None and owner != sched.id:
+                continue  # belongs to the neighbour, not here
+            keep.append(fn)
+        if len(keep) != len(sched.footnotes):
+            removed = len(sched.footnotes) - len(keep)
+            sched.footnotes = keep
+            sched.assumptions.append(
+                f"{removed} footnote(s) printed on a shared page were attributed to the "
+                f"adjacent schedule that they anchor into, and removed from this one."
+            )
+
+
 def extract_document(
     path: str | Path,
     use_vision: bool = True,
@@ -569,6 +649,8 @@ def extract_document(
         schedules.append(
             _assemble_schedule(span, i, vis, grids, doc, engines_run, engines_failed)
         )
+
+    _drop_borrowed_footnotes(schedules)
 
     finished = datetime.now(timezone.utc)
     result = SoADocument(

@@ -52,12 +52,18 @@
           "study_day": null,
           "study_week": "-2",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
-            54
+            53
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 274.5000305175781,
+            "y0": 143.99996948242188,
+            "x1": 306.00001525878906,
+            "y1": 171.60003662109375
+          },
           "engines": [
             "vision"
           ]
@@ -83,12 +89,18 @@
           "study_day": null,
           "study_week": "-.3",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
-            54
+            53
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 306.00001525878906,
+            "y0": 143.99996948242188,
+            "x1": 337.50001525878906,
+            "y1": 171.60003662109375
+          },
           "engines": [
             "vision"
           ]
@@ -114,12 +126,18 @@
           "study_day": null,
           "study_week": "0",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
-            54
+            53
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 337.50001525878906,
+            "y0": 143.99996948242188,
+            "x1": 369.00001525878906,
+            "y1": 171.60003662109375
+          },
           "engines": [
             "vision"
           ]
@@ -145,12 +163,18 @@
           "study_day": null,
           "study_week": "2",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
-            54
+            53
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 369.00001525878906,
+            "y0": 143.99996948242188,
+            "x1": 400.50001525878906,
+            "y1": 171.60003662109375
+          },
           "engines": [
             "vision"
           ]
@@ -176,12 +200,18 @@
           "study_day": null,
           "study_week": "4",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
-            54
+            53
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 400.50001525878906,
+            "y0": 143.99996948242188,
+            "x1": 432.00001525878906,
+            "y1": 171.60003662109375
+          },
           "engines": [
             "vision"
           ]
@@ -189,6 +219,41 @@
         {
           "id": "soa-1-c5",
           "index": 5,
+          "header_cells": [
+            {
+              "role": "visit_number",
+              "text": "",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
+              "text": "",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "printed_blank": true,
+          "footnote_refs": [],
+          "pages": [
+            53
+          ],
+          "bbox": {
+            "page": 53,
+            "x0": 432.00001525878906,
+            "y0": 143.99996948242188,
+            "x1": 463.50001525878906,
+            "y1": 171.60003662109375
+          },
+          "engines": []
+        },
+        {
+          "id": "soa-1-c6",
+          "index": 6,
           "header_cells": [
             {
               "role": "visit_number",
@@ -207,19 +272,25 @@
           "study_day": null,
           "study_week": "6",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
-            54
+            53
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 463.50001525878906,
+            "y0": 143.99996948242188,
+            "x1": 495.00001525878906,
+            "y1": 171.60003662109375
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c6",
-          "index": 6,
+          "id": "soa-1-c7",
+          "index": 7,
           "header_cells": [
             {
               "role": "visit_number",
@@ -238,19 +309,25 @@
           "study_day": null,
           "study_week": "8",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
-            54
+            53
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 143.99996948242188,
+            "x1": 526.5000305175781,
+            "y1": 171.60003662109375
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c7",
-          "index": 7,
+          "id": "soa-1-c8",
+          "index": 8,
           "header_cells": [
             {
               "role": "visit_number",
@@ -269,19 +346,25 @@
           "study_day": null,
           "study_week": "12",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
             54
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 91.31997680664062,
+            "x1": 305.5800018310547,
+            "y1": 118.92001342773438
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c8",
-          "index": 8,
+          "id": "soa-1-c9",
+          "index": 9,
           "header_cells": [
             {
               "role": "visit_number",
@@ -300,19 +383,25 @@
           "study_day": null,
           "study_week": "16",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
             54
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 91.31997680664062,
+            "x1": 341.0399932861328,
+            "y1": 118.92001342773438
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c9",
-          "index": 9,
+          "id": "soa-1-c10",
+          "index": 10,
           "header_cells": [
             {
               "role": "visit_number",
@@ -331,19 +420,25 @@
           "study_day": null,
           "study_week": "20",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
             54
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 91.31997680664062,
+            "x1": 376.50001525878906,
+            "y1": 118.92001342773438
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c10",
-          "index": 10,
+          "id": "soa-1-c11",
+          "index": 11,
           "header_cells": [
             {
               "role": "visit_number",
@@ -362,19 +457,25 @@
           "study_day": null,
           "study_week": "24",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
             54
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 91.31997680664062,
+            "x1": 411.9600067138672,
+            "y1": 118.92001342773438
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c11",
-          "index": 11,
+          "id": "soa-1-c12",
+          "index": 12,
           "header_cells": [
             {
               "role": "visit_number",
@@ -393,22 +494,28 @@
           "study_day": null,
           "study_week": "26",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
             54
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 91.31997680664062,
+            "x1": 447.41998291015625,
+            "y1": 118.92001342773438
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c12",
-          "index": 12,
+          "id": "soa-1-c13",
+          "index": 13,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "visit_name",
               "text": "ET",
               "footnote_refs": []
             },
@@ -419,27 +526,33 @@
             }
           ],
           "group_path": [],
-          "visit_label": null,
-          "visit_number": "ET",
+          "visit_label": "ET",
+          "visit_number": null,
           "study_day": null,
           "study_week": null,
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
             54
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 91.31997680664062,
+            "x1": 482.8800048828125,
+            "y1": 118.92001342773438
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c13",
-          "index": 13,
+          "id": "soa-1-c14",
+          "index": 14,
           "header_cells": [
             {
-              "role": "visit_number",
+              "role": "visit_name",
               "text": "RT",
               "footnote_refs": []
             },
@@ -450,17 +563,23 @@
             }
           ],
           "group_path": [],
-          "visit_label": null,
-          "visit_number": "RT",
+          "visit_label": "RT",
+          "visit_number": null,
           "study_day": null,
           "study_week": null,
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
-            53,
             54
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 482.8800048828125,
+            "y0": 91.31997680664062,
+            "x1": 518.2799987792969,
+            "y1": 118.92001342773438
+          },
           "engines": [
             "vision"
           ]
@@ -472,11 +591,22 @@
           "id": "soa-1-r0",
           "index": 0,
           "label": "Informed consent",
+          "label_lines": [
+            "Informed consent"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 171.60003662109375,
+            "x1": 238.1999969482422,
+            "y1": 185.39999389648438
+          },
           "engines": [
             "vision"
           ]
@@ -485,11 +615,22 @@
           "id": "soa-1-r1",
           "index": 1,
           "label": "Patient number assigned",
+          "label_lines": [
+            "Patient number assigned"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 185.39999389648438,
+            "x1": 238.1999969482422,
+            "y1": 199.19998168945312
+          },
           "engines": [
             "vision"
           ]
@@ -498,11 +639,22 @@
           "id": "soa-1-r2",
           "index": 2,
           "label": "Hachinski ≤4",
+          "label_lines": [
+            "Hachinski ≤4"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 199.19998168945312,
+            "x1": 238.1999969482422,
+            "y1": 213.0
+          },
           "engines": [
             "vision"
           ]
@@ -511,11 +663,22 @@
           "id": "soa-1-r3",
           "index": 3,
           "label": "MMSE 10-23",
+          "label_lines": [
+            "MMSE 10-23"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 213.0,
+            "x1": 238.1999969482422,
+            "y1": 226.79995727539062
+          },
           "engines": [
             "vision"
           ]
@@ -524,11 +687,22 @@
           "id": "soa-1-r4",
           "index": 4,
           "label": "Physical examination",
+          "label_lines": [
+            "Physical examination"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 226.79995727539062,
+            "x1": 238.1999969482422,
+            "y1": 240.60003662109375
+          },
           "engines": [
             "vision"
           ]
@@ -537,11 +711,22 @@
           "id": "soa-1-r5",
           "index": 5,
           "label": "Medical History",
+          "label_lines": [
+            "Medical History"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 240.60003662109375,
+            "x1": 238.1999969482422,
+            "y1": 254.4000244140625
+          },
           "engines": [
             "vision"
           ]
@@ -550,11 +735,22 @@
           "id": "soa-1-r6",
           "index": 6,
           "label": "Habits",
+          "label_lines": [
+            "Habits"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 254.4000244140625,
+            "x1": 238.1999969482422,
+            "y1": 268.20001220703125
+          },
           "engines": [
             "vision"
           ]
@@ -563,11 +759,22 @@
           "id": "soa-1-r7",
           "index": 7,
           "label": "Chest x-ray",
+          "label_lines": [
+            "Chest x-ray"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 268.20001220703125,
+            "x1": 238.1999969482422,
+            "y1": 281.99998474121094
+          },
           "engines": [
             "vision"
           ]
@@ -576,11 +783,22 @@
           "id": "soa-1-r8",
           "index": 8,
           "label": "Apo E genotyping",
+          "label_lines": [
+            "Apo E genotyping"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 281.99998474121094,
+            "x1": 238.1999969482422,
+            "y1": 295.8000030517578
+          },
           "engines": [
             "vision"
           ]
@@ -589,11 +807,22 @@
           "id": "soa-1-r9",
           "index": 9,
           "label": "Patient randomized",
+          "label_lines": [
+            "Patient randomized"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 295.8000030517578,
+            "x1": 238.1999969482422,
+            "y1": 309.59999084472656
+          },
           "engines": [
             "vision"
           ]
@@ -602,11 +831,22 @@
           "id": "soa-1-r10",
           "index": 10,
           "label": "Vital signs/Temperature",
+          "label_lines": [
+            "Vital signs/Temperature"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 309.59999084472656,
+            "x1": 238.1999969482422,
+            "y1": 323.40000915527344
+          },
           "engines": [
             "vision"
           ]
@@ -615,11 +855,22 @@
           "id": "soa-1-r11",
           "index": 11,
           "label": "Ambulatory ECG placed",
+          "label_lines": [
+            "Ambulatory ECG placed"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 323.40000915527344,
+            "x1": 238.1999969482422,
+            "y1": 337.1999969482422
+          },
           "engines": [
             "vision"
           ]
@@ -628,11 +879,22 @@
           "id": "soa-1-r12",
           "index": 12,
           "label": "Ambulatory ECG removed",
+          "label_lines": [
+            "Ambulatory ECG removed"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 337.1999969482422,
+            "x1": 238.1999969482422,
+            "y1": 350.9999694824219
+          },
           "engines": [
             "vision"
           ]
@@ -641,11 +903,22 @@
           "id": "soa-1-r13",
           "index": 13,
           "label": "ECG",
+          "label_lines": [
+            "ECG"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 350.9999694824219,
+            "x1": 238.1999969482422,
+            "y1": 364.8000030517578
+          },
           "engines": [
             "vision"
           ]
@@ -654,11 +927,22 @@
           "id": "soa-1-r14",
           "index": 14,
           "label": "Placebo TTS test",
+          "label_lines": [
+            "Placebo TTS test"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 364.8000030517578,
+            "x1": 238.1999969482422,
+            "y1": 378.59999084472656
+          },
           "engines": [
             "vision"
           ]
@@ -667,11 +951,22 @@
           "id": "soa-1-r15",
           "index": 15,
           "label": "CT Scan (if not within last year and patient passes all other screens)",
+          "label_lines": [
+            "CT Scan (if not within last year and patient passes all other screens)"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 378.59999084472656,
+            "x1": 238.1999969482422,
+            "y1": 418.3199920654297
+          },
           "engines": [
             "vision"
           ]
@@ -680,11 +975,22 @@
           "id": "soa-1-r16",
           "index": 16,
           "label": "Concomitant Medications",
+          "label_lines": [
+            "Concomitant Medications"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 418.3199920654297,
+            "x1": 238.1999969482422,
+            "y1": 432.12001037597656
+          },
           "engines": [
             "vision"
           ]
@@ -693,11 +999,22 @@
           "id": "soa-1-r17",
           "index": 17,
           "label": "Laboratory (Chem/Hemat):",
+          "label_lines": [
+            "Laboratory (Chem/Hemat):"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 432.12001037597656,
+            "x1": 238.1999969482422,
+            "y1": 445.9199981689453
+          },
           "engines": [
             "vision"
           ]
@@ -706,11 +1023,22 @@
           "id": "soa-1-r18",
           "index": 18,
           "label": "Laboratory (Urinalysis)",
+          "label_lines": [
+            "Laboratory (Urinalysis)"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 445.9199981689453,
+            "x1": 238.1999969482422,
+            "y1": 459.7200012207031
+          },
           "engines": [
             "vision"
           ]
@@ -719,11 +1047,22 @@
           "id": "soa-1-r19",
           "index": 19,
           "label": "Plasma Specimen (Xanomeline)",
+          "label_lines": [
+            "Plasma Specimen (Xanomeline)"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 459.7200012207031,
+            "x1": 238.1999969482422,
+            "y1": 486.47999572753906
+          },
           "engines": [
             "vision"
           ]
@@ -732,11 +1071,22 @@
           "id": "soa-1-r20",
           "index": 20,
           "label": "Hemoglobin A1C",
+          "label_lines": [
+            "Hemoglobin A1C"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 486.47999572753906,
+            "x1": 238.1999969482422,
+            "y1": 500.28001403808594
+          },
           "engines": [
             "vision"
           ]
@@ -744,12 +1094,25 @@
         {
           "id": "soa-1-r21",
           "index": 21,
-          "label": "Study drug record",
+          "label": "Study drug record\nMedications dispensed\nMedications returned",
+          "label_lines": [
+            "Study drug record",
+            "Medications dispensed",
+            "Medications returned"
+          ],
+          "merged_label": true,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 500.28001403808594,
+            "x1": 238.1999969482422,
+            "y1": 540.0
+          },
           "engines": [
             "vision"
           ]
@@ -757,12 +1120,23 @@
         {
           "id": "soa-1-r22",
           "index": 22,
-          "label": "Medications dispensed",
+          "label": "TTS Acceptability Survey",
+          "label_lines": [
+            "TTS Acceptability Survey"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 540.0,
+            "x1": 238.1999969482422,
+            "y1": 553.8000183105469
+          },
           "engines": [
             "vision"
           ]
@@ -770,12 +1144,23 @@
         {
           "id": "soa-1-r23",
           "index": 23,
-          "label": "Medications returned",
+          "label": "ADAS-Cog",
+          "label_lines": [
+            "ADAS-Cog"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 553.8000183105469,
+            "x1": 238.1999969482422,
+            "y1": 567.6000061035156
+          },
           "engines": [
             "vision"
           ]
@@ -783,12 +1168,23 @@
         {
           "id": "soa-1-r24",
           "index": 24,
-          "label": "TTS Acceptability Survey",
+          "label": "CIBIC+",
+          "label_lines": [
+            "CIBIC+"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 567.6000061035156,
+            "x1": 238.1999969482422,
+            "y1": 581.3999938964844
+          },
           "engines": [
             "vision"
           ]
@@ -796,12 +1192,23 @@
         {
           "id": "soa-1-r25",
           "index": 25,
-          "label": "ADAS-Cog",
+          "label": "DAD",
+          "label_lines": [
+            "DAD"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 581.3999938964844,
+            "x1": 238.1999969482422,
+            "y1": 595.1999816894531
+          },
           "engines": [
             "vision"
           ]
@@ -809,12 +1216,25 @@
         {
           "id": "soa-1-r26",
           "index": 26,
-          "label": "CIBIC+",
+          "label": "NPI-X",
+          "label_lines": [
+            "NPI-X"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
-          "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 595.1999816894531,
+            "x1": 238.1999969482422,
+            "y1": 609.0
+          },
           "engines": [
             "vision"
           ]
@@ -822,38 +1242,23 @@
         {
           "id": "soa-1-r27",
           "index": 27,
-          "label": "DAD",
-          "group_path": [],
-          "is_category_header": false,
-          "footnote_refs": [],
-          "page": null,
-          "bbox": null,
-          "engines": [
-            "vision"
-          ]
-        },
-        {
-          "id": "soa-1-r28",
-          "index": 28,
-          "label": "NPI-X",
-          "group_path": [],
-          "is_category_header": false,
-          "footnote_refs": [],
-          "page": null,
-          "bbox": null,
-          "engines": [
-            "vision"
-          ]
-        },
-        {
-          "id": "soa-1-r29",
-          "index": 29,
           "label": "Adverse events",
+          "label_lines": [
+            "Adverse events"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 53,
+          "bbox": {
+            "page": 53,
+            "x0": 121.44000244140625,
+            "y0": 609.0,
+            "x1": 238.1999969482422,
+            "y1": 622.8000183105469
+          },
           "engines": [
             "vision"
           ]
@@ -865,17 +1270,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.4638977050781,
-            "y0": 173.34288024902344,
-            "x1": 296.214599609375,
-            "y1": 185.34889221191406
+            "x0": 274.5000305175781,
+            "y0": 171.60003662109375,
+            "x1": 306.00001525878906,
+            "y1": 185.39999389648438
           },
           "engines": {
             "vision": "X",
@@ -888,17 +1295,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.42608642578125,
-            "y0": 187.1429901123047,
-            "x1": 296.1767883300781,
-            "y1": 199.1490020751953
+            "x0": 274.5000305175781,
+            "y0": 185.39999389648438,
+            "x1": 306.00001525878906,
+            "y1": 199.19998168945312
           },
           "engines": {
             "vision": "X",
@@ -911,17 +1320,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.4603271484375,
-            "y0": 200.94297790527344,
-            "x1": 296.1885070800781,
-            "y1": 212.94898986816406
+            "x0": 274.5000305175781,
+            "y0": 199.19998168945312,
+            "x1": 306.00001525878906,
+            "y1": 213.0
           },
           "engines": {
             "vision": "X",
@@ -934,17 +1345,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.461181640625,
-            "y0": 214.7429656982422,
-            "x1": 296.2046813964844,
-            "y1": 226.7489776611328
+            "x0": 274.5000305175781,
+            "y0": 213.0,
+            "x1": 306.00001525878906,
+            "y1": 226.79995727539062
           },
           "engines": {
             "vision": "X",
@@ -957,17 +1370,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.42437744140625,
-            "y0": 228.5430145263672,
-            "x1": 296.1849670410156,
-            "y1": 240.5490264892578
+            "x0": 274.5000305175781,
+            "y0": 226.79995727539062,
+            "x1": 306.00001525878906,
+            "y1": 240.60003662109375
           },
           "engines": {
             "vision": "X",
@@ -977,15 +1392,23 @@
         },
         {
           "row_id": "soa-1-r4",
-          "column_id": "soa-1-c11",
+          "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 174.1199951171875,
+            "x1": 447.41998291015625,
+            "y1": 187.9200439453125
+          },
           "engines": {
             "vision": "X"
           },
@@ -993,15 +1416,23 @@
         },
         {
           "row_id": "soa-1-r4",
-          "column_id": "soa-1-c12",
+          "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 174.1199951171875,
+            "x1": 482.8800048828125,
+            "y1": 187.9200439453125
+          },
           "engines": {
             "vision": "X"
           },
@@ -1012,17 +1443,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.46478271484375,
-            "y0": 242.34288024902344,
-            "x1": 296.1929626464844,
-            "y1": 254.34889221191406
+            "x0": 274.5000305175781,
+            "y0": 240.60003662109375,
+            "x1": 306.00001525878906,
+            "y1": 254.4000244140625
           },
           "engines": {
             "vision": "X",
@@ -1035,17 +1468,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.461181640625,
-            "y0": 256.14300537109375,
-            "x1": 296.1893615722656,
-            "y1": 268.14898681640625
+            "x0": 274.5000305175781,
+            "y0": 254.4000244140625,
+            "x1": 306.00001525878906,
+            "y1": 268.20001220703125
           },
           "engines": {
             "vision": "X",
@@ -1058,17 +1493,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.4621276855469,
-            "y0": 269.9429931640625,
-            "x1": 296.1903381347656,
-            "y1": 281.948974609375
+            "x0": 274.5000305175781,
+            "y0": 268.20001220703125,
+            "x1": 306.00001525878906,
+            "y1": 281.99998474121094
           },
           "engines": {
             "vision": "X",
@@ -1081,17 +1518,19 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 381.9288024902344,
-            "y0": 283.7430114746094,
-            "x1": 390.67950439453125,
-            "y1": 295.7489929199219
+            "x0": 369.00001525878906,
+            "y0": 281.99998474121094,
+            "x1": 400.50001525878906,
+            "y1": 295.8000030517578
           },
           "engines": {
             "vision": "X",
@@ -1104,17 +1543,19 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 350.4378356933594,
-            "y0": 297.5429992675781,
-            "x1": 359.192138671875,
-            "y1": 309.5489807128906
+            "x0": 337.50001525878906,
+            "y0": 295.8000030517578,
+            "x1": 369.00001525878906,
+            "y1": 309.59999084472656
           },
           "engines": {
             "vision": "X",
@@ -1127,17 +1568,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.24700927734375,
-            "y0": 311.343017578125,
-            "x1": 295.9923095703125,
-            "y1": 323.3489990234375
+            "x0": 274.5000305175781,
+            "y0": 309.59999084472656,
+            "x1": 306.00001525878906,
+            "y1": 323.40000915527344
           },
           "engines": {
             "vision": "X",
@@ -1150,17 +1593,19 @@
           "column_id": "soa-1-c1",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 318.7623291015625,
-            "y0": 311.343017578125,
-            "x1": 327.50762939453125,
-            "y1": 323.3489990234375
+            "x0": 306.00001525878906,
+            "y0": 309.59999084472656,
+            "x1": 337.50001525878906,
+            "y1": 323.40000915527344
           },
           "engines": {
             "vision": "X",
@@ -1173,17 +1618,19 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 350.27764892578125,
-            "y0": 311.343017578125,
-            "x1": 359.02294921875,
-            "y1": 323.3489990234375
+            "x0": 337.50001525878906,
+            "y0": 309.59999084472656,
+            "x1": 369.00001525878906,
+            "y1": 323.40000915527344
           },
           "engines": {
             "vision": "X",
@@ -1196,17 +1643,19 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 381.79296875,
-            "y0": 311.343017578125,
-            "x1": 390.53826904296875,
-            "y1": 323.3489990234375
+            "x0": 369.00001525878906,
+            "y0": 309.59999084472656,
+            "x1": 400.50001525878906,
+            "y1": 323.40000915527344
           },
           "engines": {
             "vision": "X",
@@ -1219,40 +1668,19 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 413.30828857421875,
-            "y0": 311.343017578125,
-            "x1": 422.0535888671875,
-            "y1": 323.3489990234375
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r10",
-          "column_id": "soa-1-c5",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 476.3236083984375,
-            "y0": 311.343017578125,
-            "x1": 485.06890869140625,
-            "y1": 323.3489990234375
+            "x0": 400.50001525878906,
+            "y0": 309.59999084472656,
+            "x1": 432.00001525878906,
+            "y1": 323.40000915527344
           },
           "engines": {
             "vision": "X",
@@ -1265,17 +1693,19 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 507.83892822265625,
-            "y0": 311.343017578125,
-            "x1": 516.584228515625,
-            "y1": 323.3489990234375
+            "x0": 463.50001525878906,
+            "y0": 309.59999084472656,
+            "x1": 495.00001525878906,
+            "y1": 323.40000915527344
           },
           "engines": {
             "vision": "X",
@@ -1288,14 +1718,23 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 309.59999084472656,
+            "x1": 526.5000305175781,
+            "y1": 323.40000915527344
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -1304,12 +1743,20 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 256.7399597167969,
+            "x1": 305.5800018310547,
+            "y1": 270.48004150390625
+          },
           "engines": {
             "vision": "X"
           },
@@ -1320,12 +1767,20 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 256.7399597167969,
+            "x1": 341.0399932861328,
+            "y1": 270.48004150390625
+          },
           "engines": {
             "vision": "X"
           },
@@ -1336,12 +1791,20 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 256.7399597167969,
+            "x1": 376.50001525878906,
+            "y1": 270.48004150390625
+          },
           "engines": {
             "vision": "X"
           },
@@ -1352,12 +1815,20 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 256.7399597167969,
+            "x1": 411.9600067138672,
+            "y1": 270.48004150390625
+          },
           "engines": {
             "vision": "X"
           },
@@ -1368,12 +1839,20 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 256.7399597167969,
+            "x1": 447.41998291015625,
+            "y1": 270.48004150390625
+          },
           "engines": {
             "vision": "X"
           },
@@ -1384,12 +1863,44 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 256.7399597167969,
+            "x1": 482.8800048828125,
+            "y1": 270.48004150390625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c14",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 482.8800048828125,
+            "y0": 256.7399597167969,
+            "x1": 518.2799987792969,
+            "y1": 270.48004150390625
+          },
           "engines": {
             "vision": "X"
           },
@@ -1400,17 +1911,19 @@
           "column_id": "soa-1-c1",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 318.8712158203125,
-            "y0": 325.14300537109375,
-            "x1": 327.6219177246094,
-            "y1": 337.14898681640625
+            "x0": 306.00001525878906,
+            "y0": 323.40000915527344,
+            "x1": 337.50001525878906,
+            "y1": 337.1999969482422
           },
           "engines": {
             "vision": "X",
@@ -1423,17 +1936,19 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 350.41259765625,
-            "y0": 338.9430236816406,
-            "x1": 359.1588134765625,
-            "y1": 350.9490051269531
+            "x0": 337.50001525878906,
+            "y0": 337.1999969482422,
+            "x1": 369.00001525878906,
+            "y1": 350.9999694824219
           },
           "engines": {
             "vision": "X",
@@ -1446,17 +1961,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.4143981933594,
-            "y0": 352.7430114746094,
-            "x1": 296.1470947265625,
-            "y1": 364.7489929199219
+            "x0": 274.5000305175781,
+            "y0": 350.9999694824219,
+            "x1": 306.00001525878906,
+            "y1": 364.8000030517578
           },
           "engines": {
             "vision": "X",
@@ -1469,17 +1986,19 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 381.9171142578125,
-            "y0": 352.7430114746094,
-            "x1": 390.6498107910156,
-            "y1": 364.7489929199219
+            "x0": 369.00001525878906,
+            "y0": 350.9999694824219,
+            "x1": 400.50001525878906,
+            "y1": 364.8000030517578
           },
           "engines": {
             "vision": "X",
@@ -1492,17 +2011,19 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 413.4198303222656,
-            "y0": 352.7430114746094,
-            "x1": 422.15252685546875,
-            "y1": 364.7489929199219
+            "x0": 400.50001525878906,
+            "y0": 350.9999694824219,
+            "x1": 432.00001525878906,
+            "y1": 364.8000030517578
           },
           "engines": {
             "vision": "X",
@@ -1515,17 +2036,19 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 507.9252624511719,
-            "y0": 352.7430114746094,
-            "x1": 516.657958984375,
-            "y1": 364.7489929199219
+            "x0": 463.50001525878906,
+            "y0": 350.9999694824219,
+            "x1": 495.00001525878906,
+            "y1": 364.8000030517578
           },
           "engines": {
             "vision": "X",
@@ -1538,14 +2061,23 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 350.9999694824219,
+            "x1": 526.5000305175781,
+            "y1": 364.8000030517578
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -1554,12 +2086,20 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 297.9600067138672,
+            "x1": 305.5800018310547,
+            "y1": 311.6999969482422
+          },
           "engines": {
             "vision": "X"
           },
@@ -1570,12 +2110,20 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 297.9600067138672,
+            "x1": 341.0399932861328,
+            "y1": 311.6999969482422
+          },
           "engines": {
             "vision": "X"
           },
@@ -1586,12 +2134,20 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 297.9600067138672,
+            "x1": 376.50001525878906,
+            "y1": 311.6999969482422
+          },
           "engines": {
             "vision": "X"
           },
@@ -1602,12 +2158,68 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 297.9600067138672,
+            "x1": 411.9600067138672,
+            "y1": 311.6999969482422
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c12",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 297.9600067138672,
+            "x1": 447.41998291015625,
+            "y1": 311.6999969482422
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c13",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 297.9600067138672,
+            "x1": 482.8800048828125,
+            "y1": 311.6999969482422
+          },
           "engines": {
             "vision": "X"
           },
@@ -1618,17 +2230,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.4683837890625,
-            "y0": 366.5429992675781,
-            "x1": 296.1965637207031,
-            "y1": 378.5489807128906
+            "x0": 274.5000305175781,
+            "y0": 364.8000030517578,
+            "x1": 306.00001525878906,
+            "y1": 378.59999084472656
           },
           "engines": {
             "vision": "X",
@@ -1641,17 +2255,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.4602966308594,
-            "y0": 380.3429870605469,
-            "x1": 296.1885070800781,
-            "y1": 392.3489685058594
+            "x0": 274.5000305175781,
+            "y0": 378.59999084472656,
+            "x1": 306.00001525878906,
+            "y1": 418.3199920654297
           },
           "engines": {
             "vision": "X",
@@ -1664,17 +2280,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.2794189453125,
-            "y0": 420.0630187988281,
-            "x1": 296.025634765625,
-            "y1": 432.0690002441406
+            "x0": 274.5000305175781,
+            "y0": 418.3199920654297,
+            "x1": 306.00001525878906,
+            "y1": 432.12001037597656
           },
           "engines": {
             "vision": "X",
@@ -1687,17 +2305,19 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 350.295654296875,
-            "y0": 420.0630187988281,
-            "x1": 359.0418701171875,
-            "y1": 432.0690002441406
+            "x0": 337.50001525878906,
+            "y0": 418.3199920654297,
+            "x1": 369.00001525878906,
+            "y1": 432.12001037597656
           },
           "engines": {
             "vision": "X",
@@ -1710,17 +2330,19 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 381.8118896484375,
-            "y0": 420.0630187988281,
-            "x1": 390.55810546875,
-            "y1": 432.0690002441406
+            "x0": 369.00001525878906,
+            "y0": 418.3199920654297,
+            "x1": 400.50001525878906,
+            "y1": 432.12001037597656
           },
           "engines": {
             "vision": "X",
@@ -1733,40 +2355,19 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 413.328125,
-            "y0": 420.0630187988281,
-            "x1": 422.0743408203125,
-            "y1": 432.0690002441406
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r16",
-          "column_id": "soa-1-c5",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 476.3443603515625,
-            "y0": 420.0630187988281,
-            "x1": 485.090576171875,
-            "y1": 432.0690002441406
+            "x0": 400.50001525878906,
+            "y0": 418.3199920654297,
+            "x1": 432.00001525878906,
+            "y1": 432.12001037597656
           },
           "engines": {
             "vision": "X",
@@ -1779,17 +2380,19 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 507.860595703125,
-            "y0": 420.0630187988281,
-            "x1": 516.6068115234375,
-            "y1": 432.0690002441406
+            "x0": 463.50001525878906,
+            "y0": 418.3199920654297,
+            "x1": 495.00001525878906,
+            "y1": 432.12001037597656
           },
           "engines": {
             "vision": "X",
@@ -1802,14 +2405,23 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 418.3199920654297,
+            "x1": 526.5000305175781,
+            "y1": 432.12001037597656
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -1818,12 +2430,20 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 365.09999084472656,
+            "x1": 305.5800018310547,
+            "y1": 378.8400115966797
+          },
           "engines": {
             "vision": "X"
           },
@@ -1834,12 +2454,20 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 365.09999084472656,
+            "x1": 341.0399932861328,
+            "y1": 378.8400115966797
+          },
           "engines": {
             "vision": "X"
           },
@@ -1850,12 +2478,20 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 365.09999084472656,
+            "x1": 376.50001525878906,
+            "y1": 378.8400115966797
+          },
           "engines": {
             "vision": "X"
           },
@@ -1866,12 +2502,20 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 365.09999084472656,
+            "x1": 411.9600067138672,
+            "y1": 378.8400115966797
+          },
           "engines": {
             "vision": "X"
           },
@@ -1882,12 +2526,20 @@
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 365.09999084472656,
+            "x1": 447.41998291015625,
+            "y1": 378.8400115966797
+          },
           "engines": {
             "vision": "X"
           },
@@ -1898,12 +2550,44 @@
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 365.09999084472656,
+            "x1": 482.8800048828125,
+            "y1": 378.8400115966797
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r16",
+          "column_id": "soa-1-c14",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 482.8800048828125,
+            "y0": 365.09999084472656,
+            "x1": 518.2799987792969,
+            "y1": 378.8400115966797
+          },
           "engines": {
             "vision": "X"
           },
@@ -1914,17 +2598,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.3216857910156,
-            "y0": 433.8630065917969,
-            "x1": 296.06878662109375,
-            "y1": 445.8689880371094
+            "x0": 274.5000305175781,
+            "y0": 432.12001037597656,
+            "x1": 306.00001525878906,
+            "y1": 445.9199981689453
           },
           "engines": {
             "vision": "X",
@@ -1937,17 +2623,19 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 381.841552734375,
-            "y0": 433.8630065917969,
-            "x1": 390.5886535644531,
-            "y1": 445.8689880371094
+            "x0": 369.00001525878906,
+            "y0": 432.12001037597656,
+            "x1": 400.50001525878906,
+            "y1": 445.9199981689453
           },
           "engines": {
             "vision": "X",
@@ -1960,40 +2648,19 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 413.3595886230469,
-            "y0": 433.8630065917969,
-            "x1": 422.106689453125,
-            "y1": 445.8689880371094
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r17",
-          "column_id": "soa-1-c5",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 476.3785400390625,
-            "y0": 433.8630065917969,
-            "x1": 485.1256408691406,
-            "y1": 445.8689880371094
+            "x0": 400.50001525878906,
+            "y0": 432.12001037597656,
+            "x1": 432.00001525878906,
+            "y1": 445.9199981689453
           },
           "engines": {
             "vision": "X",
@@ -2006,17 +2673,19 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 507.8965759277344,
-            "y0": 433.8630065917969,
-            "x1": 516.6436767578125,
-            "y1": 445.8689880371094
+            "x0": 463.50001525878906,
+            "y0": 432.12001037597656,
+            "x1": 495.00001525878906,
+            "y1": 445.9199981689453
           },
           "engines": {
             "vision": "X",
@@ -2029,14 +2698,23 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 432.12001037597656,
+            "x1": 526.5000305175781,
+            "y1": 445.9199981689453
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2045,12 +2723,20 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 378.8400115966797,
+            "x1": 305.5800018310547,
+            "y1": 392.5800018310547
+          },
           "engines": {
             "vision": "X"
           },
@@ -2061,12 +2747,20 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 378.8400115966797,
+            "x1": 341.0399932861328,
+            "y1": 392.5800018310547
+          },
           "engines": {
             "vision": "X"
           },
@@ -2077,12 +2771,20 @@
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 378.8400115966797,
+            "x1": 376.50001525878906,
+            "y1": 392.5800018310547
+          },
           "engines": {
             "vision": "X"
           },
@@ -2093,12 +2795,68 @@
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 378.8400115966797,
+            "x1": 411.9600067138672,
+            "y1": 392.5800018310547
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r17",
+          "column_id": "soa-1-c12",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 378.8400115966797,
+            "x1": 447.41998291015625,
+            "y1": 392.5800018310547
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r17",
+          "column_id": "soa-1-c13",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 378.8400115966797,
+            "x1": 482.8800048828125,
+            "y1": 392.5800018310547
+          },
           "engines": {
             "vision": "X"
           },
@@ -2109,17 +2867,19 @@
           "column_id": "soa-1-c0",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 287.39276123046875,
-            "y0": 447.66302490234375,
-            "x1": 296.1434631347656,
-            "y1": 459.66900634765625
+            "x0": 274.5000305175781,
+            "y0": 445.9199981689453,
+            "x1": 306.00001525878906,
+            "y1": 459.7200012207031
           },
           "engines": {
             "vision": "X",
@@ -2132,17 +2892,19 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 381.9134826660156,
-            "y0": 447.66302490234375,
-            "x1": 390.6641845703125,
-            "y1": 459.66900634765625
+            "x0": 369.00001525878906,
+            "y0": 445.9199981689453,
+            "x1": 400.50001525878906,
+            "y1": 459.7200012207031
           },
           "engines": {
             "vision": "X",
@@ -2152,15 +2914,23 @@
         },
         {
           "row_id": "soa-1-r18",
-          "column_id": "soa-1-c7",
+          "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 392.5800018310547,
+            "x1": 305.5800018310547,
+            "y1": 406.37998962402344
+          },
           "engines": {
             "vision": "X"
           },
@@ -2168,15 +2938,23 @@
         },
         {
           "row_id": "soa-1-r18",
-          "column_id": "soa-1-c10",
+          "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 392.5800018310547,
+            "x1": 411.9600067138672,
+            "y1": 406.37998962402344
+          },
           "engines": {
             "vision": "X"
           },
@@ -2184,15 +2962,23 @@
         },
         {
           "row_id": "soa-1-r18",
-          "column_id": "soa-1-c12",
+          "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 392.5800018310547,
+            "x1": 482.8800048828125,
+            "y1": 406.37998962402344
+          },
           "engines": {
             "vision": "X"
           },
@@ -2203,17 +2989,19 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 350.4603271484375,
-            "y0": 461.4630126953125,
-            "x1": 359.18853759765625,
-            "y1": 473.468994140625
+            "x0": 337.50001525878906,
+            "y0": 459.7200012207031,
+            "x1": 369.00001525878906,
+            "y1": 486.47999572753906
           },
           "engines": {
             "vision": "X",
@@ -2226,17 +3014,19 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 381.95855712890625,
-            "y0": 461.4630126953125,
-            "x1": 390.686767578125,
-            "y1": 473.468994140625
+            "x0": 369.00001525878906,
+            "y0": 459.7200012207031,
+            "x1": 400.50001525878906,
+            "y1": 486.47999572753906
           },
           "engines": {
             "vision": "X",
@@ -2249,17 +3039,19 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 413.456787109375,
-            "y0": 461.4630126953125,
-            "x1": 422.18499755859375,
-            "y1": 473.468994140625
+            "x0": 400.50001525878906,
+            "y0": 459.7200012207031,
+            "x1": 432.00001525878906,
+            "y1": 486.47999572753906
           },
           "engines": {
             "vision": "X",
@@ -2272,12 +3064,45 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 463.50001525878906,
+            "y0": 459.7200012207031,
+            "x1": 495.00001525878906,
+            "y1": 486.47999572753906
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c8",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 406.37998962402344,
+            "x1": 305.5800018310547,
+            "y1": 433.13999938964844
+          },
           "engines": {
             "vision": "X"
           },
@@ -2285,15 +3110,23 @@
         },
         {
           "row_id": "soa-1-r19",
-          "column_id": "soa-1-c7",
+          "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 406.37998962402344,
+            "x1": 376.50001525878906,
+            "y1": 433.13999938964844
+          },
           "engines": {
             "vision": "X"
           },
@@ -2301,31 +3134,23 @@
         },
         {
           "row_id": "soa-1-r19",
-          "column_id": "soa-1-c9",
+          "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 406.37998962402344,
+            "x1": 482.8800048828125,
+            "y1": 433.13999938964844
           },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r19",
-          "column_id": "soa-1-c12",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
           "engines": {
             "vision": "X"
           },
@@ -2337,7 +3162,8 @@
           "raw": "Xa",
           "value_text": null,
           "footnote_refs": [
-            "a"
+            "a",
+            "Xa"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -2345,10 +3171,10 @@
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 285.6596984863281,
-            "y0": 487.31695556640625,
-            "x1": 295.6831359863281,
-            "y1": 500.22900390625
+            "x0": 274.5000305175781,
+            "y0": 486.47999572753906,
+            "x1": 306.00001525878906,
+            "y1": 500.28001403808594
           },
           "engines": {
             "vision": "Xa",
@@ -2361,14 +3187,23 @@
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 337.50001525878906,
+            "y0": 500.28001403808594,
+            "x1": 369.00001525878906,
+            "y1": 540.0
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2377,14 +3212,23 @@
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 369.00001525878906,
+            "y0": 500.28001403808594,
+            "x1": 400.50001525878906,
+            "y1": 540.0
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2393,14 +3237,23 @@
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 400.50001525878906,
+            "y0": 500.28001403808594,
+            "x1": 432.00001525878906,
+            "y1": 540.0
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2409,14 +3262,23 @@
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 463.50001525878906,
+            "y0": 500.28001403808594,
+            "x1": 495.00001525878906,
+            "y1": 540.0
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2425,14 +3287,23 @@
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 500.28001403808594,
+            "x1": 526.5000305175781,
+            "y1": 540.0
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -2441,12 +3312,20 @@
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 446.9399719238281,
+            "x1": 305.5800018310547,
+            "y1": 486.6600036621094
+          },
           "engines": {
             "vision": "X"
           },
@@ -2457,12 +3336,20 @@
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 446.9399719238281,
+            "x1": 341.0399932861328,
+            "y1": 486.6600036621094
+          },
           "engines": {
             "vision": "X"
           },
@@ -2472,564 +3359,153 @@
           "row_id": "soa-1-r21",
           "column_id": "soa-1-c10",
           "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r21",
-          "column_id": "soa-1-c11",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r24",
-          "column_id": "soa-1-c11",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r24",
-          "column_id": "soa-1-c12",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c0",
-          "raw": "P",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 288.1424865722656,
-            "y0": 555.5429077148438,
-            "x1": 295.382080078125,
-            "y1": 567.5488891601562
-          },
-          "engines": {
-            "vision": "P",
-            "geometric": "P"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c2",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 350.4324035644531,
-            "y0": 555.5429077148438,
-            "x1": 359.166015625,
-            "y1": 567.5488891601562
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c6",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 507.93603515625,
-            "y0": 555.5429077148438,
-            "x1": 516.6696166992188,
-            "y1": 567.5488891601562
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c8",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c10",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c12",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r25",
-          "column_id": "soa-1-c13",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c0",
-          "raw": "P",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 288.104736328125,
-            "y0": 569.3428955078125,
-            "x1": 295.3497314453125,
-            "y1": 581.348876953125
-          },
-          "engines": {
-            "vision": "P",
-            "geometric": "P"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c2",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 350.4000549316406,
-            "y0": 569.3428955078125,
-            "x1": 359.1390686035156,
-            "y1": 581.348876953125
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c6",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 507.9090881347656,
-            "y0": 569.3428955078125,
-            "x1": 516.6480712890625,
-            "y1": 581.348876953125
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c8",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c10",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c12",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c13",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r27",
-          "column_id": "soa-1-c0",
-          "raw": "P",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 288.17218017578125,
-            "y0": 583.1428833007812,
-            "x1": 295.4054870605469,
-            "y1": 595.1488647460938
-          },
-          "engines": {
-            "vision": "P",
-            "geometric": "P"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r27",
-          "column_id": "soa-1-c2",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 350.455810546875,
-            "y0": 583.1428833007812,
-            "x1": 359.18310546875,
-            "y1": 595.1488647460938
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r27",
-          "column_id": "soa-1-c6",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 507.953125,
-            "y0": 583.1428833007812,
-            "x1": 516.680419921875,
-            "y1": 595.1488647460938
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r27",
-          "column_id": "soa-1-c8",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r27",
-          "column_id": "soa-1-c10",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r27",
-          "column_id": "soa-1-c12",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r27",
-          "column_id": "soa-1-c13",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c0",
-          "raw": "P",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 288.1443176269531,
-            "y0": 596.9429931640625,
-            "x1": 295.38031005859375,
-            "y1": 608.948974609375
-          },
-          "engines": {
-            "vision": "P",
-            "geometric": "Xb"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c2",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 350.43060302734375,
-            "y0": 596.9429931640625,
-            "x1": 359.1606140136719,
-            "y1": 608.948974609375
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "Xb"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c3",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 381.93060302734375,
-            "y0": 596.9429931640625,
-            "x1": 390.6606140136719,
-            "y1": 608.948974609375
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c4",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 53,
-            "x0": 413.43060302734375,
-            "y0": 596.9429931640625,
-            "x1": 422.1606140136719,
-            "y1": 608.948974609375
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c6",
-          "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
-            "b"
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 446.9399719238281,
+            "x1": 376.50001525878906,
+            "y1": 486.6600036621094
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c11",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 446.9399719238281,
+            "x1": 411.9600067138672,
+            "y1": 486.6600036621094
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c12",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 446.9399719238281,
+            "x1": 447.41998291015625,
+            "y1": 486.6600036621094
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r21",
+          "column_id": "soa-1-c13",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 446.9399719238281,
+            "x1": 482.8800048828125,
+            "y1": 486.6600036621094
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c12",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 486.6600036621094,
+            "x1": 447.41998291015625,
+            "y1": 500.4600067138672
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r22",
+          "column_id": "soa-1-c13",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 486.6600036621094,
+            "x1": 482.8800048828125,
+            "y1": 500.4600067138672
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c0",
+          "raw": "P",
+          "value_text": null,
+          "footnote_refs": [
+            "P"
           ],
           "row_span": 1,
           "col_span": 1,
@@ -3037,338 +3513,1165 @@
           "notes": null,
           "bbox": {
             "page": 53,
-            "x0": 505.8902893066406,
-            "y0": 596.0370483398438,
-            "x1": 516.3900146484375,
-            "y1": 608.948974609375
+            "x0": 274.5000305175781,
+            "y0": 553.8000183105469,
+            "x1": 306.00001525878906,
+            "y1": 567.6000061035156
+          },
+          "engines": {
+            "vision": "P",
+            "geometric": "P"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 337.50001525878906,
+            "y0": 553.8000183105469,
+            "x1": 369.00001525878906,
+            "y1": 567.6000061035156
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 553.8000183105469,
+            "x1": 526.5000305175781,
+            "y1": 567.6000061035156
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 500.4600067138672,
+            "x1": 341.0399932861328,
+            "y1": 514.260009765625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c11",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 500.4600067138672,
+            "x1": 411.9600067138672,
+            "y1": 514.260009765625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c13",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 500.4600067138672,
+            "x1": 482.8800048828125,
+            "y1": 514.260009765625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r23",
+          "column_id": "soa-1-c14",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 482.8800048828125,
+            "y0": 500.4600067138672,
+            "x1": 518.2799987792969,
+            "y1": 514.260009765625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c0",
+          "raw": "P",
+          "value_text": null,
+          "footnote_refs": [
+            "P"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 274.5000305175781,
+            "y0": 567.6000061035156,
+            "x1": 306.00001525878906,
+            "y1": 581.3999938964844
+          },
+          "engines": {
+            "vision": "P",
+            "geometric": "P"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 337.50001525878906,
+            "y0": 567.6000061035156,
+            "x1": 369.00001525878906,
+            "y1": 581.3999938964844
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 567.6000061035156,
+            "x1": 526.5000305175781,
+            "y1": 581.3999938964844
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 514.260009765625,
+            "x1": 341.0399932861328,
+            "y1": 528.0600280761719
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c11",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 514.260009765625,
+            "x1": 411.9600067138672,
+            "y1": 528.0600280761719
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c13",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 514.260009765625,
+            "x1": 482.8800048828125,
+            "y1": 528.0600280761719
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c14",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 482.8800048828125,
+            "y0": 514.260009765625,
+            "x1": 518.2799987792969,
+            "y1": 528.0600280761719
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c0",
+          "raw": "P",
+          "value_text": null,
+          "footnote_refs": [
+            "P"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 274.5000305175781,
+            "y0": 581.3999938964844,
+            "x1": 306.00001525878906,
+            "y1": 595.1999816894531
+          },
+          "engines": {
+            "vision": "P",
+            "geometric": "P"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 337.50001525878906,
+            "y0": 581.3999938964844,
+            "x1": 369.00001525878906,
+            "y1": 595.1999816894531
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c7",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 581.3999938964844,
+            "x1": 526.5000305175781,
+            "y1": 595.1999816894531
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c9",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 528.0600280761719,
+            "x1": 341.0399932861328,
+            "y1": 541.8599853515625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c11",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 528.0600280761719,
+            "x1": 411.9600067138672,
+            "y1": 541.8599853515625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c13",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 528.0600280761719,
+            "x1": 482.8800048828125,
+            "y1": 541.8599853515625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r25",
+          "column_id": "soa-1-c14",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 482.8800048828125,
+            "y0": 528.0600280761719,
+            "x1": 518.2799987792969,
+            "y1": 541.8599853515625
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c0",
+          "raw": "P",
+          "value_text": null,
+          "footnote_refs": [
+            "P"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 274.5000305175781,
+            "y0": 595.1999816894531,
+            "x1": 306.00001525878906,
+            "y1": 609.0
+          },
+          "engines": {
+            "vision": "P",
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c2",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 337.50001525878906,
+            "y0": 595.1999816894531,
+            "x1": 369.00001525878906,
+            "y1": 609.0
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c3",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 369.00001525878906,
+            "y0": 595.1999816894531,
+            "x1": 400.50001525878906,
+            "y1": 609.0
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c4",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 400.50001525878906,
+            "y0": 595.1999816894531,
+            "x1": 432.00001525878906,
+            "y1": 609.0
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c6",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 463.50001525878906,
+            "y0": 595.1999816894531,
+            "x1": 495.00001525878906,
+            "y1": 609.0
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c7",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b",
+            "Xb"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 595.1999816894531,
+            "x1": 526.5000305175781,
+            "y1": 609.0
           },
           "engines": {
             "vision": "Xb",
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c8",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b",
+            "Xb"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 541.8599853515625,
+            "x1": 305.5800018310547,
+            "y1": 555.6600036621094
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c9",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b",
+            "Xb"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 541.8599853515625,
+            "x1": 341.0399932861328,
+            "y1": 555.6600036621094
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c10",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b",
+            "Xb"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 541.8599853515625,
+            "x1": 376.50001525878906,
+            "y1": 555.6600036621094
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c11",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 541.8599853515625,
+            "x1": 411.9600067138672,
+            "y1": 555.6600036621094
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c12",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 541.8599853515625,
+            "x1": 447.41998291015625,
+            "y1": 555.6600036621094
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c13",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 541.8599853515625,
+            "x1": 482.8800048828125,
+            "y1": 555.6600036621094
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c14",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 482.8800048828125,
+            "y0": 541.8599853515625,
+            "x1": 518.2799987792969,
+            "y1": 555.6600036621094
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 53,
+            "x0": 274.5000305175781,
+            "y0": 609.0,
+            "x1": 306.00001525878906,
+            "y1": 622.8000183105469
+          },
+          "engines": {
+            "vision": "X",
             "geometric": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c7",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "Xb"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c8",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "Xb"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c9",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "Xb"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c10",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c11",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c12",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c13",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r29",
-          "column_id": "soa-1-c0",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": null,
-          "engines": {
-            "vision": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c1",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 306.00001525878906,
+            "y0": 609.0,
+            "x1": 337.50001525878906,
+            "y1": 622.8000183105469
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c2",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 337.50001525878906,
+            "y0": 609.0,
+            "x1": 369.00001525878906,
+            "y1": 622.8000183105469
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c3",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 369.00001525878906,
+            "y0": 609.0,
+            "x1": 400.50001525878906,
+            "y1": 622.8000183105469
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c4",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 400.50001525878906,
+            "y0": 609.0,
+            "x1": 432.00001525878906,
+            "y1": 622.8000183105469
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c6",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 463.50001525878906,
+            "y0": 609.0,
+            "x1": 495.00001525878906,
+            "y1": 622.8000183105469
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c7",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 53,
+            "x0": 495.00001525878906,
+            "y0": 609.0,
+            "x1": 526.5000305175781,
+            "y1": 622.8000183105469
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c8",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 270.1800079345703,
+            "y0": 555.6600036621094,
+            "x1": 305.5800018310547,
+            "y1": 569.4599914550781
+          },
           "engines": {
             "vision": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 305.5800018310547,
+            "y0": 555.6600036621094,
+            "x1": 341.0399932861328,
+            "y1": 569.4599914550781
+          },
           "engines": {
             "vision": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c10",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 341.0399932861328,
+            "y0": 555.6600036621094,
+            "x1": 376.50001525878906,
+            "y1": 569.4599914550781
+          },
           "engines": {
             "vision": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c11",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 376.50001525878906,
+            "y0": 555.6600036621094,
+            "x1": 411.9600067138672,
+            "y1": 569.4599914550781
+          },
           "engines": {
             "vision": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c12",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 411.9600067138672,
+            "y0": 555.6600036621094,
+            "x1": 447.41998291015625,
+            "y1": 569.4599914550781
+          },
           "engines": {
             "vision": "X"
           },
           "confidence": null
         },
         {
-          "row_id": "soa-1-r29",
+          "row_id": "soa-1-r27",
           "column_id": "soa-1-c13",
           "raw": "X",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "X"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 54,
+            "x0": 447.41998291015625,
+            "y0": 555.6600036621094,
+            "x1": 482.8800048828125,
+            "y1": 569.4599914550781
+          },
+          "engines": {
+            "vision": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c14",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [
+            "X"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 54,
+            "x0": 482.8800048828125,
+            "y0": 555.6600036621094,
+            "x1": 518.2799987792969,
+            "y1": 569.4599914550781
+          },
           "engines": {
             "vision": "X"
           },
@@ -3377,9 +4680,940 @@
       ],
       "footnotes": [
         {
-          "marker": "a",
-          "marker_style": "superscript_letter",
-          "text": "Performed at this visit if patient is an insulin-dependent diabetic.",
+          "marker": "X",
+          "marker_style": "unmarked",
+          "text": "X = Performed at this visit.",
+          "text_complete": true,
+          "pages": [
+            54
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r0",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r1",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r2",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r3",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r4",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r4",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r4",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r5",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r6",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r7",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r8",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r9",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r10",
+              "column_id": "soa-1-c14",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r11",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r12",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r14",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r15",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c14",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r18",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r19",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r21",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r22",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r22",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r23",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r23",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r23",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r23",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r23",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r23",
+              "column_id": "soa-1-c14",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c14",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c14",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c14",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c1",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c2",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c11",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c12",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c13",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c14",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r26",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "Xa",
+          "marker_style": "inline_suffix",
+          "text": "Xa = Performed at this visit if patient is an insulin-dependent diabetic.",
           "text_complete": true,
           "pages": [
             54
@@ -3398,9 +5632,9 @@
           "bbox": null
         },
         {
-          "marker": "b",
-          "marker_style": "superscript_letter",
-          "text": "Performed at this visit and via telephone interview 2 weeks following this visit.",
+          "marker": "Xb",
+          "marker_style": "inline_suffix",
+          "text": "Xb = Performed at this visit and via telephone interview 2 weeks following this visit.",
           "text_complete": true,
           "pages": [
             54
@@ -3409,29 +5643,71 @@
           "attached_to": [
             {
               "kind": "cell",
-              "row_id": "soa-1-r28",
-              "column_id": "soa-1-c6",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r28",
+              "row_id": "soa-1-r26",
               "column_id": "soa-1-c7",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
-              "row_id": "soa-1-r28",
+              "row_id": "soa-1-r26",
               "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
-              "row_id": "soa-1-r28",
+              "row_id": "soa-1-r26",
               "column_id": "soa-1-c9",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c10",
+              "group_id": null,
+              "detail": null
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "P",
+          "marker_style": "unmarked",
+          "text": "P = Practice only - It is recommended that a sampling of the CIBIC+, ADAS-Cog, DAD, and NPI-X be administered at Visit 1. Data from this sampling would not be considered as study data and would not be collected.",
+          "text_complete": true,
+          "pages": [
+            54
+          ],
+          "continued_from_page": null,
+          "attached_to": [
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r23",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r25",
+              "column_id": "soa-1-c0",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r26",
+              "column_id": "soa-1-c0",
               "group_id": null,
               "detail": null
             }
@@ -3466,33 +5742,33 @@
         ],
         "engines_failed": {},
         "row_counts": {
-          "geometric": 41,
-          "vision": 30,
-          "final": 30
+          "geometric": 28,
+          "vision": 28,
+          "final": 28
         },
         "column_counts": {
           "geometric": 8,
-          "vision": 14
+          "vision": 15
         },
         "cell_counts": {
           "geometric": 139,
-          "vision": 132
+          "vision": 139
         },
-        "cell_agreement": 0.946,
+        "cell_agreement": 0.972,
         "warnings": [
           {
             "type": "column_missing_in_engine",
             "severity": "medium",
-            "message": "Column count differs: geometric read 8, vision read 14. A dropped column is a patient visit nobody built, so check the header row against the source page.",
+            "message": "The source draws a column here that neither engine reported -- it is printed blank, with no visit header and no cells. It is kept so that the columns to its right stay aligned with the printed grid, and nothing is inferred about what it might have been.",
             "row_id": null,
-            "column_id": null,
-            "engine": "geometric"
+            "column_id": "soa-1-c5",
+            "engine": null
           },
           {
             "type": "cell_value_disagreement",
             "severity": "medium",
             "message": "Engines read this cell differently: geometric 'Xb' vs vision 'P'. The vision reading is kept.",
-            "row_id": "soa-1-r28",
+            "row_id": "soa-1-r26",
             "column_id": "soa-1-c0",
             "engine": null
           },
@@ -3500,30 +5776,26 @@
             "type": "cell_value_disagreement",
             "severity": "medium",
             "message": "Engines read this cell differently: geometric 'Xb' vs vision 'X'. The vision reading is kept.",
-            "row_id": "soa-1-r28",
+            "row_id": "soa-1-r26",
             "column_id": "soa-1-c2",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'X' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r28",
-            "column_id": "soa-1-c6",
             "engine": null
           }
         ]
       },
-      "assumptions": [],
+      "assumptions": [
+        "Combined page 53 and page 54 as two parts of the same continuous Schedule of Events table (Visit 1-8 and Visit 9-RT).",
+        "Page 55 is the header page of Protocol Attachment LZZT.2 and contains no table content.",
+        "Rows and columns were checked against the grid the source actually draws: a column the page rules but leaves blank is kept so the visits to its right stay in their printed positions, and several activities printed inside one row-label cell are kept as the single row the page draws."
+      ],
       "open_questions": []
     }
   ],
   "run": {
     "tool_version": "0.1.0",
-    "vision_model": "gemini-3.1-flash-lite",
-    "started_at": "2026-09-01T01:49:25.355395+00:00",
-    "finished_at": "2026-09-01T01:49:39.158909+00:00",
-    "duration_seconds": 13.8,
+    "vision_model": "gemini-3.7-flash",
+    "started_at": "2026-09-01T20:14:25.918176+00:00",
+    "finished_at": "2026-09-01T20:22:09.065806+00:00",
+    "duration_seconds": 463.15,
     "pages_sent_to_vision": 3,
     "warnings": [
       {

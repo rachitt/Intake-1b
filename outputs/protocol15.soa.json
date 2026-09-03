@@ -56,12 +56,12 @@
           "level": 0,
           "parent_id": null,
           "span": [
-            "soa-1-c2",
             "soa-1-c3",
             "soa-1-c4",
             "soa-1-c5",
             "soa-1-c6",
-            "soa-1-c7"
+            "soa-1-c7",
+            "soa-1-c8"
           ],
           "footnote_refs": [],
           "bbox": null
@@ -72,7 +72,7 @@
           "level": 0,
           "parent_id": null,
           "span": [
-            "soa-1-c8"
+            "soa-1-c9"
           ],
           "footnote_refs": [],
           "bbox": null
@@ -84,8 +84,8 @@
           "index": 0,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Screening",
+              "role": "study_week",
+              "text": "Study Week",
               "footnote_refs": []
             },
             {
@@ -97,18 +97,25 @@
           "group_path": [
             "soa-1-cg0"
           ],
-          "visit_label": "Screening",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
-          "study_week": "-4 to 0*",
+          "study_week": "Study Week",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [
             "*"
           ],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 201.5997543334961,
+            "y0": 100.32035827636719,
+            "x1": 251.1597671508789,
+            "y1": 124.44635314941407
+          },
           "engines": [
             "vision"
           ]
@@ -118,8 +125,8 @@
           "index": 1,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Baseline",
+              "role": "other",
+              "text": "-4 to 0*",
               "footnote_refs": []
             },
             {
@@ -131,18 +138,28 @@
           "group_path": [
             "soa-1-cg1"
           ],
-          "visit_label": "Baseline",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": null,
           "visit_window": null,
-          "footnote_refs": [],
+          "printed_blank": false,
+          "footnote_refs": [
+            "*"
+          ],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 251.1597671508789,
+            "y0": 100.32035827636719,
+            "x1": 300.5997619628906,
+            "y1": 124.44635314941407
+          },
           "engines": [
-            "vision"
+            "vision",
+            "geometric"
           ]
         },
         {
@@ -150,8 +167,43 @@
           "index": 2,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
+              "role": "other",
+              "text": "",
+              "footnote_refs": []
+            },
+            {
+              "role": "study_week",
+              "text": "",
+              "footnote_refs": []
+            }
+          ],
+          "group_path": [],
+          "visit_label": null,
+          "visit_number": null,
+          "study_day": null,
+          "study_week": null,
+          "visit_window": null,
+          "printed_blank": true,
+          "footnote_refs": [],
+          "pages": [
+            25
+          ],
+          "bbox": {
+            "page": 25,
+            "x0": 300.5997619628906,
+            "y0": 100.32035827636719,
+            "x1": 327.5997619628906,
+            "y1": 124.44635314941407
+          },
+          "engines": []
+        },
+        {
+          "id": "soa-1-c3",
+          "index": 3,
+          "header_cells": [
+            {
+              "role": "other",
+              "text": "",
               "footnote_refs": []
             },
             {
@@ -163,27 +215,34 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "1-3",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 327.5997619628906,
+            "y0": 100.32035827636719,
+            "x1": 354.5997619628906,
+            "y1": 124.44635314941407
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c3",
-          "index": 3,
+          "id": "soa-1-c4",
+          "index": 4,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
+              "role": "other",
+              "text": "",
               "footnote_refs": []
             },
             {
@@ -195,27 +254,34 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "4",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 354.5997619628906,
+            "y0": 100.32035827636719,
+            "x1": 381.59974670410156,
+            "y1": 124.44635314941407
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c4",
-          "index": 4,
+          "id": "soa-1-c5",
+          "index": 5,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
+              "role": "other",
+              "text": "",
               "footnote_refs": []
             },
             {
@@ -227,27 +293,34 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "5-7",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 381.59974670410156,
+            "y0": 100.32035827636719,
+            "x1": 408.59974670410156,
+            "y1": 124.44635314941407
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c5",
-          "index": 5,
+          "id": "soa-1-c6",
+          "index": 6,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
+              "role": "other",
+              "text": "",
               "footnote_refs": []
             },
             {
@@ -259,27 +332,34 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "8",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 408.59974670410156,
+            "y0": 100.32035827636719,
+            "x1": 435.59974670410156,
+            "y1": 124.44635314941407
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c6",
-          "index": 6,
+          "id": "soa-1-c7",
+          "index": 7,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
+              "role": "other",
+              "text": "",
               "footnote_refs": []
             },
             {
@@ -291,27 +371,34 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "9-11",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 435.59974670410156,
+            "y0": 100.32035827636719,
+            "x1": 467.1597442626953,
+            "y1": 124.44635314941407
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c7",
-          "index": 7,
+          "id": "soa-1-c8",
+          "index": 8,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Treatment",
+              "role": "other",
+              "text": "",
               "footnote_refs": []
             },
             {
@@ -323,27 +410,34 @@
           "group_path": [
             "soa-1-cg2"
           ],
-          "visit_label": "Treatment",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "12",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 100.32035827636719,
+            "x1": 494.1597442626953,
+            "y1": 124.44635314941407
+          },
           "engines": [
             "vision"
           ]
         },
         {
-          "id": "soa-1-c8",
-          "index": 8,
+          "id": "soa-1-c9",
+          "index": 9,
           "header_cells": [
             {
-              "role": "visit_name",
-              "text": "Follow-up",
+              "role": "other",
+              "text": "",
               "footnote_refs": []
             },
             {
@@ -355,16 +449,23 @@
           "group_path": [
             "soa-1-cg3"
           ],
-          "visit_label": "Follow-up",
+          "visit_label": null,
           "visit_number": null,
           "study_day": null,
           "study_week": "16",
           "visit_window": null,
+          "printed_blank": false,
           "footnote_refs": [],
           "pages": [
             25
           ],
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 494.1597442626953,
+            "y0": 100.32035827636719,
+            "x1": 543.5997619628906,
+            "y1": 124.44635314941407
+          },
           "engines": [
             "vision"
           ]
@@ -402,23 +503,39 @@
       "rows": [
         {
           "id": "soa-1-r1",
-          "index": 1,
+          "index": 0,
           "label": "Informed consent",
+          "label_lines": [
+            "Informed consent"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg0"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 135.1801330566406,
+            "x1": 201.5997543334961,
+            "y1": 147.84024047851562
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r2",
-          "index": 2,
+          "index": 1,
           "label": "SCID",
+          "label_lines": [
+            "SCID"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg0"
           ],
@@ -426,106 +543,183 @@
           "footnote_refs": [
             "D"
           ],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 147.84024047851562,
+            "x1": 201.5997543334961,
+            "y1": 159.84024047851562
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r3",
-          "index": 3,
+          "index": 2,
           "label": "Psychiatric evaluation",
+          "label_lines": [
+            "Psychiatric evaluation"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg0"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 159.84024047851562,
+            "x1": 201.5997543334961,
+            "y1": 171.84024047851562
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r4",
-          "index": 4,
+          "index": 3,
           "label": "ADD evaluation",
+          "label_lines": [
+            "ADD evaluation"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg0"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 171.84024047851562,
+            "x1": 201.5997543334961,
+            "y1": 183.84024047851562
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r5",
-          "index": 5,
+          "index": 4,
           "label": "Medical history",
+          "label_lines": [
+            "Medical history"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg0"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 183.84024047851562,
+            "x1": 201.5997543334961,
+            "y1": 195.84024047851562
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r6",
-          "index": 6,
+          "index": 5,
           "label": "Prior medications",
+          "label_lines": [
+            "Prior medications"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg0"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 195.84024047851562,
+            "x1": 201.5997543334961,
+            "y1": 207.84024047851562
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r7",
-          "index": 7,
+          "index": 6,
           "label": "Infectious disease panel/ syphilis test",
+          "label_lines": [
+            "Infectious disease panel/ syphilis test"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg0"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 207.84024047851562,
+            "x1": 201.5997543334961,
+            "y1": 231.36026000976562
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r8",
-          "index": 8,
+          "index": 7,
           "label": "HIV Test (optional)",
+          "label_lines": [
+            "HIV Test (optional)"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg0"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 231.36026000976562,
+            "x1": 201.5997543334961,
+            "y1": 243.96636962890625
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r10",
-          "index": 10,
+          "index": 8,
           "label": "Physical exam/FEV1d",
+          "label_lines": [
+            "Physical exam/FEV1d"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
@@ -533,422 +727,592 @@
           "footnote_refs": [
             "d"
           ],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 254.64612426757813,
+            "x1": 201.5997543334961,
+            "y1": 269.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r11",
-          "index": 11,
+          "index": 9,
           "label": "Vital signs",
+          "label_lines": [
+            "Vital signs"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 269.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 281.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r12",
-          "index": 12,
+          "index": 10,
           "label": "Hematology",
+          "label_lines": [
+            "Hematology"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 281.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 293.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r13",
-          "index": 13,
+          "index": 11,
           "label": "Blood chemistries",
+          "label_lines": [
+            "Blood chemistries"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 293.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 305.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r14",
-          "index": 14,
+          "index": 12,
           "label": "Ham-D",
+          "label_lines": [
+            "Ham-D"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
           "footnote_refs": [
-            "b",
-            "c"
+            "D"
           ],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 305.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 317.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r15",
-          "index": 15,
+          "index": 13,
           "label": "CSSA",
+          "label_lines": [
+            "CSSA"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
           "footnote_refs": [
-            "b",
-            "c"
+            "A"
           ],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 317.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 329.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r16",
-          "index": 16,
+          "index": 14,
           "label": "Urinalysis",
+          "label_lines": [
+            "Urinalysis"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 329.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 341.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r17",
-          "index": 17,
+          "index": 15,
           "label": "Pregnancy test",
+          "label_lines": [
+            "Pregnancy test"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 341.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 353.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r18",
-          "index": 18,
+          "index": 16,
           "label": "ECG",
+          "label_lines": [
+            "ECG"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 353.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 365.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r19",
-          "index": 19,
+          "index": 17,
           "label": "Adverse events",
+          "label_lines": [
+            "Adverse events"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 365.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 377.2802429199219
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r20",
-          "index": 20,
+          "index": 18,
           "label": "Concomitant medications",
+          "label_lines": [
+            "Concomitant medications"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg1"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 377.2802429199219,
+            "x1": 201.5997543334961,
+            "y1": 396.7263641357422
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r22",
-          "index": 22,
+          "index": 19,
           "label": "ASI-Lite",
+          "label_lines": [
+            "ASI-Lite"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b",
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 407.4601303100586,
+            "x1": 201.5997543334961,
+            "y1": 426.1202392578125
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r23",
-          "index": 23,
+          "index": 20,
           "label": "HRBS",
+          "label_lines": [
+            "HRBS"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 426.1202392578125,
+            "x1": 201.5997543334961,
+            "y1": 438.1202392578125
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r24",
-          "index": 24,
+          "index": 21,
           "label": "BSCS",
+          "label_lines": [
+            "BSCS"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 438.1202392578125,
+            "x1": 201.5997543334961,
+            "y1": 457.0802459716797
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r25",
-          "index": 25,
+          "index": 22,
           "label": "CCQ-NOW",
+          "label_lines": [
+            "CCQ-NOW"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 457.0802459716797,
+            "x1": 201.5997543334961,
+            "y1": 469.0802459716797
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r26",
-          "index": 26,
+          "index": 23,
           "label": "CGI-S",
+          "label_lines": [
+            "CGI-S"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 469.0802459716797,
+            "x1": 201.5997543334961,
+            "y1": 487.9202423095703
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r27",
-          "index": 27,
+          "index": 24,
           "label": "CGI-O",
+          "label_lines": [
+            "CGI-O"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 487.9202423095703,
+            "x1": 201.5997543334961,
+            "y1": 506.88023376464844
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r28",
-          "index": 28,
+          "index": 25,
           "label": "SUI",
+          "label_lines": [
+            "SUI"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 506.88023376464844,
+            "x1": 201.5997543334961,
+            "y1": 525.72021484375
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r29",
-          "index": 29,
+          "index": 26,
           "label": "Urine BE and creatinine",
+          "label_lines": [
+            "Urine BE and creatinine"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 525.72021484375,
+            "x1": 201.5997543334961,
+            "y1": 544.6802368164062
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r30",
-          "index": 30,
+          "index": 27,
           "label": "Urine tox screen",
+          "label_lines": [
+            "Urine tox screen"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "b"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 544.6802368164062,
+            "x1": 201.5997543334961,
+            "y1": 563.520263671875
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r31",
-          "index": 31,
+          "index": 28,
           "label": "Serum prolactin",
+          "label_lines": [
+            "Serum prolactin"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
-          "footnote_refs": [
-            "a",
-            "c"
-          ],
-          "page": null,
-          "bbox": null,
+          "footnote_refs": [],
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 563.520263671875,
+            "x1": 201.5997543334961,
+            "y1": 577.8002624511719
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r32",
-          "index": 32,
+          "index": 29,
           "label": "Treatment compliance",
+          "label_lines": [
+            "Treatment compliance"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 577.8002624511719,
+            "x1": 201.5997543334961,
+            "y1": 589.8002624511719
+          },
           "engines": [
             "vision"
           ]
         },
         {
           "id": "soa-1-r33",
-          "index": 33,
+          "index": 30,
           "label": "Follow-up interview",
+          "label_lines": [
+            "Follow-up interview"
+          ],
+          "merged_label": false,
+          "row_span": 1,
           "group_path": [
             "soa-1-rg2"
           ],
           "is_category_header": false,
           "footnote_refs": [],
-          "page": null,
-          "bbox": null,
+          "page": 25,
+          "bbox": {
+            "page": 25,
+            "x0": 68.2792739868164,
+            "y0": 589.8002624511719,
+            "x1": 201.5997543334961,
+            "y1": 601.9202575683594
+          },
           "engines": [
             "vision"
-          ]
-        },
-        {
-          "id": "r-geo-25-5",
-          "index": 31,
-          "label": "PInfectious disease panel/ rior medications",
-          "group_path": [],
-          "is_category_header": false,
-          "footnote_refs": [],
-          "page": 25,
-          "bbox": null,
-          "engines": [
-            "geometric"
-          ]
-        },
-        {
-          "id": "r-geo-25-19",
-          "index": 32,
-          "label": "Efficacy",
-          "group_path": [],
-          "is_category_header": false,
-          "footnote_refs": [],
-          "page": 25,
-          "bbox": null,
-          "engines": [
-            "geometric"
-          ]
-        },
-        {
-          "id": "r-geo-25-38",
-          "index": 33,
-          "label": "*Baseline assessments must occur within 2 weeks during the screening period. The screening period is within 4once during weeks 3-6, and once at week 12 or at final visit if subject discontinues prematurely. The two specimensprior to investigational agent may be drawn during baseline, or one may be drawn during baseline and one on studyweeks of subject enrollment. Baseline and screening period may occur simultaneously.Xday 1 prior to administration of first dose of investigational agent.XXXFollow-up interview abcd – Blood is collected in fasted state at least once (preferably twice) before investigational agent administration, - At the final scheduled study visit (last visit of week 12) or if the subjects discontinues prematurely. - Once during the week preferably at the first visit of the week. - FEV1 is only performed in those subjects suspected of having asthma.",
-          "group_path": [],
-          "is_category_header": false,
-          "footnote_refs": [],
-          "page": 25,
-          "bbox": null,
-          "engines": [
-            "geometric"
           ]
         }
       ],
@@ -965,10 +1329,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 138.180908203125,
-            "x1": 231.209716796875,
-            "y1": 146.2132568359375
+            "x0": 201.5997543334961,
+            "y0": 135.1801330566406,
+            "x1": 251.1597671508789,
+            "y1": 147.84024047851562
           },
           "engines": {
             "vision": "X",
@@ -988,10 +1352,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 150.180908203125,
-            "x1": 231.209716796875,
-            "y1": 158.2132568359375
+            "x0": 201.5997543334961,
+            "y0": 147.84024047851562,
+            "x1": 251.1597671508789,
+            "y1": 159.84024047851562
           },
           "engines": {
             "vision": "X",
@@ -1011,10 +1375,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 162.18084716796875,
-            "x1": 231.209716796875,
-            "y1": 170.21319580078125
+            "x0": 201.5997543334961,
+            "y0": 159.84024047851562,
+            "x1": 251.1597671508789,
+            "y1": 171.84024047851562
           },
           "engines": {
             "vision": "X",
@@ -1034,10 +1398,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 174.18084716796875,
-            "x1": 231.209716796875,
-            "y1": 182.21319580078125
+            "x0": 201.5997543334961,
+            "y0": 171.84024047851562,
+            "x1": 251.1597671508789,
+            "y1": 183.84024047851562
           },
           "engines": {
             "vision": "X",
@@ -1057,10 +1421,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 186.18084716796875,
-            "x1": 231.209716796875,
-            "y1": 194.21319580078125
+            "x0": 201.5997543334961,
+            "y0": 183.84024047851562,
+            "x1": 251.1597671508789,
+            "y1": 195.84024047851562
           },
           "engines": {
             "vision": "X",
@@ -1078,9 +1442,16 @@
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 201.5997543334961,
+            "y0": 195.84024047851562,
+            "x1": 251.1597671508789,
+            "y1": 207.84024047851562
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -1094,9 +1465,16 @@
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 201.5997543334961,
+            "y0": 207.84024047851562,
+            "x1": 251.1597671508789,
+            "y1": 231.36026000976562
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         },
@@ -1110,7 +1488,36 @@
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 201.5997543334961,
+            "y0": 231.36026000976562,
+            "x1": 251.1597671508789,
+            "y1": 243.96636962890625
+          },
+          "engines": {
+            "vision": "X",
+            "geometric": "X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r10",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 201.5997543334961,
+            "y0": 254.64612426757813,
+            "x1": 251.1597671508789,
+            "y1": 269.2802429199219
+          },
           "engines": {
             "vision": "X"
           },
@@ -1118,30 +1525,7 @@
         },
         {
           "row_id": "soa-1-r10",
-          "column_id": "soa-1-c0",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 223.44140625,
-            "y0": 258.66082763671875,
-            "x1": 231.2077178955078,
-            "y1": 266.69317626953125
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r10",
-          "column_id": "soa-1-c7",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -1153,14 +1537,13 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.28729248046875,
-            "y0": 256.0198059082031,
-            "x1": 484.9111022949219,
-            "y1": 267.41314697265625
+            "x0": 467.1597442626953,
+            "y0": 254.64612426757813,
+            "x1": 494.1597442626953,
+            "y1": 269.2802429199219
           },
           "engines": {
-            "vision": "Xc",
-            "geometric": "Xc"
+            "vision": "Xc"
           },
           "confidence": null
         },
@@ -1176,39 +1559,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 271.62078857421875,
-            "x1": 231.209716796875,
-            "y1": 279.65313720703125
+            "x0": 201.5997543334961,
+            "y0": 269.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 281.2802429199219
           },
           "engines": {
             "vision": "X",
             "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r11",
-          "column_id": "soa-1-c2",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 336.60772705078125,
-            "y0": 268.9798278808594,
-            "x1": 345.5937805175781,
-            "y1": 280.376708984375
-          },
-          "engines": {
-            "vision": "Xb",
-            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -1226,10 +1584,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.6020202636719,
-            "y0": 268.9798278808594,
-            "x1": 372.5934143066406,
-            "y1": 280.376708984375
+            "x0": 327.5997619628906,
+            "y0": 269.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 281.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1251,10 +1609,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 390.6011047363281,
-            "y0": 268.9798278808594,
-            "x1": 399.5930480957031,
-            "y1": 280.376708984375
+            "x0": 354.5997619628906,
+            "y0": 269.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 281.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1276,10 +1634,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.60101318359375,
-            "y0": 268.9798278808594,
-            "x1": 426.5926818847656,
-            "y1": 280.376708984375
+            "x0": 381.59974670410156,
+            "y0": 269.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 281.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1301,10 +1659,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 446.7603454589844,
-            "y0": 268.9798278808594,
-            "x1": 455.7518615722656,
-            "y1": 280.376708984375
+            "x0": 408.59974670410156,
+            "y0": 269.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 281.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1315,6 +1673,31 @@
         {
           "row_id": "soa-1-r11",
           "column_id": "soa-1-c7",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 435.59974670410156,
+            "y0": 269.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 281.2802429199219
+          },
+          "engines": {
+            "vision": "Xb",
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r11",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -1326,10 +1709,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.2799987792969,
-            "y0": 268.9798278808594,
-            "x1": 484.90972900390625,
-            "y1": 280.376708984375
+            "x0": 467.1597442626953,
+            "y0": 269.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 281.2802429199219
           },
           "engines": {
             "vision": "Xc",
@@ -1349,10 +1732,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 283.6208190917969,
-            "x1": 231.209716796875,
-            "y1": 291.6531677246094
+            "x0": 201.5997543334961,
+            "y0": 281.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 293.2802429199219
           },
           "engines": {
             "vision": "X",
@@ -1374,10 +1757,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.6028137207031,
-            "y0": 280.9798278808594,
-            "x1": 372.5933837890625,
-            "y1": 292.37677001953125
+            "x0": 327.5997619628906,
+            "y0": 281.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 293.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c4",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 354.5997619628906,
+            "y0": 281.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 293.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1399,10 +1806,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.5929870605469,
-            "y0": 280.9798278808594,
-            "x1": 426.59136962890625,
-            "y1": 292.37677001953125
+            "x0": 381.59974670410156,
+            "y0": 281.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 293.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c6",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 408.59974670410156,
+            "y0": 281.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 293.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1413,6 +1844,30 @@
         {
           "row_id": "soa-1-r12",
           "column_id": "soa-1-c7",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 435.59974670410156,
+            "y0": 281.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 293.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r12",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -1424,10 +1879,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.2776184082031,
-            "y0": 280.9798278808594,
-            "x1": 484.90972900390625,
-            "y1": 292.37677001953125
+            "x0": 467.1597442626953,
+            "y0": 281.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 293.2802429199219
           },
           "engines": {
             "vision": "Xc",
@@ -1447,10 +1902,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 295.6208190917969,
-            "x1": 231.209716796875,
-            "y1": 303.6531677246094
+            "x0": 201.5997543334961,
+            "y0": 293.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 305.2802429199219
           },
           "engines": {
             "vision": "X",
@@ -1472,10 +1927,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.6055908203125,
-            "y0": 292.9798278808594,
-            "x1": 372.5933837890625,
-            "y1": 304.3731689453125
+            "x0": 327.5997619628906,
+            "y0": 293.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 305.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c4",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 354.5997619628906,
+            "y0": 293.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 305.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1497,10 +1976,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.6037902832031,
-            "y0": 292.9798278808594,
-            "x1": 426.59136962890625,
-            "y1": 304.3731689453125
+            "x0": 381.59974670410156,
+            "y0": 293.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 305.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c6",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 408.59974670410156,
+            "y0": 293.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 305.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1511,6 +2014,30 @@
         {
           "row_id": "soa-1-r13",
           "column_id": "soa-1-c7",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 435.59974670410156,
+            "y0": 293.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 305.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r13",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -1522,10 +2049,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.2884216308594,
-            "y0": 292.9798278808594,
-            "x1": 484.90972900390625,
-            "y1": 304.3731689453125
+            "x0": 467.1597442626953,
+            "y0": 293.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 305.2802429199219
           },
           "engines": {
             "vision": "Xc",
@@ -1545,10 +2072,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 307.6208190917969,
-            "x1": 231.209716796875,
-            "y1": 315.6531677246094
+            "x0": 201.5997543334961,
+            "y0": 305.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 317.2802429199219
           },
           "engines": {
             "vision": "X",
@@ -1570,10 +2097,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.6055908203125,
-            "y0": 304.9798278808594,
-            "x1": 372.5933837890625,
-            "y1": 316.3731689453125
+            "x0": 327.5997619628906,
+            "y0": 305.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 317.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c4",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 354.5997619628906,
+            "y0": 305.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 317.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1595,10 +2146,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.6037902832031,
-            "y0": 304.9798278808594,
-            "x1": 426.59136962890625,
-            "y1": 316.3731689453125
+            "x0": 381.59974670410156,
+            "y0": 305.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 317.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c6",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 408.59974670410156,
+            "y0": 305.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 317.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1609,6 +2184,30 @@
         {
           "row_id": "soa-1-r14",
           "column_id": "soa-1-c7",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 435.59974670410156,
+            "y0": 305.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 317.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r14",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -1620,14 +2219,36 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.2884216308594,
-            "y0": 304.9798278808594,
-            "x1": 484.90972900390625,
-            "y1": 316.3731689453125
+            "x0": 467.1597442626953,
+            "y0": 305.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 317.2802429199219
           },
           "engines": {
             "vision": "Xc",
             "geometric": "Xc"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c0",
+          "raw": "X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 201.5997543334961,
+            "y0": 317.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 329.2802429199219
+          },
+          "engines": {
+            "vision": "X"
           },
           "confidence": null
         },
@@ -1643,39 +2264,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 270.96429443359375,
-            "y0": 319.6208190917969,
-            "x1": 282.8087463378906,
-            "y1": 327.6531677246094
+            "x0": 251.1597671508789,
+            "y0": 317.2802429199219,
+            "x1": 300.5997619628906,
+            "y1": 329.2802429199219
           },
           "engines": {
             "vision": "3X",
             "geometric": "3X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r15",
-          "column_id": "soa-1-c2",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 336.6063537597656,
-            "y0": 316.9798278808594,
-            "x1": 345.5937805175781,
-            "y1": 328.37677001953125
-          },
-          "engines": {
-            "vision": "Xb",
-            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -1693,10 +2289,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.60064697265625,
-            "y0": 316.9798278808594,
-            "x1": 372.5934143066406,
-            "y1": 328.37677001953125
+            "x0": 327.5997619628906,
+            "y0": 317.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 329.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1718,10 +2314,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 390.6005554199219,
-            "y0": 316.9798278808594,
-            "x1": 399.5930480957031,
-            "y1": 328.37677001953125
+            "x0": 354.5997619628906,
+            "y0": 317.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 329.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1743,10 +2339,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.5996398925781,
-            "y0": 316.9798278808594,
-            "x1": 426.5926818847656,
-            "y1": 328.37677001953125
+            "x0": 381.59974670410156,
+            "y0": 317.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 329.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1768,10 +2364,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 446.75897216796875,
-            "y0": 316.9798278808594,
-            "x1": 455.7518615722656,
-            "y1": 328.37677001953125
+            "x0": 408.59974670410156,
+            "y0": 317.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 329.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1782,6 +2378,31 @@
         {
           "row_id": "soa-1-r15",
           "column_id": "soa-1-c7",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 435.59974670410156,
+            "y0": 317.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 329.2802429199219
+          },
+          "engines": {
+            "vision": "Xb",
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r15",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -1793,10 +2414,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.27862548828125,
-            "y0": 316.9798278808594,
-            "x1": 484.90972900390625,
-            "y1": 328.37677001953125
+            "x0": 467.1597442626953,
+            "y0": 317.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 329.2802429199219
           },
           "engines": {
             "vision": "Xc",
@@ -1816,10 +2437,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 331.6208190917969,
-            "x1": 231.209716796875,
-            "y1": 339.6531677246094
+            "x0": 201.5997543334961,
+            "y0": 329.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 341.2802429199219
           },
           "engines": {
             "vision": "X",
@@ -1841,10 +2462,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.6028137207031,
-            "y0": 328.9798278808594,
-            "x1": 372.5933837890625,
-            "y1": 340.37677001953125
+            "x0": 327.5997619628906,
+            "y0": 329.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 341.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r16",
+          "column_id": "soa-1-c4",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 354.5997619628906,
+            "y0": 329.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 341.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1866,10 +2511,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.5929870605469,
-            "y0": 328.9798278808594,
-            "x1": 426.59136962890625,
-            "y1": 340.37677001953125
+            "x0": 381.59974670410156,
+            "y0": 329.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 341.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r16",
+          "column_id": "soa-1-c6",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 408.59974670410156,
+            "y0": 329.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 341.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1880,6 +2549,30 @@
         {
           "row_id": "soa-1-r16",
           "column_id": "soa-1-c7",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 435.59974670410156,
+            "y0": 329.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 341.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r16",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -1891,10 +2584,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.2776184082031,
-            "y0": 328.9798278808594,
-            "x1": 484.90972900390625,
-            "y1": 340.37677001953125
+            "x0": 467.1597442626953,
+            "y0": 329.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 341.2802429199219
           },
           "engines": {
             "vision": "Xc",
@@ -1914,10 +2607,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 343.6208190917969,
-            "x1": 231.209716796875,
-            "y1": 351.6531677246094
+            "x0": 201.5997543334961,
+            "y0": 341.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 353.2802429199219
           },
           "engines": {
             "vision": "X",
@@ -1939,10 +2632,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.6028137207031,
-            "y0": 340.9798278808594,
-            "x1": 372.5933837890625,
-            "y1": 352.37677001953125
+            "x0": 327.5997619628906,
+            "y0": 341.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 353.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r17",
+          "column_id": "soa-1-c4",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 354.5997619628906,
+            "y0": 341.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 353.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1964,10 +2681,34 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.5929870605469,
-            "y0": 340.9798278808594,
-            "x1": 426.59136962890625,
-            "y1": 352.37677001953125
+            "x0": 381.59974670410156,
+            "y0": 341.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 353.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r17",
+          "column_id": "soa-1-c6",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 408.59974670410156,
+            "y0": 341.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 353.2802429199219
           },
           "engines": {
             "vision": "Xb",
@@ -1978,6 +2719,30 @@
         {
           "row_id": "soa-1-r17",
           "column_id": "soa-1-c7",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 435.59974670410156,
+            "y0": 341.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 353.2802429199219
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r17",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -1989,10 +2754,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.2776184082031,
-            "y0": 340.9798278808594,
-            "x1": 484.90972900390625,
-            "y1": 352.37677001953125
+            "x0": 467.1597442626953,
+            "y0": 341.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 353.2802429199219
           },
           "engines": {
             "vision": "Xc",
@@ -2012,62 +2777,39 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 355.6208190917969,
-            "x1": 231.209716796875,
-            "y1": 363.6531677246094
+            "x0": 201.5997543334961,
+            "y0": 353.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 365.2802429199219
           },
           "engines": {
             "vision": "X",
             "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r18",
-          "column_id": "soa-1-c7",
-          "raw": "Xc",
-          "value_text": null,
-          "footnote_refs": [
-            "c"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 476.28564453125,
-            "y0": 352.9798278808594,
-            "x1": 484.9117126464844,
-            "y1": 364.37677001953125
-          },
-          "engines": {
-            "vision": "Xc",
-            "geometric": "Xc"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r18",
           "column_id": "soa-1-c8",
-          "raw": "X",
+          "raw": "Xc",
           "value_text": null,
-          "footnote_refs": [],
+          "footnote_refs": [
+            "c"
+          ],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 515.9998779296875,
-            "y0": 355.6208190917969,
-            "x1": 523.7661743164062,
-            "y1": 363.6531677246094
+            "x0": 467.1597442626953,
+            "y0": 353.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 365.2802429199219
           },
           "engines": {
-            "vision": "X",
-            "geometric": "X"
+            "vision": "Xc",
+            "geometric": "Xc"
           },
           "confidence": null
         },
@@ -2083,60 +2825,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 367.6208190917969,
-            "x1": 231.209716796875,
-            "y1": 375.6531677246094
+            "x0": 201.5997543334961,
+            "y0": 365.2802429199219,
+            "x1": 251.1597671508789,
+            "y1": 377.2802429199219
           },
           "engines": {
             "vision": "X",
             "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r19",
-          "column_id": "soa-1-c1",
-          "raw": "X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 273.00396728515625,
-            "y0": 367.6208190917969,
-            "x1": 280.770263671875,
-            "y1": 375.6531677246094
-          },
-          "engines": {
-            "vision": "X",
-            "geometric": "X"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r19",
-          "column_id": "soa-1-c2",
-          "raw": "3X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 336.1262512207031,
-            "y0": 367.6208190917969,
-            "x1": 347.9731140136719,
-            "y1": 375.6531677246094
-          },
-          "engines": {
-            "vision": "3X",
-            "geometric": "3X"
           },
           "confidence": null
         },
@@ -2152,10 +2848,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.1293640136719,
-            "y0": 367.6208190917969,
-            "x1": 374.9754333496094,
-            "y1": 375.6531677246094
+            "x0": 327.5997619628906,
+            "y0": 365.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 377.2802429199219
           },
           "engines": {
             "vision": "3X",
@@ -2175,10 +2871,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 390.1324768066406,
-            "y0": 367.6208190917969,
-            "x1": 401.9793395996094,
-            "y1": 375.6531677246094
+            "x0": 354.5997619628906,
+            "y0": 365.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 377.2802429199219
           },
           "engines": {
             "vision": "3X",
@@ -2198,10 +2894,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.1355895996094,
-            "y0": 367.6208190917969,
-            "x1": 428.9824523925781,
-            "y1": 375.6531677246094
+            "x0": 381.59974670410156,
+            "y0": 365.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 377.2802429199219
           },
           "engines": {
             "vision": "3X",
@@ -2221,10 +2917,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 446.417724609375,
-            "y0": 367.6208190917969,
-            "x1": 458.26458740234375,
-            "y1": 375.6531677246094
+            "x0": 408.59974670410156,
+            "y0": 365.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 377.2802429199219
           },
           "engines": {
             "vision": "3X",
@@ -2244,10 +2940,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 475.6998596191406,
-            "y0": 367.6208190917969,
-            "x1": 487.5467224121094,
-            "y1": 375.6531677246094
+            "x0": 435.59974670410156,
+            "y0": 365.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 377.2802429199219
           },
           "engines": {
             "vision": "3X",
@@ -2258,6 +2954,29 @@
         {
           "row_id": "soa-1-r19",
           "column_id": "soa-1-c8",
+          "raw": "3X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 365.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 377.2802429199219
+          },
+          "engines": {
+            "vision": "3X",
+            "geometric": "3X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r19",
+          "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
           "footnote_refs": [],
@@ -2267,10 +2986,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 516.0239868164062,
-            "y0": 367.6208190917969,
-            "x1": 523.790283203125,
-            "y1": 375.6531677246094
+            "x0": 494.1597442626953,
+            "y0": 365.2802429199219,
+            "x1": 543.5997619628906,
+            "y1": 377.2802429199219
           },
           "engines": {
             "vision": "X",
@@ -2290,39 +3009,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 257.402587890625,
-            "y0": 378.5421142578125,
-            "x1": 296.25091552734375,
-            "y1": 386.574462890625
+            "x0": 251.1597671508789,
+            "y0": 377.2802429199219,
+            "x1": 300.5997619628906,
+            "y1": 396.7263641357422
           },
           "engines": {
             "vision": "Weekly x 2 weeks",
-            "geometric": "Weekly x 2"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r20",
-          "column_id": "soa-1-c2",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 342.3599853515625,
-            "y0": 380.3398132324219,
-            "x1": 345.5937805175781,
-            "y1": 386.8136291503906
-          },
-          "engines": {
-            "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Weekly x 2 weeks"
           },
           "confidence": null
         },
@@ -2340,14 +3034,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 369.359619140625,
-            "y0": 380.3398132324219,
-            "x1": 372.5934143066406,
-            "y1": 386.8136291503906
+            "x0": 327.5997619628906,
+            "y0": 377.2802429199219,
+            "x1": 354.5997619628906,
+            "y1": 396.7263641357422
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2365,14 +3059,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 396.3592529296875,
-            "y0": 380.3398132324219,
-            "x1": 399.5930480957031,
-            "y1": 386.8136291503906
+            "x0": 354.5997619628906,
+            "y0": 377.2802429199219,
+            "x1": 381.59974670410156,
+            "y1": 396.7263641357422
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2390,14 +3084,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 423.35888671875,
-            "y0": 380.3398132324219,
-            "x1": 426.5926818847656,
-            "y1": 386.8136291503906
+            "x0": 381.59974670410156,
+            "y0": 377.2802429199219,
+            "x1": 408.59974670410156,
+            "y1": 396.7263641357422
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2415,14 +3109,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 452.51806640625,
-            "y0": 380.3398132324219,
-            "x1": 455.7518615722656,
-            "y1": 386.8136291503906
+            "x0": 408.59974670410156,
+            "y0": 377.2802429199219,
+            "x1": 435.59974670410156,
+            "y1": 396.7263641357422
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2440,20 +3134,45 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 481.9184875488281,
-            "y0": 380.3398132324219,
-            "x1": 485.15228271484375,
-            "y1": 386.8136291503906
+            "x0": 435.59974670410156,
+            "y0": 377.2802429199219,
+            "x1": 467.1597442626953,
+            "y1": 396.7263641357422
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r20",
           "column_id": "soa-1-c8",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 377.2802429199219,
+            "x1": 494.1597442626953,
+            "y1": 396.7263641357422
+          },
+          "engines": {
+            "vision": "Xb",
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r20",
+          "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
           "footnote_refs": [],
@@ -2463,10 +3182,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 515.9971923828125,
-            "y0": 383.0978088378906,
-            "x1": 523.7650756835938,
-            "y1": 391.1301574707031
+            "x0": 494.1597442626953,
+            "y0": 377.2802429199219,
+            "x1": 543.5997619628906,
+            "y1": 396.7263641357422
           },
           "engines": {
             "vision": "X",
@@ -2486,10 +3205,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 413.4608154296875,
-            "x1": 231.209716796875,
-            "y1": 421.4931640625
+            "x0": 201.5997543334961,
+            "y0": 407.4601303100586,
+            "x1": 251.1597671508789,
+            "y1": 426.1202392578125
           },
           "engines": {
             "vision": "X",
@@ -2511,20 +3230,19 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 363.6028137207031,
-            "y0": 410.81982421875,
-            "x1": 372.5933837890625,
-            "y1": 422.2167663574219
+            "x0": 327.5997619628906,
+            "y0": 407.4601303100586,
+            "x1": 354.5997619628906,
+            "y1": 426.1202392578125
           },
           "engines": {
-            "vision": "Xb",
-            "geometric": "Xb"
+            "vision": "Xb"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r22",
-          "column_id": "soa-1-c5",
+          "column_id": "soa-1-c4",
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
@@ -2536,10 +3254,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 417.5929870605469,
-            "y0": 410.81982421875,
-            "x1": 426.59136962890625,
-            "y1": 422.2167663574219
+            "x0": 354.5997619628906,
+            "y0": 407.4601303100586,
+            "x1": 381.59974670410156,
+            "y1": 426.1202392578125
           },
           "engines": {
             "vision": "Xb",
@@ -2549,7 +3267,7 @@
         },
         {
           "row_id": "soa-1-r22",
-          "column_id": "soa-1-c7",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -2561,10 +3279,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.2776184082031,
-            "y0": 410.81982421875,
-            "x1": 484.90972900390625,
-            "y1": 422.2167663574219
+            "x0": 467.1597442626953,
+            "y0": 407.4601303100586,
+            "x1": 494.1597442626953,
+            "y1": 426.1202392578125
           },
           "engines": {
             "vision": "Xc",
@@ -2584,10 +3302,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 223.4434051513672,
-            "y0": 428.4607238769531,
-            "x1": 231.209716796875,
-            "y1": 436.4930725097656
+            "x0": 201.5997543334961,
+            "y0": 426.1202392578125,
+            "x1": 251.1597671508789,
+            "y1": 438.1202392578125
           },
           "engines": {
             "vision": "X",
@@ -2597,7 +3315,7 @@
         },
         {
           "row_id": "soa-1-r23",
-          "column_id": "soa-1-c7",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -2609,10 +3327,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.28564453125,
-            "y0": 425.8197326660156,
-            "x1": 484.9117126464844,
-            "y1": 437.2166748046875
+            "x0": 467.1597442626953,
+            "y0": 426.1202392578125,
+            "x1": 494.1597442626953,
+            "y1": 438.1202392578125
           },
           "engines": {
             "vision": "Xc",
@@ -2632,39 +3350,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 257.402587890625,
-            "y0": 439.38201904296875,
-            "x1": 296.25091552734375,
-            "y1": 447.41436767578125
+            "x0": 251.1597671508789,
+            "y0": 438.1202392578125,
+            "x1": 300.5997619628906,
+            "y1": 457.0802459716797
           },
           "engines": {
             "vision": "Weekly x 2 weeks",
-            "geometric": "Weekly x 2"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r24",
-          "column_id": "soa-1-c2",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 342.3599853515625,
-            "y0": 441.1797180175781,
-            "x1": 345.5937805175781,
-            "y1": 447.6535339355469
-          },
-          "engines": {
-            "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Weekly x 2 weeks"
           },
           "confidence": null
         },
@@ -2682,14 +3375,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 369.359619140625,
-            "y0": 441.1797180175781,
-            "x1": 372.5934143066406,
-            "y1": 447.6535339355469
+            "x0": 327.5997619628906,
+            "y0": 438.1202392578125,
+            "x1": 354.5997619628906,
+            "y1": 457.0802459716797
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2707,14 +3400,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 396.3592529296875,
-            "y0": 441.1797180175781,
-            "x1": 399.5930480957031,
-            "y1": 447.6535339355469
+            "x0": 354.5997619628906,
+            "y0": 438.1202392578125,
+            "x1": 381.59974670410156,
+            "y1": 457.0802459716797
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2732,14 +3425,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 423.35888671875,
-            "y0": 441.1797180175781,
-            "x1": 426.5926818847656,
-            "y1": 447.6535339355469
+            "x0": 381.59974670410156,
+            "y0": 438.1202392578125,
+            "x1": 408.59974670410156,
+            "y1": 457.0802459716797
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2757,14 +3450,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 452.51806640625,
-            "y0": 441.1797180175781,
-            "x1": 455.7518615722656,
-            "y1": 447.6535339355469
+            "x0": 408.59974670410156,
+            "y0": 438.1202392578125,
+            "x1": 435.59974670410156,
+            "y1": 457.0802459716797
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2782,14 +3475,39 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 481.9184875488281,
-            "y0": 441.1797180175781,
-            "x1": 485.15228271484375,
-            "y1": 447.6535339355469
+            "x0": 435.59974670410156,
+            "y0": 438.1202392578125,
+            "x1": 467.1597442626953,
+            "y1": 457.0802459716797
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r24",
+          "column_id": "soa-1-c8",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 438.1202392578125,
+            "x1": 494.1597442626953,
+            "y1": 457.0802459716797
+          },
+          "engines": {
+            "vision": "Xb",
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2805,10 +3523,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 273.0025939941406,
-            "y0": 459.42071533203125,
-            "x1": 280.7704772949219,
-            "y1": 467.45306396484375
+            "x0": 251.1597671508789,
+            "y0": 457.0802459716797,
+            "x1": 300.5997619628906,
+            "y1": 469.0802459716797
           },
           "engines": {
             "vision": "X",
@@ -2818,7 +3536,7 @@
         },
         {
           "row_id": "soa-1-r25",
-          "column_id": "soa-1-c7",
+          "column_id": "soa-1-c3",
           "raw": "Xb",
           "value_text": null,
           "footnote_refs": [
@@ -2830,10 +3548,57 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 476.1719665527344,
-            "y0": 456.77972412109375,
-            "x1": 485.1531982421875,
-            "y1": 468.1766662597656
+            "x0": 327.5997619628906,
+            "y0": 457.0802459716797,
+            "x1": 354.5997619628906,
+            "y1": 469.0802459716797
+          },
+          "engines": {
+            "vision": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c1",
+          "raw": "Weekly x 2 weeks",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 251.1597671508789,
+            "y0": 469.0802459716797,
+            "x1": 300.5997619628906,
+            "y1": 487.9202423095703
+          },
+          "engines": {
+            "vision": "Weekly x 2 weeks",
+            "geometric": "Weekly x 2 weeks"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c3",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 327.5997619628906,
+            "y0": 469.0802459716797,
+            "x1": 354.5997619628906,
+            "y1": 487.9202423095703
           },
           "engines": {
             "vision": "Xb",
@@ -2843,79 +3608,6 @@
         },
         {
           "row_id": "soa-1-r26",
-          "column_id": "soa-1-c1",
-          "raw": "Weekly x 2 weeks",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 257.402587890625,
-            "y0": 470.3420104980469,
-            "x1": 296.25091552734375,
-            "y1": 478.3743591308594
-          },
-          "engines": {
-            "vision": "Weekly x 2 weeks",
-            "geometric": "Weekly x 2"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c2",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 342.3599853515625,
-            "y0": 472.13970947265625,
-            "x1": 345.5937805175781,
-            "y1": 478.613525390625
-          },
-          "engines": {
-            "vision": "Xb",
-            "geometric": "b"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
-          "column_id": "soa-1-c3",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 369.359619140625,
-            "y0": 472.13970947265625,
-            "x1": 372.5934143066406,
-            "y1": 478.613525390625
-          },
-          "engines": {
-            "vision": "Xb",
-            "geometric": "b"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r26",
           "column_id": "soa-1-c4",
           "raw": "Xb",
           "value_text": null,
@@ -2928,14 +3620,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 396.3592529296875,
-            "y0": 472.13970947265625,
-            "x1": 399.5930480957031,
-            "y1": 478.613525390625
+            "x0": 354.5997619628906,
+            "y0": 469.0802459716797,
+            "x1": 381.59974670410156,
+            "y1": 487.9202423095703
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2953,14 +3645,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 423.35888671875,
-            "y0": 472.13970947265625,
-            "x1": 426.5926818847656,
-            "y1": 478.613525390625
+            "x0": 381.59974670410156,
+            "y0": 469.0802459716797,
+            "x1": 408.59974670410156,
+            "y1": 487.9202423095703
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -2978,14 +3670,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 452.51806640625,
-            "y0": 472.13970947265625,
-            "x1": 455.7518615722656,
-            "y1": 478.613525390625
+            "x0": 408.59974670410156,
+            "y0": 469.0802459716797,
+            "x1": 435.59974670410156,
+            "y1": 487.9202423095703
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3003,14 +3695,39 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 481.9184875488281,
-            "y0": 472.13970947265625,
-            "x1": 485.15228271484375,
-            "y1": 478.613525390625
+            "x0": 435.59974670410156,
+            "y0": 469.0802459716797,
+            "x1": 467.1597442626953,
+            "y1": 487.9202423095703
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r26",
+          "column_id": "soa-1-c8",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 469.0802459716797,
+            "x1": 494.1597442626953,
+            "y1": 487.9202423095703
+          },
+          "engines": {
+            "vision": "Xb",
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3026,39 +3743,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 257.402587890625,
-            "y0": 489.1820068359375,
-            "x1": 296.25091552734375,
-            "y1": 497.21435546875
+            "x0": 251.1597671508789,
+            "y0": 487.9202423095703,
+            "x1": 300.5997619628906,
+            "y1": 506.88023376464844
           },
           "engines": {
             "vision": "Weekly x 2 weeks",
-            "geometric": "Weekly x 2"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r27",
-          "column_id": "soa-1-c2",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 342.3599853515625,
-            "y0": 490.979736328125,
-            "x1": 345.5937805175781,
-            "y1": 497.45355224609375
-          },
-          "engines": {
-            "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Weekly x 2 weeks"
           },
           "confidence": null
         },
@@ -3076,14 +3768,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 369.359619140625,
-            "y0": 490.979736328125,
-            "x1": 372.5934143066406,
-            "y1": 497.45355224609375
+            "x0": 327.5997619628906,
+            "y0": 487.9202423095703,
+            "x1": 354.5997619628906,
+            "y1": 506.88023376464844
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3101,14 +3793,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 396.3592529296875,
-            "y0": 490.979736328125,
-            "x1": 399.5930480957031,
-            "y1": 497.45355224609375
+            "x0": 354.5997619628906,
+            "y0": 487.9202423095703,
+            "x1": 381.59974670410156,
+            "y1": 506.88023376464844
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3126,14 +3818,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 423.35888671875,
-            "y0": 490.979736328125,
-            "x1": 426.5926818847656,
-            "y1": 497.45355224609375
+            "x0": 381.59974670410156,
+            "y0": 487.9202423095703,
+            "x1": 408.59974670410156,
+            "y1": 506.88023376464844
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3151,14 +3843,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 452.51806640625,
-            "y0": 490.979736328125,
-            "x1": 455.7518615722656,
-            "y1": 497.45355224609375
+            "x0": 408.59974670410156,
+            "y0": 487.9202423095703,
+            "x1": 435.59974670410156,
+            "y1": 506.88023376464844
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3176,14 +3868,39 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 481.9184875488281,
-            "y0": 490.979736328125,
-            "x1": 485.15228271484375,
-            "y1": 497.45355224609375
+            "x0": 435.59974670410156,
+            "y0": 487.9202423095703,
+            "x1": 467.1597442626953,
+            "y1": 506.88023376464844
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r27",
+          "column_id": "soa-1-c8",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 487.9202423095703,
+            "x1": 494.1597442626953,
+            "y1": 506.88023376464844
+          },
+          "engines": {
+            "vision": "Xb",
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3199,37 +3916,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 260.40380859375,
-            "y0": 508.14202880859375,
-            "x1": 293.2456970214844,
-            "y1": 516.1743774414062
+            "x0": 251.1597671508789,
+            "y0": 506.88023376464844,
+            "x1": 300.5997619628906,
+            "y1": 525.72021484375
           },
           "engines": {
             "vision": "3 X/week for 2 weeks",
-            "geometric": "3 X/week"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r28",
-          "column_id": "soa-1-c2",
-          "raw": "3 X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 335.1618957519531,
-            "y0": 512.7007446289062,
-            "x1": 349.04864501953125,
-            "y1": 520.7330932617188
-          },
-          "engines": {
-            "vision": "3 X",
-            "geometric": "3 X"
+            "geometric": "3 X/week for 2 weeks"
           },
           "confidence": null
         },
@@ -3245,10 +3939,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 362.1650085449219,
-            "y0": 512.7007446289062,
-            "x1": 376.0517578125,
-            "y1": 520.7330932617188
+            "x0": 327.5997619628906,
+            "y0": 506.88023376464844,
+            "x1": 354.5997619628906,
+            "y1": 525.72021484375
           },
           "engines": {
             "vision": "3 X",
@@ -3268,10 +3962,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 389.1681213378906,
-            "y0": 512.7007446289062,
-            "x1": 403.05487060546875,
-            "y1": 520.7330932617188
+            "x0": 354.5997619628906,
+            "y0": 506.88023376464844,
+            "x1": 381.59974670410156,
+            "y1": 525.72021484375
           },
           "engines": {
             "vision": "3 X",
@@ -3291,10 +3985,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 416.1712341308594,
-            "y0": 512.7007446289062,
-            "x1": 430.0579833984375,
-            "y1": 520.7330932617188
+            "x0": 381.59974670410156,
+            "y0": 506.88023376464844,
+            "x1": 408.59974670410156,
+            "y1": 525.72021484375
           },
           "engines": {
             "vision": "3 X",
@@ -3314,10 +4008,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 445.3330078125,
-            "y0": 512.7007446289062,
-            "x1": 459.2197570800781,
-            "y1": 520.7330932617188
+            "x0": 408.59974670410156,
+            "y0": 506.88023376464844,
+            "x1": 435.59974670410156,
+            "y1": 525.72021484375
           },
           "engines": {
             "vision": "3 X",
@@ -3337,10 +4031,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 474.7355041503906,
-            "y0": 512.7007446289062,
-            "x1": 488.62225341796875,
-            "y1": 520.7330932617188
+            "x0": 435.59974670410156,
+            "y0": 506.88023376464844,
+            "x1": 467.1597442626953,
+            "y1": 525.72021484375
           },
           "engines": {
             "vision": "3 X",
@@ -3351,6 +4045,29 @@
         {
           "row_id": "soa-1-r28",
           "column_id": "soa-1-c8",
+          "raw": "3 X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 506.88023376464844,
+            "x1": 494.1597442626953,
+            "y1": 525.72021484375
+          },
+          "engines": {
+            "vision": "3 X",
+            "geometric": "3 X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r28",
+          "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
           "footnote_refs": [],
@@ -3360,10 +4077,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 516.0145874023438,
-            "y0": 512.7007446289062,
-            "x1": 523.7808837890625,
-            "y1": 520.7330932617188
+            "x0": 494.1597442626953,
+            "y0": 506.88023376464844,
+            "x1": 543.5997619628906,
+            "y1": 525.72021484375
           },
           "engines": {
             "vision": "X",
@@ -3383,37 +4100,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 260.40380859375,
-            "y0": 526.9819946289062,
-            "x1": 293.2456970214844,
-            "y1": 535.0143432617188
+            "x0": 251.1597671508789,
+            "y0": 525.72021484375,
+            "x1": 300.5997619628906,
+            "y1": 544.6802368164062
           },
           "engines": {
             "vision": "3 X/week for 2 weeks",
-            "geometric": "3 X/week"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r29",
-          "column_id": "soa-1-c2",
-          "raw": "3 X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 335.1618957519531,
-            "y0": 531.5407104492188,
-            "x1": 349.04864501953125,
-            "y1": 539.5730590820312
-          },
-          "engines": {
-            "vision": "3 X",
-            "geometric": "3 X"
+            "geometric": "3 X/week for 2 weeks"
           },
           "confidence": null
         },
@@ -3429,10 +4123,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 362.1650085449219,
-            "y0": 531.5407104492188,
-            "x1": 376.0517578125,
-            "y1": 539.5730590820312
+            "x0": 327.5997619628906,
+            "y0": 525.72021484375,
+            "x1": 354.5997619628906,
+            "y1": 544.6802368164062
           },
           "engines": {
             "vision": "3 X",
@@ -3452,10 +4146,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 389.1681213378906,
-            "y0": 531.5407104492188,
-            "x1": 403.05487060546875,
-            "y1": 539.5730590820312
+            "x0": 354.5997619628906,
+            "y0": 525.72021484375,
+            "x1": 381.59974670410156,
+            "y1": 544.6802368164062
           },
           "engines": {
             "vision": "3 X",
@@ -3475,10 +4169,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 416.1712341308594,
-            "y0": 531.5407104492188,
-            "x1": 430.0579833984375,
-            "y1": 539.5730590820312
+            "x0": 381.59974670410156,
+            "y0": 525.72021484375,
+            "x1": 408.59974670410156,
+            "y1": 544.6802368164062
           },
           "engines": {
             "vision": "3 X",
@@ -3498,10 +4192,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 445.3330078125,
-            "y0": 531.5407104492188,
-            "x1": 459.2197570800781,
-            "y1": 539.5730590820312
+            "x0": 408.59974670410156,
+            "y0": 525.72021484375,
+            "x1": 435.59974670410156,
+            "y1": 544.6802368164062
           },
           "engines": {
             "vision": "3 X",
@@ -3521,10 +4215,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 474.7355041503906,
-            "y0": 531.5407104492188,
-            "x1": 488.62225341796875,
-            "y1": 539.5730590820312
+            "x0": 435.59974670410156,
+            "y0": 525.72021484375,
+            "x1": 467.1597442626953,
+            "y1": 544.6802368164062
           },
           "engines": {
             "vision": "3 X",
@@ -3535,6 +4229,29 @@
         {
           "row_id": "soa-1-r29",
           "column_id": "soa-1-c8",
+          "raw": "3 X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 525.72021484375,
+            "x1": 494.1597442626953,
+            "y1": 544.6802368164062
+          },
+          "engines": {
+            "vision": "3 X",
+            "geometric": "3 X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r29",
+          "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
           "footnote_refs": [],
@@ -3544,10 +4261,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 516.0145874023438,
-            "y0": 531.5407104492188,
-            "x1": 523.7808837890625,
-            "y1": 539.5730590820312
+            "x0": 494.1597442626953,
+            "y0": 525.72021484375,
+            "x1": 543.5997619628906,
+            "y1": 544.6802368164062
           },
           "engines": {
             "vision": "X",
@@ -3567,39 +4284,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 257.402587890625,
-            "y0": 545.9420166015625,
-            "x1": 296.25091552734375,
-            "y1": 553.974365234375
+            "x0": 251.1597671508789,
+            "y0": 544.6802368164062,
+            "x1": 300.5997619628906,
+            "y1": 563.520263671875
           },
           "engines": {
             "vision": "Weekly x 2 weeks",
-            "geometric": "Weekly x 2"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r30",
-          "column_id": "soa-1-c2",
-          "raw": "Xb",
-          "value_text": null,
-          "footnote_refs": [
-            "b"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 342.3599853515625,
-            "y0": 547.73974609375,
-            "x1": 345.5937805175781,
-            "y1": 554.2135009765625
-          },
-          "engines": {
-            "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Weekly x 2 weeks"
           },
           "confidence": null
         },
@@ -3617,14 +4309,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 369.359619140625,
-            "y0": 547.73974609375,
-            "x1": 372.5934143066406,
-            "y1": 554.2135009765625
+            "x0": 327.5997619628906,
+            "y0": 544.6802368164062,
+            "x1": 354.5997619628906,
+            "y1": 563.520263671875
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3642,14 +4334,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 396.3592529296875,
-            "y0": 547.73974609375,
-            "x1": 399.5930480957031,
-            "y1": 554.2135009765625
+            "x0": 354.5997619628906,
+            "y0": 544.6802368164062,
+            "x1": 381.59974670410156,
+            "y1": 563.520263671875
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3667,14 +4359,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 423.35888671875,
-            "y0": 547.73974609375,
-            "x1": 426.5926818847656,
-            "y1": 554.2135009765625
+            "x0": 381.59974670410156,
+            "y0": 544.6802368164062,
+            "x1": 408.59974670410156,
+            "y1": 563.520263671875
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3692,14 +4384,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 452.51806640625,
-            "y0": 547.73974609375,
-            "x1": 455.7518615722656,
-            "y1": 554.2135009765625
+            "x0": 408.59974670410156,
+            "y0": 544.6802368164062,
+            "x1": 435.59974670410156,
+            "y1": 563.520263671875
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
@@ -3717,20 +4409,45 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 481.9184875488281,
-            "y0": 547.73974609375,
-            "x1": 485.15228271484375,
-            "y1": 554.2135009765625
+            "x0": 435.59974670410156,
+            "y0": 544.6802368164062,
+            "x1": 467.1597442626953,
+            "y1": 563.520263671875
           },
           "engines": {
             "vision": "Xb",
-            "geometric": "b"
+            "geometric": "Xb"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r30",
           "column_id": "soa-1-c8",
+          "raw": "Xb",
+          "value_text": null,
+          "footnote_refs": [
+            "b"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 544.6802368164062,
+            "x1": 494.1597442626953,
+            "y1": 563.520263671875
+          },
+          "engines": {
+            "vision": "Xb",
+            "geometric": "Xb"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r30",
+          "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
           "footnote_refs": [],
@@ -3740,10 +4457,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 515.9971923828125,
-            "y0": 550.4977416992188,
-            "x1": 523.7650756835938,
-            "y1": 558.5300903320312
+            "x0": 494.1597442626953,
+            "y0": 544.6802368164062,
+            "x1": 543.5997619628906,
+            "y1": 563.520263671875
           },
           "engines": {
             "vision": "X",
@@ -3753,51 +4470,23 @@
         },
         {
           "row_id": "soa-1-r31",
-          "column_id": "soa-1-c1",
-          "raw": "Xa",
+          "column_id": "soa-1-c0",
+          "raw": "X",
           "value_text": null,
-          "footnote_refs": [
-            "a"
-          ],
+          "footnote_refs": [],
           "row_span": 1,
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 276.966796875,
-            "y0": 562.8638305664062,
-            "x1": 280.5297546386719,
-            "y1": 570.8961791992188
+            "x0": 201.5997543334961,
+            "y0": 563.520263671875,
+            "x1": 251.1597671508789,
+            "y1": 577.8002624511719
           },
           "engines": {
-            "vision": "Xa",
-            "geometric": "a"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r31",
-          "column_id": "soa-1-c2",
-          "raw": "Xa",
-          "value_text": null,
-          "footnote_refs": [
-            "a"
-          ],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 342.1273498535156,
-            "y0": 562.8638305664062,
-            "x1": 345.6903076171875,
-            "y1": 570.8961791992188
-          },
-          "engines": {
-            "vision": "Xa",
-            "geometric": "a"
+            "vision": "X"
           },
           "confidence": null
         },
@@ -3815,20 +4504,69 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 369.1224365234375,
-            "y0": 562.8638305664062,
-            "x1": 372.6853942871094,
-            "y1": 570.8961791992188
+            "x0": 327.5997619628906,
+            "y0": 563.520263671875,
+            "x1": 354.5997619628906,
+            "y1": 577.8002624511719
           },
           "engines": {
             "vision": "Xa",
-            "geometric": "a"
+            "geometric": "a X"
           },
           "confidence": null
         },
         {
           "row_id": "soa-1-r31",
-          "column_id": "soa-1-c7",
+          "column_id": "soa-1-c4",
+          "raw": "Xa",
+          "value_text": null,
+          "footnote_refs": [
+            "a"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 354.5997619628906,
+            "y0": 563.520263671875,
+            "x1": 381.59974670410156,
+            "y1": 577.8002624511719
+          },
+          "engines": {
+            "vision": "Xa",
+            "geometric": "a X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c5",
+          "raw": "Xa",
+          "value_text": null,
+          "footnote_refs": [
+            "a"
+          ],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 381.59974670410156,
+            "y0": 563.520263671875,
+            "x1": 408.59974670410156,
+            "y1": 577.8002624511719
+          },
+          "engines": {
+            "vision": "Xa"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r31",
+          "column_id": "soa-1-c8",
           "raw": "Xc",
           "value_text": null,
           "footnote_refs": [
@@ -3840,37 +4578,14 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 481.6849365234375,
-            "y0": 562.8718872070312,
-            "x1": 485.2478942871094,
-            "y1": 570.9042358398438
+            "x0": 467.1597442626953,
+            "y0": 563.520263671875,
+            "x1": 494.1597442626953,
+            "y1": 577.8002624511719
           },
           "engines": {
             "vision": "Xc",
-            "geometric": "c"
-          },
-          "confidence": null
-        },
-        {
-          "row_id": "soa-1-r32",
-          "column_id": "soa-1-c2",
-          "raw": "3 X",
-          "value_text": null,
-          "footnote_refs": [],
-          "row_span": 1,
-          "col_span": 1,
-          "ambiguous": false,
-          "notes": null,
-          "bbox": {
-            "page": 25,
-            "x0": 335.1618957519531,
-            "y0": 580.1406860351562,
-            "x1": 349.04461669921875,
-            "y1": 588.1730346679688
-          },
-          "engines": {
-            "vision": "3 X",
-            "geometric": "3 X"
+            "geometric": "c X"
           },
           "confidence": null
         },
@@ -3886,10 +4601,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 362.1650085449219,
-            "y0": 580.1406860351562,
-            "x1": 376.0485534667969,
-            "y1": 588.1730346679688
+            "x0": 327.5997619628906,
+            "y0": 577.8002624511719,
+            "x1": 354.5997619628906,
+            "y1": 589.8002624511719
           },
           "engines": {
             "vision": "3 X",
@@ -3909,10 +4624,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 389.16815185546875,
-            "y0": 580.1406860351562,
-            "x1": 403.0549011230469,
-            "y1": 588.1730346679688
+            "x0": 354.5997619628906,
+            "y0": 577.8002624511719,
+            "x1": 381.59974670410156,
+            "y1": 589.8002624511719
           },
           "engines": {
             "vision": "3 X",
@@ -3932,10 +4647,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 416.1712646484375,
-            "y0": 580.1406860351562,
-            "x1": 430.0580139160156,
-            "y1": 588.1730346679688
+            "x0": 381.59974670410156,
+            "y0": 577.8002624511719,
+            "x1": 408.59974670410156,
+            "y1": 589.8002624511719
           },
           "engines": {
             "vision": "3 X",
@@ -3955,10 +4670,10 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 445.3330383300781,
-            "y0": 580.1406860351562,
-            "x1": 459.21978759765625,
-            "y1": 588.1730346679688
+            "x0": 408.59974670410156,
+            "y0": 577.8002624511719,
+            "x1": 435.59974670410156,
+            "y1": 589.8002624511719
           },
           "engines": {
             "vision": "3 X",
@@ -3978,10 +4693,33 @@
           "notes": null,
           "bbox": {
             "page": 25,
-            "x0": 474.73553466796875,
-            "y0": 580.1406860351562,
-            "x1": 488.6222839355469,
-            "y1": 588.1730346679688
+            "x0": 435.59974670410156,
+            "y0": 577.8002624511719,
+            "x1": 467.1597442626953,
+            "y1": 589.8002624511719
+          },
+          "engines": {
+            "vision": "3 X",
+            "geometric": "3 X"
+          },
+          "confidence": null
+        },
+        {
+          "row_id": "soa-1-r32",
+          "column_id": "soa-1-c8",
+          "raw": "3 X",
+          "value_text": null,
+          "footnote_refs": [],
+          "row_span": 1,
+          "col_span": 1,
+          "ambiguous": false,
+          "notes": null,
+          "bbox": {
+            "page": 25,
+            "x0": 467.1597442626953,
+            "y0": 577.8002624511719,
+            "x1": 494.1597442626953,
+            "y1": 589.8002624511719
           },
           "engines": {
             "vision": "3 X",
@@ -3991,7 +4729,7 @@
         },
         {
           "row_id": "soa-1-r33",
-          "column_id": "soa-1-c8",
+          "column_id": "soa-1-c9",
           "raw": "X",
           "value_text": null,
           "footnote_refs": [],
@@ -3999,9 +4737,16 @@
           "col_span": 1,
           "ambiguous": false,
           "notes": null,
-          "bbox": null,
+          "bbox": {
+            "page": 25,
+            "x0": 494.1597442626953,
+            "y0": 589.8002624511719,
+            "x1": 543.5997619628906,
+            "y1": 601.9202575683594
+          },
           "engines": {
-            "vision": "X"
+            "vision": "X",
+            "geometric": "X"
           },
           "confidence": null
         }
@@ -4009,7 +4754,7 @@
       "footnotes": [
         {
           "marker": "*",
-          "marker_style": "asterisk_tier",
+          "marker_style": "symbol",
           "text": "Baseline assessments must occur within 2 weeks during the screening period. The screening period is within 4 weeks of subject enrollment. Baseline and screening period may occur simultaneously.",
           "text_complete": true,
           "pages": [
@@ -4023,35 +4768,28 @@
               "column_id": "soa-1-c0",
               "group_id": null,
               "detail": null
-            }
-          ],
-          "unattached_reason": null,
-          "bbox": null
-        },
-        {
-          "marker": "Xa",
-          "marker_style": "inline_suffix",
-          "text": "Xa – Blood is collected in fasted state at least once (preferably twice) before investigational agent administration, once during weeks 3-6, and once at week 12 or at final visit if subject discontinues prematurely. The two specimens prior to investigational agent may be drawn during baseline, or one may be drawn during baseline and one on study day 1 prior to administration of first dose of investigational agent.",
-          "text_complete": true,
-          "pages": [
-            25
-          ],
-          "continued_from_page": null,
-          "attached_to": [
+            },
             {
-              "kind": "cell",
-              "row_id": "soa-1-r31",
+              "kind": "column",
+              "row_id": null,
               "column_id": "soa-1-c1",
               "group_id": null,
               "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r31",
-              "column_id": "soa-1-c2",
-              "group_id": null,
-              "detail": null
-            },
+            }
+          ],
+          "unattached_reason": null,
+          "bbox": null
+        },
+        {
+          "marker": "a",
+          "marker_style": "superscript_letter",
+          "text": "Blood is collected in fasted state at least once (preferably twice) before investigational agent administration, once during weeks 3-6, and once at week 12 or at final visit if subject discontinues prematurely. The two specimens prior to investigational agent may be drawn during baseline, or one may be drawn during baseline and one on study day 1 prior to administration of first dose of investigational agent.",
+          "text_complete": true,
+          "pages": [
+            25
+          ],
+          "continued_from_page": null,
+          "attached_to": [
             {
               "kind": "cell",
               "row_id": "soa-1-r31",
@@ -4060,8 +4798,22 @@
               "detail": null
             },
             {
-              "kind": "row",
+              "kind": "cell",
               "row_id": "soa-1-r31",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r31",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r15",
               "column_id": null,
               "group_id": null,
               "detail": null
@@ -4071,9 +4823,9 @@
           "bbox": null
         },
         {
-          "marker": "Xb",
-          "marker_style": "inline_suffix",
-          "text": "Xb - Once during the week preferably at the first visit of the week.",
+          "marker": "b",
+          "marker_style": "superscript_letter",
+          "text": "Once during the week preferably at the first visit of the week.",
           "text_complete": true,
           "pages": [
             25
@@ -4083,13 +4835,6 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r11",
-              "column_id": "soa-1-c2",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r11",
               "column_id": "soa-1-c3",
               "group_id": null,
               "detail": null
@@ -4117,6 +4862,13 @@
             },
             {
               "kind": "cell",
+              "row_id": "soa-1-r11",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
               "row_id": "soa-1-r12",
               "column_id": "soa-1-c3",
               "group_id": null,
@@ -4125,7 +4877,28 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r12",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r12",
               "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r12",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r12",
+              "column_id": "soa-1-c7",
               "group_id": null,
               "detail": null
             },
@@ -4139,7 +4912,28 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r13",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
               "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r13",
+              "column_id": "soa-1-c7",
               "group_id": null,
               "detail": null
             },
@@ -4153,14 +4947,28 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r14",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r14",
               "column_id": "soa-1-c5",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
-              "row_id": "soa-1-r15",
-              "column_id": "soa-1-c2",
+              "row_id": "soa-1-r14",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r14",
+              "column_id": "soa-1-c7",
               "group_id": null,
               "detail": null
             },
@@ -4194,6 +5002,13 @@
             },
             {
               "kind": "cell",
+              "row_id": "soa-1-r15",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
               "row_id": "soa-1-r16",
               "column_id": "soa-1-c3",
               "group_id": null,
@@ -4202,7 +5017,28 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r16",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
               "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r16",
+              "column_id": "soa-1-c7",
               "group_id": null,
               "detail": null
             },
@@ -4216,14 +5052,28 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r17",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
               "column_id": "soa-1-c5",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
-              "row_id": "soa-1-r20",
-              "column_id": "soa-1-c2",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r17",
+              "column_id": "soa-1-c7",
               "group_id": null,
               "detail": null
             },
@@ -4264,6 +5114,13 @@
             },
             {
               "kind": "cell",
+              "row_id": "soa-1-r20",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
               "row_id": "soa-1-r22",
               "column_id": "soa-1-c3",
               "group_id": null,
@@ -4272,14 +5129,7 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r22",
-              "column_id": "soa-1-c5",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r24",
-              "column_id": "soa-1-c2",
+              "column_id": "soa-1-c4",
               "group_id": null,
               "detail": null
             },
@@ -4315,20 +5165,20 @@
               "kind": "cell",
               "row_id": "soa-1-r24",
               "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r24",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r25",
-              "column_id": "soa-1-c7",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r26",
-              "column_id": "soa-1-c2",
+              "column_id": "soa-1-c3",
               "group_id": null,
               "detail": null
             },
@@ -4369,183 +5219,92 @@
             },
             {
               "kind": "cell",
-              "row_id": "soa-1-r27",
-              "column_id": "soa-1-c2",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r27",
-              "column_id": "soa-1-c3",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r27",
-              "column_id": "soa-1-c4",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r27",
-              "column_id": "soa-1-c5",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r27",
-              "column_id": "soa-1-c6",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r27",
-              "column_id": "soa-1-c7",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r30",
-              "column_id": "soa-1-c2",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r30",
-              "column_id": "soa-1-c3",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r30",
-              "column_id": "soa-1-c4",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r30",
-              "column_id": "soa-1-c5",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r30",
-              "column_id": "soa-1-c6",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "cell",
-              "row_id": "soa-1-r30",
-              "column_id": "soa-1-c7",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r11",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r12",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r13",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r14",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r15",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r16",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r17",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r20",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r22",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r24",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r25",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
               "row_id": "soa-1-r26",
-              "column_id": null,
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
-              "kind": "row",
+              "kind": "cell",
               "row_id": "soa-1-r27",
-              "column_id": null,
+              "column_id": "soa-1-c3",
               "group_id": null,
               "detail": null
             },
             {
-              "kind": "row",
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r27",
+              "column_id": "soa-1-c8",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
               "row_id": "soa-1-r30",
-              "column_id": null,
+              "column_id": "soa-1-c3",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r30",
+              "column_id": "soa-1-c4",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r30",
+              "column_id": "soa-1-c5",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r30",
+              "column_id": "soa-1-c6",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r30",
+              "column_id": "soa-1-c7",
+              "group_id": null,
+              "detail": null
+            },
+            {
+              "kind": "cell",
+              "row_id": "soa-1-r30",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             }
@@ -4554,9 +5313,9 @@
           "bbox": null
         },
         {
-          "marker": "Xc",
-          "marker_style": "inline_suffix",
-          "text": "Xc - At the final scheduled study visit (last visit of week 12) or if the subjects discontinues prematurely.",
+          "marker": "c",
+          "marker_style": "superscript_letter",
+          "text": "At the final scheduled study visit (last visit of week 12) or if the subjects discontinues prematurely.",
           "text_complete": true,
           "pages": [
             25
@@ -4566,161 +5325,84 @@
             {
               "kind": "cell",
               "row_id": "soa-1-r10",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r11",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r12",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r13",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r14",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r15",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r16",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r17",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r18",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r22",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r23",
-              "column_id": "soa-1-c7",
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             },
             {
               "kind": "cell",
               "row_id": "soa-1-r31",
-              "column_id": "soa-1-c7",
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r11",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r12",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r13",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r14",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r15",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r16",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r17",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r18",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r22",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r23",
-              "column_id": null,
-              "group_id": null,
-              "detail": null
-            },
-            {
-              "kind": "row",
-              "row_id": "soa-1-r31",
-              "column_id": null,
+              "column_id": "soa-1-c8",
               "group_id": null,
               "detail": null
             }
@@ -4729,9 +5411,9 @@
           "bbox": null
         },
         {
-          "marker": "Xd",
-          "marker_style": "inline_suffix",
-          "text": "Xd - FEV1 is only performed in those subjects suspected of having asthma.",
+          "marker": "d",
+          "marker_style": "superscript_letter",
+          "text": "FEV1 is only performed in those subjects suspected of having asthma.",
           "text_complete": true,
           "pages": [
             25
@@ -4751,21 +5433,20 @@
               "column_id": null,
               "group_id": null,
               "detail": null
+            },
+            {
+              "kind": "row",
+              "row_id": "soa-1-r14",
+              "column_id": null,
+              "group_id": null,
+              "detail": null
             }
           ],
           "unattached_reason": null,
           "bbox": null
         }
       ],
-      "rotated_annotations": [
-        {
-          "text": "RANDOMIZATION",
-          "page": 25,
-          "rotation_deg": 90.0,
-          "bbox": null,
-          "interpretation": "divider between Baseline and Treatment"
-        }
-      ],
+      "rotated_annotations": [],
       "locator": {
         "score": 13.0,
         "signals": [
@@ -4789,384 +5470,56 @@
         ],
         "engines_failed": {},
         "row_counts": {
-          "geometric": 32,
+          "geometric": 31,
           "vision": 31,
-          "final": 34
+          "final": 31
         },
         "column_counts": {
           "geometric": 10,
-          "vision": 9
+          "vision": 10
         },
         "cell_counts": {
-          "geometric": 169,
-          "vision": 128
+          "geometric": 128,
+          "vision": 143
         },
-        "cell_agreement": 0.669,
+        "cell_agreement": 0.975,
         "warnings": [
           {
-            "type": "row_missing_in_engine",
-            "severity": "high",
-            "message": "The geometric engine read a row the vision engine did not return: 'PInfectious disease panel/ rior medications' (page 25). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
-            "row_id": null,
-            "column_id": null,
-            "engine": "vision"
-          },
-          {
-            "type": "row_missing_in_engine",
-            "severity": "high",
-            "message": "The geometric engine read a row the vision engine did not return: 'Efficacy' (page 25). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
-            "row_id": null,
-            "column_id": null,
-            "engine": "vision"
-          },
-          {
-            "type": "row_missing_in_engine",
-            "severity": "high",
-            "message": "The geometric engine read a row the vision engine did not return: '*Baseline assessments must occur within 2 weeks during the screening period. The screening period is within 4once during weeks 3-6, and once at week 12 or at final visit if subject discontinues prematurely. The two specimensprior to investigational agent may be drawn during baseline, or one may be drawn during baseline and one on studyweeks of subject enrollment. Baseline and screening period may occur simultaneously.Xday 1 prior to administration of first dose of investigational agent.XXXFollow-up interview abcd – Blood is collected in fasted state at least once (preferably twice) before investigational agent administration, - At the final scheduled study visit (last visit of week 12) or if the subjects discontinues prematurely. - Once during the week preferably at the first visit of the week. - FEV1 is only performed in those subjects suspected of having asthma.' (page 25). It is included in the output and flagged, because a dropped assessment is worse than a spurious one.",
-            "row_id": null,
-            "column_id": null,
-            "engine": "vision"
-          },
-          {
-            "type": "row_missing_in_engine",
+            "type": "column_missing_in_engine",
             "severity": "medium",
-            "message": "Only the vision engine read this row: 'Prior medications'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
-            "row_id": "soa-1-r6",
-            "column_id": null,
-            "engine": "geometric"
-          },
-          {
-            "type": "row_missing_in_engine",
-            "severity": "medium",
-            "message": "Only the vision engine read this row: 'Follow-up interview'. The geometric engine merges wrapped labels aggressively, so this is usually a geometric miss rather than a vision hallucination -- but it is worth a glance at the source.",
-            "row_id": "soa-1-r33",
-            "column_id": null,
-            "engine": "geometric"
+            "message": "The engines returned this column with no header; the source prints '-4 to 0*' above it, which was taken from the page.",
+            "row_id": null,
+            "column_id": "soa-1-c1",
+            "engine": "vision"
           },
           {
             "type": "column_missing_in_engine",
-            "severity": "high",
-            "message": "Column count differs: geometric read 10, vision read 9. A dropped column is a patient visit nobody built, so check the header row against the source page.",
+            "severity": "medium",
+            "message": "The source draws a column here that neither engine reported -- it is printed blank, with no visit header and no cells. It is kept so that the columns to its right stay aligned with the printed grid, and nothing is inferred about what it might have been.",
+            "row_id": null,
+            "column_id": "soa-1-c2",
+            "engine": null
+          },
+          {
+            "type": "column_not_in_source_grid",
+            "severity": "low",
+            "message": "Dropped a column the engines reported that the source does not draw: 'unlabelled'. The printed grid rules the row-label area and the visit columns; the header stub inside it is not a visit.",
             "row_id": null,
             "column_id": null,
-            "engine": "vision"
+            "engine": null
           },
           {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'Weekly x 2' vs vision 'Weekly x 2 weeks'. The vision reading is kept.",
-            "row_id": "soa-1-r20",
-            "column_id": "soa-1-c1",
+            "type": "column_not_in_source_grid",
+            "severity": "low",
+            "message": "Dropped a column the engines reported that the source does not draw: 'unlabelled'. The printed grid rules the row-label area and the visit columns; the header stub inside it is not a visit.",
+            "row_id": null,
+            "column_id": null,
             "engine": null
           },
           {
             "type": "cell_value_disagreement",
             "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r20",
-            "column_id": "soa-1-c2",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r20",
-            "column_id": "soa-1-c3",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r20",
-            "column_id": "soa-1-c4",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r20",
-            "column_id": "soa-1-c5",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r20",
-            "column_id": "soa-1-c6",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r20",
-            "column_id": "soa-1-c7",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'Weekly x 2' vs vision 'Weekly x 2 weeks'. The vision reading is kept.",
-            "row_id": "soa-1-r24",
-            "column_id": "soa-1-c1",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r24",
-            "column_id": "soa-1-c2",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r24",
-            "column_id": "soa-1-c3",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r24",
-            "column_id": "soa-1-c4",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r24",
-            "column_id": "soa-1-c5",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r24",
-            "column_id": "soa-1-c6",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r24",
-            "column_id": "soa-1-c7",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'Weekly x 2' vs vision 'Weekly x 2 weeks'. The vision reading is kept.",
-            "row_id": "soa-1-r26",
-            "column_id": "soa-1-c1",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r26",
-            "column_id": "soa-1-c2",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r26",
-            "column_id": "soa-1-c3",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r26",
-            "column_id": "soa-1-c4",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r26",
-            "column_id": "soa-1-c5",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r26",
-            "column_id": "soa-1-c6",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r26",
-            "column_id": "soa-1-c7",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'Weekly x 2' vs vision 'Weekly x 2 weeks'. The vision reading is kept.",
-            "row_id": "soa-1-r27",
-            "column_id": "soa-1-c1",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r27",
-            "column_id": "soa-1-c2",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r27",
-            "column_id": "soa-1-c3",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r27",
-            "column_id": "soa-1-c4",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r27",
-            "column_id": "soa-1-c5",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r27",
-            "column_id": "soa-1-c6",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r27",
-            "column_id": "soa-1-c7",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric '3 X/week' vs vision '3 X/week for 2 weeks'. The vision reading is kept.",
-            "row_id": "soa-1-r28",
-            "column_id": "soa-1-c1",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric '3 X/week' vs vision '3 X/week for 2 weeks'. The vision reading is kept.",
-            "row_id": "soa-1-r29",
-            "column_id": "soa-1-c1",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'Weekly x 2' vs vision 'Weekly x 2 weeks'. The vision reading is kept.",
-            "row_id": "soa-1-r30",
-            "column_id": "soa-1-c1",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r30",
-            "column_id": "soa-1-c2",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r30",
-            "column_id": "soa-1-c3",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r30",
-            "column_id": "soa-1-c4",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r30",
-            "column_id": "soa-1-c5",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r30",
-            "column_id": "soa-1-c6",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'b' vs vision 'Xb'. The vision reading is kept.",
-            "row_id": "soa-1-r30",
-            "column_id": "soa-1-c7",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'a' vs vision 'Xa'. The vision reading is kept.",
-            "row_id": "soa-1-r31",
-            "column_id": "soa-1-c1",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'a' vs vision 'Xa'. The vision reading is kept.",
-            "row_id": "soa-1-r31",
-            "column_id": "soa-1-c2",
-            "engine": null
-          },
-          {
-            "type": "cell_value_disagreement",
-            "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'a' vs vision 'Xa'. The vision reading is kept.",
+            "message": "Engines read this cell differently: geometric 'a X' vs vision 'Xa'. The vision reading is kept.",
             "row_id": "soa-1-r31",
             "column_id": "soa-1-c3",
             "engine": null
@@ -5174,23 +5527,33 @@
           {
             "type": "cell_value_disagreement",
             "severity": "medium",
-            "message": "Engines read this cell differently: geometric 'c' vs vision 'Xc'. The vision reading is kept.",
+            "message": "Engines read this cell differently: geometric 'a X' vs vision 'Xa'. The vision reading is kept.",
             "row_id": "soa-1-r31",
-            "column_id": "soa-1-c7",
+            "column_id": "soa-1-c4",
+            "engine": null
+          },
+          {
+            "type": "cell_value_disagreement",
+            "severity": "medium",
+            "message": "Engines read this cell differently: geometric 'c X' vs vision 'Xc'. The vision reading is kept.",
+            "row_id": "soa-1-r31",
+            "column_id": "soa-1-c8",
             "engine": null
           }
         ]
       },
-      "assumptions": [],
+      "assumptions": [
+        "Rows and columns were checked against the grid the source actually draws: a column the page rules but leaves blank is kept so the visits to its right stay in their printed positions, and several activities printed inside one row-label cell are kept as the single row the page draws."
+      ],
       "open_questions": []
     }
   ],
   "run": {
     "tool_version": "0.1.0",
-    "vision_model": "gemini-3.1-flash-lite",
-    "started_at": "2026-09-01T01:48:39.953718+00:00",
-    "finished_at": "2026-09-01T01:49:02.784482+00:00",
-    "duration_seconds": 22.83,
+    "vision_model": "gemini-2.5-flash",
+    "started_at": "2026-09-01T20:52:45.952588+00:00",
+    "finished_at": "2026-09-01T20:53:54.119730+00:00",
+    "duration_seconds": 68.17,
     "pages_sent_to_vision": 2,
     "warnings": [
       {

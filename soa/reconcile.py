@@ -77,12 +77,16 @@ def reconcile(
     vis_labels = [normalise_label(r.label) for r in rows if not r.is_category_header]
     vis_row_objs = [r for r in rows if not r.is_category_header]
 
+    # Counted per page and then deduplicated, because a continuation page reprints the
+    # same row labels and the same visit columns. Summing them would report a 28-row table
+    # spread over two pages as 56 rows and make every count in this report meaningless.
     geo_col_count = max((len(g.columns) - 1 for g in grids), default=0)
+    geo_distinct_rows = len({label for label in geo_labels if label})
 
     report = Reconciliation(
         engines_run=list(engines_run),
         engines_failed=failed,
-        row_counts={"geometric": len(geo_rows), "vision": len(vis_row_objs)},
+        row_counts={"geometric": geo_distinct_rows, "vision": len(vis_row_objs)},
         column_counts={"geometric": geo_col_count, "vision": len(columns)},
         cell_counts={
             "geometric": sum(len(g.cells) for g in grids),
@@ -158,19 +162,26 @@ def reconcile(
             )
         )
 
-    # -- column count disagreement --------------------------------------------------------
-    if geo_col_count and abs(geo_col_count - len(columns)) > 0:
-        severity = "high" if geo_col_count > len(columns) else "medium"
+    # -- column count disagreement, page by page ------------------------------------------
+    # Compared per page, not in total: a table whose second page carries a fresh block of
+    # visits has more columns overall than any one page draws, and comparing the whole
+    # against a single page reports a disagreement that is not there.
+    for grid in grids:
+        on_page = len(grid.columns) - 1
+        expected = sum(1 for c in columns if not c.pages or grid.page in c.pages)
+        if not on_page or on_page == expected:
+            continue
         warnings.append(
             ExtractionWarning(
                 type="column_missing_in_engine",
-                severity=severity,
+                severity="high" if on_page > expected else "medium",
                 message=(
-                    f"Column count differs: geometric read {geo_col_count}, vision read "
-                    f"{len(columns)}. A dropped column is a patient visit nobody built, so "
-                    f"check the header row against the source page."
+                    f"Column count differs on page {grid.page}: the printed grid has "
+                    f"{on_page}, the extraction has {expected}. A dropped column is a "
+                    f"patient visit nobody built, so check the header row against the "
+                    f"source page."
                 ),
-                engine="vision" if geo_col_count > len(columns) else "geometric",
+                engine="vision" if on_page > expected else "geometric",
             )
         )
 

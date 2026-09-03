@@ -22,6 +22,7 @@ from dataclasses import dataclass, field
 from ..pdfdoc import Line, Page, PdfDoc, Word, join_words
 from ..locate.patterns import CATEGORY_ROW_RE, is_cell_marker
 from ..locate.spans import TableSpan
+from .ruled import RuledGrid, is_axis_caption, read_grid, split_stub_columns
 
 # Column boundaries derived from text are clustered with this tolerance, in points.
 _COL_TOLERANCE = 12.0
@@ -50,6 +51,8 @@ class GridRow:
     page: int
     is_category: bool = False
     label_bbox: tuple[float, float, float, float] | None = None
+    label_lines: list[str] = field(default_factory=list)
+    """The printed lines of the label cell, when the row came from a ruled lattice."""
 
 
 @dataclass
@@ -325,12 +328,147 @@ def _header_bands(
 # --------------------------------------------------------------------------------------
 
 
+def _header_band_count(grid: RuledGrid) -> int | None:
+    """How many of the lattice's leading bands are stacked column headers.
+
+    Two passes, because neither signal is sufficient alone. The first cell marker on the
+    page bounds the header from below -- but only loosely, since a continuation page
+    reprints its screening rows with no marks in them, and those four real rows would
+    otherwise disappear into the header. So the bound is then walked back up over every
+    band that reads like a row: a label of its own, and nothing printed beside it.
+
+    The walk stops at a band captioned with the name of its own axis (ACTIVITY, VISIT,
+    Date, Day of Week), which is the bottom of a real header, and never goes above band 0
+    -- the top-left cell of a table is the corner of its header, never a row.
+    """
+    first_body: int | None = None
+    for band in grid.bands:
+        if any(is_cell_marker(t) for t in band.data_texts if t.strip()):
+            first_body = band.index
+            break
+
+    if first_body is None:
+        # A table whose cells are counts or volumes rather than marks (protocol 5's blood
+        # sampling schedule). Fall back on the row-label column alone.
+        for band in grid.bands[1:]:
+            label = " ".join(band.label_lines).strip()
+            if label and not is_axis_caption(label):
+                first_body = band.index
+                break
+    if first_body is None:
+        return None
+
+    end = first_body
+    while end > 1:
+        band = grid.bands[end - 1]
+        label = " ".join(band.label_lines).strip()
+        if label and not is_axis_caption(label) and not band.has_data:
+            end -= 1
+        else:
+            break
+    return end
+
+
+def _from_lattice(page: Page, grid: RuledGrid) -> PageGrid | None:
+    """Read the page against the grid the source draws, rather than inferring one.
+
+    When a table is ruled -- and all five reference protocols are -- this is strictly
+    better than clustering text positions, and it is the same lattice :mod:`soa.align`
+    holds the vision engine to. Its value here is the recall cross-check: rows and columns
+    counted off the printed grid are a real second opinion on what the vision engine
+    returned, where a text-clustering guess mostly reports its own clustering errors.
+
+    Returns ``None`` if the header rows cannot be told from the body, which is the one
+    judgement the lattice alone cannot make.
+    """
+    header_count = _header_band_count(grid)
+    if header_count is None or header_count >= len(grid.bands):
+        return None
+
+    header_bands = grid.bands[:header_count]
+    body_bands = grid.bands[header_count:]
+    _stub, leaf = split_stub_columns(grid, header_bands, body_bands)
+
+    # Column 0 is the row-label column, matching the text-clustering path, and the header
+    # stub is folded into it: it is part of the row-header area, not a visit.
+    label_x1 = grid.columns[leaf[0]].x0 if leaf else grid.label_x1
+    columns = [GridColumn(index=0, x0=grid.label_x0, x1=label_x1)]
+    for source in (grid.columns[i] for i in leaf):
+        columns.append(GridColumn(index=len(columns), x0=source.x0, x1=source.x1))
+
+    header_rows = [
+        [" ".join(band.label_lines)] + [band.data_texts[i] for i in leaf]
+        for band in header_bands
+    ]
+
+    rows: list[GridRow] = []
+    cells: list[GridCell] = []
+    for band in body_bands:
+        label = " ".join(band.label_lines)
+        texts = [band.data_texts[i] for i in leaf]
+        if not label.strip() and not any(t.strip() for t in texts):
+            # A row the source rules but prints nothing in. Kept, not compacted away.
+            label = ""
+        row = GridRow(
+            index=len(rows),
+            label=label,
+            y0=band.y0,
+            y1=band.y1,
+            page=page.number,
+            is_category=bool(label)
+            and not any(t.strip() for t in texts)
+            and bool(CATEGORY_ROW_RE.match(label) or label.rstrip().endswith(":")),
+            label_bbox=(grid.label_x0, band.y0, label_x1, band.y1),
+            label_lines=list(band.label_lines),
+        )
+        rows.append(row)
+        for offset, text in enumerate(texts):
+            if not text.strip():
+                continue
+            column = columns[offset + 1]
+            cells.append(
+                GridCell(
+                    row=row.index,
+                    col=column.index,
+                    raw=text.strip(),
+                    x0=column.x0,
+                    y0=band.y0,
+                    x1=column.x1,
+                    y1=band.y1,
+                    page=page.number,
+                )
+            )
+
+    return PageGrid(
+        page=page.number,
+        columns=columns,
+        rows=rows,
+        cells=cells,
+        header_rows=header_rows,
+        header_bottom_y=body_bands[0].y0,
+        table_top_y=grid.y_edges[0],
+        table_bottom_y=grid.y_edges[-1],
+        vertical_labels=[],
+    )
+
+
 def extract_page(page: Page, start_y: float | None = None) -> PageGrid:
     """Recover the grid from one page.
 
     ``start_y`` restricts extraction to below a given y, for a page shared by two
     schedules.
     """
+    ruled = read_grid(page, start_y=start_y)
+    if ruled is not None:
+        from_lattice = _from_lattice(page, ruled)
+        if from_lattice is not None:
+            from_lattice.vertical_labels = [
+                (v.text, v.x, v.y0, v.y1)
+                for v in page.vertical_labels
+                if start_y is None or v.y0 >= start_y - 2
+            ]
+            return from_lattice
+
     words = [
         w
         for w in page.words

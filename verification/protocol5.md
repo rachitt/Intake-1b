@@ -96,17 +96,19 @@ This is the cleanest extraction in the set.
 `PK Samples for cocaine`, `PK Samples for Atomoxetine`, `Pregnancy Test`, `Alcohol Test`,
 `Total`. All present.
 
-### Columns — over-counted
+### Columns — 15 / 15
 
-Source has 12 study-day columns (`Screening`, `D-8`, `D-1`, `D1`, `D2`, `D3`, `D6`, `D8`,
-`D11`, `D13`, `D17`, `D31`) plus a `Volume/Type` column and a `Total Volume` column.
+The ruled lattice on page 51 draws fifteen columns beside the row labels: `Volume Per
+Sample`, `Type`, then the twelve study days (`Screening`, `D-8`, `D-1`, `D1`, `D2`, `D3`,
+`D6`, `D8`, `D11`, `D13`, `D17`, `D31`), then `Total Volume`. **All fifteen produced**, and
+the geometric and vision engines now agree on all of them.
 
-**15 columns produced.** The volume and sample-type descriptors, which are really row
-attributes rather than visit columns, were split across more columns than the table draws.
-The reconciliation flagged the disagreement (geometric read 11, vision read 15).
-
-This is the weakest structural result in the whole set, and it is a consequence of the table
-not being an activity-by-visit grid at all — see `QUESTIONS.md` #1.
+An earlier pass recorded this as over-counted at 15 against "roughly 14 drawn". That was a
+miscount on my part, not the tool's: reading the boundaries out of the page's own vector
+graphics settles it at 15. What remains true is the point behind that note — the first two
+columns are row *attributes* (how much blood, serum or plasma) rather than visits, so the
+activity-by-visit schema fits this table awkwardly even when it reproduces it exactly. See
+`QUESTIONS.md` #1.
 
 ### Cell values — verbatim
 
@@ -118,13 +120,11 @@ which matters because it is the study's total blood draw.
 
 Appendix II's own footnotes are `aS = serum, P = plasma` and `bD = day` — two entries.
 
-The output carries **12** footnotes on this schedule, because Appendix I's block sits on the
-same page above it and was attributed to both schedules. Ten of those do not belong here.
-
-**How it fails:** the ones that do not belong are reported with `attached_to: []` and an
-`unattached_reason`, so they are visibly unanchored rather than silently wrong. A reviewer
-reading the JSON or the UI sees them flagged. But they should not be on this schedule at
-all. This is listed in the README's known limitations.
+The output carries exactly those **2**, both linked. An earlier pass carried 12 here,
+because Appendix I's block sits on the same page above it and was attributed to both
+schedules; footnotes that anchor into a neighbouring schedule and nothing in this one are
+now dropped from the borrower, and the vision engine is told when a schedule begins partway
+down a shared page.
 
 ### Summary — schedule 2
 
@@ -133,6 +133,6 @@ all. This is listed in the README's known limitations.
 | located | correct, including starting partway down a shared page |
 | classified | correct (`pk`) |
 | rows | **8 / 8** |
-| columns | over-counted (15 vs ~14 drawn) |
+| columns | **15 / 15** |
 | cell values verbatim | correct, volumes and totals preserved |
-| footnotes | 2 own footnotes present, **but 10 belonging to Appendix I were also attached** — flagged unlinked, not silently wrong |
+| footnotes | **2 / 2**, both linked, none borrowed from Appendix I |

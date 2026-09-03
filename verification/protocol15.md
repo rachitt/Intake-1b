@@ -19,7 +19,7 @@ Pages 22 and 60 were considered and rejected. Page 7 carries a "Study Schema" �
 arms-and-arrows diagram, not an activity grid — which is explicitly excluded by the
 heading patterns and never nominated.
 
-## Columns — 9 / 9, and the header hierarchy is right
+## Columns — 10 / 10, and the header hierarchy is right
 
 The source stacks a period banner over `Study Week`, and the banner does **not** align one
 to one with the week columns: `-4 to 0*` sits under *both* Screening and Baseline.
@@ -28,12 +28,18 @@ to one with the week columns: `-4 to 0*` sits under *both* Screening and Baselin
 |---|---|---|
 | Screening | `-4 to 0*` | 1 |
 | Baseline | (shares the week label) | 1 |
+| *(none)* | the divider column — see below | — |
 | Treatment | `1-3`, `4`, `5-7`, `8`, `9-11`, `12` | 6 |
 | Follow-up | `16` | 1 |
 
-**Produced: 9 leaf columns, 4 groups, spans 1/1/6/1 — exact.** Getting 9 rather than 8 here
-matters: the `Adverse events` row carries nine values, so an 8-column reading would have
-had to drop one.
+**Produced: 10 leaf columns, 4 groups, spans 1/1/6/1 — exact.** Getting the two screening
+columns rather than one matters: the `Adverse events` row carries nine values, so an
+8-column reading would have had to drop one.
+
+The tenth is the narrow column the page rules between Baseline and Treatment to hold the
+sideways `RANDOMIZATION` divider. It carries no grid data — the divider is kept as a
+`rotated_annotation`, not as rows — but the page draws it, so it is kept with empty header
+text and `printed_blank: true`, and the treatment columns keep their printed positions.
 
 Each column's `group_path` resolves correctly, e.g. column 3 reports
 `Treatment / 4`.

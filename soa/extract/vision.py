@@ -161,6 +161,7 @@ def extract_span(
         page_numbers=[str(p) for p in pages],
         text_layer="\n\n".join(text_chunks),
         text_layer_trustworthy=text_layer_trustworthy,
+        starts_partway_down=span.starts_at_y is not None,
     )
     parts.append(types.Part.from_text(text=user_prompt))
 

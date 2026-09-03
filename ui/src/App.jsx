@@ -128,7 +128,10 @@ function Warnings({ reconciliation }) {
 
 function Footnotes({ schedule, target, onPick }) {
   const rowById = useMemo(
-    () => new Map((schedule.rows || []).map((r) => [r.id, r.label])),
+    () =>
+      new Map(
+        (schedule.rows || []).map((r) => [r.id, (r.label_lines?.length ? r.label_lines : [r.label]).join(' / ')])
+      ),
     [schedule]
   )
   const colById = useMemo(
@@ -237,8 +240,24 @@ export default function App() {
 
   const handleSelectCell = (key, cell) => {
     setSelectedCell(key)
+    setFootnoteTarget(null)
     setHighlight(key && cell?.bbox ? cell.bbox : null)
   }
+
+  // Picking a footnote lights up everything its marker sits on, in the extracted grid only.
+  // Deliberately not on the page image: a marker routinely sits on dozens of cells across
+  // both pages, and boxing an arbitrary one of them points somewhere misleading. The page
+  // box stays reserved for the one thing it can answer exactly -- where a single cell the
+  // reviewer clicked came from -- so any box on the image always means that and nothing else.
+  const pickFootnote = useCallback(
+    (marker) => {
+      const next = marker === footnoteTarget ? null : marker
+      setFootnoteTarget(next)
+      setSelectedCell(null)
+      setHighlight(null)
+    },
+    [footnoteTarget]
+  )
 
   if (!job) {
     return (
@@ -339,12 +358,17 @@ export default function App() {
                       .map((r) => r.text)
                       .join(', ')}`}
                 </p>
-                <p className="meta">Click any cell to highlight where it came from on the page.</p>
+                <p className="meta">
+                  Click any cell to highlight where it came from on the page. Click a
+                  footnote marker, or a footnote below, to light up every cell, row and
+                  column it is attached to in the table.
+                </p>
                 <SoaGrid
                   schedule={schedule}
                   selectedCell={selectedCell}
                   onSelectCell={handleSelectCell}
-                  onPickFootnote={setFootnoteTarget}
+                  onPickFootnote={pickFootnote}
+                  footnoteTarget={footnoteTarget}
                 />
               </div>
 
@@ -362,7 +386,7 @@ export default function App() {
 
               <div className="section">
                 <h3>Footnotes</h3>
-                <Footnotes schedule={schedule} target={footnoteTarget} onPick={setFootnoteTarget} />
+                <Footnotes schedule={schedule} target={footnoteTarget} onPick={pickFootnote} />
               </div>
 
               {(schedule.assumptions?.length > 0 || schedule.open_questions?.length > 0) && (

@@ -1,0 +1,179 @@
+[
+  {
+    "protocol": "protocol1",
+    "schedule": "soa-1",
+    "lattice": true,
+    "printed": 139,
+    "extracted": 139,
+    "exact": 139,
+    "missing": 0,
+    "spurious": 0,
+    "differs": 0,
+    "aligned": true,
+    "examples": {
+      "missing": [],
+      "spurious": [],
+      "differs": []
+    }
+  },
+  {
+    "protocol": "protocol12",
+    "schedule": "soa-1",
+    "lattice": true,
+    "printed": 126,
+    "extracted": 129,
+    "exact": 113,
+    "missing": 3,
+    "spurious": 6,
+    "differs": 10,
+    "aligned": true,
+    "examples": {
+      "missing": [
+        "row 15 x col 5 = 'Xb'",
+        "row 28 x col 0 = 'X'",
+        "row 28 x col 7 = 'X'"
+      ],
+      "spurious": [
+        "row 15 x col 4 = 'Xb'",
+        "row 18 x col 0 = '3X'",
+        "row 20 x col 0 = 'X'",
+        "row 20 x col 8 = 'Xe'",
+        "row 28 x col 2 = 'X'"
+      ],
+      "differs": [
+        "row 32 x col 3: printed '3X', extracted 'Xb'",
+        "row 32 x col 5: printed '3X', extracted 'Xb'",
+        "row 32 x col 7: printed '3X', extracted 'Xb'",
+        "row 25 x col 4: printed 'X wk 6', extracted 'XJ\\nwk 6'",
+        "row 32 x col 2: printed '3X', extracted 'Xb'"
+      ]
+    }
+  },
+  {
+    "protocol": "protocol15",
+    "schedule": "soa-1",
+    "lattice": true,
+    "printed": 128,
+    "extracted": 143,
+    "exact": 120,
+    "missing": 5,
+    "spurious": 20,
+    "differs": 3,
+    "aligned": true,
+    "examples": {
+      "missing": [
+        "row 16 x col 9 = 'X'",
+        "row 17 x col 1 = 'X'",
+        "row 19 x col 6 = 'Xb'",
+        "row 22 x col 8 = 'Xb'",
+        "row 28 x col 1 = 'a X'"
+      ],
+      "spurious": [
+        "row 10 x col 3 = 'Xb'",
+        "row 10 x col 5 = 'Xb'",
+        "row 10 x col 7 = 'Xb'",
+        "row 11 x col 3 = 'Xb'",
+        "row 11 x col 5 = 'Xb'"
+      ],
+      "differs": [
+        "row 28 x col 3: printed 'a X', extracted 'Xa'",
+        "row 28 x col 4: printed 'a X', extracted 'Xa'",
+        "row 28 x col 8: printed 'c X', extracted 'Xc'"
+      ]
+    }
+  },
+  {
+    "protocol": "protocol5",
+    "schedule": "soa-1",
+    "lattice": true,
+    "printed": 107,
+    "extracted": 100,
+    "exact": 95,
+    "missing": 11,
+    "spurious": 4,
+    "differs": 1,
+    "aligned": true,
+    "examples": {
+      "missing": [
+        "row 4 x col 1 = 'X'",
+        "row 8 x col 1 = 'X'",
+        "row 10 x col 1 = 'X'",
+        "row 11 x col 0 = 'X'",
+        "row 11 x col 8 = 'X'"
+      ],
+      "spurious": [
+        "row 18 x col 3 = 'Xb'",
+        "row 23 x col 4 = 'X'",
+        "row 24 x col 7 = 'X'",
+        "row 29 x col 3 = 'X'"
+      ],
+      "differs": [
+        "row 28 x col 2: printed 'X', extracted 'Xe'"
+      ]
+    }
+  },
+  {
+    "protocol": "protocol5",
+    "schedule": "soa-2",
+    "lattice": true,
+    "printed": 43,
+    "extracted": 42,
+    "exact": 37,
+    "missing": 6,
+    "spurious": 5,
+    "differs": 0,
+    "aligned": true,
+    "examples": {
+      "missing": [
+        "row 1 x col 12 = '1'",
+        "row 1 x col 13 = '1'",
+        "row 3 x col 4 = '15'",
+        "row 4 x col 10 = '2'",
+        "row 4 x col 11 = '2'"
+      ],
+      "spurious": [
+        "row 1 x col 11 = '1'",
+        "row 3 x col 5 = '15'",
+        "row 4 x col 6 = '2'",
+        "row 4 x col 7 = '2'",
+        "row 5 x col 11 = '1'"
+      ],
+      "differs": []
+    }
+  },
+  {
+    "protocol": "protocol9",
+    "schedule": "soa-1",
+    "lattice": true,
+    "printed": 164,
+    "extracted": 199,
+    "exact": 105,
+    "missing": 26,
+    "spurious": 61,
+    "differs": 33,
+    "aligned": true,
+    "examples": {
+      "missing": [
+        "row 9 x col 1 = 'rior to Day 4'",
+        "row 10 x col 1 = 'Prior to Day 4'",
+        "row 11 x col 1 = 'Prior to Day 4'",
+        "row 21 x col 2 = '1X'",
+        "row 21 x col 9 = '1X'"
+      ],
+      "spurious": [
+        "row 1 x col 0 = 'X'",
+        "row 1 x col 1 = 'X'",
+        "row 1 x col 2 = 'X'",
+        "row 2 x col 3 = 'X'",
+        "row 2 x col 4 = 'X'"
+      ],
+      "differs": [
+        "row 27 x col 4: printed '6X', extracted '5X'",
+        "row 26 x col 5: printed '1X', extracted '6X'",
+        "row 29 x col 4: printed '5X', extracted '1X'",
+        "row 27 x col 6: printed '6X', extracted '5X'",
+        "row 26 x col 7: printed '1X', extracted '6X'"
+      ]
+    }
+  }
+]

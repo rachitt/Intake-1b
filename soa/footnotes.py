@@ -32,7 +32,7 @@ FOOTNOTE_LINE_RE = re.compile(
     r"X?[a-zA-Z]{1,2}"  # a, b, Xa, XJ
     r"|\d{1,2}"  # 1, 12
     r"|\*{1,4}"  # * ** *** ****
-    r"|[†‡§¶#]{1,3}"  # symbol tiers
+    r"|[†‡§¶#•·●]{1,3}"  # symbol tiers, incl. bullets
     r"|\([a-zA-Z0-9]{1,2}\)"  # (a), (1)
     r")\s*[-–—.):]\s+(?P<text>\S.*)$"
 )
@@ -99,6 +99,47 @@ def split_trailing_markers(text: str, known: set[str]) -> tuple[str, list[str]]:
             return m2.group(1), [m2.group(2)]
 
     return body, found
+
+
+def split_leading_markers(text: str, known: set[str]) -> tuple[str, list[str]]:
+    """Separate footnote markers printed at the *start* of a label.
+
+    Most protocols trail their markers (``Xa``, ``X*``). One of the reference protocols
+    leads with them instead -- ``* Morphine (0600, 1100, 1630, 2200 h)``,
+    ``**Lofexidine or Placebo``, ``•Modified Himmelsbach (MHOWS)`` -- and a linker that
+    only looks at the end of a string finds nothing to attach, leaving every footnote in
+    that protocol orphaned.
+
+    Symbols may sit flush against the text, because that is how they are printed. Letters
+    and digits must be followed by a separator, otherwise an ordinary label beginning with
+    a capital ``A`` would be read as a reference to footnote ``a``.
+    """
+    t = (text or "").strip()
+    if not t or not known:
+        return t, []
+
+    found: list[str] = []
+    rest = t
+
+    while True:
+        m = re.match(r"^(\*{1,4}|[†‡§¶#•·●])\s*", rest)
+        if m is None:
+            m = re.match(r"^([a-zA-Z]{1,2}|\d{1,2})\s*[-–—.):]\s+", rest)
+        if m is None:
+            break
+
+        marker = m.group(1)
+        if marker.lower() not in known:
+            break
+        # Refuse to strip everything: a marker with no label after it is not a marker.
+        remainder = rest[m.end():].strip()
+        if len(remainder) < 3:
+            break
+
+        found.append(marker)
+        rest = remainder
+
+    return (rest if found else t), found
 
 
 def parse_footnote_block(
@@ -174,10 +215,13 @@ def link_footnotes(
 
     # -- cells ---------------------------------------------------------------------------
     for cell in cells:
+        # Union, not fallback. The model's own marker list is a useful hint but not
+        # authoritative: on one protocol it reported CRF form numbers as footnote markers,
+        # which meant the list was non-empty and our own detection never ran, so the real
+        # marker on those rows was missed entirely. Detect independently and merge.
         refs = list(cell.footnote_refs)
-        if not refs:
-            _, found = split_trailing_markers(cell.raw, known)
-            refs = found
+        _, found = split_trailing_markers(cell.raw, known)
+        refs.extend(m for m in found if m not in refs)
         for fn, ref in anchors_for(refs):
             if ref not in cell.footnote_refs:
                 cell.footnote_refs.append(ref)
@@ -188,9 +232,9 @@ def link_footnotes(
     # -- rows ----------------------------------------------------------------------------
     for row in rows:
         refs = list(row.footnote_refs)
-        if not refs:
-            _, found = split_trailing_markers(row.label, known)
-            refs = found
+        _, trailing = split_trailing_markers(row.label, known)
+        _, leading = split_leading_markers(row.label, known)
+        refs.extend(m for m in trailing + leading if m not in refs)
         for fn, ref in anchors_for(refs):
             if ref not in row.footnote_refs:
                 row.footnote_refs.append(ref)
@@ -220,8 +264,10 @@ def link_footnotes(
 
     for group in row_groups or []:
         refs = list(group.footnote_refs)
-        _, found = split_trailing_markers(group.label, known)
-        refs.extend(found)
+        _, trailing = split_trailing_markers(group.label, known)
+        _, leading = split_leading_markers(group.label, known)
+        refs.extend(trailing)
+        refs.extend(m for m in leading if m not in trailing)
         for fn, ref in anchors_for(refs):
             fn.attached_to.append(FootnoteAnchor(kind="row_group", group_id=group.id))
 

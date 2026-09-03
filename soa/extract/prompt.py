@@ -44,6 +44,21 @@ class VColumn(BaseModel):
 class VRow(BaseModel):
     index: int = Field(description="0-based, top to bottom, counting every printed row")
     label: str = Field(description="Verbatim row label; join wrapped lines with a space")
+    label_lines: list[str] = Field(
+        default_factory=list,
+        description=(
+            "The distinct activities named inside this one row's label cell, in printed "
+            "order. Normally one entry -- a label that merely wraps is still one entry. "
+            "More than one only when the source draws ONE row against several activities."
+        ),
+    )
+    merged_label: bool = Field(
+        False,
+        description=(
+            "True when this single printed row's label cell names several activities, so "
+            "label_lines has more than one entry."
+        ),
+    )
     is_category_header: bool = Field(
         description=(
             "True if this row is a section banner such as 'Safety Assessments' or "
@@ -164,6 +179,33 @@ RECALL
 - Work down the table row by row. Do not skip, summarise, deduplicate or abbreviate. If the
   table has forty rows, return forty rows.
 - An empty cell is simply omitted from `cells`; that is different from omitting the row.
+- A row is what the table DRAWS, not what reads as one activity. Two label lines are two
+  rows when a horizontal rule separates them, and ONE row when they sit inside the same
+  ruled box -- even when each line names a complete, separate activity, and even when the
+  data cells are printed only against the first of them. A cell that holds "Study drug
+  record", "Medications dispensed" and "Medications returned" on three lines with one set
+  of X marks beside it is ONE row: return it as one row, put every line into `label_lines`
+  in order, and set `merged_label` true. Splitting it invents two rows that carry no data
+  and detaches the X marks from two of the three activities.
+- `merged_label` is NOT "this label has several lines". Most multi-line labels are one
+  label that wrapped, and those get ONE `label_lines` entry holding the joined text and
+  `merged_label` false. Set it true ONLY when each line names a different activity that
+  could stand on its own as a row. Compare:
+
+      "Physical Examination (04)          -> ONE entry: "Physical Examination (04)
+       (Study Day 1 and Exit Day)"            (Study Day 1 and Exit Day)"
+                                              merged_label FALSE -- the second line
+                                              qualifies the first, it is not an activity
+
+      "Study drug record                  -> THREE entries, merged_label TRUE --
+       Medications dispensed                  each line is its own activity, and the
+       Medications returned"                  page rules them as one row
+
+  A line that opens with a bracket, a time, a dose, a form number, or a lowercase word is
+  a continuation of the line above it, never a separate activity.
+- If the table is not ruled between the lines, fall back on layout: lines that share one
+  set of data cells, or that are indented as a list beneath one heading inside the same
+  cell, belong to one row.
 
 STRUCTURE
 - Column headers are hierarchical. A study-period banner such as "Screening" or "Treatment"
@@ -173,7 +215,14 @@ STRUCTURE
 - Row headers are hierarchical too. A row such as "Safety Assessments" or "Efficacy" with no
   data cells is structure, not an assessment: set `is_category_header` true, and put its
   label into the `category_path` of the rows beneath it.
-- Column indices are 0-based left to right and EXCLUDE the row-label column.
+- Column indices are 0-based left to right and EXCLUDE the row-label column AND the header
+  stub beside it. The stub is the box that holds the *names* of the header rows -- a narrow
+  column printed against the row labels reading "VISIT" above "WEEK", with nothing beneath
+  it. Those words label the header rows; they are not a visit. Never return it as a column.
+- A column the table rules but prints nothing in -- no visit number, no week, no cells --
+  IS a column. Return it, with empty header text and no cells. Dropping it moves every
+  visit to its right one place left, which silently reassigns visits to the wrong weeks.
+  Do not guess what it might have contained and do not number it.
 - Row indices are 0-based top to bottom and INCLUDE category header rows.
 
 MULTI-PAGE TABLES
@@ -206,6 +255,7 @@ def build_user_prompt(
     page_numbers: list[str],
     text_layer: str | None,
     text_layer_trustworthy: bool,
+    starts_partway_down: bool = False,
 ) -> str:
     """Assemble the per-request instruction."""
     parts = [
@@ -213,6 +263,14 @@ def build_user_prompt(
         f"image(s), which are consecutive pages of one table.",
         f"Source pages: {', '.join(page_numbers)}.",
     ]
+    if starts_partway_down:
+        parts.append(
+            "IMPORTANT: this schedule does NOT start at the top of the first image. It "
+            "begins at the heading partway down that page. Everything above that heading "
+            "belongs to a DIFFERENT, earlier schedule -- including any footnote block. "
+            "Transcribe only this schedule, and return only the footnotes that belong to "
+            "it. Do not carry over footnotes printed above its heading."
+        )
     if heading_hint:
         parts.append(
             f'A text-layer scan suggests the heading is near: "{heading_hint}". '
